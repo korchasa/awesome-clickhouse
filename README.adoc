@@ -2,18 +2,4 @@
 
 A curated list of awesome https://github.com/yandex/ClickHouse[ClickHouse] software.
 
-=== Language bindings
-* Python: https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver], https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse]
-* PHP: https://github.com/smi2/phpClickHouse[phpClickHouse]
-* JDBC: https://github.com/yandex/clickhouse-jdbc[clickhouse-jdbc]
-* GO: https://github.com/kshvakov/clickhouse[clickhouse], https://github.com/roistat/go-clickhouse[roistat/go-clickhouse], https://github.com/mailru/go-clickhouse[mailru/go-clickhouse]
-
-=== GUI
-* https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
-* https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
-
-=== Tools
-
-* https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - ClickHouse datasource for grafana
-* https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small insterts to ClickHouse and send in big inserts
-* https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
+=== https://clickhouse.yandex/docs/en/interfaces/third-party/client_libraries/[Full list]
