@@ -1,6 +1,6 @@
 == Awesome ClickHouse
 
- A curated list of awesome https://github.com/yandex/ClickHouse[ClickHouse] software.
+A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.com/yandex/ClickHouse[sources]) software.
 
 === Language bindings
 
