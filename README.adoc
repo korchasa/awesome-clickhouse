@@ -9,10 +9,17 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 === Language bindings
 
-* Python: https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver], https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse]
+* Python:
+    - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver]
+    - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse]
 * PHP: https://github.com/smi2/phpClickHouse[phpClickHouse]
-* JDBC: https://github.com/yandex/clickhouse-jdbc[clickhouse-jdbc], https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC]
-* GO: https://github.com/kshvakov/clickhouse[clickhouse], https://github.com/roistat/go-clickhouse[roistat/go-clickhouse], https://github.com/mailru/go-clickhouse[mailru/go-clickhouse]
+* JDBC:
+    - https://github.com/yandex/clickhouse-jdbc[clickhouse-jdbc]
+    - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC]
+* GO:
+    - https://github.com/kshvakov/clickhouse[clickhouse]
+    - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse]
+    - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse]
 * Node.js: https://github.com/apla/node-clickhouse[apla/node-clickhouse]
 
 === GUI
