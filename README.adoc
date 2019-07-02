@@ -9,42 +9,69 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 === Language bindings
 
-* Python:
-    - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver]
-    - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse]
-* PHP: https://github.com/smi2/phpClickHouse[phpClickHouse]
-* JDBC:
-    - https://github.com/yandex/clickhouse-jdbc[clickhouse-jdbc]
-    - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC]
+* C++:
+    - https://github.com/artpaul/clickhouse-cpp[artpaul/clickhouse-cpp] - ClickHouse C++ client library
 * GO:
-    - https://github.com/kshvakov/clickhouse[clickhouse]
-    - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse]
-    - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse]
-* Node.js: https://github.com/apla/node-clickhouse[apla/node-clickhouse]
+    - https://github.com/kshvakov/clickhouse[kshvakov/clickhouse] - Golang SQL database driver for Yandex ClickHouse
+    - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
+    - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse] - Golang SQL database driver for Yandex ClickHouse
+* JDBC:
+    - https://github.com/yandex/clickhouse-jdbc[clickhouse-jdbc] - JDBC driver for ClickHouse
+    - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC] - ClickHouse Native Protocol JDBC implementation
+* .Net:
+    - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
+* Node.js:
+    - https://github.com/apla/node-clickhouse[apla/node-clickhouse] - Yandex ClickHouse driver for nodejs
+* ODBC:
+    - https://github.com/yandex/clickhouse-odbc[yandex/clickhouse-odbc] - ODBC driver for ClickHouse
+* PHP:
+    - https://github.com/smi2/phpClickHouse[phpClickHouse] - PHP ClickHouse wrapper
+    - https://github.com/8bitov/clickhouse-php-client[8bitov/clickhouse-php-client] - PHP Driver for ClickHouse
+    - https://github.com/the-tinderbox/ClickhouseBuilder[the-tinderbox/ClickhouseBuilder] - Clickhouse Query Builder
+    - https://github.com/pinba-server/pinba-server[pinba-server/pinba-server] - pinba server with storage in clickhouse
+* Python:
+    - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
+    - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse] - ClickHouse dialect for SQLAlchemy
+    - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
+    - https://github.com/kszucs/pandahouse[kszucs/pandahouse] - Pandas interface for Clickhouse database
+    - https://github.com/Infinidat/infi.clickhouse_orm[Infinidat/infi.clickhouse_orm] - A Python library for working with the ClickHouse database
+* Ruby:
+    - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
+* Scala:
+    - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
+
+=== CLI
+
+* https://clickhouse.yandex/docs/en/interfaces/cli/[cli] - Built-in client
+* https://github.com/hatarist/clickhouse-cli[hatarist/clickhouse-cli] - A third-party client for the Clickhouse DBMS server
 
 === GUI
 
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
 
-=== Tools
+=== Ops
 
+* https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/[clickhouse-local] - Allows running SQL queries on data without stopping the ClickHouse server, similar to how awk does this
+* https://clickhouse.yandex/docs/en/operations/utils/clickhouse-copier/[clickhouse-copier/] - Copies (and reshards) data from one cluster to another cluster
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - ClickHouse datasource for grafana
-* https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small insterts to ClickHouse and send in big inserts
+* https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 * https://github.com/AlexAkulov/clickhouse-backup[AlexAkulov/clickhouse-backup] - Tool for easy ClickHouse backup and restore with S3 support
+* https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+
+=== Apps
+
+* https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
+* https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
+* https://github.com/yandex/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
+* https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
 
 === Social
 
 * https://twitter.com/ClickHouseDB[Twitter] (English)
 * https://t.me/clickhouse_ru[Telegram] (Russian)
-
-=== One more thing
-
-* https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
-* https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
-* https://github.com/yandex/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
 
 === License
 
