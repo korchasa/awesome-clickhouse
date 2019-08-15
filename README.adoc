@@ -70,6 +70,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
 * https://github.com/yandex/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
 * https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
+* https://github.com/Percona-Lab/PromHouse[PromHouse] - Long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse
 
 === Social
 
