@@ -40,6 +40,11 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
 
+=== Integrations
+* https://github.com/Percona-Lab/clickhousedb_fdw[clickhousedb_fdw] - PostgreSQL's Foreign Data Wrapper For ClickHouse
+* https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+* https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - ClickHouse datasource for grafana
+
 === CLI
 
 * https://clickhouse.yandex/docs/en/interfaces/cli/[cli] - Built-in client
@@ -54,12 +59,10 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/[clickhouse-local] - Allows running SQL queries on data without stopping the ClickHouse server, similar to how awk does this
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-copier/[clickhouse-copier/] - Copies (and reshards) data from one cluster to another cluster
-* https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - ClickHouse datasource for grafana
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 * https://github.com/AlexAkulov/clickhouse-backup[AlexAkulov/clickhouse-backup] - Tool for easy ClickHouse backup and restore with S3 support
-* https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 
 === Apps
 
