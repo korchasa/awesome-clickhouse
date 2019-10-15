@@ -5,7 +5,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 === Docs
 
 * https://clickhouse.yandex[Official docs]
-* https://github.com/yandex/clickhouse-presentations[clickhouse-presentations] - Presentations, meetups and talks for ClickHouse
+* https://github.com/ClickHouse/clickhouse-presentations[clickhouse-presentations] - Presentations, meetups and talks for ClickHouse
 
 === Language bindings
 
