@@ -23,6 +23,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
 * Node.js:
     - https://github.com/apla/node-clickhouse[apla/node-clickhouse] - Yandex ClickHouse driver for nodejs
+    - https://github.com/TimonKK/clickhouse[TimonKK/clickhouse] - NodeJS client for ClickHouse
 * ODBC:
     - https://github.com/ClickHouse/clickhouse-odbc[yandex/clickhouse-odbc] - ODBC driver for ClickHouse
 * PHP:
