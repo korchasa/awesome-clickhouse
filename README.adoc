@@ -12,6 +12,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * C++:
     - https://github.com/artpaul/clickhouse-cpp[artpaul/clickhouse-cpp] - ClickHouse C++ client library
 * GO:
+    - https://github.com/ClickHouse/clickhouse-go[ClickHouse/clickhouse-go] - Golang driver for ClickHouse
     - https://github.com/kshvakov/clickhouse[kshvakov/clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
     - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse] - Golang SQL database driver for Yandex ClickHouse
@@ -37,6 +38,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
     - https://github.com/kszucs/pandahouse[kszucs/pandahouse] - Pandas interface for Clickhouse database
     - https://github.com/Infinidat/infi.clickhouse_orm[Infinidat/infi.clickhouse_orm] - A Python library for working with the ClickHouse database
+    - https://github.com/maximdanilchenko/aiochclient[maximdanilchenko/aiochclient] - Lightweight async http(s) ClickHouse client for python 3.6+ with types converting
 * Ruby:
     - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
 * Scala:
