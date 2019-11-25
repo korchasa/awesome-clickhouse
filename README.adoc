@@ -88,14 +88,3 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 === License
 
 https://creativecommons.org/publicdomain/zero/1.0/[image:http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg[CC0]]
-
-////
-False positive
-https://github.com/smi2/clickhouse-frontend
-https://github.com/ysc/data-generator
-https://github.com/brokercap/Bifrost
-https://github.com/Altinity/clickhouse-rpm-install
-https://github.com/red-soft-ru/clickhouse-rpm
-https://github.com/RickyHuo/hangout-output-clickhouse
-https://github.com/uber/storagetapper
-////
