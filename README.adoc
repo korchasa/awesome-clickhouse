@@ -21,6 +21,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * JDBC:
     - https://github.com/ClickHouse/clickhouse-jdbc[clickhouse-jdbc] - JDBC driver for ClickHouse
     - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC] - ClickHouse Native Protocol JDBC implementation
+    - https://github.com/blynkkk/clickhouse4j[blynkkk/clickhouse4j] - Lighter and faster alternative for the official ClickHouse JDBC driver
 * .Net:
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
 * Node.js:
