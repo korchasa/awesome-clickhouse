@@ -34,6 +34,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/pinba-server/pinba-server[pinba-server/pinba-server] - pinba server with storage in clickhouse
     - https://github.com/smi2/phpClickHouse[phpClickHouse] - PHP ClickHouse wrapper
     - https://github.com/the-tinderbox/ClickhouseBuilder[the-tinderbox/ClickhouseBuilder] - Clickhouse Query Builder
+    - https://github.com/sanchezzzhak/kak-clickhouse[sanchezzzhak/kak-clickhouse] - Yii2 ext. ClickHouse
+    - https://github.com/FriendsOfDoctrine/dbal-clickhouse[FriendsOfDoctrine/dbal-clickhouse] - Doctrine DBAL driver for ClickHouse database
 * Python:
     - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse] - ClickHouse dialect for SQLAlchemy
     - https://github.com/Infinidat/infi.clickhouse_orm[Infinidat/infi.clickhouse_orm] - A Python library for working with the ClickHouse database
@@ -43,6 +45,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
 * Ruby:
     - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
+* Rust:
+    - https://github.com/suharev7/clickhouse-rs[suharev7/clickhouse-rs] - Tokio based asynchronous ClickHouse client library for rust programming language.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
 
@@ -60,6 +64,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Percona-Lab/PromHouse[PromHouse] - Long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse
 * https://github.com/vectorengine/vectorsql[vectorengine/vectorsql] - VectorSQL is a free analytics DBMS for IoT & Big Data, compatible with ClickHouse
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
+* https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
 
 === CLI
 
