@@ -18,12 +18,15 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/kshvakov/clickhouse[kshvakov/clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
+* Java:
+    - https://github.com/x-ream/sqli[x-ream/sqli] - orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
 * JDBC:
     - https://github.com/blynkkk/clickhouse4j[blynkkk/clickhouse4j] - Lighter and faster alternative for the official ClickHouse JDBC driver
     - https://github.com/ClickHouse/clickhouse-jdbc[clickhouse-jdbc] - JDBC driver for ClickHouse
     - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC] - ClickHouse Native Protocol JDBC implementation
 * .Net:
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
+    - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
 * Node.js:
     - https://github.com/apla/node-clickhouse[apla/node-clickhouse] - Yandex ClickHouse driver for nodejs
     - https://github.com/TimonKK/clickhouse[TimonKK/clickhouse] - NodeJS client for ClickHouse
@@ -78,6 +81,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
+* https://github.com/rickbergfalk/sqlpad[rickbergfalk/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 
 === Ops
 
@@ -87,6 +91,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
+* https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
+* https://github.com/AlexeySetevoi/ansible-clickhouse[AlexeySetevoi/ansible-clickhouse] - ansible role for clickhouse
 
 === Social
 
