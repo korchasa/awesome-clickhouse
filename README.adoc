@@ -12,6 +12,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 * C++:
     - https://github.com/artpaul/clickhouse-cpp[artpaul/clickhouse-cpp] - ClickHouse C++ client library
+    - https://github.com/ClickHouse/clickhouse-cpp[ClickHouse/clickhouse-cpp] - C++ client library for ClickHouse
 * GO:
     - https://github.com/ClickHouse/clickhouse-go[ClickHouse/clickhouse-go] - Golang driver for ClickHouse
     - https://github.com/gohouse/gorose[gorose] - GoRose(go orm), a mini database ORM for golang
@@ -46,8 +47,12 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/maximdanilchenko/aiochclient[maximdanilchenko/aiochclient] - Lightweight async http(s) ClickHouse client for python 3.6+ with types converting
     - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
+* R:
+    - https://github.com/IMSMWU/RClickhouse[IMSMWU/RClickhouse] - A 'DBI' Interface to the Yandex Clickhouse Database Providing Basic 'dplyr' Support
 * Ruby:
     - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
+    - https://github.com/shlima/click_house[shlima/click_house] - Modern Ruby database driver for ClickHouse
+    - https://github.com/PNixx/clickhouse-activerecord[PNixx/clickhouse-activerecord] - A Ruby database ActiveRecord driver for ClickHouse
 * Rust:
     - https://github.com/suharev7/clickhouse-rs[suharev7/clickhouse-rs] - Tokio based asynchronous ClickHouse client library for rust programming language.
 * Scala:
@@ -70,6 +75,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
+* https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
+* https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 
 === CLI
 
@@ -81,7 +88,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
-* https://github.com/rickbergfalk/sqlpad[rickbergfalk/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
+* https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 
 === Ops
 
