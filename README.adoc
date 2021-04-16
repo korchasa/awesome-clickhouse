@@ -28,8 +28,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/ClickHouse/clickhouse-jdbc[clickhouse-jdbc] - JDBC driver for ClickHouse
     - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC] - ClickHouse Native Protocol JDBC implementation
 * .Net:
-    - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
     - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
+    - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
 * Node.js:
     - https://github.com/apla/node-clickhouse[apla/node-clickhouse] - Yandex ClickHouse driver for nodejs
     - https://github.com/TimonKK/clickhouse[TimonKK/clickhouse] - NodeJS client for ClickHouse
@@ -37,49 +37,50 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/ClickHouse/clickhouse-odbc[yandex/clickhouse-odbc] - ODBC driver for ClickHouse
 * PHP:
     - https://github.com/8bitov/clickhouse-php-client[8bitov/clickhouse-php-client] - PHP Driver for ClickHouse
+    - https://github.com/FriendsOfDoctrine/dbal-clickhouse[FriendsOfDoctrine/dbal-clickhouse] - Doctrine DBAL driver for ClickHouse database
     - https://github.com/pinba-server/pinba-server[pinba-server/pinba-server] - pinba server with storage in clickhouse
+    - https://github.com/sanchezzzhak/kak-clickhouse[sanchezzzhak/kak-clickhouse] - Yii2 ext. ClickHouse
     - https://github.com/smi2/phpClickHouse[phpClickHouse] - PHP ClickHouse wrapper
     - https://github.com/the-tinderbox/ClickhouseBuilder[the-tinderbox/ClickhouseBuilder] - Clickhouse Query Builder
-    - https://github.com/sanchezzzhak/kak-clickhouse[sanchezzzhak/kak-clickhouse] - Yii2 ext. ClickHouse
-    - https://github.com/FriendsOfDoctrine/dbal-clickhouse[FriendsOfDoctrine/dbal-clickhouse] - Doctrine DBAL driver for ClickHouse database
 * Python:
+    - https://github.com/carrotquest/django-clickhouse[carrotquest/django-clickhouse] - django-clickhouse
     - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse] - ClickHouse dialect for SQLAlchemy
     - https://github.com/Infinidat/infi.clickhouse_orm[Infinidat/infi.clickhouse_orm] - A Python library for working with the ClickHouse database
     - https://github.com/kszucs/pandahouse[kszucs/pandahouse] - Pandas interface for Clickhouse database
     - https://github.com/maximdanilchenko/aiochclient[maximdanilchenko/aiochclient] - Lightweight async http(s) ClickHouse client for python 3.6+ with types converting
     - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
-    - https://github.com/carrotquest/django-clickhouse[carrotquest/django-clickhouse] - django-clickhouse
 * R:
     - https://github.com/IMSMWU/RClickhouse[IMSMWU/RClickhouse] - A 'DBI' Interface to the Yandex Clickhouse Database Providing Basic 'dplyr' Support
 * Ruby:
     - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
-    - https://github.com/shlima/click_house[shlima/click_house] - Modern Ruby database driver for ClickHouse
     - https://github.com/PNixx/clickhouse-activerecord[PNixx/clickhouse-activerecord] - A Ruby database ActiveRecord driver for ClickHouse
+    - https://github.com/shlima/click_house[shlima/click_house] - Modern Ruby database driver for ClickHouse
 * Rust:
     - https://github.com/suharev7/clickhouse-rs[suharev7/clickhouse-rs] - Tokio based asynchronous ClickHouse client library for rust programming language.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
 
 === Integrations
+
+* https://github.com/adjust/clickhouse_fdw[adjust/clickhouse_fdw] - ClickHouse FDW for PostgreSQL.  Forked from: https://github.com/Percona-Lab/clickhousedb_fdw
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
+* https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 * https://github.com/ClickHouse/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
 * https://github.com/enqueue/metabase-clickhouse-driver[metabase-clickhouse-driver] - Metabase driver for the ClickHouse database
 * https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+* https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
+* https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
+* https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
 * https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
 * https://github.com/lomik/graphite-clickhouse[lomik/graphite-clickhouse] - Graphite cluster backend with ClickHouse support
 * https://github.com/mintance/nginx-clickhouse[mintance/nginx-clickhouse] - Simple nginx logs parser & transporter to ClickHouse database
 * https://github.com/mkabilov/pg2ch[pg2ch] - Data streaming from postgresql to clickhouse via logical replication mechanism
 * https://github.com/Percona-Lab/clickhousedb_fdw[clickhousedb_fdw] - PostgreSQL's Foreign Data Wrapper For ClickHouse
-* https://github.com/adjust/clickhouse_fdw[adjust/clickhouse_fdw] - ClickHouse FDW for PostgreSQL.  Forked from: https://github.com/Percona-Lab/clickhousedb_fdw
 * https://github.com/Percona-Lab/PromHouse[PromHouse] - Long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse
 * https://github.com/vectorengine/vectorsql[vectorengine/vectorsql] - VectorSQL is a free analytics DBMS for IoT & Big Data, compatible with ClickHouse
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
-* https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
-* https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
-* https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
-* https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 
 === CLI
@@ -90,29 +91,29 @@ https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CL
 === GUI
 
 * https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
+* https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
-* https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 
 === Ops
 
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-copier/[clickhouse-copier/] - Copies (and reshards) data from one cluster to another cluster
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/[clickhouse-local] - Allows running SQL queries on data without stopping the ClickHouse server, similar to how awk does this
 * https://github.com/AlexAkulov/clickhouse-backup[AlexAkulov/clickhouse-backup] - Tool for easy ClickHouse backup and restore with S3 support
-* https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
-* https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
-* https://github.com/ClickHouse/clickhouse_exporter[ClickHouse/clickhouse_exporter] - This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus(https://prometheus.io/) consumption
-* https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
-* https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/AlexeySetevoi/ansible-clickhouse[AlexeySetevoi/ansible-clickhouse] - ansible role for clickhouse
-* https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
-* https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
+* https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 * https://github.com/Altinity/clickhouse-zabbix-template[Altinity/clickhouse-zabbix-template] - Zabbix template for ClickHouse
+* https://github.com/ClickHouse/clickhouse_exporter[ClickHouse/clickhouse_exporter] - This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus(https://prometheus.io/) consumption
+* https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
+* https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
+* https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
+* https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
+* https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
 
 === Social
 
-* https://twitter.com/ClickHouseDB[Twitter] (English)
 * https://t.me/clickhouse_ru[Telegram] (Russian)
+* https://twitter.com/ClickHouseDB[Twitter] (English)
 
 === License
 
