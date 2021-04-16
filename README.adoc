@@ -13,6 +13,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * C++:
     - https://github.com/artpaul/clickhouse-cpp[artpaul/clickhouse-cpp] - ClickHouse C++ client library
     - https://github.com/ClickHouse/clickhouse-cpp[ClickHouse/clickhouse-cpp] - C++ client library for ClickHouse
+* Elixir:
+    - https://github.com/balance-platform/pillar[balance-platform/pillar] - Elixir library client for work with ClickHouse    
 * GO:
     - https://github.com/ClickHouse/clickhouse-go[ClickHouse/clickhouse-go] - Golang driver for ClickHouse
     - https://github.com/gohouse/gorose[gorose] - GoRose(go orm), a mini database ORM for golang
@@ -47,6 +49,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/maximdanilchenko/aiochclient[maximdanilchenko/aiochclient] - Lightweight async http(s) ClickHouse client for python 3.6+ with types converting
     - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
+    - https://github.com/carrotquest/django-clickhouse[carrotquest/django-clickhouse] - django-clickhouse
 * R:
     - https://github.com/IMSMWU/RClickhouse[IMSMWU/RClickhouse] - A 'DBI' Interface to the Yandex Clickhouse Database Providing Basic 'dplyr' Support
 * Ruby:
@@ -77,6 +80,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
 * https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
+https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 
 === CLI
 
@@ -101,6 +105,9 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/AlexeySetevoi/ansible-clickhouse[AlexeySetevoi/ansible-clickhouse] - ansible role for clickhouse
+* https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
+* https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
+* https://github.com/Altinity/clickhouse-zabbix-template[Altinity/clickhouse-zabbix-template] - Zabbix template for ClickHouse
 
 === Social
 
