@@ -1,14 +1,15 @@
-== Awesome ClickHouse
+= Awesome ClickHouse
+:toc:
 
 A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.com/ClickHouse/ClickHouse[sources]) software.
 
-=== Docs
+== Documentation
 
 * https://clickhouse.yandex[Official docs]
 * https://github.com/ClickHouse/ClickHouse/blob/master/CHANGELOG.md[Changelog]
 * https://github.com/ClickHouse/clickhouse-presentations[clickhouse-presentations] - Presentations, meetups and talks for ClickHouse
 
-=== Language bindings
+== Language bindings
 
 * C++:
     - https://github.com/artpaul/clickhouse-cpp[artpaul/clickhouse-cpp] - ClickHouse C++ client library
@@ -61,7 +62,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
 
-=== Integrations
+== Integrations
 
 * https://github.com/adjust/clickhouse_fdw[adjust/clickhouse_fdw] - ClickHouse FDW for PostgreSQL.  Forked from: https://github.com/Percona-Lab/clickhousedb_fdw
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
@@ -83,19 +84,19 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
 https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 
-=== CLI
+== CLI
 
 * https://clickhouse.yandex/docs/en/interfaces/cli/[cli] - Built-in client
 * https://github.com/hatarist/clickhouse-cli[hatarist/clickhouse-cli] - A third-party client for the Clickhouse DBMS server
 
-=== GUI
+== GUI
 
 * https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
 * https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
 
-=== Ops
+== Ops
 
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-copier/[clickhouse-copier/] - Copies (and reshards) data from one cluster to another cluster
 * https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/[clickhouse-local] - Allows running SQL queries on data without stopping the ClickHouse server, similar to how awk does this
@@ -111,11 +112,11 @@ https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CL
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
 
-=== Social
+== Social
 
 * https://t.me/clickhouse_ru[Telegram] (Russian)
 * https://twitter.com/ClickHouseDB[Twitter] (English)
 
-=== License
+== License
 
 https://creativecommons.org/publicdomain/zero/1.0/[image:http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg[CC0]]
