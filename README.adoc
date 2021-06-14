@@ -110,6 +110,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/ClickHouse/clickhouse_exporter[ClickHouse/clickhouse_exporter] - This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus(https://prometheus.io/) consumption
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
+* https://github.com/knadh/sql-jobber[knadh/sql-jobber] - A highly opinionated, distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
