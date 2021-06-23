@@ -32,6 +32,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * .Net:
     - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
+    - https://github.com/Octonica/ClickHouseClient[Octonica/ClickHouseClient] - ClickHouse .NET Core driver
 * Node.js:
     - https://github.com/apla/node-clickhouse[apla/node-clickhouse] - Yandex ClickHouse driver for nodejs
     - https://github.com/TimonKK/clickhouse[TimonKK/clickhouse] - NodeJS client for ClickHouse
