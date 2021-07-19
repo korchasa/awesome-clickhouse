@@ -60,6 +60,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/PNixx/clickhouse-activerecord[PNixx/clickhouse-activerecord] - A Ruby database ActiveRecord driver for ClickHouse
     - https://github.com/shlima/click_house[shlima/click_house] - Modern Ruby database driver for ClickHouse
 * Rust:
+    - https://github.com/loyd/clickhouse.rs[loyd/clickhouse.rs] - A typed client for ClickHouse
     - https://github.com/suharev7/clickhouse-rs[suharev7/clickhouse-rs] - Tokio based asynchronous ClickHouse client library for rust programming language.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
