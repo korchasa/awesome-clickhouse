@@ -41,6 +41,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * PHP:
     - https://github.com/8bitov/clickhouse-php-client[8bitov/clickhouse-php-client] - PHP Driver for ClickHouse
     - https://github.com/FriendsOfDoctrine/dbal-clickhouse[FriendsOfDoctrine/dbal-clickhouse] - Doctrine DBAL driver for ClickHouse database
+    - https://github.com/lizhichao/one-ck[lizhichao/one-ck] - php tcp client for clickhouse
     - https://github.com/pinba-server/pinba-server[pinba-server/pinba-server] - pinba server with storage in clickhouse
     - https://github.com/sanchezzzhak/kak-clickhouse[sanchezzzhak/kak-clickhouse] - Yii2 ext. ClickHouse
     - https://github.com/smi2/phpClickHouse[phpClickHouse] - PHP ClickHouse wrapper
@@ -71,10 +72,13 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 * https://github.com/ClickHouse/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
+* https://github.com/cloudflare/flow-pipeline[cloudflare/flow-pipeline] - A set of tools and examples to run a flow-pipeline (sFlow, NetFlow)
 * https://github.com/enqueue/metabase-clickhouse-driver[metabase-clickhouse-driver] - Metabase driver for the ClickHouse database
 * https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
+* https://github.com/gmmstrive/flink-connector-clickhouse[gmmstrive/flink-connector-clickhouse] - flink sql connector clickhouse zeppelin
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
+* https://github.com/jaegertracing/jaeger-clickhouse[jaegertracing/jaeger-clickhouse] - Jaeger ClickHouse storage plugin implementation
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
 * https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
 * https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
@@ -117,6 +121,10 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/tetafro/clickhouse-cluster[tetafro/clickhouse-cluster] - Simple clickhouse cluster with docker-compose
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
+
+== Examples
+
+* https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip[AlexeyKupershtokh/clickhouse-maxmind-geoip] - A demonstration how to use ClickHouse with MaxMind GeoIP2 databases for geolocaiton
 
 == Social
 
