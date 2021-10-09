@@ -78,6 +78,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
 * https://github.com/gmmstrive/flink-connector-clickhouse[gmmstrive/flink-connector-clickhouse] - flink sql connector clickhouse zeppelin
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+* https://github.com/ITECOMMPAY/kibouse[ITECOMMPAY/kibouse] - Clickhouse adapter for Kibana
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
 * https://github.com/jaegertracing/jaeger-clickhouse[jaegertracing/jaeger-clickhouse] - Jaeger ClickHouse storage plugin implementation
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
