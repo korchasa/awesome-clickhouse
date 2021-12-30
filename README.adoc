@@ -31,6 +31,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/housepower/ClickHouse-Native-JDBC[housepower/ClickHouse-Native-JDBC] - ClickHouse Native Protocol JDBC implementation
 * .Net:
     - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
+    - https://github.com/dotnetcore/FreeSql[dotnetcore/FreeSql] - 🦄 .NET orm, Mysql orm, Postgresql orm, SqlServer orm, Oracle orm, Sqlite orm, Firebird orm, 达梦 orm, 人大金仓 orm, 神通 orm, 翰高 orm, 南大通用 orm, Click house orm, MsAccess orm
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
     - https://github.com/Octonica/ClickHouseClient[Octonica/ClickHouseClient] - ClickHouse .NET Core driver
 * Node.js:
@@ -96,6 +97,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/silentsokolov/dbt-clickhouse[silentsokolov/dbt-clickhouse] - The Clickhouse plugin for dbt (data build tool)
 * https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 * https://github.com/trickstercache/trickster[trickstercache/trickster] - Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
+* https://github.com/uptrace/uptrace[uptrace/uptrace] - Distributed tracing using OpenTelemetry and ClickHouse
 * https://github.com/vectorengine/vectorsql[vectorengine/vectorsql] - VectorSQL is a free analytics DBMS for IoT & Big Data, compatible with ClickHouse
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
 * https://github.com/whisklabs/airflow-clickhouse-plugin[whisklabs/airflow-clickhouse-plugin] - Airflow ClickHouse Plugin based on clickhouse-driver
@@ -125,17 +127,20 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/arduanov/homebrew-clickhouse[arduanov/homebrew-clickhouse] - ClickHouse for MacOS Sierra and High Sierra.
 * https://github.com/bytebase/bytebase[bytebase/bytebase] - Web-based, zero-config, dependency-free database schema change and version control tool for teams.
 * https://github.com/ClickHouse/clickhouse_exporter[ClickHouse/clickhouse_exporter] - This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus(https://prometheus.io/) consumption
+* https://github.com/delium/clickhouse-migrator[delium/clickhouse-migrator] - Easy data migrator to robust clickhouse
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
 * https://github.com/knadh/sql-jobber[knadh/sql-jobber] - A highly opinionated, distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
+* https://github.com/radondb/radondb-clickhouse-kubernetes[radondb/radondb-clickhouse-kubernetes] - Open Source，High Availability Cluster，based on ClickHouse
 * https://github.com/tetafro/clickhouse-cluster[tetafro/clickhouse-cluster] - Simple clickhouse cluster with docker-compose
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
 
 == Examples
 
 * https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip[AlexeyKupershtokh/clickhouse-maxmind-geoip] - A demonstration how to use ClickHouse with MaxMind GeoIP2 databases for geolocaiton
+* https://github.com/ClickHouse/github-explorer[ClickHouse/github-explorer] - Everything You Always Wanted To Know About GitHub (But Were Afraid To Ask)
 
 == Social
 
