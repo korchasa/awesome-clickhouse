@@ -19,10 +19,12 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/clickhouse-elixir/clickhousex[clickhouse-elixir/clickhousex] - Elixir lib to work with ClickHouse database
 * GO:
     - https://github.com/ClickHouse/clickhouse-go[ClickHouse/clickhouse-go] - Golang driver for ClickHouse
+    - https://github.com/go-faster/ch[go-faster/ch] - clickhouse client (wip)
     - https://github.com/gohouse/gorose[gorose] - GoRose(go orm), a mini database ORM for golang
     - https://github.com/kshvakov/clickhouse[kshvakov/clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
+    - https://github.com/vahid-sohrabloo/chconn[vahid-sohrabloo/chconn] - Low-level ClickHouse database driver for Golang
 * Java:
     - https://github.com/x-ream/sqli[x-ream/sqli] - orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
 * JDBC:
@@ -81,6 +83,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/go-graphite/carbon-clickhouse[go-graphite/carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
 * https://github.com/go-graphite/graphite-clickhouse[go-graphite/graphite-clickhouse] - Graphite cluster backend with ClickHouse support
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+* https://github.com/housepower/spark-clickhouse-connector[housepower/spark-clickhouse-connector] - Spark ClickHouse Connector build on DataSourceV2 API and gRPC protocol.
 * https://github.com/ITECOMMPAY/kibouse[ITECOMMPAY/kibouse] - Clickhouse adapter for Kibana
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
 * https://github.com/jaegertracing/jaeger-clickhouse[jaegertracing/jaeger-clickhouse] - Jaeger ClickHouse storage plugin implementation
@@ -94,6 +97,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Percona-Lab/PromHouse[PromHouse] - Long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse
 * https://github.com/Quiq/influxdb-tools[Quiq/influxdb-tools] - InfluxDB Tools
 * https://github.com/QXIP/cloki-go[QXIP/cloki-go] - Clickhouse Loki API in GO
+* https://github.com/shimohq/mogo[shimohq/mogo] - A light weight web log visual analytic platform for clickhouse.
 * https://github.com/silentsokolov/dbt-clickhouse[silentsokolov/dbt-clickhouse] - The Clickhouse plugin for dbt (data build tool)
 * https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 * https://github.com/trickstercache/trickster[trickstercache/trickster] - Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
