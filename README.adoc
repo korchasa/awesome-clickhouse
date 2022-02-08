@@ -26,6 +26,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
     - https://github.com/vahid-sohrabloo/chconn[vahid-sohrabloo/chconn] - Low-level ClickHouse database driver for Golang
 * Java:
+    - https://github.com/JiamingMai/clickhouse-ast-parser[JiamingMai/clickhouse-ast-parser] - AST parser and visitor for ClickHouse SQL
     - https://github.com/x-ream/sqli[x-ream/sqli] - orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
 * JDBC:
     - https://github.com/blynkkk/clickhouse4j[blynkkk/clickhouse4j] - Lighter and faster alternative for the official ClickHouse JDBC driver
@@ -85,9 +86,11 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 * https://github.com/housepower/spark-clickhouse-connector[housepower/spark-clickhouse-connector] - Spark ClickHouse Connector build on DataSourceV2 API and gRPC protocol.
 * https://github.com/ITECOMMPAY/kibouse[ITECOMMPAY/kibouse] - Clickhouse adapter for Kibana
+* https://github.com/itinycheng/flink-connector-clickhouse[itinycheng/flink-connector-clickhouse] - Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
 * https://github.com/jaegertracing/jaeger-clickhouse[jaegertracing/jaeger-clickhouse] - Jaeger ClickHouse storage plugin implementation
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
+* https://github.com/justwatchcom/sql_exporter[justwatchcom/sql_exporter] - Flexible SQL Exporter for Prometheus.
 * https://github.com/lmangani/cLoki[lmangani/cLoki] - Clickhouse Loki: Grafana Loki API + ClickHouse Backend in NodeJS
 * https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
 * https://github.com/lomik/graphite-clickhouse[lomik/graphite-clickhouse] - Graphite cluster backend with ClickHouse support
