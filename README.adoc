@@ -60,6 +60,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
 * R:
+    - https://github.com/hannesmuehleisen/clickhouse-r[hannesmuehleisen/clickhouse-r] - Rstats client for ClickHouse (https://clickhouse.yandex)
     - https://github.com/IMSMWU/RClickhouse[IMSMWU/RClickhouse] - A 'DBI' Interface to the Yandex Clickhouse Database Providing Basic 'dplyr' Support
 * Ruby:
     - https://github.com/archan937/clickhouse[archan937/clickhouse] - A Ruby database driver for Clickhouse
@@ -78,6 +79,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 * https://github.com/ClickHouse/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
 * https://github.com/cloudflare/flow-pipeline[cloudflare/flow-pipeline] - A set of tools and examples to run a flow-pipeline (sFlow, NetFlow)
+* https://github.com/ContentSquare/chproxy[ContentSquare/chproxy] - ClickHouse http proxy and load balancer
 * https://github.com/enqueue/metabase-clickhouse-driver[metabase-clickhouse-driver] - Metabase driver for the ClickHouse database
 * https://github.com/flant/loghouse[loghouse] - Ready to use log management solution for Kubernetes storing data in ClickHouse and providing web UI
 * https://github.com/gmmstrive/flink-connector-clickhouse[gmmstrive/flink-connector-clickhouse] - flink sql connector clickhouse zeppelin
