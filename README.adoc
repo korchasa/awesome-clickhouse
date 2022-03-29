@@ -16,6 +16,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/ClickHouse/clickhouse-cpp[ClickHouse/clickhouse-cpp] - C++ client library for ClickHouse
 * Elixir:
     - https://github.com/balance-platform/pillar[balance-platform/pillar] - Elixir library client for work with ClickHouse
+    - https://github.com/clickhouse-elixir/clickhouse_ecto[clickhouse-elixir/clickhouse_ecto] - Ecto adapter for ClickHouse database
     - https://github.com/clickhouse-elixir/clickhousex[clickhouse-elixir/clickhousex] - Elixir lib to work with ClickHouse database
 * GO:
     - https://github.com/ClickHouse/clickhouse-go[ClickHouse/clickhouse-go] - Golang driver for ClickHouse
@@ -24,6 +25,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/kshvakov/clickhouse[kshvakov/clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/mailru/go-clickhouse[mailru/go-clickhouse] - Golang SQL database driver for Yandex ClickHouse
     - https://github.com/roistat/go-clickhouse[roistat/go-clickhouse] - Golang ClickHouse connector
+    - https://github.com/uptrace/go-clickhouse[uptrace/go-clickhouse] - ClickHouse client for Go
     - https://github.com/vahid-sohrabloo/chconn[vahid-sohrabloo/chconn] - Low-level ClickHouse database driver for Golang
 * Java:
     - https://github.com/JiamingMai/clickhouse-ast-parser[JiamingMai/clickhouse-ast-parser] - AST parser and visitor for ClickHouse SQL
@@ -57,6 +59,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/kszucs/pandahouse[kszucs/pandahouse] - Pandas interface for Clickhouse database
     - https://github.com/long2ice/asynch[long2ice/asynch] - An asyncio ClickHouse Python Driver with native (TCP) interface support
     - https://github.com/maximdanilchenko/aiochclient[maximdanilchenko/aiochclient] - Lightweight async http(s) ClickHouse client for python 3.6+ with types converting
+    - https://github.com/mymarilyn/aioch[mymarilyn/aioch] - aioch - is a library for accessing a ClickHouse database over native interface from the asyncio
     - https://github.com/mymarilyn/clickhouse-driver[clickhouse-driver] - ClickHouse Python Driver with native interface support
     - https://github.com/xzkostyan/clickhouse-sqlalchemy[xzkostyan/clickhouse-sqlalchemy] - ClickHouse dialect for SQLAlchemy
 * R:
@@ -87,6 +90,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/go-graphite/graphite-clickhouse[go-graphite/graphite-clickhouse] - Graphite cluster backend with ClickHouse support
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 * https://github.com/housepower/spark-clickhouse-connector[housepower/spark-clickhouse-connector] - Spark ClickHouse Connector build on DataSourceV2 API and gRPC protocol.
+* https://github.com/ibis-project/ibis[ibis-project/ibis] - Expressive analytics in Python, whatever the scale.
 * https://github.com/ITECOMMPAY/kibouse[ITECOMMPAY/kibouse] - Clickhouse adapter for Kibana
 * https://github.com/itinycheng/flink-connector-clickhouse[itinycheng/flink-connector-clickhouse] - Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
