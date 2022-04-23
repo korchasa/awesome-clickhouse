@@ -78,6 +78,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 == Integrations
 
 * https://github.com/adjust/clickhouse_fdw[adjust/clickhouse_fdw] - ClickHouse FDW for PostgreSQL.  Forked from: https://github.com/Percona-Lab/clickhousedb_fdw
+* https://github.com/Altinity/clickhouse-grafana[Altinity/clickhouse-grafana] - Clickhouse datasource for grafana
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 * https://github.com/ClickHouse/graphouse[graphouse] - Graphouse allows you to use ClickHouse as a Graphite storage
@@ -105,6 +106,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Percona-Lab/clickhousedb_fdw[clickhousedb_fdw] - PostgreSQL's Foreign Data Wrapper For ClickHouse
 * https://github.com/Percona-Lab/PromHouse[PromHouse] - Long-term remote storage with built-in clustering and downsampling for Prometheus 2.x on top of ClickHouse
 * https://github.com/Quiq/influxdb-tools[Quiq/influxdb-tools] - InfluxDB Tools
+* https://github.com/QXIP/cloki-go-legacy[QXIP/cloki-go-legacy] - Clickhouse Loki API in GO (WIP)
 * https://github.com/QXIP/cloki-go[QXIP/cloki-go] - Clickhouse Loki API in GO
 * https://github.com/shimohq/mogo[shimohq/mogo] - A light weight web log visual analytic platform for clickhouse.
 * https://github.com/silentsokolov/dbt-clickhouse[silentsokolov/dbt-clickhouse] - The Clickhouse plugin for dbt (data build tool)
