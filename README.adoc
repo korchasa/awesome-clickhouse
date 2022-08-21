@@ -51,6 +51,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/ClickHouse/clickhouse-odbc[yandex/clickhouse-odbc] - ODBC driver for ClickHouse
 * PHP:
     - https://github.com/8bitov/clickhouse-php-client[8bitov/clickhouse-php-client] - PHP Driver for ClickHouse
+    - https://github.com/esazykin/laravel-clickhouse[esazykin/laravel-clickhouse] - Eloquent model for ClickHouse
     - https://github.com/FriendsOfDoctrine/dbal-clickhouse[FriendsOfDoctrine/dbal-clickhouse] - Doctrine DBAL driver for ClickHouse database
     - https://github.com/lizhichao/one-ck[lizhichao/one-ck] - php tcp client for clickhouse
     - https://github.com/pinba-server/pinba-server[pinba-server/pinba-server] - pinba server with storage in clickhouse
@@ -98,6 +99,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 * https://github.com/housepower/spark-clickhouse-connector[housepower/spark-clickhouse-connector] - Spark ClickHouse Connector build on DataSourceV2 API and gRPC protocol.
 * https://github.com/ibis-project/ibis[ibis-project/ibis] - Expressive analytics in Python, whatever the scale.
+* https://github.com/ildus/clickhouse_fdw[ildus/clickhouse_fdw] - ClickHouse FDW for PostgreSQL
 * https://github.com/ITECOMMPAY/kibouse[ITECOMMPAY/kibouse] - Clickhouse adapter for Kibana
 * https://github.com/itinycheng/flink-connector-clickhouse[itinycheng/flink-connector-clickhouse] - Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.
 * https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
@@ -108,6 +110,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/lomik/carbon-clickhouse[carbon-clickhouse] - Graphite metrics receiver with ClickHouse as storage
 * https://github.com/lomik/graphite-clickhouse[lomik/graphite-clickhouse] - Graphite cluster backend with ClickHouse support
 * https://github.com/metrico/qryn[metrico/qryn] - LogQL on top of ClickHouse (formerly c₤oki)
+* https://github.com/mindis/prom2click[mindis/prom2click] - Prometheus remote storage adaptor for Clickhouse
 * https://github.com/mintance/nginx-clickhouse[mintance/nginx-clickhouse] - Simple nginx logs parser & transporter to ClickHouse database
 * https://github.com/mkabilov/pg2ch[pg2ch] - Data streaming from postgresql to clickhouse via logical replication mechanism
 * https://github.com/Percona-Lab/clickhousedb_fdw[clickhousedb_fdw] - PostgreSQL's Foreign Data Wrapper For ClickHouse
@@ -157,6 +160,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/knadh/sql-jobber[knadh/sql-jobber] - A highly opinionated, distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
+* https://github.com/plutov/clickhouse-helm[plutov/clickhouse-helm] - ClickHouse Helm Chart
 * https://github.com/radondb/radondb-clickhouse-kubernetes[radondb/radondb-clickhouse-kubernetes] - Open Source，High Availability Cluster，based on ClickHouse
 * https://github.com/tetafro/clickhouse-cluster[tetafro/clickhouse-cluster] - Simple clickhouse cluster with docker-compose
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
