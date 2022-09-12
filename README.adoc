@@ -41,6 +41,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/TanVD/AORM[TanVD/AORM] - Clickhouse Kotlin SQL Framework
 * .Net:
     - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
+    - https://github.com/donet5/SqlSugar[donet5/SqlSugar] - Best ORM Fastest ORM Simple Easy Sqlite orm Oracle ORM Mysql Orm postgresql ORm SqlServer oRm 达梦 ORM 人大金仓 ORM 神通ORM C# ORM , C# ORM .NET ORM NET5 ORM .NET6 ORM ClickHouse orm QuestDb
     - https://github.com/dotnetcore/FreeSql[dotnetcore/FreeSql] - 🦄 .NET orm, Mysql orm, Postgresql orm, SqlServer orm, Oracle orm, Sqlite orm, Firebird orm, 达梦 orm, 人大金仓 orm, 神通 orm, 翰高 orm, 南大通用 orm, Click house orm, MsAccess orm
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
     - https://github.com/Octonica/ClickHouseClient[Octonica/ClickHouseClient] - ClickHouse .NET Core driver
@@ -169,6 +170,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 * https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip[AlexeyKupershtokh/clickhouse-maxmind-geoip] - A demonstration how to use ClickHouse with MaxMind GeoIP2 databases for geolocaiton
 * https://github.com/ClickHouse/github-explorer[ClickHouse/github-explorer] - Everything You Always Wanted To Know About GitHub (But Were Afraid To Ask)
+* https://github.com/toddwschneider/nyc-taxi-data[toddwschneider/nyc-taxi-data] - Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip data into a PostgreSQL or ClickHouse database
 
 == Social
 
