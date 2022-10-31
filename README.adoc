@@ -128,6 +128,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/Vertamedia/clickhouse-grafana[clickhouse-grafana] - Clickhouse datasource for grafana
 * https://github.com/whisklabs/airflow-clickhouse-plugin[whisklabs/airflow-clickhouse-plugin] - Airflow ClickHouse Plugin based on clickhouse-driver
 * https://github.com/zeromicro/cds[zeromicro/cds] - Data syncing in golang for ClickHouse
+* https://github.com/subzerocloud/showcase[subzerocloud/showcase] - REST api for your database (PostgreSQL/Sqlite/ClickHouse).
 
 == CLI
 
@@ -158,6 +159,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/grafana/clickhouse-datasource[grafana/clickhouse-datasource] - Grafana Plugin for ClickHouse
 * https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
+* https://github.com/jneo8/clickhouse-setup[jneo8/clickhouse-setup] - Tutorial for setup clickhouse server.
 * https://github.com/knadh/sql-jobber[knadh/sql-jobber] - A highly opinionated, distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
