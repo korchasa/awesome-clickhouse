@@ -30,6 +30,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/uptrace/go-clickhouse[uptrace/go-clickhouse] - ClickHouse client for Go
     - https://github.com/vahid-sohrabloo/chconn[vahid-sohrabloo/chconn] - Low-level ClickHouse database driver for Golang
 * Java:
+    - https://github.com/itinycheng/flink-connector-clickhouse[itinycheng/flink-connector-clickhouse] - Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.
+    - https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
     - https://github.com/JiamingMai/clickhouse-ast-parser[JiamingMai/clickhouse-ast-parser] - AST parser and visitor for ClickHouse SQL
     - https://github.com/x-ream/sqli[x-ream/sqli] - orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
 * JDBC:
@@ -82,32 +84,20 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * Scala:
     - https://github.com/crobox/clickhouse-scala-client[crobox/clickhouse-scala-client] - Clickhouse Scala Client with Reactive Streams support
 
-== Integrations
+== Integration
 
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
 * https://github.com/ContentSquare/chproxy[ContentSquare/chproxy] - ClickHouse http proxy and load balancer
+* https://github.com/enqueue/metabase-clickhouse-driver[enqueue/metabase-clickhouse-driver] - ClickHouse database driver for the Metabase business intelligence front-end
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
+* https://github.com/ildus/clickhouse_fdw[ildus/clickhouse_fdw] - ClickHouse FDW for PostgreSQL
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
 * https://github.com/justwatchcom/sql_exporter[justwatchcom/sql_exporter] - Flexible SQL Exporter for Prometheus.
 * https://github.com/mkabilov/pg2ch[pg2ch] - Data streaming from postgresql to clickhouse via logical replication mechanism
 * https://github.com/Percona-Lab/clickhousedb_fdw[clickhousedb_fdw] - PostgreSQL's Foreign Data Wrapper For ClickHouse
 * https://github.com/subzerocloud/showcase[subzerocloud/showcase] - REST api for your database (PostgreSQL/Sqlite/ClickHouse).
 * https://github.com/zeromicro/cds[zeromicro/cds] - Data syncing in golang for ClickHouse
-
-== CLI
-
-* https://clickhouse.yandex/docs/en/interfaces/cli/[cli] - Built-in client
-* https://github.com/hatarist/clickhouse-cli[hatarist/clickhouse-cli] - A third-party client for the Clickhouse DBMS server
-
-== GUI
-
-* https://github.com/EdurtIO/dbm[EdurtIO/dbm] - ClickHouse DataBase Manager Tools
-* https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
-* https://github.com/shimohq/mogo[shimohq/mogo] - A light weight web log visual analytic platform for clickhouse.
-* https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
-* https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
-* https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
 
 == Ops
 
@@ -131,8 +121,24 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/nikepan/clickhouse-bulk[clickhouse-bulk] - Collects many small inserts to ClickHouse and send in big inserts
 * https://github.com/plutov/clickhouse-helm[plutov/clickhouse-helm] - ClickHouse Helm Chart
 * https://github.com/radondb/radondb-clickhouse-kubernetes[radondb/radondb-clickhouse-kubernetes] - Open Source，High Availability Cluster，based on ClickHouse
+* https://github.com/Slach/clickhouse-flamegraph[Slach/clickhouse-flamegraph] - CLI utility for build flamegraph based on system.trace_log
 * https://github.com/tetafro/clickhouse-cluster[tetafro/clickhouse-cluster] - Simple clickhouse cluster with docker-compose
+* https://github.com/trickstercache/trickster[trickstercache/trickster] - Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 * https://github.com/zlzforever/ClickHouseMigrator[zlzforever/ClickHouseMigrator] - Help to migrate data to ClickHouse, create database and table auto.
+
+== CLI
+
+* https://clickhouse.yandex/docs/en/interfaces/cli/[cli] - Built-in client
+* https://github.com/hatarist/clickhouse-cli[hatarist/clickhouse-cli] - A third-party client for the Clickhouse DBMS server
+
+== GUI
+
+* https://github.com/EdurtIO/dbm[EdurtIO/dbm] - ClickHouse DataBase Manager Tools
+* https://github.com/HouseOps/HouseOps[HouseOps] - A simple client
+* https://github.com/shimohq/mogo[shimohq/mogo] - A light weight web log visual analytic platform for clickhouse.
+* https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
+* https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
+* https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
 
 == Examples
 
