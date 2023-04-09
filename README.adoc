@@ -30,10 +30,10 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/uptrace/go-clickhouse[uptrace/go-clickhouse] - ClickHouse client for Go
     - https://github.com/vahid-sohrabloo/chconn[vahid-sohrabloo/chconn] - Low-level ClickHouse database driver for Golang
 * Java:
+    - https://github.com/ClickHouse/clickhouse-java[ClickHouse/clickhouse-java] - Java client and JDBC driver for ClickHouse
     - https://github.com/itinycheng/flink-connector-clickhouse[itinycheng/flink-connector-clickhouse] - Flink SQL connector for ClickHouse. Support ClickHouseCatalog and read/write primary data, maps, arrays to clickhouse.
     - https://github.com/ivi-ru/flink-clickhouse-sink[ivi-ru/flink-clickhouse-sink] - Flink sink for Clickhouse
     - https://github.com/JiamingMai/clickhouse-ast-parser[JiamingMai/clickhouse-ast-parser] - AST parser and visitor for ClickHouse SQL
-    - https://github.com/x-ream/sqli[x-ream/sqli] - orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
 * JDBC:
     - https://github.com/analytikaplus/clickhouse-tableau-connector-jdbc[analytikaplus/clickhouse-tableau-connector-jdbc] - Tableau connector to ClickHouse using JDBC driver
     - https://github.com/blynkkk/clickhouse4j[blynkkk/clickhouse4j] - Lighter and faster alternative for the official ClickHouse JDBC driver
@@ -43,7 +43,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/TanVD/AORM[TanVD/AORM] - Clickhouse Kotlin SQL Framework
 * .Net:
     - https://github.com/DarkWanderer/ClickHouse.Client[DarkWanderer/ClickHouse.Client] - .NET client for ClickHouse
-    - https://github.com/donet5/SqlSugar[donet5/SqlSugar] - Best ORM Fastest ORM Simple Easy Sqlite orm Oracle ORM Mysql Orm postgresql ORm SqlServer oRm 达梦 ORM 人大金仓 ORM 神通ORM C# ORM , C# ORM .NET ORM NET5 ORM .NET6 ORM ClickHouse orm QuestDb
+    - https://github.com/DotNetNext/SqlSugar[DotNetNext/SqlSugar] - Best ORM Fastest ORM Simple Easy Sqlite orm Oracle ORM Mysql Orm postgresql ORm SqlServer oRm 达梦 ORM 人大金仓 ORM 神通ORM C# ORM , C# ORM .NET ORM NET5 ORM .NET6 ORM ClickHouse orm QuestDb
     - https://github.com/dotnetcore/FreeSql[dotnetcore/FreeSql] - 🦄 .NET orm, Mysql orm, Postgresql orm, SqlServer orm, Oracle orm, Sqlite orm, Firebird orm, 达梦 orm, 人大金仓 orm, 神通 orm, 翰高 orm, 南大通用 orm, Click house orm, MsAccess orm
     - https://github.com/killwort/ClickHouse-Net[killwort/ClickHouse-Net] - Yandex ClickHouse fully managed .NET client
     - https://github.com/Octonica/ClickHouseClient[Octonica/ClickHouseClient] - ClickHouse .NET Core driver
@@ -63,6 +63,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
     - https://github.com/the-tinderbox/ClickhouseBuilder[the-tinderbox/ClickhouseBuilder] - Clickhouse Query Builder
 * Python:
     - https://github.com/carrotquest/django-clickhouse[carrotquest/django-clickhouse] - django-clickhouse
+    - https://github.com/ClickHouse/clickhouse-connect[ClickHouse/clickhouse-connect] - Python driver/sqlalchemy/superset connectors
     - https://github.com/cloudflare/sqlalchemy-clickhouse[sqlalchemy-clickhouse] - ClickHouse dialect for SQLAlchemy
     - https://github.com/Infinidat/infi.clickhouse_orm[Infinidat/infi.clickhouse_orm] - A Python library for working with the ClickHouse database
     - https://github.com/kszucs/pandahouse[kszucs/pandahouse] - Pandas interface for Clickhouse database
@@ -88,8 +89,8 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 
 * https://github.com/Altinity/clickhouse-mysql-data-reader[Altinity/clickhouse-mysql-data-reader] - utility to read mysql data
 * https://github.com/ClickHouse/clickhouse-jdbc-bridge[ClickHouse/clickhouse-jdbc-bridge] - A JDBC proxy from ClickHouse to external databases
+* https://github.com/ClickHouse/metabase-clickhouse-driver[ClickHouse/metabase-clickhouse-driver] - ClickHouse database driver for the Metabase business intelligence front-end
 * https://github.com/ContentSquare/chproxy[ContentSquare/chproxy] - ClickHouse http proxy and load balancer
-* https://github.com/enqueue/metabase-clickhouse-driver[enqueue/metabase-clickhouse-driver] - ClickHouse database driver for the Metabase business intelligence front-end
 * https://github.com/housepower/clickhouse_sinker[housepower/clickhouse_sinker] - Easily load data from kafka to ClickHouse with high performance
 * https://github.com/ildus/clickhouse_fdw[ildus/clickhouse_fdw] - ClickHouse FDW for PostgreSQL
 * https://github.com/jaykelin/clickhouse-hdfs-loader[jaykelin/clickhouse-hdfs-loader] - loading hdfs data to clickhouse
@@ -106,7 +107,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/AlexAkulov/clickhouse-backup[AlexAkulov/clickhouse-backup] - Tool for easy ClickHouse backup and restore with S3 support
 * https://github.com/AlexeySetevoi/ansible-clickhouse[AlexeySetevoi/ansible-clickhouse] - ansible role for clickhouse
 * https://github.com/Altinity/altinity-dashboard[Altinity/altinity-dashboard] - Altinity Dashboard helps you manage ClickHouse installations controlled by clickhouse-operator.
-* https://github.com/Altinity/clickhouse-operator[clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
+* https://github.com/Altinity/clickhouse-operator[Altinity/clickhouse-operator] - The ClickHouse Operator creates, configures and manages ClickHouse clusters running on Kubernetes
 * https://github.com/Altinity/clickhouse-zabbix-template[Altinity/clickhouse-zabbix-template] - Zabbix template for ClickHouse
 * https://github.com/arduanov/homebrew-clickhouse[arduanov/homebrew-clickhouse] - ClickHouse for MacOS Sierra and High Sierra.
 * https://github.com/bytebase/bytebase[bytebase/bytebase] - Web-based, zero-config, dependency-free database schema change and version control tool for teams.
@@ -115,6 +116,7 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/f1yegor/clickhouse_exporter[clickhouse_exporter] - Scraper for https://github.com/prometheus/prometheus[Prometheus]
 * https://github.com/grafana/clickhouse-datasource[grafana/clickhouse-datasource] - Grafana Plugin for ClickHouse
 * https://github.com/housepower/ckman[housepower/ckman] - This is a tool which used to manage and monitor ClickHouse database
+* https://github.com/inkeio/dbm[inkeio/dbm] - Full platform database management tool, supports ClickHouse, Presto, Trino, MySQL, PostgreSQL, Apache Druid, ElasticSearch
 * https://github.com/jneo8/clickhouse-setup[jneo8/clickhouse-setup] - Tutorial for setup clickhouse server.
 * https://github.com/knadh/sql-jobber[knadh/sql-jobber] - A highly opinionated, distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously. Supports MySQL, Postgres, ClickHouse.
 * https://github.com/long2ice/synch[long2ice/synch] - Sync data from other DB to ClickHouse(cluster)
@@ -139,6 +141,9 @@ A curated list of awesome https://clickhouse.yandex[ClickHouse] (https://github.
 * https://github.com/sqlpad/sqlpad[sqlpad/sqlpad] - Web-based SQL editor run in your own private cloud. Supports MySQL, Postgres, SQL Server, Vertica, Crate, ClickHouse, Presto, SAP HANA, Cassandra, Snowflake, BigQuery, SQLite, and more with ODBC
 * https://github.com/tabixio/tabix[tabix] - Simple business intelligence application and sql editor tool
 * https://github.com/VKCOM/lighthouse[lighthouse] - Lightweight interface for ClickHouse
+
+== CHUI (Chat-based User Interface) or CHUBACA(Chat-Based Client:)
+* https://github.com/sqlchat/sqlchat[sqlchat/sqlchat] - Chat-based SQL client for the next decade
 
 == Examples
 
