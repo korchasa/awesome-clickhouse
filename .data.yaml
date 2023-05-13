@@ -1,5 +1,5 @@
-updated_at: 2023-05-01T23:35:26.762755+03:00
-readme_generated_at: 2023-05-03T20:11:44.376868+03:00
+updated_at: 2023-05-13T21:38:29.976357+03:00
+readme_generated_at: 2023-05-13T21:38:57.713335+03:00
 items:
   - name: 8bitov/clickhouse-php-client
     link: https://github.com/8bitov/clickhouse-php-client
@@ -956,6 +956,18 @@ items:
         Django projects.
     created_at: 2023-05-01T23:28:01.064877+03:00
     is_new: true
+  - name: chdb-io/chdb
+    link: https://github.com/chdb-io/chdb
+    description: chDB is an embedded SQL Engine powered by ClickHouse
+    ignore: true
+    ignore_reason: app
+    category: ""
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.9
+    ai_description: chDB is an embedded SQL OLAP Engine powered by ClickHouse
+    created_at: 2023-05-13T21:37:22.73553+03:00
+    is_new: true
   - name: childe/gohangout
     link: https://github.com/childe/gohangout
     description: 使用 golang 模仿的 Logstash。用于消费 Kafka 数据，处理后写入 ES、Clickhouse 等。
@@ -1151,6 +1163,24 @@ items:
     ai_description: Ethereum data access solution that can be used for analytics and
         application development that works on a fast DB - Clickhouse.
     created_at: 2023-05-01T23:28:03.437792+03:00
+    is_new: true
+  - name: datainsider-co/rocket-bi
+    link: https://github.com/datainsider-co/rocket-bi
+    description: A free, open-source,  web-based self-service BI tailor-made for clickhouse
+    ignore: true
+    ignore_reason: app
+    category: ""
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.95
+    ai_description: Rocket BI is a web-based, self-service BI tool that is tailor-made
+        for ClickHouse. It is a free and open-source Scala library/sdk that allows
+        users to analyze, visualize, and collaborate with their friends. Rocket BI
+        offers a drag-and-drop chart builder and ad-hoc query tool that utilizes SQL
+        for complex analysis. The Rocket BI library can be run locally via Docker
+        images and requires Java 8, Maven 3, MySQL 5.7, and SSDB 1.9.9. Documentation
+        is available at https://docs.datainsider.co/rocket-bi/.
+    created_at: 2023-05-13T21:37:25.231424+03:00
     is_new: true
   - name: delium/clickhouse-migrator
     link: https://github.com/delium/clickhouse-migrator
@@ -1523,6 +1553,18 @@ items:
         data loading: by timeout and by buffer size. Example usage and configuration
         provided in the description.'
     created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: jacklon/bi_development_source_code
+    link: https://github.com/jacklon/bi_development_source_code
+    description: 传统大数据分析工具以Hadoop、Spark为代表，集成了大量的技术框架， 对用户来说又重又笨又不灵活，难以维护和驾驭，国际和国内的敏捷型BI工具在对接时又面临性能、友好性、定制化能力弱的缺点。本项目独辟蹊径，以阿里开源的DataX为ETL工具，以列式数据库ClickHouse做为中间数据存储源，通过视图关联构建大数据集，解决亿万级数据的即时分析性能，再辅以强大的数据可视化
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-13T21:37:25.231448+03:00
     is_new: true
   - name: jaegertracing/jaeger-clickhouse
     link: https://github.com/jaegertracing/jaeger-clickhouse
