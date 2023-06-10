@@ -240,6 +240,6 @@ Support ClickHouse version from 20.9 LTS.
 
 
 
-== License
+## License
 
 https://creativecommons.org/publicdomain/zero/1.0/[image:http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg[CC0]]
