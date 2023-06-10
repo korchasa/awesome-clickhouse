@@ -1,0 +1,56 @@
+title: Awesome ClickHouse
+query: clickhouse stars:>50 archived:false
+root:
+  categories:
+    - title: Documentation
+      prompt: Documentation and guides
+    - title: Language bindings
+      categories:
+        - title: C++
+          prompt: C++ library or sdk
+        - title: Elixir
+          prompt: Elixir library or sdk
+        - title: JavaScript/Typescript
+          prompt: JavaScript or Typescript library or sdk
+        - title: Golang
+          prompt: Golang library or sdk
+        - title: Java
+          prompt: Java or JDBC library or sdk
+        - title: Kotlin
+          prompt: Kotlin library or sdk
+        - title: .Net
+          prompt: .Net or C# library or sdk
+        - title: Node.js
+          prompt: Node.js library or sdk
+        - title: ODBC
+          prompt: ODBC library or sdk
+        - title: PHP
+          prompt: PHP library or sdk
+        - title: Python
+          prompt: Python library or sdk
+        - title: R
+          prompt: R language library or sdk
+        - title: Ruby
+          prompt: Ruby library or sdk
+        - title: Rust
+          prompt: Rust library or sdk
+        - title: Scala
+          prompt: Scala library or sdk
+        - title: Other sdk/libraries
+          prompt: Other library or sdk
+    - title: UIs
+      categories:
+        - title: GUI
+          prompt: Graphical user interface(GUI)
+        - title: CLI
+          prompt: Command line tools(CLI)
+        - title: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
+          prompt: Chat-based User Interface
+    - title: Integrations
+      prompt: Permanent integrate clickhouse with another application
+    - title: Ops
+      prompt: Tools for administrators(operators)
+    - title: Examples
+      prompt: Examples
+    - title: Social
+      prompt: Links to social media

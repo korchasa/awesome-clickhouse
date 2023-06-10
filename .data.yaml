@@ -1,0 +1,2458 @@
+updated_at: 2023-06-10T19:26:08.999541+03:00
+readme_generated_at: 2023-06-10T19:26:30.868789+03:00
+items:
+  - name: 8bitov/clickhouse-php-client
+    link: https://github.com/8bitov/clickhouse-php-client
+    description: PHP Driver for ClickHouse columnar DBMS https://clickhouse.yandex
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: PHP
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:01.064875+03:00
+    is_new: true
+  - name: APIJSON/APIJSON-Demo
+    link: https://github.com/APIJSON/APIJSON-Demo
+    description: 腾讯 APIJSON 各种语言、各种框架 的 使用示例项目、上手文档、测试数据 SQL 文件 等。Demo projects with
+        document and SQL files for Tencent APIJSON with different programming languages
+        and different frameworks.
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053975+03:00
+    is_new: true
+  - name: AlexAkulov/clickhouse-backup
+    link: https://github.com/AlexAkulov/clickhouse-backup
+    description: Tool for easy ClickHouse backup and restore with cloud storages support
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: ""
+    ai_category: Ops
+    ai_category_confidence: 0.95
+    ai_description: Tool for easy ClickHouse backup and restore with cloud storages
+        support
+    created_at: 2023-05-01T21:03:18.635321+03:00
+    is_new: true
+  - name: AlexeyKupershtokh/clickhouse-maxmind-geoip
+    link: https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip
+    description: A demonstration how to use ClickHouse with MaxMind GeoIP2 databases
+        for geolocaiton
+    ignore: false
+    ignore_reason: ""
+    category: Examples
+    language: Dockerfile
+    ai_category: Examples
+    ai_category_confidence: 0.9
+    ai_description: A demonstration how to use ClickHouse with MaxMind GeoIP2 databases
+        for geolocation
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: AlexeySetevoi/ansible-clickhouse
+    link: https://github.com/AlexeySetevoi/ansible-clickhouse
+    description: ansible role for clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Jinja
+    ai_category: ""
+    ai_category_confidence: 0.9
+    ai_description: ansible role for clickhouse
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: Altinity/clickhouse-backup
+    link: https://github.com/Altinity/clickhouse-backup
+    description: Tool for easy ClickHouse backup and restore with cloud storages support
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Tool for easy ClickHouse backup and restore with cloud storages
+        support
+    created_at: 2023-06-10T19:24:40.801566+03:00
+    is_new: true
+  - name: Altinity/clickhouse-grafana
+    link: https://github.com/Altinity/clickhouse-grafana
+    description: Clickhouse datasource for grafana
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: ""
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Clickhouse datasource for grafana
+    created_at: 2023-05-01T21:09:08.030412+03:00
+    is_new: true
+  - name: Altinity/clickhouse-mysql-data-reader
+    link: https://github.com/Altinity/clickhouse-mysql-data-reader
+    description: utility to read mysql data
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Utility to read mysql data
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: Altinity/clickhouse-operator
+    link: https://github.com/Altinity/clickhouse-operator
+    description: The Altinity Operator for ClickHouse creates, configures and manages
+        ClickHouse clusters running on Kubernetes
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: ""
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: The Altinity Operator for ClickHouse creates, configures and manages
+        ClickHouse clusters running on Kubernetes
+    created_at: 2023-05-01T21:03:18.63532+03:00
+    is_new: true
+  - name: Altinity/clickhouse-rpm-install
+    link: https://github.com/Altinity/clickhouse-rpm-install
+    description: How to install clickhouse RPM packages
+    ignore: false
+    ignore_reason: ""
+    category: Documentation
+    language: ""
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: Repository contains detailed explanation on how to install ClickHouse
+        RPMs with RPM packages from Altinity's repo(s)
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: Altinity/clickhouse-sink-connector
+    link: https://github.com/Altinity/clickhouse-sink-connector
+    description: Replicate data from MySQL, Postgres and MongoDB to ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Roff
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: Altinity Replicator for ClickHouse (Lightweight version) that
+        replicates data from MySQL, PostgreSQL, and MongoDB to ClickHouse with support
+        for DDL in MySQL via a single executable and lightweight tool.
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: AutohomeCorp/frostmourne
+    link: https://github.com/AutohomeCorp/frostmourne
+    description: Frostmourne（霜之哀伤监控平台）是基于Elasticsearch, Prometheus, SkyWalking, InfluxDB，Mysql/TiDB，ClickHouse,
+        SqlServer, IoTDB数据的分布式监控报警系统. Monitor & alert & alarm for Elasticsearch，Prometheus
+        data。主要使用springboot2 + vue-element-admin
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053974+03:00
+    is_new: true
+  - name: Changelog
+    link: https://github.com/ClickHouse/ClickHouse/blob/master/CHANGELOG.md
+    description: ""
+    ignore: false
+    ignore_reason: ""
+    category: Documentation
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:27:19.084173+03:00
+    is_new: true
+  - name: ClickHouse-China/ClickhouseMeetup
+    link: https://github.com/ClickHouse-China/ClickhouseMeetup
+    description: ""
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T22:00:58.6959+03:00
+    is_new: true
+  - name: ClickHouse/ClickHouse
+    link: https://github.com/ClickHouse/ClickHouse
+    description: ClickHouse® is a free analytics DBMS for big data
+    ignore: true
+    ignore_reason: exists in header
+    category: Documentation
+    language: ""
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse is a free analytics DBMS for big data, an open-source
+        column-oriented database management system that allows generating analytical
+        data reports in real-time. The repository provides useful links such as official
+        website, documentation, tutorial, cloud service, youtube channel, slack and
+        telegram community, blog, github code browser, and contacts. Additionally,
+        the repository shares upcoming events and recent recording videos related
+        to ClickHouse.
+    created_at: 2023-05-01T21:03:18.635318+03:00
+    is_new: true
+  - name: ClickHouse/ch-go
+    link: https://github.com/ClickHouse/ch-go
+    description: Low-level Go Client for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Low-level Go Client for ClickHouse
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-connect
+    link: https://github.com/ClickHouse/clickhouse-connect
+    description: Python driver/sqlalchemy/superset connectors
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Python package for connecting Python to ClickHouse, supporting
+        various data structures including Pandas DataFrames, Numpy Arrays, PyArrow
+        Tables, SQLAlchemy 1.3 and 1.4, and Apache Superset 1.4+
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-cpp
+    link: https://github.com/ClickHouse/clickhouse-cpp
+    description: C++ client library for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: C++
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.9
+    ai_description: C++ client library for ClickHouse
+    created_at: 2023-05-01T21:13:08.610144+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-docs
+    link: https://github.com/ClickHouse/clickhouse-docs
+    description: Official documentation for the ClickHouse database management system
+    ignore: false
+    ignore_reason: ""
+    category: Documentation
+    language: JavaScript
+    ai_category: Documentation
+    ai_category_confidence: 0.9
+    ai_description: Official documentation for the ClickHouse database management
+        system
+    created_at: 2023-05-01T23:28:01.064845+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-go
+    link: https://github.com/ClickHouse/clickhouse-go
+    description: Golang driver for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: ""
+    ai_category: Golang
+    ai_category_confidence: 0.95
+    ai_description: Golang driver for ClickHouse
+    created_at: 2023-05-01T21:03:18.635319+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-java
+    link: https://github.com/ClickHouse/clickhouse-java
+    description: Java client and JDBC driver for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Java
+    language: ""
+    ai_category: Java
+    ai_category_confidence: 0.96
+    ai_description: Java client and JDBC driver for ClickHouse
+    created_at: 2023-05-01T21:03:18.635319+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-jdbc-bridge
+    link: https://github.com/ClickHouse/clickhouse-jdbc-bridge
+    description: A JDBC proxy from ClickHouse to external databases
+    ignore: false
+    ignore_reason: ""
+    category: Java
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: A JDBC proxy from ClickHouse to external databases
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-js
+    link: https://github.com/ClickHouse/clickhouse-js
+    description: Official JS client for ClickHouse DB
+    ignore: false
+    ignore_reason: ""
+    category: JavaScript/Typescript
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Official Node.js client for ClickHouse, written purely in TypeScript,
+        thoroughly tested with actual ClickHouse versions.
+    created_at: 2023-05-01T23:28:01.064884+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-kafka-connect
+    link: https://github.com/ClickHouse/clickhouse-kafka-connect
+    description: ClickHouse Kafka Connector
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse Kafka Connector is the official Kafka Connect sink
+        connector for ClickHouse written in Java
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-odbc
+    link: https://github.com/ClickHouse/clickhouse-odbc
+    description: ODBC driver for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: ODBC
+    language: C++
+    ai_category: ODBC
+    ai_category_confidence: 0.9
+    ai_description: ODBC driver for ClickHouse
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse-presentations
+    link: https://github.com/ClickHouse/clickhouse-presentations
+    description: Presentations, meetups and talks about ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Documentation
+    language: ""
+    ai_category: Documentation
+    ai_category_confidence: 0.8
+    ai_description: Presentations, meetups and talks about ClickHouse
+    created_at: 2023-05-01T21:06:16.283126+03:00
+    is_new: true
+  - name: ClickHouse/clickhouse_exporter
+    link: https://github.com/ClickHouse/clickhouse_exporter
+    description: This is a simple server that periodically scrapes ClickHouse stats
+        and exports them via HTTP for Prometheus(https://prometheus.io/) consumption.
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: This is a simple server that periodically scrapes ClickHouse stats
+        and exports them via HTTP for Prometheus consumption.
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: ClickHouse/dbt-clickhouse
+    link: https://github.com/ClickHouse/dbt-clickhouse
+    description: The Clickhouse plugin for dbt (data build tool)
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 1
+    ai_description: The Clickhouse plugin for dbt (data build tool)
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: ClickHouse/github-explorer
+    link: https://github.com/ClickHouse/github-explorer
+    description: Everything You Always Wanted To Know About GitHub (But Were Afraid
+        To Ask)
+    ignore: false
+    ignore_reason: ""
+    category: Examples
+    language: HTML
+    ai_category: Documentation
+    ai_category_confidence: 1
+    ai_description: GitHub dataset from GH Archive containing all events in all repositories
+        since 2011 in structured format, uploaded into ClickHouse with 3.1 billion
+        records. The repository provides a list of queries to answer almost any question
+        about GitHub.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: ClickHouse/graphouse
+    link: https://github.com/ClickHouse/graphouse
+    description: Graphouse allows you to use ClickHouse as a Graphite storage.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: Graphouse allows you to use ClickHouse as a Graphite storage.
+        It provides a TCP server to receive metrics with Graphite plaintext protocol,
+        an HTTP API for metric search and data retrieval (with graphite-web python
+        module), and an HTTP API for metric tree management.
+    created_at: 2023-05-01T21:36:04.14525+03:00
+    is_new: true
+  - name: ClickHouse/metabase-clickhouse-driver
+    link: https://github.com/ClickHouse/metabase-clickhouse-driver
+    description: ClickHouse database driver for the Metabase business intelligence
+        front-end
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Clojure
+    ai_category: Ops
+    ai_category_confidence: 0.85
+    ai_description: ClickHouse database driver for the Metabase business intelligence
+        front-end
+    created_at: 2023-05-01T21:13:08.610147+03:00
+    is_new: true
+  - name: ContentSquare/chproxy
+    link: https://github.com/ContentSquare/chproxy
+    description: Open-Source ClickHouse http proxy and load balancer
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Chproxy is an HTTP proxy and load balancer for the ClickHouse
+        database. It is an open-source community project and not an official ClickHouse
+        project. Full documentation is available on the official website.
+    created_at: 2023-05-01T21:13:08.610147+03:00
+    is_new: true
+  - name: DLuPan/DorisParser
+    link: https://github.com/DLuPan/DorisParser
+    description: DorisDB SQL解析器Java实现；Clickhouse SQL解析器Java实现
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:03.437782+03:00
+    is_new: true
+  - name: DarkWanderer/ClickHouse.Client
+    link: https://github.com/DarkWanderer/ClickHouse.Client
+    description: .NET client for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: .Net
+    language: C#
+    ai_category: .Net
+    ai_category_confidence: 0.9
+    ai_description: .NET client for ClickHouse
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: DmitryBe/spark-clickhouse
+    link: https://github.com/DmitryBe/spark-clickhouse
+    description: spark to yandex clickhouse connector
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.9
+    ai_description: spark to yandex clickhouse connector
+    created_at: 2023-05-01T23:28:01.064875+03:00
+    is_new: true
+  - name: DotNetNext/SqlSugar
+    link: https://github.com/DotNetNext/SqlSugar
+    description: .Net ORM    Fastest ORM   Simple Easy  Sqlite  orm Oracle ORM Mysql
+        Orm  postgresql ORm  SqlServer oRm     达梦 ORM 人大金仓 ORM 神通ORM  C# ORM , C#
+        ORM .NET ORM NET5 ORM .NET6 ORM ClickHouse orm QuestDb
+    ignore: false
+    ignore_reason: ""
+    category: .Net
+    language: C#
+    ai_category: .Net
+    ai_category_confidence: 0.9
+    ai_description: SqlSugar ORM is a library providing Object/Relational Mapping
+        (ORM) for .Net applications
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: EdurtIO/datacap
+    link: https://github.com/EdurtIO/datacap
+    description: 'DataCap is integrated software for data transformation, integration
+        and visualization. '
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: DataCap is integrated software for data transformation, integration
+        and visualization. Support a variety of data sources, file types, big data
+        related database, relational database, NoSQL database, etc. Through the software
+        can realize the management of multiple data sources, the data under the source
+        of various operations conversion, making data charts, monitoring data sources
+        and other functions.
+    created_at: 2023-05-01T21:41:34.053976+03:00
+    is_new: true
+  - name: FriendsOfDoctrine/dbal-clickhouse
+    link: https://github.com/FriendsOfDoctrine/dbal-clickhouse
+    description: Doctrine DBAL driver for ClickHouse database
+    ignore: false
+    ignore_reason: ""
+    category: PHP
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 0.95
+    ai_description: Doctrine DBAL driver for ClickHouse database
+    created_at: 2023-05-01T23:28:01.064847+03:00
+    is_new: true
+  - name: HouseOps/HouseOps
+    link: https://github.com/HouseOps/HouseOps
+    description: A simple ClickHouse client.
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: JavaScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: HouseOps is a simple ClickHouse client based on Electron, React
+        and Blueprint UI Toolkit for rapid application development.
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: IMSMWU/RClickhouse
+    link: https://github.com/IMSMWU/RClickhouse
+    description: A 'DBI' Interface to the Yandex Clickhouse Database Providing Basic
+        'dplyr' Support
+    ignore: false
+    ignore_reason: ""
+    category: R
+    language: R
+    ai_category: R
+    ai_category_confidence: 1
+    ai_description: R package for a DBI interface to the Yandex Clickhouse Database
+        Providing Basic 'dplyr' Support
+    created_at: 2023-05-01T23:28:03.437782+03:00
+    is_new: true
+  - name: ITECOMMPAY/kibouse
+    link: https://github.com/ITECOMMPAY/kibouse
+    description: Clickhouse adapter for Kibana
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Kibouse is a Go tool that can be used to provide supporting Kibana
+        as analytics and search dashboard for Clickhouse.
+    created_at: 2023-05-01T23:28:01.064878+03:00
+    is_new: true
+  - name: Infinidat/infi.clickhouse_fdw
+    link: https://github.com/Infinidat/infi.clickhouse_fdw
+    description: A PostgreSQL foreign data wrapper for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: A PostgreSQL foreign data wrapper for ClickHouse
+    created_at: 2023-05-01T23:28:03.437782+03:00
+    is_new: true
+  - name: Infinidat/infi.clickhouse_orm
+    link: https://github.com/Infinidat/infi.clickhouse_orm
+    description: A Python library for working with the ClickHouse database (https://clickhouse.yandex/)
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.95
+    ai_description: A Python library for working with the ClickHouse database (https://clickhouse.yandex/).
+        It allows you to define model classes whose instances can be written to the
+        database and read from it.
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: JiamingMai/clickhouse-ast-parser
+    link: https://github.com/JiamingMai/clickhouse-ast-parser
+    description: AST parser and visitor for ClickHouse SQL
+    ignore: false
+    ignore_reason: ""
+    category: Java
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: AST parser and visitor for ClickHouse SQL
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: Octonica/ClickHouseClient
+    link: https://github.com/Octonica/ClickHouseClient
+    description: ClickHouse .NET Core driver
+    ignore: false
+    ignore_reason: ""
+    category: .Net
+    language: C#
+    ai_category: ""
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse .NET Core driver is a .NET Core driver for ClickHouse
+        in a form of ADO.NET DbProvider API. This driver supports all ADO.NET features
+        and includes support for binary protocol, compression, timezones, and most
+        ClickHouse column types.
+    created_at: 2023-05-01T23:28:01.064877+03:00
+    is_new: true
+  - name: Onelinerhub/onelinerhub
+    link: https://github.com/Onelinerhub/onelinerhub
+    description: Thousands of code solutions with clear explanation @ onelinerhub.com
+    ignore: true
+    ignore_reason: only part
+    category: ""
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 0.9
+    ai_description: Onelinerhub is a PHP library that provides well explained and
+        minimalistic code solutions for repeatable coding problems. It follows the
+        principles of simplicity, modernity and minimalism. The library is open for
+        contribution and welcomes pull requests from contributors who can add/update
+        new tech code pieces which they find useful.
+    created_at: 2023-05-01T21:41:34.053976+03:00
+    is_new: true
+  - name: PNixx/clickhouse-activerecord
+    link: https://github.com/PNixx/clickhouse-activerecord
+    description: A Ruby database ActiveRecord driver for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Ruby
+    language: Ruby
+    ai_category: Ruby
+    ai_category_confidence: 0.95
+    ai_description: |-
+        A Ruby database ActiveRecord driver for ClickHouse. Support Rails >= 5.2.
+        Support ClickHouse version from 20.9 LTS.
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: Percona-Lab/PromHouse
+    link: https://github.com/Percona-Lab/PromHouse
+    description: PromHouse is a long-term remote storage with built-in clustering
+        and downsampling for Prometheus 2.x on top of ClickHouse.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: PromHouse is a long-term remote storage with built-in clustering
+        and downsampling for Prometheus 2.x on top of ClickHouse.
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: Percona-Lab/clickhousedb_fdw
+    link: https://github.com/Percona-Lab/clickhousedb_fdw
+    description: PostgreSQL's Foreign Data Wrapper For ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: C
+    ai_category: C++
+    ai_category_confidence: 0.85
+    ai_description: PostgreSQL's Foreign Data Wrapper For ClickHouse
+    created_at: 2023-05-01T21:36:04.145248+03:00
+    is_new: true
+  - name: QuantumFluxx/karpov_courses
+    link: https://github.com/QuantumFluxx/karpov_courses
+    description: "\U0001F433 Проектная деятельность. Здесь хранятся лекции, практические
+        задания и проекты с karpov_courses. Ссылка:  https://karpov.courses/"
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Jupyter Notebook
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:03.437795+03:00
+    is_new: true
+  - name: Slach/clickhouse-flamegraph
+    link: https://github.com/Slach/clickhouse-flamegraph
+    description: CLI utility for build flamegraph based on system.trace_log
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: CLI utility for building a flamegraph based on system.trace_log
+        in ClickHouse
+    created_at: 2023-05-01T21:36:04.14525+03:00
+    is_new: true
+  - name: Swetrix/swetrix-api
+    link: https://github.com/Swetrix/swetrix-api
+    description: Swetrix Analytics API
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Swetrix Analytics API is a JavaScript or Typescript library or
+        sdk for selfhosting aimed at providing analytics solutions. It also provides
+        instructions for development and production deployments.
+    created_at: 2023-05-01T23:28:03.437793+03:00
+    is_new: true
+  - name: Telegram
+    link: https://t.me/clickhouse_ru
+    description: russian
+    ignore: false
+    ignore_reason: ""
+    category: Social
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T22:53:14.996665+03:00
+    is_new: true
+  - name: Tencent/APIJSON
+    link: https://github.com/Tencent/APIJSON
+    description: "\U0001F3C6 零代码、全功能、强安全 ORM 库 \U0001F680 后端接口和文档零代码，前端(客户端) 定制返回
+        JSON 的数据和结构。 \U0001F3C6 A JSON Transmission Protocol and an ORM Library \U0001F680
+        \ provides APIs and Docs without writing any code."
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: TimonKK/clickhouse
+    link: https://github.com/TimonKK/clickhouse
+    description: NodeJS client for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Node.js
+    language: JavaScript
+    ai_category: Node.js
+    ai_category_confidence: 0.9
+    ai_description: NodeJS client for ClickHouse. Send query over HTTP interface.
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: Twitter
+    link: https://twitter.com/ClickHouseDB
+    description: english
+    ignore: false
+    ignore_reason: ""
+    category: Social
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T22:53:57.926325+03:00
+    is_new: true
+  - name: VKCOM/lighthouse
+    link: https://github.com/VKCOM/lighthouse
+    description: Lightweight interface for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: JavaScript
+    ai_category: GUI
+    ai_category_confidence: 0.9
+    ai_description: LightHouse is a lightweight GUI interface for ClickHouse. Interface
+        is inspired by Sequel Pro.
+    created_at: 2023-05-01T21:13:08.610152+03:00
+    is_new: true
+  - name: VaBezruchko/spark-clickhouse-connector
+    link: https://github.com/VaBezruchko/spark-clickhouse-connector
+    description: Spark Clickhouse Connector
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.95
+    ai_description: Package for integration between Yandex Clickhouse and Apache Spark.
+        Allows to execute SQL queries, filter rows, manage partition granularity,
+        provide failover and data locality, load-balancing, cluster auto-discovery,
+        and throttle consuming database resources.
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: WeiYe-Jing/datax-web
+    link: https://github.com/WeiYe-Jing/datax-web
+    description: DataX集成可视化页面，选择数据源即可一键生成数据同步任务，支持RDBMS、Hive、HBase、ClickHouse、MongoDB等数据源，批量创建RDBMS数据同步任务，集成开源调度系统，支持分布式、增量同步数据、实时查看运行日志、监控执行器资源、KILL运行进程、数据源信息加密等。
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053976+03:00
+    is_new: true
+  - name: akpaevj/OneSTools.EventLog
+    link: https://github.com/akpaevj/OneSTools.EventLog
+    description: Библиотеки и готовые инструменты для чтения и экспорта журнала регистрации
+        1С в ClickHouse и ElasticSearch
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: C#
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:03.43778+03:00
+    is_new: true
+  - name: akvorado/akvorado
+    link: https://github.com/akvorado/akvorado
+    description: Flow collector, enricher and visualizer
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: A flow collector, enricher and visualizer that receives flows
+        (currently Netflow/IPFIX and sFlow), enriches them with interface names (using
+        SNMP), geo information (using MaxMind), and exports them to Kafka, then ClickHouse.
+        It also exposes a web interface to browse the collected data.
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: alldatacenter/alldata
+    link: https://github.com/alldatacenter/alldata
+    description: "\U0001F525\U0001F525 AllData通过汇聚大数据与AI领域生态组件,提供细分领域数字化解决方案:大数据生态方案,人工智能生态方案,大数据组件运维方案,大数据开发治理方案,机器学习方案,大数据SQL开发ChatGPT方案,数据集成方案,湖仓分析方案
+        AllData provides segmented digital solutions by bringing together ecological
+        components in the field of big data and AI. The most important documents:
+        https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo "
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-06-10T19:24:43.309412+03:00
+    is_new: true
+  - name: amacneil/dbmate
+    link: https://github.com/amacneil/dbmate
+    description: ':rocket: A lightweight, framework-agnostic database migration tool.'
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.95
+    ai_description: Dbmate is a database migration tool that will keep your database
+        schema in sync across multiple developers and your production servers. It
+        is a standalone command line tool that can be used with Go, Node.js, Python,
+        Ruby, PHP, or any other language or framework you are using to write database-backed
+        applications. This is especially helpful if you are writing multiple services
+        in different languages, and want to maintain some sanity with consistent development
+        tools.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: apla/node-clickhouse
+    link: https://github.com/apla/node-clickhouse
+    description: Yandex ClickHouse driver for nodejs
+    ignore: false
+    ignore_reason: ""
+    category: Node.js
+    language: JavaScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 1
+    ai_description: Yandex ClickHouse driver for nodejs Simple and powerful interface
+        for ClickHouse
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: archan937/clickhouse
+    link: https://github.com/archan937/clickhouse
+    description: A Ruby database driver for Clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Ruby
+    language: JavaScript
+    ai_category: Ruby
+    ai_category_confidence: 0.9
+    ai_description: A Ruby database driver for ClickHouse (also Clickhouse CLI and
+        web GUI included).
+    created_at: 2023-05-01T23:28:01.064846+03:00
+    is_new: true
+  - name: artpaul/clickhouse-cpp
+    link: https://github.com/artpaul/clickhouse-cpp
+    description: ClickHouse C++ client library
+    ignore: false
+    ignore_reason: ""
+    category: C++
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse C++ client library
+    created_at: 2023-05-01T23:28:01.064848+03:00
+    is_new: true
+  - name: auxten/chdb
+    link: https://github.com/auxten/chdb
+    description: chDB is an embedded SQL Engine powered by ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 1
+    ai_description: chDB is an embedded SQL OLAP Engine powered by ClickHouse
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: balance-platform/pillar
+    link: https://github.com/balance-platform/pillar
+    description: Elixir library client for work with ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Elixir
+    language: Elixir
+    ai_category: Elixir
+    ai_category_confidence: 0.98
+    ai_description: Elixir client for ClickHouse, a fast open-source Online Analytical
+        Processing (OLAP) database management system.
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: blynkkk/clickhouse4j
+    link: https://github.com/blynkkk/clickhouse4j
+    description: Lighter and faster alternative for the official ClickHouse JDBC driver
+    ignore: false
+    ignore_reason: ""
+    category: Java
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: clickhouse4j - lighter and faster alternative for the official
+        ClickHouse JDBC driver
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: brokercap/Bifrost
+    link: https://github.com/brokercap/Bifrost
+    description: Bifrost ---- 面向生产环境的 MySQL,MariaDB,kafka 同步到Redis,MongoDB,ClickHouse等服务的异构中间件
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Go
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: bryzgaloff/airflow-clickhouse-plugin
+    link: https://github.com/bryzgaloff/airflow-clickhouse-plugin
+    description: "The most popular ClickHouse plugin for Airflow. \U0001F51D Top-1%
+        downloads on PyPI: https://pypi.org/project/airflow-clickhouse-plugin! Based
+        on mymarilyn/clickhouse-driver."
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: The most popular ClickHouse plugin for Airflow. Provides `ClickHouseOperator`,
+        `ClickHouseHook` and `ClickHouseSqlSensor` based on `mymarilyn/clickhouse-driver`.
+    created_at: 2023-05-01T23:28:01.064878+03:00
+    is_new: true
+  - name: burningalchemist/sql_exporter
+    link: https://github.com/burningalchemist/sql_exporter
+    description: Database agnostic SQL exporter for Prometheus
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Database agnostic SQL exporter for Prometheus
+    created_at: 2023-05-01T21:41:34.053972+03:00
+    is_new: true
+  - name: bytebase/bytebase
+    link: https://github.com/bytebase/bytebase
+    description: Database CI/CD for DevOps teams. https://www.bytebase.com
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Database CI/CD for DevOps teams. https://www.bytebase.com
+    created_at: 2023-05-01T21:41:34.053971+03:00
+    is_new: true
+  - name: bytedance/Jeddak-DPSQL
+    link: https://github.com/bytedance/Jeddak-DPSQL
+    description: 'DPSQL (Privacy Protection SQL Query Service) - This project is a
+        microservice Middleware located between the database engine ( Hive , Clickhouse
+        , etc.) and the application system. It provides transparent SQL query result
+        desensitization capabilities. '
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: DPSQL (Privacy Protection SQL Query Service) - This project is
+        a microservice Middleware located between the database engine ( Hive , Clickhouse
+        , etc.) and the application system. It provides transparent SQL query result
+        desensitization capabilities.
+    created_at: 2023-06-10T19:24:43.309422+03:00
+    is_new: true
+  - name: carrotquest/django-clickhouse
+    link: https://github.com/carrotquest/django-clickhouse
+    description: This project's goal is to build Yandex ClickHouse database into Django
+        project.
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: The project aims to integrate Yandex Clickhouse database into
+        Django projects.
+    created_at: 2023-05-01T23:28:01.064877+03:00
+    is_new: true
+  - name: chdb-io/chdb
+    link: https://github.com/chdb-io/chdb
+    description: chDB is an embedded SQL Engine powered by ClickHouse
+    ignore: true
+    ignore_reason: app
+    category: ""
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.9
+    ai_description: chDB is an embedded SQL OLAP Engine powered by ClickHouse
+    created_at: 2023-05-13T21:37:22.73553+03:00
+    is_new: true
+  - name: childe/gohangout
+    link: https://github.com/childe/gohangout
+    description: 使用 golang 模仿的 Logstash。用于消费 Kafka 数据，处理后写入 ES、Clickhouse 等。
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Go
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: cirosantilli/china-dictatorhsip-6
+    link: https://github.com/cirosantilli/china-dictatorhsip-6
+    description: 反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship
+        的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功
+        996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name
+        on account, please don't star t
+    ignore: true
+    ignore_reason: spam
+    category: ""
+    language: HTML
+    ai_category: Other sdk/libraries
+    ai_category_confidence: 0.9
+    ai_description: This is a backup repository of the China Dictatorship propaganda,
+        aimed at opposing the Chinese government. It contains FAQs, news compilations,
+        and recommendations on restaurants and music along with anti-government propaganda.
+        It is advised not to star the repository if you are a resident in mainland
+        China with a real name or Chinese email provider due to possible risks. The
+        README is too large and has been cut by GitHub, but can be viewed in full
+        at the canonical link https://cirosantilli.com/china-dictatorship.
+    created_at: 2023-05-01T23:28:03.437796+03:00
+    is_new: true
+  - name: cirosantilli/china-dictatorship
+    link: https://github.com/cirosantilli/china-dictatorship
+    description: 反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功
+        996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name
+        on account, please don't star this repo, or else the police might pay you
+        a visit.  Home to the meg
+    ignore: true
+    ignore_reason: spam
+    category: ""
+    language: HTML
+    ai_category: Other sdk/libraries
+    ai_category_confidence: 0.9
+    ai_description: This is a repository for anti-Chinese government propaganda, including
+        FAQs, news compilations, and recommendations for restaurants and music. It
+        also includes a warning to users in China with real-name accounts or Chinese
+        email providers to not star the repo, and to create anonymous accounts with
+        non-Chinese email providers and VPNs/Tor/Shadowsocks. The repo is primarily
+        in HTML and contains links to mirrors, including those that are blocked in
+        China. There is also an 'About' section outlining the goals of the repository.
+    created_at: 2023-05-01T22:04:27.172426+03:00
+    is_new: true
+  - name: clickhouse-cli
+    link: https://clickhouse.yandex/docs/en/interfaces/cli/
+    description: Built-in CLI client
+    ignore: false
+    ignore_reason: ""
+    category: CLI
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:56:20.951461+03:00
+    is_new: true
+  - name: clickhouse-copier
+    link: https://clickhouse.yandex/docs/en/operations/utils/clickhouse-copier/
+    description: Copies (and reshards) data from one cluster to another cluster
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:54:22.516631+03:00
+    is_new: true
+  - name: clickhouse-elixir/clickhouse_ecto
+    link: https://github.com/clickhouse-elixir/clickhouse_ecto
+    description: Ecto adapter for ClickHouse database
+    ignore: false
+    ignore_reason: ""
+    category: Elixir
+    language: Elixir
+    ai_category: Elixir
+    ai_category_confidence: 0.9
+    ai_description: Ecto adapter for ClickHouse database
+    created_at: 2023-05-01T23:28:01.064877+03:00
+    is_new: true
+  - name: clickhouse-elixir/clickhousex
+    link: https://github.com/clickhouse-elixir/clickhousex
+    description: Elixir lib to work with ClickHouse database
+    ignore: false
+    ignore_reason: ""
+    category: Elixir
+    language: Elixir
+    ai_category: Elixir
+    ai_category_confidence: 0.95
+    ai_description: ClickHouse database driver to connect with Elixir application
+        by HTTP interface.
+    created_at: 2023-05-01T23:28:01.064849+03:00
+    is_new: true
+  - name: clickhouse-local
+    link: https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/
+    description: Allows running SQL queries on data without stopping the ClickHouse
+        server, similar to how awk does this
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:54:49.028731+03:00
+    is_new: true
+  - name: clickvisual/clickvisual
+    link: https://github.com/clickvisual/clickvisual
+    description: A lightweight log analytic and data visualize platform  built on
+        clickhouse.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: ClickVisual is a lightweight browser-based logs analytics and
+        logs search platform for ClickHouse. It supports visual query dashboard, query
+        histogram, and raw logs for SQL.
+    created_at: 2023-05-01T21:36:04.14525+03:00
+    is_new: true
+  - name: cloudflare/flow-pipeline
+    link: https://github.com/cloudflare/flow-pipeline
+    description: A set of tools and examples to run a flow-pipeline (sFlow, NetFlow)
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.95
+    ai_description: A set of tools and examples for GoFlow, a NetFlow/IPFIX/sFlow
+        collector by Cloudflare
+    created_at: 2023-05-01T21:41:32.883921+03:00
+    is_new: true
+  - name: cloudflare/sqlalchemy-clickhouse
+    link: https://github.com/cloudflare/sqlalchemy-clickhouse
+    description: ""
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.95
+    ai_description: ClickHouse dialect for SQLAlchemy.
+    created_at: 2023-05-01T21:13:08.610144+03:00
+    is_new: true
+  - name: copybird/copybird
+    link: https://github.com/copybird/copybird
+    description: Cloud-native universal backup tool for databases and files
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Cloud-native universal backup tool for databases and files
+    created_at: 2023-05-01T23:28:03.437795+03:00
+    is_new: true
+  - name: crobox/clickhouse-scala-client
+    link: https://github.com/crobox/clickhouse-scala-client
+    description: Clickhouse Scala Client with Reactive Streams support
+    ignore: false
+    ignore_reason: ""
+    category: Scala
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.9
+    ai_description: Clickhouse Scala Client that uses Akka Http to create a reactive
+        streams implementation to access the Clickhouse database in a reactive way.
+    created_at: 2023-05-01T21:36:04.14525+03:00
+    is_new: true
+  - name: cyber-drop/ethereum_analytical_db
+    link: https://github.com/cyber-drop/ethereum_analytical_db
+    description: ' Ethereum Analytical Database - Ethereum data access solution that
+        can be used for analytics and application development. The solution works
+        on a fast DB - Clickhouse.'
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: HTML
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Ethereum data access solution that can be used for analytics and
+        application development that works on a fast DB - Clickhouse.
+    created_at: 2023-05-01T23:28:03.437792+03:00
+    is_new: true
+  - name: datainsider-co/rocket-bi
+    link: https://github.com/datainsider-co/rocket-bi
+    description: A free, open-source,  web-based self-service BI tailor-made for clickhouse
+    ignore: true
+    ignore_reason: app
+    category: ""
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.95
+    ai_description: Rocket BI is a web-based, self-service BI tool that is tailor-made
+        for ClickHouse. It is a free and open-source Scala library/sdk that allows
+        users to analyze, visualize, and collaborate with their friends. Rocket BI
+        offers a drag-and-drop chart builder and ad-hoc query tool that utilizes SQL
+        for complex analysis. The Rocket BI library can be run locally via Docker
+        images and requires Java 8, Maven 3, MySQL 5.7, and SSDB 1.9.9. Documentation
+        is available at https://docs.datainsider.co/rocket-bi/.
+    created_at: 2023-05-13T21:37:25.231424+03:00
+    is_new: true
+  - name: delium/clickhouse-migrator
+    link: https://github.com/delium/clickhouse-migrator
+    description: Easy data migrator to robust clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Clickhouse migrator is a Python library that helps with data migration
+        to Clickhouse database
+    created_at: 2023-05-01T23:28:03.437783+03:00
+    is_new: true
+  - name: dotnetcore/FreeSql
+    link: https://github.com/dotnetcore/FreeSql
+    description: "\U0001F984 .NET orm, C# orm, VB.NET orm, Mysql orm, Postgresql orm,
+        SqlServer orm, Oracle orm, Sqlite orm, Firebird orm, 达梦 orm, 人大金仓 orm, 神通
+        orm, 翰高 orm, 南大通用 orm, 虚谷 orm, 国产 orm, Clickhouse orm, QuestDB orm, MsAccess
+        orm."
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: C#
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: droher/boxball
+    link: https://github.com/droher/boxball
+    description: Prebuilt Docker images with Retrosheet's complete baseball history
+        data for many analytical frameworks. Includes Postgres, cstore_fdw, MySQL,
+        SQLite, Clickhouse, Drill, Parquet, and CSV.
+    ignore: false
+    ignore_reason: ""
+    category: Examples
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Prebuilt Docker images with Retrosheet's complete baseball history
+        data for many analytical frameworks. Includes Postgres, cstore_fdw, MySQL,
+        SQLite, Clickhouse, Drill, Parquet, and CSV.
+    created_at: 2023-05-01T23:28:03.43779+03:00
+    is_new: true
+  - name: easysql/easy_sql
+    link: https://github.com/easysql/easy_sql
+    description: A library developed to ease the data ETL development process.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Easy SQL is built to ease the data ETL development process. With
+        Easy SQL, you can develop your ETL in SQL in an imperative way. It defines
+        a few simple syntax on top of standard SQL, with which SQL could be executed
+        one by one. Easy SQL also provides a processor to handle all the new syntax.
+        Since this is SQL agnostic, any SQL engine could be plugged-in as a backend.
+        There are built-in support for several popular SQL engines, including SparkSQL,
+        PostgreSQL, Clickhouse, FlinkSQL, Aliyun Maxcompute, Google BigQuery. More
+        will be added in the near future.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: fancyChuan/bigdata-hub
+    link: https://github.com/fancyChuan/bigdata-hub
+    description: 数据建设与大数据技术知识体系，包含hadoop、hive、spark、flink主流框架和系列框架，数据中台、数据湖、数据治理、数仓建设、数据化转型等
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:03.437794+03:00
+    is_new: true
+  - name: flant/loghouse
+    link: https://github.com/flant/loghouse
+    description: Ready to use log management solution for Kubernetes storing data
+        in ClickHouse and providing web UI.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Ruby
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: Ready to use log management solution for Kubernetes storing data
+        in ClickHouse and providing web UI.
+    created_at: 2023-05-01T21:40:15.403799+03:00
+    is_new: true
+  - name: geekyouth/SZT-bigdata
+    link: https://github.com/geekyouth/SZT-bigdata
+    description: "深圳地铁大数据客流分析系统\U0001F687\U0001F684\U0001F31F"
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Scala
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053971+03:00
+    is_new: true
+  - name: gege-circle/home
+    link: https://github.com/gege-circle/home
+    description: !!binary |
+        6L+Z6YeM5pivR2l0SHVi55qE6I2J5Zy677yM5Lmf5piv5oiI5oiI5ZyI54ix5aW96ICF55
+        qE5Lqk5rWB5Zyw77yM5Li76KaB6K6o6K665Yqo5ryr44CB5ri45oiP44CB56eR5oqA44CB
+        5Lq65paH44CB55Sf5rS7562J5omA5pyJ6K+d6aKY77yM5qyi6L+O5ZCE5L2N5bCP5LyZ5L
+        y05Lus5Zyo5q2k6K6o6K666Laj5LqL44CCVGhpcyBpcyBHaXRIdWIgZ3Jhc3NsYW5kLCBh
+        bmQgdGhlIGNvbW11bml0eSBwbGFjZSBmb3IgR2VnZSBjaXJjbGUgbG92ZXJzLCBtYWlubH
+        kgZGlzY3Vzc2VzIGFuaW1lLCBnYW1lcywgdGVjaG5vbG9neSwgbGlmaW5nIGFuZCBvdGhl
+        ciB0b3BpY3MuIFlvdSBhcmUgd2VsY29tZSB0byBzaGFyZSBpbnRlcmVzdCB0aGluZ3MgaG
+        VyZS4gIOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOA
+        gOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgO
+        OAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOOAgOM=
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T22:00:58.6959+03:00
+    is_new: true
+  - name: gmmstrive/flink-connector-clickhouse
+    link: https://github.com/gmmstrive/flink-connector-clickhouse
+    description: flink sql connector clickhouse zeppelin
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:01.064877+03:00
+    is_new: true
+  - name: go-graphite/carbon-clickhouse
+    link: https://github.com/go-graphite/carbon-clickhouse
+    description: Graphite metrics receiver with ClickHouse as storage
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Graphite metrics receiver with ClickHouse as storage
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: go-graphite/graphite-clickhouse
+    link: https://github.com/go-graphite/graphite-clickhouse
+    description: Graphite cluster backend with ClickHouse support
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Graphite cluster backend with ClickHouse support
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: gohouse/gorose
+    link: https://github.com/gohouse/gorose
+    description: 'GoRose(go orm), a mini database ORM for golang, which inspired by
+        the famous php framwork laravle''s eloquent. It will be friendly for php developer
+        and python or ruby developer. Currently provides six major database drivers:
+        mysql,sqlite3,postgres,oracle,mssql, Clickhouse.'
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Go
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.883921+03:00
+    is_new: true
+  - name: grafana/clickhouse-datasource
+    link: https://github.com/grafana/clickhouse-datasource
+    description: Grafana Plugin for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Grafana plugin for querying and visualizing ClickHouse data within
+        Grafana
+    created_at: 2023-05-01T23:28:01.064877+03:00
+    is_new: true
+  - name: growthbook/growthbook
+    link: https://github.com/growthbook/growthbook
+    description: Open Source Feature Flagging and A/B Testing Platform
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Open Source Feature Flagging and A/B Testing Platform
+    created_at: 2023-05-01T21:41:34.053972+03:00
+    is_new: true
+  - name: hatarist/clickhouse-cli
+    link: https://github.com/hatarist/clickhouse-cli
+    description: A third-party client for the Clickhouse DBMS server.
+    ignore: false
+    ignore_reason: ""
+    category: CLI
+    language: Python
+    ai_category: CLI
+    ai_category_confidence: 0.85
+    ai_description: A third-party client for the Clickhouse DBMS server that works
+        over the HTTP port and implements common and PostgreSQL-like commands. It
+        provides autocompletion, syntax highlighting, multiquery and multiline modes,
+        and pager support for the data output.
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: hhyo/Archery
+    link: https://github.com/hhyo/Archery
+    description: SQL 审核查询平台
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Python
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: housepower/ClickHouse-Native-JDBC
+    link: https://github.com/housepower/ClickHouse-Native-JDBC
+    description: ClickHouse Native Protocol JDBC implementation
+    ignore: false
+    ignore_reason: ""
+    category: Java
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse Native Protocol JDBC implementation
+    created_at: 2023-05-01T21:13:08.610144+03:00
+    is_new: true
+  - name: housepower/ckman
+    link: https://github.com/housepower/ckman
+    description: This is a tool which used to manage and monitor ClickHouse database
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: ckman is a tool used to manage and monitor ClickHouse database.
+    created_at: 2023-05-01T21:13:08.610152+03:00
+    is_new: true
+  - name: housepower/clickhouse_sinker
+    link: https://github.com/housepower/clickhouse_sinker
+    description: Easily load data  from kafka to ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: clickhouse_sinker is a sinker program that transfer kafka message
+        into ClickHouse. Refers to docs to see how it works.
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: housepower/spark-clickhouse-connector
+    link: https://github.com/housepower/spark-clickhouse-connector
+    description: Spark ClickHouse Connector build on DataSourceV2 API
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Scala
+    ai_category: Scala
+    ai_category_confidence: 0.95
+    ai_description: Spark ClickHouse Connector build on DataSourceV2 API
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: huangfox/dpkb
+    link: https://github.com/huangfox/dpkb
+    description: 大数据相关内容汇总，包括分布式存储引擎、分布式计算引擎、数仓建设等。关键词：Hadoop、HBase、ES、Kudu、Hive、Presto、Spark、Flink、Kylin、ClickHouse
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053977+03:00
+    is_new: true
+  - name: ibis-project/ibis
+    link: https://github.com/ibis-project/ibis
+    description: The flexibility of Python with the scale and performance of modern
+        SQL.
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.95
+    ai_description: Ibis is a Python library that provides a lightweight, universal
+        interface for data wrangling. It helps Python users explore and transform
+        data of any size, stored anywhere.
+    created_at: 2023-05-01T21:41:34.053972+03:00
+    is_new: true
+  - name: ildus/clickhouse_fdw
+    link: https://github.com/ildus/clickhouse_fdw
+    description: ClickHouse FDW for PostgreSQL
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.9
+    ai_description: clickhouse_fdw is a Foreign Data Wrapper (FDW) for `ClickHouse`
+        column oriented database, written in C++.
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: ilyabreev/ClickHouse.Net
+    link: https://github.com/ilyabreev/ClickHouse.Net
+    description: netcore abstractions and helpers for Clickhouse.Ado
+    ignore: false
+    ignore_reason: ""
+    category: .Net
+    language: C#
+    ai_category: .Net
+    ai_category_confidence: 1
+    ai_description: netcore abstractions and helpers for Clickhouse.Ado
+    created_at: 2023-05-01T23:28:03.437779+03:00
+    is_new: true
+  - name: inkeio/dbm
+    link: https://github.com/inkeio/dbm
+    description: Full platform database management tool, supports ClickHouse, Presto,
+        Trino, MySQL, PostgreSQL, Apache Druid, ElasticSearch...
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: TypeScript
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: DBM is an open source database management system supporting various
+        platforms such as ClickHouse, Presto, Trino, MySQL, PostgreSQL, Apache Druid,
+        and ElasticSearch. It can query data from any SQL-speaking datastore or data
+        engine.
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: itinycheng/flink-connector-clickhouse
+    link: https://github.com/itinycheng/flink-connector-clickhouse
+    description: Flink SQL connector for ClickHouse. Support ClickHouseCatalog and
+        read/write primary data, maps, arrays to clickhouse.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.9
+    ai_description: Flink SQL connector for ClickHouse. Support ClickHouseCatalog
+        and read/write primary data, maps, arrays to clickhouse.
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: ivi-ru/flink-clickhouse-sink
+    link: https://github.com/ivi-ru/flink-clickhouse-sink
+    description: Flink sink for Clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 0.95
+    ai_description: 'Flink sink for Clickhouse powered by Async Http Client that provides
+        high-performance loading of data to ClickHouse. Supports two triggers for
+        data loading: by timeout and by buffer size. Example usage and configuration
+        provided in the description.'
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: jacklon/bi_development_source_code
+    link: https://github.com/jacklon/bi_development_source_code
+    description: 传统大数据分析工具以Hadoop、Spark为代表，集成了大量的技术框架， 对用户来说又重又笨又不灵活，难以维护和驾驭，国际和国内的敏捷型BI工具在对接时又面临性能、友好性、定制化能力弱的缺点。本项目独辟蹊径，以阿里开源的DataX为ETL工具，以列式数据库ClickHouse做为中间数据存储源，通过视图关联构建大数据集，解决亿万级数据的即时分析性能，再辅以强大的数据可视化
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-13T21:37:25.231448+03:00
+    is_new: true
+  - name: jaegertracing/jaeger-clickhouse
+    link: https://github.com/jaegertracing/jaeger-clickhouse
+    description: Jaeger ClickHouse storage plugin implementation
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Jaeger ClickHouse storage plugin implementation
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: jaykelin/clickhouse-hdfs-loader
+    link: https://github.com/jaykelin/clickhouse-hdfs-loader
+    description: 'loading hdfs data to clickhouse '
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:01.064876+03:00
+    is_new: true
+  - name: jitsucom/jitsu
+    link: https://github.com/jitsucom/jitsu
+    description: Jitsu is an open-source Segment alternative. Fully-scriptable data
+        ingestion engine for modern data teams. Set-up a real-time data pipeline in
+        minutes, not days
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Jitsu is an open-source Segment alternative. Fully-scriptable
+        data ingestion engine for modern data teams. Set-up a real-time data pipeline
+        in minutes, not days
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: jneo8/clickhouse-setup
+    link: https://github.com/jneo8/clickhouse-setup
+    description: Tutorial for setup clickhouse server.
+    ignore: false
+    ignore_reason: ""
+    category: Documentation
+    language: Makefile
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: Github repository jneo8/clickhouse-setup is a tutorial for setting
+        up Clickhouse server with Docker and creating a cluster with shards and replica
+        servers using ReplicatedMergeTree & Distributed table.
+    created_at: 2023-05-01T21:13:08.610151+03:00
+    is_new: true
+  - name: justwatchcom/sql_exporter
+    link: https://github.com/justwatchcom/sql_exporter
+    description: Flexible SQL Exporter for Prometheus.
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Flexible SQL Exporter for Prometheus.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: killwort/ClickHouse-Net
+    link: https://github.com/killwort/ClickHouse-Net
+    description: Yandex ClickHouse fully managed .NET client
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: C#
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: knadh/sql-jobber
+    link: https://github.com/knadh/sql-jobber
+    description: A highly opinionated, distributed job-queue built specifically for
+        queuing and executing heavy SQL read jobs asynchronously. Supports MySQL,
+        Postgres, ClickHouse.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: A distributed job-queue built specifically for queuing and executing
+        heavy SQL read jobs asynchronously, written in Go.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: korchasa/awesome-clickhouse
+    link: https://github.com/korchasa/awesome-clickhouse
+    description: A curated list of awesome ClickHouse software.
+    ignore: true
+    ignore_reason: self
+    category: ""
+    language: Shell
+    ai_category: Documentation
+    ai_category_confidence: 0.9
+    ai_description: A curated list of awesome ClickHouse software. Contains links
+        to official docs, changelog and presentations, as well as various language
+        bindings and drivers.
+    created_at: 2023-05-01T23:28:03.437779+03:00
+    is_new: true
+  - name: kszucs/pandahouse
+    link: https://github.com/kszucs/pandahouse
+    description: Pandas interface for Clickhouse database
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: Pandas interface for Clickhouse database
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: larsnovikov/horgh-replicator
+    link: https://github.com/larsnovikov/horgh-replicator
+    description: Golang binlog replication from MySQL to MySQL, PostgreSQL, Vertica,
+        Clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Golang binlog replication from MySQL to MySQL, PostgreSQL, Vertica,
+        Clickhouse
+    created_at: 2023-06-10T19:24:43.309396+03:00
+    is_new: true
+  - name: lizhichao/one-ck
+    link: https://github.com/lizhichao/one-ck
+    description: php tcp client for clickhouse
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: PHP
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
+  - name: long2ice/asynch
+    link: https://github.com/long2ice/asynch
+    description: An asyncio ClickHouse Python Driver with native (TCP) interface support.
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: asynch is an asyncio ClickHouse Python Driver with native (TCP)
+        interface support
+    created_at: 2023-05-01T23:28:01.06488+03:00
+    is_new: true
+  - name: long2ice/synch
+    link: https://github.com/long2ice/synch
+    description: Sync data from the other DB to ClickHouse(cluster)
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.98
+    ai_description: Sync data from other DB to ClickHouse, current support postgres
+        and mysql, and support full and increment ETL.
+    created_at: 2023-05-01T21:36:04.145248+03:00
+    is_new: true
+  - name: loyd/clickhouse.rs
+    link: https://github.com/loyd/clickhouse.rs
+    description: A typed client for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Rust
+    language: Rust
+    ai_category: Rust
+    ai_category_confidence: 1
+    ai_description: A typed client for ClickHouse that uses serde for encoding/decoding
+        rows and RowBinary encoding. Supports HTTP and HTTPS. Provides multiple APIs
+        for selecting, inserting, and watching live views. Includes compression and
+        decompression functionalities.
+    created_at: 2023-05-01T21:13:08.610152+03:00
+    is_new: true
+  - name: mailru/go-clickhouse
+    link: https://github.com/mailru/go-clickhouse
+    description: Golang SQL database driver for Yandex ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Go SQL database driver for Yandex ClickHouse
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: maximdanilchenko/aiochclient
+    link: https://github.com/maximdanilchenko/aiochclient
+    description: Lightweight async http(s) ClickHouse client for python 3.6+ with
+        types converting
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 1
+    ai_description: Lightweight async http(s) ClickHouse client for python 3.6+ with
+        types converting
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: metrico/clickhouse-mate
+    link: https://github.com/metrico/clickhouse-mate
+    description: Advanced User-Interface for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: TypeScript
+    ai_category: GUI
+    ai_category_confidence: 0.9
+    ai_description: Advanced User-Interface for ClickHouse
+    created_at: 2023-05-01T23:28:03.437781+03:00
+    is_new: true
+  - name: metrico/qryn
+    link: https://github.com/metrico/qryn
+    description: qryn is a polyglot, high-performance observability stack. Ingest
+        and analyze logs, metrics and traces from any agent supporting Loki, Prometheus,
+        OTLP, Tempo, Elastic, InfluxDB and more! (formerly cLoki)
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: JavaScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: qryn is a polyglot, high-performance observability stack. Ingest
+        and analyze logs, metrics and traces from any agent supporting Loki, Prometheus,
+        OTLP, Tempo, Elastic, InfluxDB and more! (formerly cLoki)
+    created_at: 2023-05-01T21:41:34.053976+03:00
+    is_new: true
+  - name: mindis/prom2click
+    link: https://github.com/mindis/prom2click
+    description: 'Prometheus remote storage adaptor for Clickhouse '
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Prometheus remote storage adaptor for Clickhouse written in Golang.
+    created_at: 2023-05-01T21:36:04.145248+03:00
+    is_new: true
+  - name: mintance/nginx-clickhouse
+    link: https://github.com/mintance/nginx-clickhouse
+    description: Simple nginx logs parser & transporter to ClickHouse database.
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Simple nginx logs parser & transporter to ClickHouse database.
+    created_at: 2023-05-01T21:36:04.145248+03:00
+    is_new: true
+  - name: mlcraft-io/mlcraft
+    link: https://github.com/mlcraft-io/mlcraft
+    description: Low-code metrics store, modern open-source alternative to Looker
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: JavaScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: MLCraft is a low-code metrics layer and a modern open-source alternative
+        to Looker. It offers a new way of working with data through creating individual
+        dashboards for different roles and teams or stakeholder groups, and tracking
+        changes across multiple data sources with a unified dashboard. It is built
+        using Cube.js as a primary query layer and is suitable for handling trillions
+        of data points.
+    created_at: 2023-05-01T21:41:34.053976+03:00
+    is_new: true
+  - name: mprove-io/mprove
+    link: https://github.com/mprove-io/mprove
+    description: 'Open Source Self-service Business Intelligence with Version Control
+        :tada:'
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Open Source Self-service Business Intelligence with Version Control
+    created_at: 2023-05-01T21:41:32.883921+03:00
+    is_new: true
+  - name: mymarilyn/aioch
+    link: https://github.com/mymarilyn/aioch
+    description: ' aioch - is a library for accessing a ClickHouse database over native
+        interface from the asyncio'
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: aioch is a library for accessing a ClickHouse database over native
+        interface from the asyncio. It wraps features of clickhouse-driver for asynchronous
+        usage. The package can be installed using pip. For more information see clickhouse-driver
+        usage examples. aioch is distributed under the MIT license.
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: mymarilyn/clickhouse-driver
+    link: https://github.com/mymarilyn/clickhouse-driver
+    description: ClickHouse Python Driver with native interface support
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: ""
+    ai_category: Python
+    ai_category_confidence: 0.95
+    ai_description: ClickHouse Python Driver with native interface support
+    created_at: 2023-05-01T21:03:18.63532+03:00
+    is_new: true
+  - name: nauu/clickhousebook
+    link: https://github.com/nauu/clickhousebook
+    description: ClickHouse原理解析与应用实践
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: nikepan/clickhouse-bulk
+    link: https://github.com/nikepan/clickhouse-bulk
+    description: Collects many small inserts to ClickHouse and send in big inserts
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse insert collector in Go language that groups requests
+        and sends them to ClickHouse servers.
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: openblocks-dev/openblocks
+    link: https://github.com/openblocks-dev/openblocks
+    description: "\U0001F525 \U0001F525 \U0001F525 The Open Source Retool Alternative"
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Open source Retool alternative for creating internal or customer-facing
+        apps with an all-in-one IDE and domain-specific language for UI-configurable
+        blocks. Features a visual UI builder with 50+ built-in components, module
+        and query library, custom components, and native connections to various databases
+        and APIs. Supports JavaScript everywhere, role-based access control, auto-saved/restorable
+        history, DIY app themes, and audit logs. Can be self-hosted using Docker,
+        AWS AMI, or DigitalOcean. Supports contributions in language support, creating
+        and sharing components and demos, and frontend development.
+    created_at: 2023-05-01T21:41:34.053973+03:00
+    is_new: true
+  - name: openreplay/openreplay
+    link: https://github.com/openreplay/openreplay
+    description: ':tv: OpenReplay is developer-friendly, self-hosted session replay.'
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: OpenReplay is a self-hosted session replay suite for developers
+        that lets you see what users do on your web app, helping you troubleshoot
+        issues faster. It's written in TypeScript.
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: pinba-server/pinba-server
+    link: https://github.com/pinba-server/pinba-server
+    description: simple and fast pinba server with storage in clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 0.9
+    ai_description: simple and fast pinba server with storage in clickhouse
+    created_at: 2023-05-01T23:28:03.437781+03:00
+    is_new: true
+  - name: plausible/analytics
+    link: https://github.com/plausible/analytics
+    description: Simple, open-source, lightweight (< 1 KB) and privacy-friendly web
+        analytics alternative to Google Analytics.
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: Elixir
+    ai_category: Elixir
+    ai_category_confidence: 0.8
+    ai_description: Plausible Analytics is a lightweight, open-source web analytics
+        tool for measuring website traffic. It is written in Elixir and is fully compliant
+        with GDPR, CCPA and PECR.
+    created_at: 2023-05-01T21:41:32.883921+03:00
+    is_new: true
+  - name: plutov/clickhouse-helm
+    link: https://github.com/plutov/clickhouse-helm
+    description: ClickHouse Helm Chart
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Dockerfile
+    ai_category: CLI
+    ai_category_confidence: 0.8
+    ai_description: A fully functioning replicated ClickHouse environment with CLI,
+        Graphite and Tabix UI included, implemented with Helm chart.
+    created_at: 2023-05-01T23:28:01.064875+03:00
+    is_new: true
+  - name: red-soft-ru/clickhouse-rpm
+    link: https://github.com/red-soft-ru/clickhouse-rpm
+    description: ClickHouse DBMS build script for RHEL based distributions
+    ignore: false
+    ignore_reason: ""
+    category: ODBC
+    language: Shell
+    ai_category: ODBC
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse DBMS build script for RHEL based distributions
+    created_at: 2023-05-01T23:28:01.064848+03:00
+    is_new: true
+  - name: roistat/go-clickhouse
+    link: https://github.com/roistat/go-clickhouse
+    description: Golang ClickHouse connector
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Golang Yandex ClickHouse connector
+    created_at: 2023-05-01T21:13:08.610152+03:00
+    is_new: true
+  - name: sagframe/sagacity-sqltoy
+    link: https://github.com/sagframe/sagacity-sqltoy
+    description: Java真正智慧的ORM框架，除具有JPA功能外，具有最佳的sql编写模式、独创的缓存翻译、最优化的分页、并提供分组汇总、同比环比、行列转换、树形排序汇总、多数据库适配(oracle\mysql\sqlserver\postgresql\sqlite\db2\clickhouse\starrocks\greenplum\dm\kingbase\elasticsearch\mongodb\tidb等)、分库分表、多租户、数据加解密、脱敏等痛点问题的解决方案!
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053977+03:00
+    is_new: true
+  - name: sanchezzzhak/kak-clickhouse
+    link: https://github.com/sanchezzzhak/kak-clickhouse
+    description: Yii2 ext. ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: PHP
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 1
+    ai_description: Yii2 ext. ClickHouse
+    created_at: 2023-05-01T23:28:01.064874+03:00
+    is_new: true
+  - name: shlima/click_house
+    link: https://github.com/shlima/click_house
+    description: Modern Ruby database driver for ClickHouse
+    ignore: false
+    ignore_reason: ""
+    category: Ruby
+    language: Ruby
+    ai_category: Ruby
+    ai_category_confidence: 0.95
+    ai_description: A modern Ruby database driver for ClickHouse. ClickHouse is a
+        high-performance column-oriented database management system developed by Yandex
+        which operates Russia's most popular search engine
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: smi2/clickhouse-frontend
+    link: https://github.com/smi2/clickhouse-frontend
+    description: Project rename TABIX, this repo depreciation see https://tabix.io/doc/
+        https://github.com/smi2/tabix.ui
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: JavaScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: This project is a JavaScript library for ClickHouse data visualization.
+        The repository has been renamed to TABIX, and this repository is now deprecated.
+        Further development will be continued in a new repository - https://github.com/smi2/tabix.ui.
+        More information about the project is available at https://tabix.io/doc/.
+    created_at: 2023-05-01T21:13:08.610152+03:00
+    is_new: true
+  - name: smi2/phpClickHouse
+    link: https://github.com/smi2/phpClickHouse
+    description: php ClickHouse wrapper
+    ignore: false
+    ignore_reason: ""
+    category: PHP
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 0.9
+    ai_description: php ClickHouse wrapper
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: sqlchat/sqlchat
+    link: https://github.com/sqlchat/sqlchat
+    description: Chat-based SQL Client and Editor for the next decade
+    ignore: false
+    ignore_reason: ""
+    category: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
+    language: TypeScript
+    ai_category: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
+    ai_category_confidence: 0.9
+    ai_description: Chat-based SQL Client and Editor for the next decade
+    created_at: 2023-05-01T21:41:34.053975+03:00
+    is_new: true
+  - name: sqlpad/sqlpad
+    link: https://github.com/sqlpad/sqlpad
+    description: Web-based SQL editor. Legacy project in maintenance mode.
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: JavaScript
+    ai_category: ""
+    ai_category_confidence: 0.9
+    ai_description: SQLPad is a web app for writing and running SQL queries and visualizing
+        the results. It supports multiple databases via ODBC.
+    created_at: 2023-05-01T22:00:57.659123+03:00
+    is_new: true
+  - name: subzerocloud/showcase
+    link: https://github.com/subzerocloud/showcase
+    description: REST api for your database (PostgreSQL/Sqlite/ClickHouse/MySQL).
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: TypeScript
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: subZero is a TypeScript library implemented in Rust with JS/TypeScript
+        bindings that allows developers to implement their own customizable backend
+        APIs on top of any supported database. This repository contains showcases
+        of the functionality and versatility of the subZero codebase, including examples
+        of PostgREST compatible APIs for PostgreSQL, SQLite, MySQL, and ClickHouse
+        databases. The library provides complete CRUD functionality out of the box
+        and is extensible for adding custom functionality and business logic.
+    created_at: 2023-05-01T21:41:34.053974+03:00
+    is_new: true
+  - name: suharev7/clickhouse-rs
+    link: https://github.com/suharev7/clickhouse-rs
+    description: Asynchronous ClickHouse client library for Rust programming language.
+    ignore: false
+    ignore_reason: ""
+    category: Rust
+    language: Rust
+    ai_category: Rust
+    ai_category_confidence: 0.98
+    ai_description: Asynchronous ClickHouse client library for Rust programming language.
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: tabixio/tabix
+    link: https://github.com/tabixio/tabix
+    description: Tabix.io UI
+    ignore: false
+    ignore_reason: ""
+    category: GUI
+    language: TypeScript
+    ai_category: GUI
+    ai_category_confidence: 0.95
+    ai_description: Open source simple business intelligence application and sql editor
+        tool for Clickhouse.
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: tetafro/clickhouse-cluster
+    link: https://github.com/tetafro/clickhouse-cluster
+    description: Simple clickhouse cluster with docker-compose
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Makefile
+    ai_category: Ops
+    ai_category_confidence: 0.9
+    ai_description: A simple clickhouse cluster with docker-compose
+    created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: the-tinderbox/ClickhouseBuilder
+    link: https://github.com/the-tinderbox/ClickhouseBuilder
+    description: Fluent queries builder for Clickhouse. Also has integration with
+        Laravel / Lumen.
+    ignore: false
+    ignore_reason: ""
+    category: PHP
+    language: PHP
+    ai_category: PHP
+    ai_category_confidence: 0.95
+    ai_description: Fluent queries builder for Clickhouse. Also has integration with
+        Laravel / Lumen.
+    created_at: 2023-05-01T21:13:08.610143+03:00
+    is_new: true
+  - name: tlhhup/litemall-dw
+    link: https://github.com/tlhhup/litemall-dw
+    description: 基于开源Litemall电商项目的大数据项目，包含前端埋点(openresty+lua)、后端埋点；数据仓库(五层)、实时计算和用户画像。大数据平台采用CDH6.3.2(已使用vagrant+ansible脚本化)，同时也包含了Azkaban的workflow。
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:03.437795+03:00
+    is_new: true
+  - name: tobymao/sqlglot
+    link: https://github.com/tobymao/sqlglot
+    description: Python SQL Parser and Transpiler
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: SQL parser, transpiler, optimizer, and engine
+    created_at: 2023-05-01T21:41:34.053973+03:00
+    is_new: true
+  - name: toddwschneider/nyc-taxi-data
+    link: https://github.com/toddwschneider/nyc-taxi-data
+    description: Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip data
+        into a PostgreSQL or ClickHouse database
+    ignore: false
+    ignore_reason: ""
+    category: Examples
+    language: R
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: 'Import public NYC taxi and for-hire vehicle (Uber, Lyft) trip
+        data into a PostgreSQL or ClickHouse database. Scripts to download, process,
+        and analyze data from 3+ billion taxi and for-hire vehicle (Uber, Lyft, etc.)
+        trips originating in New York City since 2009. '
+    created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: trickstercache/trickster
+    link: https://github.com/trickstercache/trickster
+    description: Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Trickster is an HTTP reverse proxy/cache for http applications
+        and a dashboard query accelerator for time series databases, written in Go.
+    created_at: 2023-05-01T21:41:32.883921+03:00
+    is_new: true
+  - name: uber/storagetapper
+    link: https://github.com/uber/storagetapper
+    description: StorageTapper is a scalable realtime MySQL change data streaming,
+        logical backup and logical replication service
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: StorageTapper is a scalable realtime MySQL change data streaming,
+        logical backup and logical replication service, written in Go.
+    created_at: 2023-05-01T21:41:34.053975+03:00
+    is_new: true
+  - name: uptrace/go-clickhouse
+    link: https://github.com/uptrace/go-clickhouse
+    description: Golang ClickHouse client
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: 'Golang ClickHouse client. ClickHouse client for Go 1.18+. This
+        ClickHouse client uses native protocol to communicate with ClickHouse server
+        and requires Go 1.18+ in order to use generics. This is not a database/sql
+        driver, but the API is compatible. Main features are: ClickHouse native protocol
+        support and efficient column-oriented design.API compatible with database/sql.[Bun](https://github.com/uptrace/bun/)-like
+        query builder.'
+    created_at: 2023-05-01T21:36:04.145249+03:00
+    is_new: true
+  - name: uptrace/uptrace
+    link: https://github.com/uptrace/uptrace
+    description: 'Open source APM: OpenTelemetry traces, metrics, and logs'
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: Vue
+    ai_category: JavaScript/Typescript
+    ai_category_confidence: 0.9
+    ai_description: Open source APM tool that supports distributed tracing, metrics,
+        and logs
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: vahid-sohrabloo/chconn
+    link: https://github.com/vahid-sohrabloo/chconn
+    description: Low-level ClickHouse database driver for Golang
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: chconn is a low-level ClickHouse database driver for Golang with
+        a connection pool.
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: wgzhao/Addax
+    link: https://github.com/wgzhao/Addax
+    description: Addax is a versatile open-source ETL tool that can seamlessly transfer
+        data between various RDBMS and NoSQL databases, making it an ideal solution
+        for data migration.
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: Java
+    ai_category: Java
+    ai_category_confidence: 1
+    ai_description: Addax is a versatile open-source ETL tool that can seamlessly
+        transfer data between various RDBMS and NoSQL databases, making it an ideal
+        solution for data migration.
+    created_at: 2023-05-01T21:41:34.053974+03:00
+    is_new: true
+  - name: x-ream/sqli
+    link: https://github.com/x-ream/sqli
+    description: orm sql interface, Criteria, CriteriaBuilder, ResultMapBuilder
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.883918+03:00
+    is_new: true
+  - name: xzkostyan/clickhouse-sqlalchemy
+    link: https://github.com/xzkostyan/clickhouse-sqlalchemy
+    description: ClickHouse dialect for SQLAlchemy
+    ignore: false
+    ignore_reason: ""
+    category: Python
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse dialect for SQLAlchemy to ClickHouse database
+    created_at: 2023-05-01T21:13:08.610144+03:00
+    is_new: true
+  - name: young-datafan-ooooo1/sqlbuilder
+    link: https://github.com/young-datafan-ooooo1/sqlbuilder
+    description: 通用的sql构建包，目前支持（mysql、oracle、postgresql、sqlserver、Clickhouse）的大部分函数，以及多表关联。
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053969+03:00
+    is_new: true
+  - name: ysc/data-generator
+    link: https://github.com/ysc/data-generator
+    description: ' 如果你在从事大数据BI的工作，想对比一下MySQL、GreenPlum、Elasticsearch、Hive、Spark SQL、Presto、Impala、Drill、HAWQ、Druid、Pinot、Kylin、ClickHouse、Kudu等不同实现方案之间的表现，那你就需要一份标准的数据进行测试，这个开源项目就是为了生成这样的标准数据。'
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:34.053977+03:00
+    is_new: true
+  - name: ytsaurus/ytsaurus
+    link: https://github.com/ytsaurus/ytsaurus
+    description: YTsaurus is a scalable and fault-tolerant open-source big data platform.
+    ignore: true
+    ignore_reason: based-on
+    category: ""
+    language: C++
+    ai_category: C++
+    ai_category_confidence: 0.95
+    ai_description: YTsaurus is a scalable and fault-tolerant open-source big data
+        platform built with C++ that supports MapReduce model, a distributed file
+        system and a NoSQL key-value database. It also includes an expansive MapReduce
+        module, distributed ACID transactions, a variety of SDKs and APIs, and a user-friendly
+        UI.
+    created_at: 2023-05-01T21:41:32.88392+03:00
+    is_new: true
+  - name: yymysql/mysql-clickhouse-replication
+    link: https://github.com/yymysql/mysql-clickhouse-replication
+    description: 用于从mysql增量同步数据到clickhouse
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Python
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T23:28:01.064875+03:00
+    is_new: true
+  - name: zeromicro/cds
+    link: https://github.com/zeromicro/cds
+    description: Data syncing in golang for ClickHouse.
+    ignore: false
+    ignore_reason: ""
+    category: Golang
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Data syncing in golang for ClickHouse.
+    created_at: 2023-05-01T21:13:08.610145+03:00
+    is_new: true
+  - name: zhisheng17/flink-learning
+    link: https://github.com/zhisheng17/flink-learning
+    description: flink learning blog. http://www.54tianzhisheng.cn/  含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及
+        Flink Connector、Metrics、Library、DataStream API、Table API & SQL 等内容的学习案例，还有
+        Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。欢迎大家支持我的专栏《大数据实时计算引擎 Flink 实战与性能优化》
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: Java
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-05-01T21:41:32.883919+03:00
+    is_new: true
+  - name: zlzforever/ClickHouseMigrator
+    link: https://github.com/zlzforever/ClickHouseMigrator
+    description: Help to migrate data to ClickHouse, create database and table auto.
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: C#
+    ai_category: .Net
+    ai_category_confidence: 0.9
+    ai_description: ClickHouse database migration tool written in C# for .NET 5.0.
+    created_at: 2023-05-01T23:28:01.064879+03:00
+    is_new: true
