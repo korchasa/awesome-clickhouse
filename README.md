@@ -178,6 +178,7 @@ Support ClickHouse version from 20.9 LTS.
 - [akvorado/akvorado](https://github.com/akvorado/akvorado) - A flow collector, enricher and visualizer that receives flows (currently Netflow/IPFIX and sFlow), enriches them with interface names (using SNMP), geo information (using MaxMind), and exports them to Kafka, then ClickHouse. It also exposes a web interface to browse the collected data.
 - [auxten/chdb](https://github.com/auxten/chdb) - chDB is an embedded SQL OLAP Engine powered by ClickHouse
 - [bryzgaloff/airflow-clickhouse-plugin](https://github.com/bryzgaloff/airflow-clickhouse-plugin) - The most popular ClickHouse plugin for Airflow. Provides `ClickHouseOperator`, `ClickHouseHook` and `ClickHouseSqlSensor` based on `mymarilyn/clickhouse-driver`.
+- [bytedance/Jeddak-DPSQL](https://github.com/bytedance/Jeddak-DPSQL) - DPSQL (Privacy Protection SQL Query Service) - This project is a microservice Middleware located between the database engine ( Hive , Clickhouse , etc.) and the application system. It provides transparent SQL query result desensitization capabilities.
 - [clickvisual/clickvisual](https://github.com/clickvisual/clickvisual) - ClickVisual is a lightweight browser-based logs analytics and logs search platform for ClickHouse. It supports visual query dashboard, query histogram, and raw logs for SQL.
 - [cloudflare/flow-pipeline](https://github.com/cloudflare/flow-pipeline) - A set of tools and examples for GoFlow, a NetFlow/IPFIX/sFlow collector by Cloudflare
 - [cyber-drop/ethereum_analytical_db](https://github.com/cyber-drop/ethereum_analytical_db) - Ethereum data access solution that can be used for analytics and application development that works on a fast DB - Clickhouse.
@@ -193,6 +194,7 @@ Support ClickHouse version from 20.9 LTS.
 - [jaegertracing/jaeger-clickhouse](https://github.com/jaegertracing/jaeger-clickhouse) - Jaeger ClickHouse storage plugin implementation
 - [jitsucom/jitsu](https://github.com/jitsucom/jitsu) - Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days
 - [knadh/sql-jobber](https://github.com/knadh/sql-jobber) - A distributed job-queue built specifically for queuing and executing heavy SQL read jobs asynchronously, written in Go.
+- [larsnovikov/horgh-replicator](https://github.com/larsnovikov/horgh-replicator) - Golang binlog replication from MySQL to MySQL, PostgreSQL, Vertica, Clickhouse
 - [mindis/prom2click](https://github.com/mindis/prom2click) - Prometheus remote storage adaptor for Clickhouse written in Golang.
 - [mintance/nginx-clickhouse](https://github.com/mintance/nginx-clickhouse) - Simple nginx logs parser & transporter to ClickHouse database.
 - [mlcraft-io/mlcraft](https://github.com/mlcraft-io/mlcraft) - MLCraft is a low-code metrics layer and a modern open-source alternative to Looker. It offers a new way of working with data through creating individual dashboards for different roles and teams or stakeholder groups, and tracking changes across multiple data sources with a unified dashboard. It is built using Cube.js as a primary query layer and is suitable for handling trillions of data points.
@@ -203,6 +205,7 @@ Support ClickHouse version from 20.9 LTS.
 
 - [AlexAkulov/clickhouse-backup](https://github.com/AlexAkulov/clickhouse-backup) - Tool for easy ClickHouse backup and restore with cloud storages support
 - [AlexeySetevoi/ansible-clickhouse](https://github.com/AlexeySetevoi/ansible-clickhouse) - ansible role for clickhouse
+- [Altinity/clickhouse-backup](https://github.com/Altinity/clickhouse-backup) - Tool for easy ClickHouse backup and restore with cloud storages support
 - [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) - The Altinity Operator for ClickHouse creates, configures and manages ClickHouse clusters running on Kubernetes
 - [ClickHouse/clickhouse_exporter](https://github.com/ClickHouse/clickhouse_exporter) - This is a simple server that periodically scrapes ClickHouse stats and exports them via HTTP for Prometheus consumption.
 - [Slach/clickhouse-flamegraph](https://github.com/Slach/clickhouse-flamegraph) - CLI utility for building a flamegraph based on system.trace_log in ClickHouse

@@ -1,5 +1,5 @@
-updated_at: 2023-05-13T21:38:29.976357+03:00
-readme_generated_at: 2023-05-13T21:38:57.713335+03:00
+updated_at: 2023-06-10T19:26:08.999541+03:00
+readme_generated_at: 2023-06-10T19:26:30.868789+03:00
 items:
   - name: 8bitov/clickhouse-php-client
     link: https://github.com/8bitov/clickhouse-php-client
@@ -65,6 +65,19 @@ items:
     ai_category_confidence: 0.9
     ai_description: ansible role for clickhouse
     created_at: 2023-05-01T21:13:08.610146+03:00
+    is_new: true
+  - name: Altinity/clickhouse-backup
+    link: https://github.com/Altinity/clickhouse-backup
+    description: Tool for easy ClickHouse backup and restore with cloud storages support
+    ignore: false
+    ignore_reason: ""
+    category: Ops
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 1
+    ai_description: Tool for easy ClickHouse backup and restore with cloud storages
+        support
+    created_at: 2023-06-10T19:24:40.801566+03:00
     is_new: true
   - name: Altinity/clickhouse-grafana
     link: https://github.com/Altinity/clickhouse-grafana
@@ -797,6 +810,21 @@ items:
         It also exposes a web interface to browse the collected data.
     created_at: 2023-05-01T21:41:32.883919+03:00
     is_new: true
+  - name: alldatacenter/alldata
+    link: https://github.com/alldatacenter/alldata
+    description: "\U0001F525\U0001F525 AllData通过汇聚大数据与AI领域生态组件,提供细分领域数字化解决方案:大数据生态方案,人工智能生态方案,大数据组件运维方案,大数据开发治理方案,机器学习方案,大数据SQL开发ChatGPT方案,数据集成方案,湖仓分析方案
+        AllData provides segmented digital solutions by bringing together ecological
+        components in the field of big data and AI. The most important documents:
+        https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo "
+    ignore: true
+    ignore_reason: not-english
+    category: ""
+    language: ""
+    ai_category: ""
+    ai_category_confidence: 0
+    ai_description: ""
+    created_at: 2023-06-10T19:24:43.309412+03:00
+    is_new: true
   - name: amacneil/dbmate
     link: https://github.com/amacneil/dbmate
     description: ':rocket: A lightweight, framework-agnostic database migration tool.'
@@ -941,6 +969,24 @@ items:
     ai_category_confidence: 0.9
     ai_description: Database CI/CD for DevOps teams. https://www.bytebase.com
     created_at: 2023-05-01T21:41:34.053971+03:00
+    is_new: true
+  - name: bytedance/Jeddak-DPSQL
+    link: https://github.com/bytedance/Jeddak-DPSQL
+    description: 'DPSQL (Privacy Protection SQL Query Service) - This project is a
+        microservice Middleware located between the database engine ( Hive , Clickhouse
+        , etc.) and the application system. It provides transparent SQL query result
+        desensitization capabilities. '
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Python
+    ai_category: Python
+    ai_category_confidence: 0.9
+    ai_description: DPSQL (Privacy Protection SQL Query Service) - This project is
+        a microservice Middleware located between the database engine ( Hive , Clickhouse
+        , etc.) and the application system. It provides transparent SQL query result
+        desensitization capabilities.
+    created_at: 2023-06-10T19:24:43.309422+03:00
     is_new: true
   - name: carrotquest/django-clickhouse
     link: https://github.com/carrotquest/django-clickhouse
@@ -1684,6 +1730,20 @@ items:
     ai_category_confidence: 0.9
     ai_description: Pandas interface for Clickhouse database
     created_at: 2023-05-01T21:13:08.61015+03:00
+    is_new: true
+  - name: larsnovikov/horgh-replicator
+    link: https://github.com/larsnovikov/horgh-replicator
+    description: Golang binlog replication from MySQL to MySQL, PostgreSQL, Vertica,
+        Clickhouse
+    ignore: false
+    ignore_reason: ""
+    category: Integrations
+    language: Go
+    ai_category: Golang
+    ai_category_confidence: 0.9
+    ai_description: Golang binlog replication from MySQL to MySQL, PostgreSQL, Vertica,
+        Clickhouse
+    created_at: 2023-06-10T19:24:43.309396+03:00
     is_new: true
   - name: lizhichao/one-ck
     link: https://github.com/lizhichao/one-ck
