@@ -225,6 +225,7 @@ Support ClickHouse version from 20.9 LTS.
 - [tetafro/clickhouse-cluster](https://github.com/tetafro/clickhouse-cluster) - A simple clickhouse cluster with docker-compose
 - [trickstercache/trickster](https://github.com/trickstercache/trickster) - Trickster is an HTTP reverse proxy/cache for http applications and a dashboard query accelerator for time series databases, written in Go.
 - [zlzforever/ClickHouseMigrator](https://github.com/zlzforever/ClickHouseMigrator) - ClickHouse database migration tool written in C# for .NET 5.0.
+- [blackrez/clickgis](https://github.com/blackrez/clickgis) - Geo (like in GIS) functions for clickhouse.
 
 ## Examples
 
