@@ -1,9 +1,36 @@
+{{- define "CategoryTOC" -}}
+{{- range . }}
+{{- $indent := mul .Depth 4 }}{{- printf "%*s" $indent "" }}- [{{ .Title }}](#{{ anchor .Title}}) {{ if .Items -}}({{ len .Items }}){{- end }}
+{{ if .Categories -}}
+{{ template "CategoryTOC" .Categories }}
+{{- end -}}
+{{ end -}}
+{{- end -}}
+
+{{- define "CategoryView" -}}
+{{- range . }}
+##{{- repeat .Depth "#" }} {{ .Title }}
+{{ if .Items -}}
+{{- range .Items }}
+- [{{ .Name }}]({{ .Link }}) - {{ .AISummary }}
+{{- end }}
+{{- end }}
+{{ if .Categories -}}
+{{ template "CategoryView" .Categories }}
+{{- end -}}
+{{ end -}}
+{{- end -}}
+
 # Awesome ClickHouse
+
+> **Note:** This repository contains an *automatically compiled* list of resources, tools, and information related to ClickHouse.
 
 A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse) software.
 
-{{body}}
+{{ template "CategoryTOC" .Categories }}
 
-== License
+{{ template "CategoryView" .Categories }}
+
+## License
 
 https://creativecommons.org/publicdomain/zero/1.0/[image:http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg[CC0]]
