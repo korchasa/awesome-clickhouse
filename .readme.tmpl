@@ -12,7 +12,7 @@
 ##{{- repeat .Depth "#" }} {{ .Title }}
 {{ if .Items -}}
 {{- range .Items }}
-- [{{ .Name }}]({{ .Link }}) - {{ .AISummary }}
+- [{{ .Name }}]({{ .Link }}) - {{ .Summary }}
 {{- end }}
 {{- end }}
 {{ if .Categories -}}
