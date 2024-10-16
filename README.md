@@ -27,7 +27,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [CLI](#cli) (5)
     - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (3)
 - [Integrations](#integrations) 
-    - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (34)
+    - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (35)
     - [Metrics and Monitoring](#metrics-and-monitoring) (5)
     - [Deployment and Management Tools](#deployment-and-management-tools) (29)
     - [Data Visualization and Analysis](#data-visualization-and-analysis) (13)
@@ -220,6 +220,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 - [Altinity/clickhouse-backup](https://github.com/Altinity/clickhouse-backup) - Altinity/clickhouse-backup is a utility for easy backup and restore of ClickHouse databases with support for various storage types.
 - [Altinity/clickhouse-sink-connector](https://github.com/Altinity/clickhouse-sink-connector) - The Altinity Sink Connector automates data transfer from MySQL and PostgreSQL to ClickHouse for efficient analysis.
+- [ClickHouse/clickpy](https://github.com/ClickHouse/clickpy) - ClickPy is a real-time analytics service for PyPI package downloads powered by ClickHouse.
 - [Percona-Lab/PromHouse](https://github.com/Percona-Lab/PromHouse) - PromHouse is a Go-based long-term remote storage solution for time series data, built on ClickHouse, featuring clustering and downsampling capabilities.
 - [QuesmaOrg/quesma](https://github.com/QuesmaOrg/quesma) - Quesma is a programmable database gateway that allows seamless query translation and migration between modern database platforms.
 - [akvorado/akvorado](https://github.com/akvorado/akvorado) - Akvorado is a flow collector, enricher, and visualizer that processes network flows and provides a web interface for data browsing.

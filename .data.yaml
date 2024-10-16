@@ -43,7 +43,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: Dockerfile
-      tags: clickhouse, clickhouse-server, csv, data-analysis, data-loading, data-visualization, database, database-integration, dictionary-definitions, docker, docker-compose, dockerfile, geoip, geolite2, geolocation, geolocation-capabilities, integration, maxmind, maxmind-geoip, maxmind-geoip2-api, queries, query-examples, schema, statistics
+      tags: clickhouse, clickhouse-server, maxmind, maxmind-geoip, maxmind-geoip2-api
     - name: AlexeySetevoi/ansible-clickhouse
       link: https://github.com/AlexeySetevoi/ansible-clickhouse
       description: This project provides an Ansible role that facilitates the deployment and management of ClickHouse server instances. Users can customize configurations such as version, ports, user management, and quotas through easily defined variables. The role supports creating custom profiles, managing databases, and integrating with external services like Kafka and LDAP. It aims to simplify the process of setting up and maintaining ClickHouse environments for users.
@@ -65,7 +65,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: altinity, backup, clickhouse, clickhouse-backup, clickhousedump, cloud-storage, data-movement, database, databases, dump, go, golang, incremental-backups, restore, s3, synchronization, utility
+      tags: backup, clickhouse, clickhouse-backup, clickhousedump, dump, s3
     - name: Altinity/clickhouse-grafana
       link: https://github.com/Altinity/clickhouse-grafana
       description: The Altinity ClickHouse datasource plugin enables users to connect Grafana with ClickHouse, allowing for effective data visualization. It supports various features such as raw SQL editing, query setup, and macros, enhancing the user experience when working with ClickHouse data. The plugin is maintained by Altinity and provides compatibility with multiple versions of Grafana. Users can easily install the plugin and configure it to access ClickHouse via HTTP/HTTPS, making it a valuable tool for data analysts and developers.
@@ -76,7 +76,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: ""
-      tags: alerts, altinity, analytics, annotations, chproxy, clickhouse, clickhouse-datasource, configuration, data-analysis, data-visualization, datasource, datasource-plugin, features, grafana, http, https, integration, macros, plugin, query-setup, setup, sql, sql-editor, visualization, visualization-tools
+      tags: clickhouse, clickhouse-datasource, grafana
     - name: Altinity/clickhouse-mysql-data-reader
       link: https://github.com/Altinity/clickhouse-mysql-data-reader
       description: This project is a Python library that facilitates the reading of data from MySQL databases and its subsequent transfer into ClickHouse. It provides users with the necessary tools to efficiently move data between these two database systems. The library includes a manual and usage examples to assist users in implementing the data transfer process. This makes it a valuable resource for developers looking to integrate MySQL with ClickHouse for data analysis and reporting purposes.
@@ -87,7 +87,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, data-processing, data-reader, data-transfer, etl, integration, library, migration, mysql, python
+      tags: clickhouse, migration, mysql
     - name: Altinity/clickhouse-operator
       link: https://github.com/Altinity/clickhouse-operator
       description: The Altinity Kubernetes Operator for ClickHouse is a tool that facilitates the management of ClickHouse clusters on Kubernetes. It allows users to create and configure clusters as custom resources, manage ClickHouse configurations, and handle user management. The operator supports scaling, version upgrades, and integrates with Prometheus for metrics monitoring. This project is essential for users looking to deploy ClickHouse in a Kubernetes environment efficiently.
@@ -98,7 +98,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: ""
-      tags: clickhouse, clickhouse-operator, cluster-management, clusters, configuration, configuration-management, deployment, integration, kubernetes, kubernetes-operator, management, metrics, metrics-monitoring, monitoring, operator, prometheus, scaling, storage, upgrades, version-upgrades
+      tags: clickhouse, clickhouse-operator, kubernetes, kubernetes-operator
     - name: Altinity/clickhouse-rpm-install
       link: https://github.com/Altinity/clickhouse-rpm-install
       description: This project offers a detailed guide on how to install ClickHouse using RPM packages from Altinity's repositories. It includes instructions for both script-based and manual installation methods, catering to different user preferences. The documentation covers necessary dependencies, repository registration, and package installation steps for various operating systems, including CentOS and Amazon Linux. Overall, it serves as a valuable resource for system administrators looking to set up ClickHouse efficiently.
@@ -109,7 +109,7 @@ items:
       category: Documentation
       category_confidence: 0.95
       language: ""
-      tags: altinity, amazon-linux, centos, clickhouse, documentation, guide, install, installation, installation-guide, package-manager, rpm, system-administration, system-administrators
+      tags: clickhouse, install, rpm
     - name: Altinity/clickhouse-sink-connector
       link: https://github.com/Altinity/clickhouse-sink-connector
       description: The Altinity Sink Connector is designed to facilitate the automatic transfer of data from MySQL and PostgreSQL databases to ClickHouse for efficient analysis. It supports initial data dumps, change data capture, and can handle schema changes automatically. The connector can operate in different deployment models, including lightweight and Kafka-based setups, making it scalable for various use cases. Additionally, it provides features like checksum-based table comparisons and recovery from failures, ensuring reliable data synchronization.
@@ -120,7 +120,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Roff
-      tags: analytics, automation, avro, cdc, change-data-capture, clickhouse, connector, data-integration, data-transfer, debezium, debian, docker, integration, kafka, kafka-connect, mongo, mysql, postgresql, replication, scalable, sink-connector, sqlserver, synchronization
+      tags: avro, cdc, clickhouse, debezium, kafka, kafka-connect, mongo, mysql, postgresql, replication, sqlserver
     - name: AutohomeCorp/frostmourne
       link: https://github.com/AutohomeCorp/frostmourne
       description: ""
@@ -175,7 +175,7 @@ items:
       category: Golang
       category_confidence: 0.95
       language: Go
-      tags: binary, clickhouse, compression, data-streaming, database, driver, go, golang, low-level-client, low-overhead, olap, open-telemetry, performance, protocol, protocol-implementation, tcp-client
+      tags: binary, clickhouse, driver, go, golang, protocol
     - name: ClickHouse/clickhouse-connect
       link: https://github.com/ClickHouse/clickhouse-connect
       description: ClickHouse Connect is a high-performance Python library that facilitates the connection between ClickHouse and various data manipulation tools such as Pandas and Superset. It supports data structures like Pandas DataFrames, Numpy Arrays, and PyArrow Tables, making it versatile for data analysis tasks. The library also includes a minimal SQLAlchemy implementation for compatibility with Superset, although it lacks ORM features. Additionally, it provides async support for use in asyncio environments, enhancing its usability in modern Python applications.
@@ -186,7 +186,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: async, clickhouse, data-manipulation, database-driver, library, pandas, python, sqlalchemy, superset
+      tags: clickhouse, python
     - name: ClickHouse/clickhouse-cpp
       link: https://github.com/ClickHouse/clickhouse-cpp
       description: ClickHouse/clickhouse-cpp is a C++ client library that allows developers to connect to and interact with ClickHouse databases. It supports various data types and provides functionalities for creating tables, inserting data, and executing queries. The library is built with C++17 and requires CMake for building applications that utilize it. Additionally, it includes examples and guidelines for integrating the library into other C++ projects, making it a useful tool for developers working with ClickHouse.
@@ -197,7 +197,7 @@ items:
       category: C++
       category_confidence: 0.95
       language: C++
-      tags: asynchronous-inserts, building, c++, clickhouse, client, client-library, cmake, connection, cpp, data-types, database, insertions, integration, library, queries, sdk, thread-safety
+      tags: clickhouse, cpp
     - name: ClickHouse/clickhouse-docs
       link: https://github.com/ClickHouse/clickhouse-docs
       description: This repository manages the documentation for ClickHouse, an open-source column-oriented database management system. It provides resources and guidelines to help users effectively utilize ClickHouse for their projects and applications. The documentation is built using Docusaurus and is hosted on Vercel, allowing for easy access and contributions. Users can run a local copy of the documentation site to see changes before they are published, and contributions are encouraged through a structured process.
@@ -208,7 +208,7 @@ items:
       category: Documentation
       category_confidence: 0.95
       language: JavaScript
-      tags: analytical-reports, analytics, clickhouse, database, documentation, docusaurus, guide, guidelines, javascript, markdown, open-source, real-time-data, resources, vercel
+      tags: clickhouse, documentation, guide
     - name: ClickHouse/clickhouse-go
       link: https://github.com/ClickHouse/clickhouse-go
       description: ClickHouse/go is a Golang SQL database client that provides a native protocol interface for interacting with ClickHouse databases. It supports advanced query features and optimizes performance through the use of ClickHouse's native format. The client includes functionalities such as connection pooling, failover, load balancing, and bulk write support. Additionally, it offers compatibility with the standard database/sql interface, making it versatile for various use cases.
@@ -219,7 +219,7 @@ items:
       category: Golang
       category_confidence: 0.95
       language: ""
-      tags: advanced-query-features, analytics-database, async-inserts, bulk-write-support, clickhouse, compression, connection-pooling, database, database-client, golang, golang-driver, load-balancing, native-protocol, query-features, query-parameters, sql, sql-client, sql-database-client
+      tags: analytics-database, clickhouse, database, golang, golang-driver, sql
     - name: ClickHouse/clickhouse-java
       link: https://github.com/ClickHouse/clickhouse-java
       description: This project provides an official Java Client and JDBC Driver for the ClickHouse database, allowing developers to interact with the database using Java. The project includes two versions of the client, with the newer version (client-v2) offering a stable API and improved performance features. It supports various functionalities such as SSL, HTTP protocol, and the ability to insert data using POJOs. The documentation provides examples and installation instructions, making it easy for developers to integrate it into their applications.
@@ -230,7 +230,7 @@ items:
       category: Java
       category_confidence: 0.95
       language: ""
-      tags: api, clickhouse, client, client-v2, data-insertion, database, database-interaction, driver, http, insert-api, integration, java, java-client, jdbc, jdbc-driver, performance, performance-improvements, query-api, ssl, ssl-support
+      tags: clickhouse, java-client, jdbc, jdbc-driver
     - name: ClickHouse/clickhouse-jdbc-bridge
       link: https://github.com/ClickHouse/clickhouse-jdbc-bridge
       description: ClickHouse JDBC Bridge is a tool that enables executing distributed queries across multiple external data sources using ClickHouse. It acts as a stateless proxy, allowing users to run distributed queries in real-time across various data sources. The project includes experimental codes and is no longer supported, which may lead to reliability and security vulnerabilities. Users can set it up using Docker, Debian/RPM packages, or Java CLI, making it versatile for different environments.
@@ -241,7 +241,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: Java
-      tags: bridge, clickhouse, clickhouse-jdbc-bridge, data-pipelines, data-sources, data-warehousing, distributed-queries, experimental, experimental-code, external-data-sources, external-database, java, jdbc, monitoring, proxy, queries
+      tags: clickhouse, clickhouse-jdbc-bridge, external-database
     - name: ClickHouse/clickhouse-js
       link: https://github.com/ClickHouse/clickhouse-js
       description: 'The ClickHouse JS client is an official TypeScript library for interacting with ClickHouse databases, supporting both Node.js and web applications. It includes three packages: one for Node.js that utilizes HTTP and Stream APIs, another for web applications using Fetch and Web Streams, and a common package for shared types. The library is designed to handle streaming for both selects and inserts, making it versatile for various use cases. Comprehensive documentation and usage examples are provided to assist developers in integrating the client into their applications.'
@@ -252,7 +252,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.95
       language: TypeScript
-      tags: clickhouse, client, client-library, http, https, javascript, js-client, library, node.js, nodejs, sdk, streaming, streaming-capabilities, typescript, web, web-applications
+      tags: clickhouse, http, https, javascript, nodejs, streaming, typescript
     - name: ClickHouse/clickhouse-kafka-connect
       link: https://github.com/ClickHouse/clickhouse-kafka-connect
       description: clickhouse-kafka-connect is a Java-based Kafka Connect sink connector that enables data delivery from Kafka topics to ClickHouse tables. It facilitates the integration of Kafka with ClickHouse, allowing users to efficiently transfer data. The connector supports exactly-once delivery semantics and provides transformation capabilities for Kafka message keys. Documentation is available for users to understand the design and configuration of the connector.
@@ -263,7 +263,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: Java
-      tags: clickhouse, connector, connector-configuration, data-delivery, documentation, integration, java, kafka, kafka-connect, sink, sink-connector, transformation
+      tags: clickhouse, kafka, kafka-connect, sink
     - name: ClickHouse/clickhouse-odbc
       link: https://github.com/ClickHouse/clickhouse-odbc
       description: This project provides an official ODBC driver for ClickHouse, allowing users to access ClickHouse as a data source across multiple platforms. It supports various configurations and is compatible with different ODBC driver managers such as MDAC, UnixODBC, and iODBC. The driver is tested against ClickHouse server version 21.3 and aims to facilitate seamless integration with applications that require ODBC access. Users can install pre-built binaries or build the driver from source if needed.
@@ -274,7 +274,7 @@ items:
       category: ODBC
       category_confidence: 0.9
       language: C++
-      tags: c++, clickhouse, configuration, data-source, database, database-connectivity, driver, installation, odbc, odbc-driver, troubleshooting
+      tags: clickhouse, odbc, odbc-driver
     - name: ClickHouse/clickhouse-presentations
       link: https://github.com/ClickHouse/clickhouse-presentations
       description: This project is a repository of presentation materials for ClickHouse, an open-source column-oriented database management system. It allows users to generate analytical data reports in real time. The presentations are available in HTML format and can be accessed through a specific link. This resource is valuable for users looking to understand and utilize ClickHouse effectively.
@@ -285,7 +285,7 @@ items:
       category: Documentation
       category_confidence: 0.9
       language: ""
-      tags: analytical-data-reports, analytics, clickhouse, database, database-management-system, documentation, guides, html-based-presentations, html-presentations, learning., materials, open-source, presentations, real-time-reporting., resources, slides
+      tags: clickhouse, presentations, slides
     - name: ClickHouse/clickhouse_exporter
       link: https://github.com/ClickHouse/clickhouse_exporter
       description: This project is a Go-based exporter that scrapes statistics from older versions of ClickHouse and exports them for Prometheus. It is designed specifically for older ClickHouse versions, as modern versions have an embedded Prometheus endpoint. The exporter runs as a server that periodically collects data and makes it available via HTTP. Users can configure it using environment variables for credentials and can also run it using Docker.
@@ -296,7 +296,7 @@ items:
       category: Metrics and Monitoring
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, dashboard, docker, exporter, go, grafana, http, metrics, monitoring, prometheus, stats
+      tags: clickhouse, exporter, prometheus, stats
     - name: ClickHouse/dbt-clickhouse
       link: https://github.com/ClickHouse/dbt-clickhouse
       description: This project is a Python plugin that integrates dbt functionality with ClickHouse, enabling advanced data modeling and analytics. It supports various materialization features such as table, view, and incremental materialization, along with dbt-utils macros. The plugin is designed for ClickHouse version 22.1 or newer and provides a simplified approach to database schema management. Users can install it via Python package managers and configure it for their specific ClickHouse settings.
@@ -307,7 +307,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: analytics, clickhouse, dababase, data-modeling, database, dbt, documentation, integration, materialization, plugin, python, testing
+      tags: clickhouse, dababase, dbt
     - name: ClickHouse/github-explorer
       link: https://github.com/ClickHouse/github-explorer
       description: This project offers a dataset derived from the GH Archive, containing all GitHub events since 2011 in a structured format. The dataset, which includes 3.1 billion records, is hosted on ClickHouse and is available for research purposes. Users can download the dataset and utilize it to answer various questions about GitHub, such as counting stars, analyzing repository growth, and understanding user interactions. The project serves as a valuable resource for researchers and analysts interested in GitHub data.
@@ -318,7 +318,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: HTML
-      tags: analysis, analytics, clickhouse, data, data-analysis, data-visualization, dataset, events, github, github-api, integration, metrics, olap, records, research, sql, statistics, structured-data, visualization
+      tags: analytics, clickhouse, github, github-api, olap, sql
     - name: ClickHouse/graphouse
       link: https://github.com/ClickHouse/graphouse
       description: Graphouse is a tool that allows users to utilize ClickHouse as a storage backend for Graphite metrics. It features a TCP server for receiving metrics via the Graphite plaintext protocol and provides HTTP APIs for metric search and data retrieval. Additionally, it includes an API for managing the metric tree. This integration enhances the capabilities of ClickHouse in handling time-series data, making it suitable for monitoring and metrics collection.
@@ -329,7 +329,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Java
-      tags: clickhouse, data-retrieval, graphite, graphite-backends, http-api, integration, java, metric-management, metrics, storage, tcp-server, time-series-data
+      tags: clickhouse, graphite, graphite-backends
     - name: ClickHouse/metabase-clickhouse-driver
       link: https://github.com/ClickHouse/metabase-clickhouse-driver
       description: This project is a ClickHouse driver designed specifically for Metabase, enabling seamless integration for data visualization and analysis. It supports various versions of ClickHouse and provides installation instructions for both JAR and Docker container setups. The driver allows users to connect Metabase with ClickHouse, enhancing the capabilities of Metabase as a business intelligence tool. Additionally, it includes features like connection impersonation and CSV uploads, tailored for ClickHouse Cloud.
@@ -340,7 +340,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.8
       language: Clojure
-      tags: analysis, analytics, bi-tools, business-intelligence, clickhouse, clojure, data-visualization, database-integration, docker, driver, integration, jdbc, metabase
+      tags: analytics, bi-tools, business-intelligence, clickhouse, metabase
     - name: ContentSquare/chproxy
       link: https://github.com/ContentSquare/chproxy
       description: Chproxy is an HTTP proxy and load balancer designed for the ClickHouse database. It serves as a tool to facilitate efficient communication with ClickHouse, enhancing performance and reliability. This open-source project is maintained by the community and provides full documentation on its official website. It is not an official ClickHouse project, but it aims to support users in deploying and managing ClickHouse effectively.
@@ -351,7 +351,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, clickhouse-proxy, community-project, database, go, go-programming-language, http-proxy, load-balancer, open-source, proxy
+      tags: clickhouse, clickhouse-proxy, load-balancer, proxy
     - name: DLuPan/DorisParser
       link: https://github.com/DLuPan/DorisParser
       description: ""
@@ -373,7 +373,7 @@ items:
       category: .Net
       category_confidence: 0.95
       language: C#
-      tags: .net, ado-net, ado.net, big-data, bulk-insertion, c#, clickhouse, client, database, dotnet, high-performance, library, relational-database, types
+      tags: ado-net, clickhouse, client, database, dotnet
     - name: DmitryBe/spark-clickhouse
       link: https://github.com/DmitryBe/spark-clickhouse
       description: This project is a Scala library that provides a connector for transferring data from Spark DataFrames to Yandex ClickHouse tables. It allows users to create databases and tables in ClickHouse directly from Spark, as well as save DataFrames to ClickHouse tables. The library includes examples of how to set up a Spark session, create a DataFrame, and configure ClickHouse parameters. Additionally, it provides a Docker image for easier deployment and usage.
@@ -384,7 +384,7 @@ items:
       category: Scala
       category_confidence: 0.9
       language: Scala
-      tags: clickhouse, connector, dataframe, dataframes, docker, library, scala, spark, yandex
+      tags: ""
     - name: DotNetNext/SqlSugar
       link: https://github.com/DotNetNext/SqlSugar
       description: SqlSugar is an open-source ORM framework for .NET that simplifies database management with features like low code, high performance, and multi-database compatibility. It supports various databases including MySQL, SQL Server, and PostgreSQL, making it versatile for different applications. The framework allows for zero SQL ORM table building and supports complex operations like cross-database queries and tenant data isolation. With its comprehensive features, SqlSugar is designed to handle large data sets efficiently and is suitable for both simple and complex applications.
@@ -395,7 +395,7 @@ items:
       category: C++
       category_confidence: 0.1
       language: C#
-      tags: .net, clickhouse, core, cross-database-query, crud, crud-operations, database, database-management, dynamic-queries, high-performance, low-code, multi-database, multi-database-compatibility, multi-tenant, mysql, open-source, oralce, orm, postgresql, questdb, sqlite, sqlsever, sqlsugar
+      tags: clickhouse, core, mysql, oralce, orm, postgresql, questdb, sqlite, sqlsever
     - name: EdurtIO/datacap
       link: https://github.com/EdurtIO/datacap
       description: ""
@@ -417,7 +417,7 @@ items:
       category: PHP
       category_confidence: 0.9
       language: PHP
-      tags: clickhouse, database, database-driver, dbal, doctrine, doctrine-dbal, doctrine-orm, doctrine2, doctrine4, driver, integration, library, management, php, symfony, system
+      tags: clickhouse, doctrine, doctrine-dbal, doctrine-orm, doctrine2, doctrine4, symfony
     - name: HouseOps/HouseOps
       link: https://github.com/HouseOps/HouseOps
       description: HouseOps is an enterprise UI for managing and monitoring ClickHouse database clusters, built with Electron and React. It allows users to run queries, monitor the health of ClickHouse, and perform various other tasks related to database management. The application is designed for ease of use and rapid application development, leveraging modern web technologies. HouseOps is also listed in the official ClickHouse documentation as a third-party tool, indicating its relevance and utility in the ClickHouse ecosystem.
@@ -428,7 +428,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: JavaScript
-      tags: analytics, clickhouse, database, database-management, electron, enterprise, enterprise-application, management, monitoring, olap, open-source, react, tool, toolkit, ui
+      tags: ""
     - name: IMSMWU/RClickhouse
       link: https://github.com/IMSMWU/RClickhouse
       description: RClickhouse is an R package that serves as a DBI interface for the Yandex Clickhouse database, facilitating efficient data manipulation and analytics. It allows users to perform operations using dplyr and dbplyr idioms, making it easier to work with large datasets. The package supports both SQL-style commands and ClickHouse functions, providing flexibility in querying the database. Additionally, it offers installation options from CRAN and GitHub, catering to different user needs.
@@ -439,7 +439,7 @@ items:
       category: R
       category_confidence: 0.95
       language: R
-      tags: analytics, big-data, clickhouse, clickhouse-database, data-manipulation, dbi, dbi-interface, dplyr, dplyr-sql-backends, package, r, sql, sql-commands, yandex, yandex-clickhouse
+      tags: clickhouse, clickhouse-database, dbi-interface, dplyr, dplyr-sql-backends, r
     - name: ITECOMMPAY/kibouse
       link: https://github.com/ITECOMMPAY/kibouse
       description: Kibouse is a Go tool designed to integrate Kibana with Clickhouse for log analytics and search functionalities. It allows users to configure Kibana to work with Clickhouse as a backend for log storage and retrieval. Although development has ceased, the project serves as a minimal viable product (MVP) for those interested in this integration. Users can set up Kibouse by configuring it to connect with Clickhouse and Kibana, enabling them to visualize and analyze logs effectively. The project includes detailed configuration options and usage instructions for setting up the integration.
@@ -450,7 +450,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: adapter, analytics, clickhouse, configuration, data-movement, go, integration, kibana, kibouse, log-analytics, logs, mvp, search, synchronization, tool
+      tags: ""
     - name: Infinidat/infi.clickhouse_fdw
       link: https://github.com/Infinidat/infi.clickhouse_fdw
       description: This project provides a PostgreSQL Foreign Data Wrapper (FDW) for querying ClickHouse tables as if they were PostgreSQL tables. It enables users to seamlessly integrate ClickHouse with PostgreSQL, allowing for efficient data retrieval and manipulation. The FDW is built on top of Multicorn and infi.clickhouse_orm, providing features like automatic foreign table definition generation and query planning hints. However, it currently supports only SELECT operations and has limitations with complex ClickHouse data types.
@@ -461,7 +461,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, database, database-integration, fdw, foreign-data-wrapper, integration, multicorn, postgres, postgresql, python, sql
+      tags: ""
     - name: Infinidat/infi.clickhouse_orm
       link: https://github.com/Infinidat/infi.clickhouse_orm
       description: This project is a simple ORM for Python that facilitates interaction with the ClickHouse database, enabling users to define model classes for data modeling and querying. It allows for easy insertion and retrieval of data, as demonstrated through examples of monitoring CPU usage. Users can create tables, insert data, and perform queries using either a query builder or raw SQL. The project includes documentation and examples to help users get started with using the ORM effectively.
@@ -472,7 +472,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, cpu-usage, data-modeling, database, documentation, examples, model, orm, python, querying, statistics
+      tags: ""
     - name: JiamingMai/clickhouse-ast-parser
       link: https://github.com/JiamingMai/clickhouse-ast-parser
       description: ClickHouse AST Parser is a Java library that allows users to parse ClickHouse SQL statements into Abstract Syntax Trees (AST) and provides various functionalities for analysis and optimization. It includes features for detecting related tables and partitions, extracting information from distributed engines, and rewriting SQL queries for optimization. The library is designed to facilitate the manipulation and analysis of SQL statements, making it a valuable tool for developers working with ClickHouse. Overall, it serves as a comprehensive toolbox for handling ClickHouse AST operations.
@@ -483,7 +483,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: Java
-      tags: abstract-syntax-tree, analysis, ast, clickhouse, database, distributed-engine, java, library, optimization, parser, query-analysis, sql, sql-optimization, sql-parser, visitor
+      tags: ast, clickhouse, parser, visitor
     - name: Octonica/ClickHouseClient
       link: https://github.com/Octonica/ClickHouseClient
       description: This project is a .NET Core driver for ClickHouse, implementing the ADO.NET DbProvider API. It supports various ADO.NET features, including binary protocol, compression, and timezones, while also being compatible with .NET async operations. The driver allows for easy data manipulation and supports popular libraries like Dapper and Linq To DB. It is designed for production use and provides a comprehensive API for interacting with ClickHouse databases.
@@ -494,7 +494,7 @@ items:
       category: C++
       category_confidence: 0.2
       language: C#
-      tags: .net-core, ado.net, adonet, c#, clickhouse, dbprovider, dotnetcore, driver
+      tags: adonet, clickhouse, dotnetcore
     - name: Onelinerhub/onelinerhub
       link: https://github.com/Onelinerhub/onelinerhub
       description: ""
@@ -516,7 +516,7 @@ items:
       category: Ruby
       category_confidence: 0.9
       language: Ruby
-      tags: activerecord, clickhouse, database, database-driver, gem, integration, migrations, queries, rails, rake-tasks, ruby, schema-management
+      tags: ""
     - name: Percona-Lab/PromHouse
       link: https://github.com/Percona-Lab/PromHouse
       description: PromHouse is a Go-based long-term remote storage solution for time series data, built on ClickHouse, featuring clustering and downsampling capabilities. It allows for efficient storage and retrieval of time series data, leveraging ClickHouse's capabilities for high performance. The project is still in development and is not recommended for production use yet. PromHouse uses a unique fingerprinting method for time series identification, ensuring efficient data migration and storage. It also includes features like downsampling and query hints in its roadmap.
@@ -527,7 +527,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, clustering, data-migration, downsampling, go, golang, long-term-storage, prometheus, promhouse, remote-storage, storage, time-series, time-series-data
+      tags: clickhouse, prometheus
     - name: Percona-Lab/clickhousedb_fdw
       link: https://github.com/Percona-Lab/clickhousedb_fdw
       description: clickhousedb_fdw is an open-source Foreign Data Wrapper that enables PostgreSQL to perform data operations with ClickHouse databases. It supports advanced features like aggregate pushdown and joins pushdown, enhancing performance by leveraging remote server resources. The project includes detailed documentation for installation, setup, and usage, making it accessible for developers. It is designed for efficient data handling between PostgreSQL and ClickHouse, catering to users who require seamless database integration.
@@ -538,7 +538,7 @@ items:
       category: Other sdk/libraries
       category_confidence: 0.9
       language: C
-      tags: aggregate-pushdown, clickhouse, data-operations, database-integration, database-interaction, foreign-data-wrapper, integration, joins-pushdown, open-source, performance, postgres, postgresql
+      tags: ""
     - name: QuantumFluxx/karpov_courses
       link: https://github.com/QuantumFluxx/karpov_courses
       description: ""
@@ -560,7 +560,7 @@ items:
       category: CLI
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, command-line, command-line-utility, flamegraph, go, performance-analysis, system-trace-logs, trace-logs, tracing, visualization
+      tags: ""
     - name: Swetrix/swetrix-api
       link: https://github.com/Swetrix/swetrix-api
       description: ""
@@ -604,7 +604,7 @@ items:
       category: Node.js
       category_confidence: 0.95
       language: JavaScript
-      tags: clickhouse, client, client-library, database, examples, http, installation, javascript, node.js, nodejs, parameterized-queries, promises, queries, query, sessions, streaming
+      tags: ""
     - name: Twitter
       link: https://twitter.com/ClickHouseDB
       description: This project is the official Twitter account for ClickHouseDB, where updates, news, and community interactions take place. It serves as a platform for users to engage with the ClickHouse community and stay informed about the latest developments. The account shares insights, tips, and announcements related to ClickHouse. It is an essential resource for anyone interested in following the progress and community activities surrounding ClickHouse.
@@ -637,7 +637,7 @@ items:
       category: Scala
       category_confidence: 0.9
       language: Scala
-      tags: apache-spark, clickhouse, clickhouserdd, connector, data-analysis, integration, jdbc, library, rdd, scala, spark, sparkconf, sql, sql-queries, sql-query-execution, yandex-clickhouse
+      tags: ""
     - name: WeiYe-Jing/datax-web
       link: https://github.com/WeiYe-Jing/datax-web
       description: ""
@@ -670,7 +670,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, collector, data-browsing, enricher, flow-collector, geo-information, geolocation, ipfix, ipinfo, kafka, netflow, network-flows, sflow, snmp, visualizer, web-interface
+      tags: clickhouse, collector, ipfix, kafka, netflow, sflow
     - name: alldatacenter/alldata
       link: https://github.com/alldatacenter/alldata
       description: ""
@@ -692,7 +692,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: atomic-migrations, clickhouse, command-line-tool, cpp, database, database-migration, database-migrations, database-schema, development-environments, docker, environment-variables, go, golang, migration, migrations, multi-language-support, mysql, nodejs, postgres, postgresql, python, rust, schema-consistency, schema-management, sqlite
+      tags: clickhouse, cpp, database, database-migrations, database-schema, docker, go, golang, migration, migrations, mysql, nodejs, postgres, postgresql, python, rust, sqlite
     - name: apla/node-clickhouse
       link: https://github.com/apla/node-clickhouse
       description: This project is a JavaScript library that provides a simple and powerful interface for connecting to ClickHouse, a high-performance columnar database. It allows users to execute SQL queries, manage connections, and handle data streams efficiently. The library supports various options for querying and inserting data, including bulk data loading in CSV format. With features like promise interfaces and stream handling, it caters to both small and large datasets, making it versatile for different use cases.
@@ -703,7 +703,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.95
       language: JavaScript
-      tags: api, clickhouse, connection, database, javascript, library, node.js, query, querying, sql
+      tags: ""
     - name: archan937/clickhouse
       link: https://github.com/archan937/clickhouse
       description: This project is a JavaScript library that facilitates the connection and interaction with the ClickHouse database, a high-performance column-oriented database management system. It allows users to perform various database operations such as establishing connections, querying data, and managing tables through a simple API. The library is designed to work seamlessly with ClickHouse's HTTP interface, providing an efficient way to handle large volumes of data. Additionally, it includes features for connecting to clusters and handling connection failures gracefully.
@@ -714,7 +714,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: JavaScript
-      tags: api, cli, clickhouse, column-oriented, connection, database, database-management-system, driver, high-performance, interaction, javascript, library, management, querying, ruby, web-gui
+      tags: ""
     - name: artpaul/clickhouse-cpp
       link: https://github.com/artpaul/clickhouse-cpp
       description: This project is a C++ client library for ClickHouse, a columnar database management system. It supports various data types and allows users to create tables, insert data, and execute queries. Although the library is no longer supported, it provides examples of how to connect to ClickHouse and perform basic operations. Users are directed to a maintained version of the library for continued use.
@@ -725,7 +725,7 @@ items:
       category: C++
       category_confidence: 0.9
       language: C++
-      tags: building-instructions, c++, clickhouse, clickhouse-client, client, client-library, cmake, columnar-database, cpp, data-types, database, library, sql-commands
+      tags: clickhouse, clickhouse-client, cpp
     - name: auxten/chdb
       link: https://github.com/auxten/chdb
       description: chDB is an in-process SQL OLAP Engine that leverages ClickHouse technology to provide efficient data querying and processing capabilities. It allows users to run SQL queries without needing to install ClickHouse separately, making it convenient for developers. The engine supports various data formats such as Parquet, CSV, JSON, and Arrow, and is designed to minimize data copying between C++ and Python. Additionally, it supports the Python DB API 2.0, enabling seamless integration with Python applications.
@@ -747,7 +747,7 @@ items:
       category: Elixir
       category_confidence: 0.95
       language: Elixir
-      tags: async, async-inserts, bulk-insert, bulk-inserts, clickhouse, client, client-library, database, database-interactions, driver, elixir, hex, http-adapter, library, migrations, olap, pillar, timezone-management, timezones
+      tags: clickhouse, driver, elixir, hex, library, pillar
     - name: blynkkk/clickhouse4j
       link: https://github.com/blynkkk/clickhouse4j
       description: Clickhouse4j is a lightweight and faster alternative to the official ClickHouse JDBC driver, optimized for performance and ease of use. It significantly reduces the size of the driver and enhances performance with micro optimizations, such as faster batch inserts. The project includes a utility class called CopyManager for efficient data transfer between the database and files. It supports various data formats, including JSON and CSV, and is compatible with Java 8 and above.
@@ -780,7 +780,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: airflow, apache-airflow, clickhouse, database, integration, operators, plugin, python, python3, query-execution, sql
+      tags: airflow, clickhouse, python, python3
     - name: burningalchemist/sql_exporter
       link: https://github.com/burningalchemist/sql_exporter
       description: SQL Exporter is a Go-based tool that exposes metrics gathered from various databases for Prometheus monitoring. It supports multiple databases such as MySQL, PostgreSQL, and Clickhouse, allowing users to define custom metrics through configuration. The tool enables synchronous scraping of metrics while providing options for minimum collection intervals to optimize performance. Users can easily set up custom collectors to monitor specific data quality metrics relevant to their applications.
@@ -791,7 +791,7 @@ items:
       category: Metrics and Monitoring
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, configuration-driven-exporter, custom-collectors, data-quality, database, database-monitoring, go, metrics, metrics-collection, microsoft-sql-server, monitoring, mssql, mysql, postgresql, prometheus, snowflake, sql, sql-exporter, vertica
+      tags: clickhouse, database, monitoring, mssql, mysql, postgresql, prometheus, sql
     - name: bytebase/bytebase
       link: https://github.com/bytebase/bytebase
       description: Bytebase is a unified tool designed to manage database development tasks across various systems, emphasizing security and efficiency. It provides a standardized operating procedure for database schema and data changes, along with SQL review capabilities to enforce consistent SQL styles. The tool integrates with GitHub and GitLab to facilitate GitOps workflows for database changes. Additionally, it features a web-based SQL editor and data access control mechanisms to enhance security and prevent data leakage.
@@ -802,7 +802,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.8
       language: Go
-      tags: cicd, clickhouse, data-access, data-access-control, data-masking, database, database-management, development, development-tasks, devops, efficiency, flyway, gitlab, gitops, integration, liquibase, management, mongodb, multi-database-systems, mysql, oracle, postgres, postgresql, redis, schema-migrations, security, snowflake, sql, sql-client, sql-editor, sql-review, sqlserver, terraform, tidb, unified-tool
+      tags: cicd, clickhouse, devops, flyway, gitlab, gitops, liquibase, mongodb, mysql, oracle, postgres, postgresql, redis, schema-migrations, snowflake, sql, sql-client, sqlserver, terraform, tidb
     - name: bytedance/Jeddak-DPSQL
       link: https://github.com/bytedance/Jeddak-DPSQL
       description: DPSQL is a SQL Proxy that enhances privacy protection through differential privacy and de-identification in database queries. It serves as middleware between database engines and application systems, providing transparent SQL query result desensitization capabilities. The project supports automated analysis of SQL queries and applies differential privacy algorithms, ensuring minimal performance overhead. Although still in early stages, it aims to support various data sources and SQL dialects, focusing on privacy-by-design applications.
@@ -813,7 +813,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.8
       language: Python
-      tags: automated-analysis, clickhouse, database, database-queries, de-identification, differential-privacy, hive, metadata-management, middleware, noise-algorithms, privacy-budget-management, privacy-by-design, privacy-by-design-applications, privacy-protection, sql-proxy
+      tags: ""
     - name: carrotquest/django-clickhouse
       link: https://github.com/carrotquest/django-clickhouse
       description: django-clickhouse is a Python library that integrates Django applications with ClickHouse, enhancing data management capabilities. It provides tools for seamless interaction between Django and ClickHouse, allowing developers to leverage the power of ClickHouse within their Django projects. The library includes features for data management and supports unit testing and package uploads. Documentation is available to guide users in implementing the library effectively.
@@ -824,7 +824,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, data-management, django, integration, library, python
+      tags: clickhouse, django, python
     - name: chdb-io/chdb
       link: https://github.com/chdb-io/chdb
       description: ""
@@ -901,7 +901,7 @@ items:
       category: Elixir
       category_confidence: 0.95
       language: Elixir
-      tags: adapter, clickhouse, database, database-adapter, ecto, elixir, integration, library, migrations, queries
+      tags: ""
     - name: clickhouse-elixir/clickhousex
       link: https://github.com/clickhouse-elixir/clickhousex
       description: Clickhousex is an Elixir library that serves as a ClickHouse database driver, enabling connection and query execution via HTTP. It allows Elixir applications to interact with ClickHouse databases seamlessly. The library provides a simple installation process and clear examples for starting the driver and executing queries. Documentation is also available for further guidance on usage.
@@ -912,7 +912,7 @@ items:
       category: Elixir
       category_confidence: 0.95
       language: Elixir
-      tags: clickhouse, connection, database-driver, elixir, http, http-interface, library, queries, query-execution
+      tags: ""
     - name: clickhouse-local
       link: https://clickhouse.yandex/docs/en/operations/utils/clickhouse-local/
       description: ClickHouse Local is a command line utility that allows users to execute ClickHouse queries and perform operations locally without the need for a server. This tool is particularly useful for developers and data analysts who want to test queries or perform data manipulations in a local environment. It simplifies the process of working with ClickHouse by providing a straightforward command line interface. Users can leverage this utility to quickly run queries and analyze data without the overhead of setting up a full ClickHouse server.
@@ -934,7 +934,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: Go
-      tags: admin, analytics, browser-based, browser-based-platform, clickhouse, clickhouse-database, clickvisual, configuration, configuration-management, dashboard, deployment, elk, fluent-bit, github, gitlab, gitlab-authentication, go, golang, kibana, kubernetes, lightweight, log, log-analytics, logs, search, search-platform, sql, ui, visual-query, visualization
+      tags: admin, analytics, clickhouse, clickhouse-database, elk, go, golang, kibana, kubernetes, log, search, ui
     - name: cloudflare/flow-pipeline
       link: https://github.com/cloudflare/flow-pipeline
       description: The flow-pipeline project offers a set of tools and examples for building a flow pipeline using GoFlow, a collector for network flow data. It includes components like sFlow and NetFlow collectors, Kafka for message brokering, and databases such as Postgres and Clickhouse for data storage. Users can set up a mock insertion or a GoFlow insertion to visualize and analyze network flows. The project is designed for both development and production environments, showcasing how to efficiently process and store network flow data.
@@ -945,7 +945,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, cloudflare, data-collection, data-processing, docker, flow-pipeline, goflow, grafana, ipfix, kafka, netflow, network-flow-data, network-monitoring, postgres, protobuf, sflow
+      tags: clickhouse, cloudflare, docker, goflow, kafka, netflow, protobuf, sflow
     - name: cloudflare/sqlalchemy-clickhouse
       link: https://github.com/cloudflare/sqlalchemy-clickhouse
       description: This project provides a ClickHouse dialect for SQLAlchemy, allowing users to interact with ClickHouse databases using Python. It can be installed via PIP and supports standard SQLAlchemy usage patterns. The dialect is designed to work seamlessly with SQLAlchemy's engine creation and connection management. Additionally, it offers SSL support for secure connections. Overall, it facilitates database operations in Python for ClickHouse users.
@@ -956,7 +956,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: clickhouse, database, database-interaction, dialect, engine, interaction, orm, pip, python, sqlalchemy, ssl
+      tags: ""
     - name: copybird/copybird
       link: https://github.com/copybird/copybird
       description: Copybird is an open-source cloud-native universal backup tool designed for databases and files. It supports multiple databases such as MySQL, Postgres, and MongoDB, and offers features like encryption, compression, and notifications. The tool allows users to create backups, compress and encrypt backup streams, and send them to various destinations securely. Additionally, it integrates with notification services to keep users informed about backup statuses.
@@ -967,7 +967,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: backup, backup-tool, clickhouse, cloud-native, cloudnative, compression, database, databases, devops, docker, elasticsearch, encryption, etcd, gcp, go, kubernetes, kubernetes-operator, mariadb, mongodb, mysql, notifications, open-source, postgres, postgresql, s3
+      tags: backup, clickhouse, cloudnative, database, devops, elasticsearch, etcd, kubernetes, kubernetes-operator, mariadb, mongodb, mysql, postgresql
     - name: crobox/clickhouse-scala-client
       link: https://github.com/crobox/clickhouse-scala-client
       description: The Clickhouse Scala Client is a library that enables reactive database access to Clickhouse using Scala. It implements reactive streams for executing read and write queries, allowing for efficient data handling. The library supports various connection modes, including single-host and cluster-aware balancing, with built-in health checks for reliability. Additionally, it provides a comprehensive API for query execution and configuration, making it suitable for developers looking to integrate Clickhouse into their Scala applications.
@@ -978,7 +978,7 @@ items:
       category: Scala
       category_confidence: 0.9
       language: Scala
-      tags: akka, clickhouse, client-library, data-insertion, database-access, database-client, health-checks, load-balancing, pekko, pekko-http, query-execution, reactive, reactive-streams, scala
+      tags: akka, clickhouse, reactive, reactive-streams, scala
     - name: cyber-drop/ethereum_analytical_db
       link: https://github.com/cyber-drop/ethereum_analytical_db
       description: This project is a comprehensive solution designed for analyzing Ethereum blockchain data using ClickHouse and Docker. It includes various components such as Grafana for visualization, and provides detailed instructions for installation and configuration. Users can run SQL queries, access an API, and utilize Jupyter Notebooks for tasks like gas price estimation. The repository also offers examples and a structured approach to managing and synchronizing Ethereum data effectively.
@@ -989,7 +989,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: HTML
-      tags: analytical, api, blockchain, clickhouse, configuration, data-analysis, data-visualization, database, dex, docker, erc20, erc223, erc721, eth, ethereum, ethereum-etl, etl, etl-pipeline, examples, grafana, installation, jupyter-notebook, sql, sql-queries
+      tags: api, blockchain, clickhouse, dex, erc20, erc223, erc721, eth, ethereum, ethereum-etl, etl, etl-pipeline
     - name: datainsider-co/rocket-bi
       link: https://github.com/datainsider-co/rocket-bi
       description: ""
@@ -1011,7 +1011,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: alembic, clickhouse, data-processing, database, database-migrations, etl, flyway, library, migration, migration-framework, python, python-library, schema
+      tags: ""
     - name: dotnetcore/FreeSql
       link: https://github.com/dotnetcore/FreeSql
       description: ""
@@ -1033,7 +1033,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: apache-drill, baseball, baseball-databank, baseball-datasets, baseballdatabank, boxball, clickhouse, column-store, containers, data-analysis, data-management, database, databases, docker, etl, mysql, open-source, play-by-play, postgres, postgresql, prepopulated-databases, python, retrosheet, sabermetrics, sports, sports-data, sports-stats, sql, sqlalchemy, sqlite
+      tags: apache-drill, baseball, baseballdatabank, clickhouse, column-store, containers, docker, mysql, play-by-play, postgres, postgresql, retrosheet, sabermetrics, sports, sports-data, sports-stats, sql, sqlite
     - name: easysql/easy_sql
       link: https://github.com/easysql/easy_sql
       description: Easy SQL is a Python library that simplifies the ETL development process using an imperative SQL syntax. It allows users to develop ETL processes in a straightforward manner, supporting various SQL engines like SparkSQL, PostgreSQL, and Clickhouse. The library provides built-in support for multiple backends and allows for easy integration with different SQL engines. Users can run ETL processes programmatically or through command line interfaces, making it versatile for different use cases.
@@ -1044,7 +1044,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: bigquery, clickhouse, data-integration, data-processing, etl, flink, flinksql, google-bigquery, imperative-syntax, library, postgres, postgresql, python, spark, sparksql, sql, sql-engines
+      tags: clickhouse, etl, postgres, postgresql, python, spark, sql
     - name: fancyChuan/bigdata-hub
       link: https://github.com/fancyChuan/bigdata-hub
       description: ""
@@ -1066,7 +1066,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.8
       language: Ruby
-      tags: clickhouse, fluentd, helm, kubernetes, log-management, log-storage, logs, monitoring, open-source, processing, ruby, web-ui
+      tags: clickhouse, fluentd, kubernetes, logs
     - name: geekyouth/SZT-bigdata
       link: https://github.com/geekyouth/SZT-bigdata
       description: ""
@@ -1110,7 +1110,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: carbon, clickhouse, configuration, data-storage, docker, go, graphite, integration, library, metrics, performance, production, storage, time-series, timeseries
+      tags: carbon, clickhouse, graphite, timeseries
     - name: go-graphite/graphite-clickhouse
       link: https://github.com/go-graphite/graphite-clickhouse
       description: This project is a Go-based backend for Graphite that integrates with ClickHouse, enhancing performance and scalability for metrics collection. It supports various versions of Graphite and provides a preconfigured Docker setup for easy deployment. The project includes detailed installation and configuration instructions, making it accessible for users looking to implement ClickHouse with Graphite. Additionally, it offers special processing for HTTP headers, which can be useful for debugging and performance monitoring.
@@ -1121,7 +1121,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Go
-      tags: backend, clickhouse, configuration, docker, go, golang, graphite, http-headers, integration, metrics, metrics-collection, monitoring, performance, scalability
+      tags: ""
     - name: gohouse/gorose
       link: https://github.com/gohouse/gorose
       description: ""
@@ -1143,7 +1143,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: TypeScript
-      tags: clickhouse, data-source, data-visualization, grafana, hacktoberfest, plugin, sql-queries, time-series, typescript, visualization
+      tags: hacktoberfest
     - name: growthbook/growthbook
       link: https://github.com/growthbook/growthbook
       description: GrowthBook is an open-source platform that provides feature flagging and A/B testing capabilities for companies. It allows users to manage experiments and feature rollouts efficiently, offering advanced targeting and gradual rollouts. The platform supports various SDKs for popular programming languages and integrates with existing data stacks for comprehensive analysis. GrowthBook aims to provide a powerful in-house solution without the need for extensive development resources.
@@ -1154,7 +1154,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: a/b-testing, ab-testing, abtest, abtesting, analytics, bigquery, clickhouse, continuous-delivery, data-analysis, data-engineering, data-integration, data-science, data-stack, experimentation, experiments, feature-flagging, feature-flags, gradual-rollouts, growthbook, mixpanel, open-source, redshift, remote-config, rest-api, rollouts, sdks, snowflake, split-testing, statistics, typescript, webhooks
+      tags: ab-testing, abtest, abtesting, analytics, bigquery, clickhouse, continuous-delivery, data-analysis, data-engineering, data-science, experimentation, feature-flagging, feature-flags, mixpanel, redshift, remote-config, snowflake, split-testing, statistics
     - name: hatarist/clickhouse-cli
       link: https://github.com/hatarist/clickhouse-cli
       description: clickhouse-cli is an unofficial command-line client for the ClickHouse DBMS that provides features like autocompletion, syntax highlighting, and support for multiquery and multiline modes. It allows users to execute SQL queries directly from the command line, making it easier to interact with ClickHouse databases. The client supports custom commands similar to PostgreSQL, enhancing usability for users familiar with that environment. Additionally, it offers configuration options for default connection settings and user-defined functions, making it a versatile tool for database management.
@@ -1165,7 +1165,7 @@ items:
       category: CLI
       category_confidence: 0.9
       language: Python
-      tags: autocompletion, cli, clickhouse, client, command-line, command-line-client, custom-commands, database, database-management, dbms, python, sql-queries, syntax-highlighting, user-defined-functions
+      tags: clickhouse
     - name: hhyo/Archery
       link: https://github.com/hhyo/Archery
       description: ""
@@ -1187,7 +1187,7 @@ items:
       category: Java
       category_confidence: 0.95
       language: Java
-      tags: analytics, apache-spark, clickhouse, clickhouse-client, database, database-access, integration, java, jdbc, library, spark, tcp-protocol
+      tags: analytics, clickhouse, clickhouse-client, database, jdbc, spark, tcp-protocol
     - name: housepower/ckman
       link: https://github.com/housepower/ckman
       description: ckman is a tool for managing and monitoring ClickHouse databases through a user-friendly web interface. It allows users to manage multiple ClickHouse clusters, deploy and upgrade clusters, and monitor various metrics. The tool simplifies the management process by providing a web interface for tasks such as adding or deleting nodes and rebalancing data. Additionally, it integrates with Prometheus for enhanced monitoring capabilities.
@@ -1198,7 +1198,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, cluster, database, deploy, deployment, eoi-technology, management, metrics, monitoring, open-source, prometheus, tool, upgrade, web-interface
+      tags: clickhouse, management
     - name: housepower/clickhouse_sinker
       link: https://github.com/housepower/clickhouse_sinker
       description: clickhouse_sinker is a Go program that efficiently transfers Kafka messages into ClickHouse for seamless data integration. It serves as a sinker program, facilitating the movement of data from Kafka to ClickHouse. The project includes documentation to help users get started and understand its features. This tool is essential for users looking to integrate Kafka with ClickHouse for better data management.
@@ -1209,7 +1209,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, clickhouse-bulk, clickhouse-server, data-integration, data-movement, go, kafka, sinker, sinker-program, synchronization, transfer-messages, utilities
+      tags: clickhouse, clickhouse-bulk, clickhouse-server, kafka
     - name: housepower/spark-clickhouse-connector
       link: https://github.com/housepower/spark-clickhouse-connector
       description: This project is a Scala library that facilitates the connection between Apache Spark and ClickHouse, enabling efficient data processing. It is built on the Apache Spark DataSourceV2 API and supports various versions of Spark and ClickHouse. The connector has transitioned from using a raw gRPC client to the official ClickHouse Java client, enhancing compatibility and functionality. The project includes detailed documentation for usage and requirements, making it accessible for developers looking to integrate Spark with ClickHouse.
@@ -1242,7 +1242,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: backend, backend-support, backends, bigquery, clickhouse, data-analysis, data-exploration, data-manipulation, database, dataframe, datafusion, duckdb, ibis, impala, interactive, library, mssql, mysql, pandas, polars, postgresql, pyarrow, pyspark, python, snowflake, sql, sqlite, trino
+      tags: bigquery, clickhouse, database, datafusion, duckdb, impala, mssql, mysql, pandas, polars, postgresql, pyarrow, pyspark, python, snowflake, sql, sqlite, trino
     - name: ildus/clickhouse_fdw
       link: https://github.com/ildus/clickhouse_fdw
       description: The `clickhouse_fdw` is an open-source Foreign Data Wrapper for PostgreSQL that allows seamless integration with ClickHouse, a column-oriented database. It supports PostgreSQL versions 11 to 14 and requires certain libraries like `libcurl` and `uuid` for installation. Users can set up a sample database and tables in ClickHouse and create foreign tables in PostgreSQL to query data seamlessly. The project provides detailed installation instructions and usage examples for setting up the integration between PostgreSQL and ClickHouse.
@@ -1253,7 +1253,7 @@ items:
       category: Other sdk/libraries
       category_confidence: 0.9
       language: C++
-      tags: binary, clickhouse, database, database-integration, fdw, foreign-data-wrapper, http, integration, library, open-source, postgresql, pushdown, sdk
+      tags: binary, clickhouse, fdw, http, postgresql, pushdown
     - name: ilyabreev/ClickHouse.Net
       link: https://github.com/ilyabreev/ClickHouse.Net
       description: ClickHouse.Net is a .NET library that simplifies the integration of ClickHouse database functionalities into .NET applications. It provides abstractions and helpers for working with ClickHouse in .NET environments. Users can easily install it via NuGet and integrate it into their applications by configuring services in Startup.cs. The library aims to streamline the process of connecting and interacting with ClickHouse databases for .NET developers.
@@ -1264,7 +1264,7 @@ items:
       category: C++
       category_confidence: 0.1
       language: C#
-      tags: .net, abstractions, ado, c#, cli, clickhouse, connection-settings, database, dependency-injection, functionalities, helpers, iclickhousedatabase, integration, library, nuget, package-manager, services
+      tags: ""
     - name: inkeio/dbm
       link: https://github.com/inkeio/dbm
       description: DBM is an open-source database management system built with TypeScript, designed to support various SQL databases. It offers features such as query history, table and column management, and custom query support. Users can manage multiple data sources and customize the appearance of the interface. The system is particularly focused on providing tools for managing ClickHouse instances, making it suitable for users working with this database.
@@ -1286,7 +1286,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: Java
-      tags: catalog, clickhouse, connector, data-integration, data-processing, database, database-integration, database-interaction, flink, flink-connector, java, jdbc, sink, source, sql, sql-connector, table
+      tags: clickhouse, connector, flink, flink-connector
     - name: ivi-ru/flink-clickhouse-sink
       link: https://github.com/ivi-ru/flink-clickhouse-sink
       description: 'This project is a high-performance Java library that facilitates the loading of data from Apache Flink into the ClickHouse database. It supports two triggers for data loading: by timeout and by buffer size, ensuring efficient data transfer. The library is built on the Async Http Client and provides various configuration options for users to customize their data loading process. Additionally, it includes features for handling failed records and allows for easy integration into Flink''s data processing pipeline.'
@@ -1297,7 +1297,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: Java
-      tags: async-http-client, clickhouse, configuration, data-loading, database, flink, flink-clickhouse-sink, high-performance, integration, java, library, sink
+      tags: clickhouse, flink, flink-clickhouse-sink, java
     - name: jacklon/bi_development_source_code
       link: https://github.com/jacklon/bi_development_source_code
       description: ""
@@ -1319,7 +1319,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: analysis, analytical-database, clickhouse, clickhouse-database, community-driven, configuration, deployment, go, grpc, jaeger, jaegertracing, kubernetes, multi-tenancy, open-source, performance, performance-optimization, replication, sharding, storage-plugin, trace-storage, traces
+      tags: clickhouse, clickhouse-database, grpc, jaegertracing
     - name: jaykelin/clickhouse-hdfs-loader
       link: https://github.com/jaykelin/clickhouse-hdfs-loader
       description: ""
@@ -1341,7 +1341,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: TypeScript
-      tags: bigquery, clickhouse, data-collection, data-connectors, data-integration, data-warehouse, data-warehouses, docker, docker-compose, etl, event-data, event-tracking, golang, jitsu, jitsu-cloud, node.js, open-source, postgres, redshift, sdk, sdks, self-hosted, snowflake, streaming, typescript
+      tags: bigquery, clickhouse, data-collection, data-connectors, data-integration, golang, postgres, redshift, snowflake
     - name: jneo8/clickhouse-setup
       link: https://github.com/jneo8/clickhouse-setup
       description: This project is a tutorial for setting up ClickHouse servers and clusters using Docker. It includes detailed instructions for running a single server and configuring a cluster with multiple shards and replicas. The tutorial also covers the necessary configurations for ZooKeeper to enable replication and ensure data consistency. Users can follow the provided Docker commands and configuration files to successfully deploy ClickHouse in their environments.
@@ -1352,7 +1352,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Makefile
-      tags: clickhouse, cluster, configuration, docker, makefile, replication, server, setup, tutorial, zookeeper
+      tags: ""
     - name: justwatchcom/sql_exporter
       link: https://github.com/justwatchcom/sql_exporter
       description: This project is a Go service that executes user-defined SQL queries at specified intervals and exports the resulting metrics for Prometheus. It supports multiple databases including PostgreSQL, ClickHouse, and MySQL, making it versatile for various environments. Users can configure the service through a YAML file and run it in Docker or Kubernetes. The SQL Exporter is actively used in production and aims to provide a flexible solution for monitoring database metrics.
@@ -1363,7 +1363,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: athena, clickhouse, configuration, database, docker, exporter, go, kubernetes, metrics, monitoring, mysql, postgresql, prometheus, prometheus-exporter, snowflake, sql
+      tags: athena, clickhouse, kubernetes, mysql, postgresql, prometheus, prometheus-exporter, snowflake, sql
     - name: killwort/ClickHouse-Net
       link: https://github.com/killwort/ClickHouse-Net
       description: ""
@@ -1407,7 +1407,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, data-manipulation, data-retrieval, dataframe, dataframes, http-api, library, pandas, python
+      tags: clickhouse, dataframe, pandas
     - name: larsnovikov/horgh-replicator
       link: https://github.com/larsnovikov/horgh-replicator
       description: This project is a MySQL binlog replicator written in Go that allows for the replication of data to various database types including MySQL, PostgreSQL, Yandex ClickHouse, and HP Vertica. It provides a quick start guide and detailed documentation for setting up and configuring the replication process. Users can create models for tables, set up custom handlers, and utilize various tools for managing the replication process. The project is designed for both production and development modes, offering flexibility for users to debug and manage their database replication needs.
@@ -1418,7 +1418,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: binlog, clickhouse, data-movement, data-synchronization, database, database-integration, go, golang, hp-vertica, master-slave, master-slave-replication, mysql, postgres, postgresql, replication, replicator, synchronization, tungsten, vertica, yandex-clickhouse
+      tags: binlog, clickhouse, go, golang, master-slave, master-slave-replication, mysql, postgresql, replication, tungsten, vertica
     - name: lizhichao/one-ck
       link: https://github.com/lizhichao/one-ck
       description: ""
@@ -1440,7 +1440,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: asynchronous, asyncio, clickhouse, connection, connection-pooling, database, driver, library, native, pep249, peps249, python, sql, tcp, tcp-interface, yandex
+      tags: asyncio, clickhouse, driver, native, yandex
     - name: long2ice/synch
       link: https://github.com/long2ice/synch
       description: Synch is a Python tool that facilitates the synchronization of data from MySQL and PostgreSQL databases to ClickHouse, supporting both full and incremental ETL processes. It allows for real-time data synchronization and includes features for handling DDL and DML operations. The tool can work with multiple source databases simultaneously and supports various ClickHouse table engines. Additionally, it integrates with brokers like Kafka and Redis for efficient data handling and monitoring.
@@ -1451,7 +1451,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, data, data-etl, data-processing, data-synchronization, ddl, dml, docker, etl, increment-etl, incremental-etl, kafka, mysql, postgres, postgresql, python, redis, replication, sync
+      tags: clickhouse, data-etl, increment-etl, kafka, mysql, postgresql, replication
     - name: loyd/clickhouse.rs
       link: https://github.com/loyd/clickhouse.rs
       description: This project is a pure Rust client library for ClickHouse DB that provides APIs for data manipulation and supports various features such as TLS and compression. It allows users to perform operations like selecting, inserting, and managing live views with ease. The library utilizes `serde` for encoding and decoding data, ensuring type safety and efficiency. Additionally, it supports advanced features like infinite inserting and batch processing, making it suitable for high-performance applications.
@@ -1473,7 +1473,7 @@ items:
       category: Golang
       category_confidence: 0.95
       language: Go
-      tags: clickhouse, compatibility, connection-management, connection-pooling, data-types, database, database-driver, database/sql, dbr, go, golang, http-interface, sql, yandex, yandex-clickhouse
+      tags: clickhouse, database, go
     - name: maximdanilchenko/aiochclient
       link: https://github.com/maximdanilchenko/aiochclient
       description: aiochclient is an asynchronous HTTP(S) client for ClickHouse, designed for Python 3.6 and above. It supports type conversion in both directions, streaming, and lazy decoding on select queries, providing a fully typed interface. The library can be used with either aiohttp or httpx connectors, allowing for flexible installation options. It also includes features for efficient querying and connection pooling, making it suitable for high-performance applications.
@@ -1484,7 +1484,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: aiohttp, async, asynchronous, asyncio, clickhouse, client, connection-pooling, database, database-interaction, driver, http-client, httpx, lazy-decoding, performance-optimization, python, streaming, type-conversion
+      tags: aiohttp, async, asyncio, clickhouse, client, database, driver, httpx, python
     - name: metrico/clickhouse-mate
       link: https://github.com/metrico/clickhouse-mate
       description: ClickHouse-Mate is an advanced web client designed for ClickHouse that enhances user interaction with SQL databases. It features SQL query autocompletion, fast navigation through databases and tables, and advanced filtering and sorting of results. The client operates entirely in the web browser, ensuring no data is sent through a server, which enhances privacy and speed. Users can access a public version, remix it on Glitch, or build their own version from the source code.
@@ -1495,7 +1495,7 @@ items:
       category: GUI
       category_confidence: 0.9
       language: TypeScript
-      tags: autocompletion, clickhouse, clickhouse-client, clickhouse-server, client, cloki, database, database-management, documentation, filtering, navigation, result-filtering, sorting, sql, sql-query, sql-query-autocompletion, typescript, user-interface, web, web-client
+      tags: clickhouse, clickhouse-client, clickhouse-server, cloki, sql
     - name: metrico/qryn
       link: https://github.com/metrico/qryn
       description: ""
@@ -1517,7 +1517,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: beta, clickhouse, data-movement, go, high-availability, ingestion, ingestion-rates, integration, metrics, prometheus, remote-storage, remote-storage-adapter, scalable, time-series, time-series-data
+      tags: ""
     - name: mintance/nginx-clickhouse
       link: https://github.com/mintance/nginx-clickhouse
       description: nginx-clickhouse is a Go-based tool that parses NGINX logs and transports them to a ClickHouse database. It allows users to set up a configuration file that defines the log format and ClickHouse credentials. The tool can be built and run using Docker, making it easy to deploy in various environments. Additionally, it provides examples for configuring NGINX and ClickHouse, as well as creating Grafana dashboards for visualizing the data.
@@ -1528,7 +1528,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, data-processing, database, docker, etl, go, golang, grafana, integration, logs, metrics, nginx, parser, transporter
+      tags: ""
     - name: mlcraft-io/mlcraft
       link: https://github.com/mlcraft-io/mlcraft
       description: Synmetrix is an open-source data engineering platform that serves as a semantic layer for centralized metrics management. It allows users to model, integrate, transform, aggregate, and distribute metrics data at scale. The platform supports various features such as scheduled reports, role-based access control, and data exploration through a user interface or SQL API. By consolidating metrics from different sources, Synmetrix enhances data accessibility and enables organizations to make data-driven decisions effectively.
@@ -1561,7 +1561,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: asynchronous, asyncio, clickhouse, clickhouse-driver, database, database-access, driver, library, native, python, yandex
+      tags: asyncio, clickhouse, database, driver, native, yandex
     - name: mymarilyn/clickhouse-driver
       link: https://github.com/mymarilyn/clickhouse-driver
       description: This project is a Python driver for ClickHouse that supports a native TCP interface and adheres to DB API 2.0. It offers features such as query settings, compression support, and multiple data types. The driver allows for both pure client communication and DB API usage, making it versatile for various applications. Additionally, it supports asynchronous operations and provides detailed query progress information.
@@ -1572,7 +1572,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: ""
-      tags: asynchronous, clickhouse, compression, data-types, database, db-api, db-api-2.0, driver, library, native, python, query-processing, tcp, tcp-interface, tls-support, yandex
+      tags: clickhouse, database, driver, native, yandex
     - name: nauu/clickhousebook
       link: https://github.com/nauu/clickhousebook
       description: ""
@@ -1594,7 +1594,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: bulk-insert, clickhouse, clickhouse-bulk, clickhouse-server, configuration, data-collection, data-movement, database, docker, go, insert-collector, insert-requests, library, metrics, performance, server, server-communication, synchronization
+      tags: clickhouse, clickhouse-bulk, clickhouse-server
     - name: openblocks-dev/openblocks
       link: https://github.com/openblocks-dev/openblocks
       description: ""
@@ -1627,7 +1627,7 @@ items:
       category: Metrics and Monitoring
       category_confidence: 0.9
       language: PHP
-      tags: aggregation, clickhouse, grafana, installation, monitoring, performance, performance-metrics, php, pinba, pinbaserver, server, statistics, swoole, systemd, usage, workerman
+      tags: clickhouse, grafana, php, pinba, pinbaserver, server, swoole, workerman
     - name: plausible/analytics
       link: https://github.com/plausible/analytics
       description: ""
@@ -1649,7 +1649,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Dockerfile
-      tags: cli-access, clickhouse, deployment, docker, docker-image, graphite, helm, helm-chart, helm-charts, k8s, kubernetes, monitoring, replicated-environment, tabix, tabix-ui, ui
+      tags: clickhouse, helm, helm-charts, k8s
     - name: red-soft-ru/clickhouse-rpm
       link: https://github.com/red-soft-ru/clickhouse-rpm
       description: This project offers a build script for generating ClickHouse RPM packages tailored for RHEL-based distributions. By running the build_packages.sh script on RHEL 6 or RHEL 7, users can create both source and binary RPM packages for ClickHouse. Additionally, the project facilitates the installation of these packages from a public YUM repository. This makes it easier for users to deploy ClickHouse on their systems.
@@ -1660,7 +1660,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Shell
-      tags: build-script, centos, clickhouse, dbms, installation, rhel, rpm, rpm-packages, yum-repository
+      tags: ""
     - name: roistat/go-clickhouse
       link: https://github.com/roistat/go-clickhouse
       description: This project is a Go library that serves as a connector for Yandex ClickHouse, enabling efficient data management and querying. It allows users to perform various operations such as querying rows, inserting data, and handling external data for query processing. The library is designed to manage large volumes of data efficiently, making it suitable for applications that require robust data handling capabilities. Additionally, it includes features for managing connections in a clustered environment, ensuring high availability and load balancing.
@@ -1671,7 +1671,7 @@ items:
       category: Golang
       category_confidence: 0.95
       language: Go
-      tags: adapter, clickhouse, client, cluster, cluster-management, clustering, connector, data-management, database, external-data, go, golang, http-transport, large-volumes-of-data, library, querying, yandex, yandex-clickhouse
+      tags: adapter, clickhouse, client, connector, go, golang
     - name: sagframe/sagacity-sqltoy
       link: https://github.com/sagframe/sagacity-sqltoy
       description: ""
@@ -1693,7 +1693,7 @@ items:
       category: PHP
       category_confidence: 0.9
       language: PHP
-      tags: batch-insert, clickhouse, composer, data-management, database, database-integration, database-operations, extension, integration, orm, php, sql-commands, yii2, yii2-clickhouse
+      tags: php, yii2-clickhouse
     - name: shlima/click_house
       link: https://github.com/shlima/click_house
       description: This project is a modern Ruby driver for ClickHouse, a high-performance column-oriented database management system. It allows developers to interact with ClickHouse through an HTTP interface, providing a seamless way to execute queries, manage databases, and handle data. The driver is well-documented and includes features for configuration, connection pooling, and integration with Ruby on Rails and ActiveRecord. It aims to provide a reliable and efficient way to work with ClickHouse in Ruby applications.
@@ -1704,7 +1704,7 @@ items:
       category: Ruby
       category_confidence: 0.9
       language: Ruby
-      tags: activerecord, clickhouse, database-driver, database-interactions, gem, http-interface, library, ruby, yandex
+      tags: clickhouse, gem, ruby
     - name: smi2/clickhouse-frontend
       link: https://github.com/smi2/clickhouse-frontend
       description: This project has been renamed to TABIX and is now deprecated, directing users to the new repository for frontend development related to ClickHouse. It provides links to the new project and its documentation. Users are encouraged to transition to the new repository for continued support and development. The focus is on guiding users to the appropriate resources for ClickHouse frontend development.
@@ -1715,7 +1715,7 @@ items:
       category: Documentation
       category_confidence: 0.8
       language: JavaScript
-      tags: clickhouse, deprecated, documentation, frontend, javascript, tabix
+      tags: ""
     - name: smi2/phpClickHouse
       link: https://github.com/smi2/phpClickHouse
       description: This project is a PHP library that serves as a wrapper for ClickHouse databases, allowing developers to perform asynchronous queries and bulk inserts efficiently. It supports various features such as HTTP compression, connection management, and advanced query capabilities. The library is lightweight, requiring only Curl as a dependency, and is compatible with PHP versions 7.1 and above. It provides a straightforward API for database operations, making it easier for developers to integrate ClickHouse into their PHP applications.
@@ -1726,7 +1726,7 @@ items:
       category: PHP
       category_confidence: 0.95
       language: PHP
-      tags: asynchronous, asynchronous-queries, bulk-inserts, clickhouse, curl, database, http-compression, library, php, php-clickhouse, php-clickhouse-wrapper, sql-operations, wrapper
+      tags: clickhouse, php, php-clickhouse, php-clickhouse-wrapper
     - name: sqlchat/sqlchat
       link: https://github.com/sqlchat/sqlchat
       description: SQL Chat is a chat-based SQL client that enables users to interact with various databases using natural language. Built with Next.js, it supports databases like MySQL, PostgreSQL, and MSSQL, allowing users to perform operations such as querying, modifying, adding, and deleting data. The project aims to provide a more intuitive interface for database interactions compared to traditional SQL clients. Users can self-host the application or use it through a hosted service, making it versatile for different use cases.
@@ -1737,7 +1737,7 @@ items:
       category: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
       category_confidence: 0.9
       language: TypeScript
-      tags: chat, chat-client, chatgpt, clickhouse, client, cockroachdb, database, database-interaction, gpt, mongodb, mssql, mysql, natural-language, next.js, openai, oracle, postgres, postgresql, redis, self-hosting, snowflake, sql, sqlclient, sqleditor, sqlite, sqlserver, text-to-sql, text2sql, tidb, tidb-cloud
+      tags: chatgpt, clickhouse, cockroachdb, gpt, mongodb, mssql, mysql, openai, oracle, postgres, redis, snowflake, sql, sqlclient, sqleditor, sqlite, sqlserver, text-to-sql, text2sql, tidb
     - name: sqlpad/sqlpad
       link: https://github.com/sqlpad/sqlpad
       description: SQLPad is a web application that allows users to write and execute SQL queries while visualizing the results. It supports a wide range of database systems, including Postgres, MySQL, SQL Server, and ClickHouse, among others. The application is designed to facilitate data analysis and reporting through an intuitive interface. Although it is currently in maintenance mode, it continues to receive updates for security and dependencies. Users can also run SQLPad using Docker, making it easy to deploy in various environments.
@@ -1770,7 +1770,7 @@ items:
       category: Rust
       category_confidence: 0.95
       language: Rust
-      tags: async, asynchronous-client, clickhouse, clickhouse-client, client, connection-management, connection-pooling, data-types, database, database-operations, library, performance-optimization, query-execution, rust, tls-support, tokio, yandex-clickhouse
+      tags: clickhouse, clickhouse-client, rust, tokio
     - name: tabixio/tabix
       link: https://github.com/tabixio/tabix
       description: Tabix is an open-source business intelligence application and SQL editor tool for ClickHouse. It allows users to interact with ClickHouse databases through a user-friendly interface. The application can be run directly in a browser, making it accessible without installation. It requires a ClickHouse server and is optimized for use with Google Chrome. The project is licensed under the Apache License, Version 2.0.
@@ -1781,7 +1781,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: TypeScript
-      tags: bi, business-intelligence, businessintelligence, clickhouse, dashboard, data-analysis, data-visualization, open-source, sql-editor, sql-query, tabix, typescript
+      tags: bi, business-intelligence, businessintelligence, clickhouse, dashboard, data-analysis, data-visualization, sql-query, tabix
     - name: tetafro/clickhouse-cluster
       link: https://github.com/tetafro/clickhouse-cluster
       description: This project is a Docker-based setup for a ClickHouse cluster featuring 2 shards and 2 replicas, intended for testing environments. It utilizes docker-compose to manage the cluster configuration and operations. Users can easily run the cluster with a single command and interact with it through the ClickHouse client. The setup includes detailed instructions for creating databases and tables, as well as loading and querying data. This project is not intended for production use, but serves as a useful tool for testing ClickHouse configurations.
@@ -1792,7 +1792,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Makefile
-      tags: clickhouse, cluster, database, database-management, distributed, docker, docker-compose, replicas, shards, sql, testing
+      tags: clickhouse, docker, docker-compose
     - name: the-tinderbox/ClickhouseBuilder
       link: https://github.com/the-tinderbox/ClickhouseBuilder
       description: ClickhouseBuilder is a PHP library that allows developers to construct SQL queries for Clickhouse databases easily. It provides a fluent interface for building complex queries, including support for joins, subqueries, and temporary tables. The library is designed to work with the Clickhouse PHP client and offers various methods for selecting, inserting, and manipulating data. With ClickhouseBuilder, users can streamline their database interactions and enhance their productivity when working with Clickhouse.
@@ -1803,7 +1803,7 @@ items:
       category: PHP
       category_confidence: 0.95
       language: PHP
-      tags: clickhouse, clickhouse-fluent, clickhouse-wrapper, database, database-library, library, php, query-builder, sql, sql-queries
+      tags: clickhouse, clickhouse-fluent, clickhouse-wrapper
     - name: tlhhup/litemall-dw
       link: https://github.com/tlhhup/litemall-dw
       description: ""
@@ -1825,7 +1825,7 @@ items:
       category: Python
       category_confidence: 0.95
       language: Python
-      tags: bigquery, clickhouse, databricks, dialects, duckdb, hive, library, mysql, optimizer, parser, postgres, presto, python, redshift, snowflake, spark, sql, sql-dialects, sqlglot, sqlite, sqlparser, transpiler, trino, tsql
+      tags: bigquery, clickhouse, databricks, duckdb, hive, mysql, optimizer, parser, postgres, presto, python, redshift, snowflake, spark, sql, sqlite, sqlparser, transpiler, trino, tsql
     - name: toddwschneider/nyc-taxi-data
       link: https://github.com/toddwschneider/nyc-taxi-data
       description: This repository contains R scripts designed for downloading, processing, and analyzing over 3 billion taxi and for-hire vehicle trips in New York City since 2009. It supports both PostgreSQL and ClickHouse databases, allowing users to store and analyze the data efficiently. The project has been updated to handle the new Apache Parquet file format introduced by the TLC in 2022. Additionally, it includes various scripts for importing and managing the data, as well as tools for statistical analysis and visualization.
@@ -1836,7 +1836,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: R
-      tags: analysis, clickhouse, data, data-analysis, etl, for-hire-vehicle, for-hire-vehicles, lyft, nyc, nyc-taxi-dataset, parquet, postgresql, r, scripts, taxi, uber
+      tags: clickhouse, nyc, nyc-taxi-dataset, postgresql
     - name: trickstercache/trickster
       link: https://github.com/trickstercache/trickster
       description: Trickster is a Go-based HTTP reverse proxy/cache that significantly improves the performance of dashboard queries for time series databases. It achieves this by caching responses and optimizing data requests, thus reducing redundant computations on the databases it fronts. The tool supports various caching layers and is highly customizable, making it suitable for different HTTP applications. Trickster is particularly beneficial for read-heavy environments and those with highly-cardinalized datasets, ensuring faster chart rendering times for end users.
@@ -1847,7 +1847,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: accelerator, cache, caching, caching-layer, clickhouse, dashboard-queries, dashboards, docker, go, golang, helm, http-proxy, http-reverse-proxy, influxdb, kubernetes, performance, performance-optimization, prometheus, reverse-proxy, time-series-database, time-series-databases, tsdb
+      tags: accelerator, caching, clickhouse, dashboards, golang, http-proxy, influxdb, performance, prometheus, reverse-proxy, tsdb
     - name: uber/storagetapper
       link: https://github.com/uber/storagetapper
       description: ""
@@ -1869,7 +1869,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: api, clickhouse, client, client-library, column-oriented-design, database, database/sql, generics, go, golang, library, migrations, native-protocol, open-telemetry, opentelemetry, query-builder
+      tags: clickhouse, database, go, golang
     - name: uptrace/uptrace
       link: https://github.com/uptrace/uptrace
       description: ""
@@ -1891,7 +1891,7 @@ items:
       category: Golang
       category_confidence: 0.95
       language: Go
-      tags: batch-insert, batch-select, clickhouse, column-oriented, connection-pool, data-handling, database, driver, fast, generics, go, golang, high-performance, low-level, low-level-access, performance, tcp, tls
+      tags: clickhouse, fast, go, golang, tcp
     - name: wgzhao/Addax
       link: https://github.com/wgzhao/Addax
       description: ""
@@ -1924,7 +1924,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, database, dialect, library, python, sqlalchemy, yandex
+      tags: clickhouse, database, dialect, sqlalchemy, yandex
     - name: young-datafan-ooooo1/sqlbuilder
       link: https://github.com/young-datafan-ooooo1/sqlbuilder
       description: ""
@@ -1979,7 +1979,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: automation, bigdata, clickhouse, data-synchronization, data-warehouse, go, go-zero, golang, kafka-consumer, mongodb, mysql, real-time, tool
+      tags: bigdata, clickhouse, go, golang, kafka-consumer
     - name: zhisheng17/flink-learning
       link: https://github.com/zhisheng17/flink-learning
       description: ""
@@ -2001,7 +2001,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: C#
-      tags: .net, automation, clickhouse, command-line-tool, data-migration, database, dotnetcore, etl, excel, mysql, sql-server, sqlserver
+      tags: clickhouse, dotnetcore
     - name: Blynk-Technologies/clickhouse4j
       link: https://github.com/Blynk-Technologies/clickhouse4j
       description: Clickhouse4j is a lightweight and faster alternative JDBC driver for ClickHouse, optimized for performance and reduced size. It offers significant improvements over the official driver, including a smaller jar size and faster batch inserts. The project supports various data formats such as JSON and CSV, and includes a utility class called CopyManager for efficient data transfer between the database and files. It is built against Java 8 and is easy to integrate into existing Java applications.
@@ -2012,7 +2012,7 @@ items:
       category: Java
       category_confidence: 0.95
       language: Java
-      tags: clickhouse, copy-manager, copymanager, csv, data-transfer, database, driver, java, jdbc, jdbc-driver, json, lightweight, performance
+      tags: java, jdbc-driver
     - name: ClickHouse/clickhouse-rs
       link: https://github.com/ClickHouse/clickhouse-rs
       description: clickhouse-rs is a pure Rust client library for ClickHouse DB that provides typed access and various features for database interaction. It supports encoding and decoding of rows using serde, and offers APIs for selecting, inserting, and watching live views. The library also includes features for compression, TLS support, and infinite transactional inserting. With its focus on providing a robust interface for ClickHouse, it serves as a valuable tool for developers working with this database.
@@ -2023,7 +2023,7 @@ items:
       category: Rust
       category_confidence: 0.95
       language: Rust
-      tags: api, clickhouse, client, client-library, compression, database, database-interaction, http, rust, serde, streaming, tls, tokio, typed, typed-access, unit-testing
+      tags: clickhouse, http, rust, streaming, tokio
     - name: esazykin/laravel-clickhouse
       link: https://github.com/esazykin/laravel-clickhouse
       description: This project is a PHP library that provides an Eloquent model for integrating Laravel applications with ClickHouse. It allows developers to easily connect their Laravel applications to a ClickHouse database, enabling efficient data handling and querying. The library includes installation instructions, configuration examples, and usage guidelines for creating models and executing queries. Additionally, it outlines future enhancements such as more tests and additional model methods.
@@ -2034,7 +2034,7 @@ items:
       category: PHP
       category_confidence: 0.9
       language: PHP
-      tags: clickhouse, database, database-integration, eloquent, eloquent-model, integration, laravel, library, model, php, sdk
+      tags: ""
     - name: ClickHouse/spark-clickhouse-connector
       link: https://github.com/ClickHouse/spark-clickhouse-connector
       description: The ClickHouse Spark Connector is a Scala library that facilitates the integration of ClickHouse with Apache Spark using the DataSourceV2 API. It supports various versions of Spark and ClickHouse, ensuring compatibility through a well-defined matrix. The connector has transitioned from using a raw gRPC client to the official ClickHouse Java client, enhancing its functionality and support for HTTP protocols. This project is essential for developers looking to leverage ClickHouse's capabilities within Spark applications.
@@ -2045,7 +2045,7 @@ items:
       category: Scala
       category_confidence: 0.9
       language: Scala
-      tags: apache-spark, arrow, clickhouse, connector, data-processing, datasourcev2, grpc, http, integration, jdbc, library, scala, spark
+      tags: arrow, clickhouse, datasourcev2, grpc, http, spark
     - name: PostHog/charts-clickhouse
       link: https://github.com/PostHog/charts-clickhouse
       description: This project provides a Helm chart for deploying PostHog with ClickHouse on Kubernetes, although Kubernetes support has been sunsetted. Users are encouraged to migrate to PostHog Cloud or continue self-hosting without support. The repository includes installation instructions, testing guidelines, and development contributions. Security updates will continue until May 2024, but the project no longer offers support for Kubernetes deployments.
@@ -2056,7 +2056,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Python
-      tags: analytics, clickhouse, cloud, deployment, helm, helm-chart, kubernetes, open-source, posthog, self-hosting
+      tags: clickhouse, helm-chart, kubernetes, posthog
     - name: ClickHouse/examples
       link: https://github.com/ClickHouse/examples
       description: This project is a collection of ClickHouse examples and docker compose recipes designed to facilitate various integrations and configurations. It includes DDL statements, SQL queries, and configurations for analyzing Kubernetes logs. Additionally, it offers a variety of docker compose recipes for setting up ClickHouse in different environments, such as single-node setups and clustered configurations. The aim is to provide users with quick and practical ways to experiment with ClickHouse integrations.
@@ -2067,7 +2067,7 @@ items:
       category: Examples
       category_confidence: 0.9
       language: Jupyter Notebook
-      tags: cdc, clickhouse, configurations, crypto, ddl-statements, docker, docker-compose, ethereum, examples, integrations, kubernetes, kubernetes-logs, observability, recipes, sql-queries
+      tags: cdc, crypto, docker, ethereum, observability
     - name: simdjson/simdjson
       link: https://github.com/simdjson/simdjson
       description: simdjson is a high-performance C++ library that enables parsing JSON at gigabyte speeds by utilizing SIMD instructions for efficiency. It outperforms other JSON parsers, being over 4x faster than RapidJSON and 25x faster than JSON for Modern C++. The library is designed to be easy to use, with well-documented APIs, and it ensures strict JSON and UTF-8 validation. It is suitable for real-world applications and has been peer-reviewed, showcasing its reliability and performance.
@@ -2078,7 +2078,7 @@ items:
       category: C++
       category_confidence: 0.95
       language: C++
-      tags: aarch64, arm, arm64, avx2, avx512, c++, c-plus-plus, clang, clang-cl, cpp11, gcc-compiler, high-performance, json, json-parser, json-pointer, library, loongarch, neon, parsing, simd, sse42, utf-8, validation, vs2019, x64
+      tags: aarch64, arm, arm64, avx2, avx512, c-plus-plus, clang, clang-cl, cpp11, gcc-compiler, json, json-parser, json-pointer, loongarch, neon, simd, sse42, vs2019, x64
     - name: frectonz/sql-studio
       link: https://github.com/frectonz/sql-studio
       description: SQL Studio is a command line tool that allows users to explore various SQL databases such as SQLite, libSQL, PostgreSQL, MySQL, and DuckDB. It provides a single binary command for accessing different database types, making it user-friendly and efficient. The tool features an overview page, tables page, and queries page, providing metadata and access to database content. Additionally, it supports ClickHouse with partial functionality, enhancing its versatility for database management.
@@ -2089,7 +2089,7 @@ items:
       category: CLI
       category_confidence: 0.9
       language: Rust
-      tags: cli, clickhouse, command-line-tool, database, database-explorer, duckdb, explorer, libsql, mariadb, mysql, postgresql, rust, sql, sql-databases, sqlite, sqlite-browser
+      tags: duckdb, libsql, mariadb, mysql, postgresql, rust, sqlite, sqlite-browser
     - name: jayvynl/django-clickhouse-backend
       link: https://github.com/jayvynl/django-clickhouse-backend
       description: The Django ClickHouse Backend is a Python library that enables seamless integration of ClickHouse with Django applications. It allows developers to use Django's ORM to interact with ClickHouse, similar to how they would with traditional databases like MySQL or PostgreSQL. The backend supports various ClickHouse features, including specific schema capabilities and efficient connection pooling. It is designed to minimize learning costs for Django developers while providing robust functionality for handling large datasets.
@@ -2100,7 +2100,7 @@ items:
       category: Python
       category_confidence: 0.9
       language: Python
-      tags: clickhouse, connection-pooling, data-types, database, database-backend, django, integration, library, orm, python, schema-features
+      tags: clickhouse, database, django, orm, python
     - name: TongchengOpenSource/ckibana
       link: https://github.com/TongchengOpenSource/ckibana
       description: CKibana is a Java service that enables users to visualize ClickHouse data using native Kibana. It acts as a proxy between ClickHouse and Kibana, allowing seamless migration of log storage from ElasticSearch to ClickHouse while maintaining the ability to query and analyze logs through Kibana. The service supports various features such as caching, query sampling, and syntax compatibility with ElasticSearch, enhancing performance and usability. CKibana is compatible with Kibana versions 6.x and 7.x, making it a versatile tool for data analysis.
@@ -2111,7 +2111,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: Java
-      tags: caching, clickhouse, clickhouse-visualization, data-analysis, elasticsearch, java, java-service, kibana, kibana-visualization, log-storage, logging, proxy, query-performance, visualization
+      tags: clickhouse, clickhouse-visualization, elasticsearch, kibana, kibana-visualization
     - name: CodePhiliaX/Chat2DB
       link: https://github.com/CodePhiliaX/Chat2DB
       description: Chat2DB is an AI-driven database tool and SQL client that supports various databases such as MySQL, Oracle, PostgreSQL, and ClickHouse. It offers intelligent SQL development, reporting, and data exploration features. The tool is designed to make database management easier for users, allowing them to interact with databases through an intuitive interface. Additionally, it encourages community contributions and provides resources for getting started with the tool.
@@ -2122,7 +2122,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Java
-      tags: ai, ai-driven, bi, chatgpt, clickhouse, clickhouse-client, community-contributions, data-exploration, database, database-tool, datagrip, db2, dbeaver, documentation, gpt, gui, hive, intelligent-reports, mysql, navicat, oracle, postgresql, redis, redis-client, sql-client, sql-server, sqlite, sqlserver, text2sql
+      tags: ai, bi, chatgpt, clickhouse, clickhouse-client, database, datagrip, db2, dbeaver, gpt, hive, mysql, navicat, oracle, postgresql, redis, redis-client, sqlserver, text2sql
     - name: PostHog/HouseWatch
       link: https://github.com/PostHog/HouseWatch
       description: HouseWatch is an open-source tool developed in TypeScript for monitoring and managing ClickHouse clusters. It provides insights into performance, queries, and disk usage, allowing users to drill down into queries and monitor cluster load. Users can also search through logs, kill running queries, and get detailed statistics on disk usage per node. The tool aims to consolidate various monitoring and management functionalities into a single interface, making it easier for users to manage their ClickHouse instances effectively.
@@ -2133,7 +2133,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: TypeScript
-      tags: clickhouse, clusters, database, database-management, disk-usage, django, logs, management, managing, mit-license, monitoring, open-source, performance, queries, react, tool, typescript
+      tags: clickhouse, database, database-management, django, mit-license, open-source, react
     - name: azat/chdig
       link: https://github.com/azat/chdig
       description: chdig is a terminal user interface (TUI) tool that allows users to explore and monitor ClickHouse databases. It simplifies the process of introspection by providing a user-friendly interface similar to 'top' for Linux. The tool supports various views for monitoring queries, logs, and system processes, making it easier for users to manage their ClickHouse databases. Although still in pre-alpha stage, it aims to enhance the user experience by consolidating various introspection tools into one interface.
@@ -2144,7 +2144,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Rust
-      tags: clickhouse, database, database-management, introspection, monitoring, rust, terminal-interface, tools, tui
+      tags: clickhouse
     - name: Protryon/klickhouse
       link: https://github.com/Protryon/klickhouse
       description: Klickhouse is a pure Rust SDK for working with Clickhouse with the native protocol in async environments. It aims to provide minimal boilerplate and maximal performance for developers. The SDK includes various feature flags for additional functionalities such as compression, TLS support, and migrations. It also provides example usage and instructions for running tests with a Clickhouse server.
@@ -2155,7 +2155,7 @@ items:
       category: Rust
       category_confidence: 0.9
       language: Rust
-      tags: async, asynchronous, clickhouse, feature-flags, integration, integration-tests, native-protocol, performance, rust, sdk
+      tags: ""
     - name: AfterShip/clickhouse-sql-parser
       link: https://github.com/AfterShip/clickhouse-sql-parser
       description: This project is a Go library and CLI tool that allows users to parse and beautify ClickHouse SQL queries. It converts SQL queries into an Abstract Syntax Tree (AST) and can also format SQL queries for better readability. The library can be used both as a standalone command-line interface and as a library within Go applications. It is inspired by another SQL parser for Spanner, showcasing its relevance in the SQL parsing domain.
@@ -2166,7 +2166,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: ast, beautify, cli-tool, clickhouse, command-line-interface, go, library, parsing, queries, sql-parser, sql-queries
+      tags: clickhouse, go, sql-parser
     - name: myscale/MyScaleDB
       link: https://github.com/myscale/MyScaleDB
       description: MyScaleDB is an open-source SQL vector database that enables developers to build production-ready and scalable AI applications using familiar SQL. It is optimized for managing and processing massive volumes of data, leveraging ClickHouse's advanced capabilities. The project offers fully SQL-compatible vector search, filtered search, and SQL-vector join queries, making it accessible for developers. MyScaleDB combines structured and vectorized data management, providing unmatched performance and scalability for AI applications.
@@ -2177,7 +2177,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: C++
-      tags: ai-applications, ann, big-data, c++, clickhouse, data-management, embedding, image-search, llm, myscaledb, open-source, rag, scalable-ai-applications, search-engine, similarity-search, sql, sql-vector, sql-vector-database, unstructured-analytics, vector-database, vector-search, vectordb
+      tags: ann, big-data, embedding, image-search, llm, myscaledb, rag, search-engine, similarity-search, sql, sql-vector, unstructured-analytics, vector-search, vectordb
     - name: apache/incubator-gluten
       link: https://github.com/apache/incubator-gluten
       description: Gluten is a Scala library that enhances the performance of Spark SQL by offloading execution to native engines. It transforms Spark's physical plan to a Substrait plan and utilizes native libraries for compute-intensive data processing. The library aims to combine the scalability of Spark with the performance of native SQL engines, making it suitable for users looking to accelerate their Spark SQL queries. Gluten supports backends like Clickhouse and Velox, and it can be used as a plugin without requiring changes to the existing Spark API.
@@ -2188,7 +2188,7 @@ items:
       category: Scala
       category_confidence: 0.9
       language: Scala
-      tags: arrow, clickhouse, data-processing, execution, gluten, library, native, native-engines, offloading, performance, performance-enhancement, scala, simd, spark, spark-sql, sql, substrait, vectorization, velox
+      tags: arrow, clickhouse, simd, spark-sql, vectorization, velox
     - name: plausible/ecto_ch
       link: https://github.com/plausible/ecto_ch
       description: This project is an Elixir library designed to act as an Ecto adapter for connecting to ClickHouse databases. It allows developers to easily integrate ClickHouse into their Elixir applications using Ecto's familiar interface. The library provides configuration options, schema definitions, and support for various ClickHouse-specific features such as asynchronous inserts and custom data types. Additionally, it includes caveats and examples to help users understand the limitations and capabilities of using ClickHouse with Ecto.
@@ -2199,7 +2199,7 @@ items:
       category: Elixir
       category_confidence: 0.95
       language: Elixir
-      tags: adapter, clickhouse, data-insertion, database, database-adapter, ecto, elixir, library, migrations, schema
+      tags: ""
     - name: hyperdxio/hyperdx
       link: https://github.com/hyperdxio/hyperdx
       description: HyperDX is an open-source observability platform designed to help engineers quickly resolve production issues by centralizing logs, metrics, traces, exceptions, and session replays. It offers a developer-friendly alternative to existing solutions like Datadog and New Relic, providing features such as end-to-end correlation of telemetry data, intuitive search capabilities, and performance monitoring. HyperDX is built on Clickhouse for fast performance and supports OpenTelemetry for easy integration with various programming languages. The platform can be deployed locally using Docker, making it accessible for developers to instrument their applications and monitor their performance effectively.
@@ -2210,7 +2210,7 @@ items:
       category: Metrics and Monitoring
       category_confidence: 0.9
       language: TypeScript
-      tags: alerting, alerts, analytics, apm, application-monitoring, clickhouse, dashboard, errors, exceptions, frontend-monitoring, kubernetes, log-management, logs, metrics, monitoring, observability, open-source, opentelemetry, performance, react, sdk, self-hosted, session-replay, session-replays, traces, typescript
+      tags: alerting, analytics, apm, application-monitoring, clickhouse, dashboard, frontend-monitoring, kubernetes, log-management, logs, metrics, monitoring, observability, opentelemetry, react, self-hosted, session-replay, traces, typescript
     - name: RoaringBitmap/CRoaring
       link: https://github.com/RoaringBitmap/CRoaring
       description: CRoaring is a high-performance library designed for Roaring bitmaps in C and C++. It utilizes SIMD techniques to optimize performance and is compatible with various compilers and platforms. The library is used in several major systems, including Apache Lucene and ClickHouse, showcasing its effectiveness in handling bitmap compression. CRoaring aims to provide a low-level implementation that leverages the latest hardware capabilities for superior performance.
@@ -2221,7 +2221,7 @@ items:
       category: C++
       category_confidence: 0.9
       language: C
-      tags: apache, apache-doris, apache-lucene, arm, avx-512, avx2, bitmap-compression, bitset, bitset-library, c, c++, clang, clickhouse, compression, data-processing, data-structures, gcc, high-performance, library, neon, performance, roaring-bitmaps, simd, visual-studio
+      tags: arm, avx-512, avx2, bitset, bitset-library, c, clang, gcc, neon, roaring-bitmaps, visual-studio
     - name: duyet/clickhouse-monitoring
       link: https://github.com/duyet/clickhouse-monitoring
       description: This project is a Next.js dashboard that provides monitoring capabilities for ClickHouse clusters. It offers insights into current queries, resource usage, and system metrics, allowing users to track performance and resource allocation. The dashboard includes features such as query monitoring, cluster monitoring, and visualization of metric charts. It also provides tools for Zookeeper data exploration and query management, making it a comprehensive solution for ClickHouse monitoring.
@@ -2232,7 +2232,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: TypeScript
-      tags: clickhouse, dashboard, duyet, hacktoberfest, metrics, monitoring, next.js, nextjs, queries, resource-usage, typescript, vercel, visualization
+      tags: clickhouse, duyet, hacktoberfest, monitoring, nextjs, vercel
     - name: cybercog/laravel-clickhouse
       link: https://github.com/cybercog/laravel-clickhouse
       description: Laravel ClickHouse is a PHP package designed to integrate ClickHouse database client and migration functionalities into Laravel applications. It allows users to create and execute ClickHouse database migrations seamlessly within their Laravel projects. The package includes features such as client integration, migration creation, and execution. Installation is straightforward via Composer, and configuration can be customized through environment variables. This tool is particularly useful for developers looking to leverage ClickHouse's capabilities in their Laravel applications.
@@ -2243,7 +2243,7 @@ items:
       category: PHP
       category_confidence: 0.9
       language: PHP
-      tags: clickhouse, clickhouse-client, clickhouse-migration, client, cog, composer, configuration, database, database-integration, database-schema, db, db-schema, development, environment-variables, laravel, migration, migrations, package, php, schema
+      tags: clickhouse, clickhouse-client, clickhouse-migration, cog, database, database-schema, db, db-schema, laravel, migration, php, schema
     - name: devlive-community/dbm
       link: https://github.com/devlive-community/dbm
       description: DBM is an open-source database management tool that allows users to manage and query multiple SQL databases. It supports various database solutions such as ClickHouse, MySQL, PostgreSQL, and more. The tool offers features like query history, table management, and custom queries, making it versatile for database operations. Additionally, it provides a user-friendly interface for managing connections and monitoring performance.
@@ -2254,7 +2254,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: TypeScript
-      tags: apache-druid, clickhouse, data-sources-management, data-synchronization, database, database-management, elasticsearch, electron, mysql, open-source, postgresql, presto, query-history, sql, sql-databases, table-management, trino, typescript
+      tags: clickhouse, database, electron, mysql, postgresql, presto, sql, trino
     - name: timeplus-io/proton
       link: https://github.com/timeplus-io/proton
       description: Timeplus Proton is a fast and lightweight streaming SQL engine that serves as an alternative to ksqlDB and Apache Flink. It is designed to handle streaming data processing, routing, and analytics challenges, particularly from sources like Apache Kafka and Redpanda. The engine is built in C++ for optimized performance and can deliver high throughput with low latency. Timeplus Proton integrates seamlessly with ClickHouse, extending its capabilities for real-time data processing.
@@ -2265,7 +2265,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: C++
-      tags: analytics, apache-kafka, c++, clickhouse, confluent, cpp, data-processing, etl, fast, flink-alternative, high-performance, kafka, kakfa, ksqldb-alternative, lightweight, redpanda, simd, single-binary, sql, stream-processing, streaming-sql, streaming-sql-engine, udf
+      tags: analytics, clickhouse, confluent, cpp, flink-alternative, high-performance, kakfa, ksqldb-alternative, redpanda, simd, single-binary, sql, stream-processing, streaming-sql, udf
     - name: Altinity/altinity-dashboard
       link: https://github.com/Altinity/altinity-dashboard
       description: Altinity Dashboard is a TypeScript-based tool that facilitates the management of ClickHouse installations within Kubernetes environments. It allows users to deploy, upgrade, and remove the clickhouse-operator, as well as manage ClickHouse installations through a user-friendly interface. The dashboard provides functionalities for viewing container statuses, storage usage, and operational parameters of ClickHouse installations. Although currently in a pre-release state, it aims to simplify the deployment and management of ClickHouse in Kubernetes, making it accessible for users and developers alike.
@@ -2276,7 +2276,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: TypeScript
-      tags: altinity, clickhouse, clickhouse-operator, console, dashboard, deployment, kubernetes, management, operator, typescript, ui
+      tags: clickhouse, clickhouse-operator, console, kubernetes, management, ui
     - name: ClickHouse/homebrew-clickhouse
       link: https://github.com/ClickHouse/homebrew-clickhouse
       description: This repository is a deprecated Homebrew tap for ClickHouse that is no longer maintained. Users can still utilize it as it should function correctly, but no future updates or fixes will be provided. The README advises users to switch to a community-maintained ClickHouse brew formula for ongoing support. This project primarily serves as a reference for users who may still need to access the deprecated tap.
@@ -2287,7 +2287,7 @@ items:
       category: Documentation
       category_confidence: 0.8
       language: ""
-      tags: clickhouse, clickhouse-client, clickhouse-cpp, clickhouse-odbc, clickhouse-server, community-maintained, dbms, deprecated, documentation, formula, homebrew, homebrew-tap, issues., linux, macos, maintenance, repository, tap
+      tags: clickhouse, clickhouse-client, clickhouse-cpp, clickhouse-odbc, clickhouse-server, dbms, homebrew, homebrew-tap, linux, macos
     - name: ClickHouse/pastila
       link: https://github.com/ClickHouse/pastila
       description: This project is a paste service built on ClickHouse that demonstrates various features such as asynchronous inserts and user access control. It allows users to save and edit data instantly without needing a save button, providing permanent links to the data. The service supports hosting Markdown and HTML pages, along with a link shortener feature. Additionally, it includes encryption options for data security, although it warns users about potential security and privacy issues.
@@ -2298,7 +2298,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.8
       language: HTML
-      tags: asynchronous-inserts, clickhouse, data-management, data-storage, encryption, html, link-shortener, markdown, paste-service, user-access-control
+      tags: clickhouse
     - name: lazzyfu/goInsight
       link: https://github.com/lazzyfu/goInsight
       description: ""
@@ -2320,7 +2320,7 @@ items:
       category: GUI
       category_confidence: 0.9
       language: JavaScript
-      tags: clickhouse, data-visualization, database, database-management, docker, javascript, metrics-visualization, react, sql-editor, typescript, ui, user-interface, web-application
+      tags: big-data, big-data-analytics, big-data-visualization, clickhouse-ui
     - name: ClickHouse/clickhouse-tableau-connector-jdbc
       link: https://github.com/ClickHouse/clickhouse-tableau-connector-jdbc
       description: This project provides a JDBC connector that facilitates the connection between Tableau and ClickHouse, enhancing data visualization capabilities. It simplifies the installation process compared to ODBC and offers fine-tuning for SQL queries to support standard Tableau functionalities. The connector is compatible with Tableau Desktop, Tableau Prep Builder, and Tableau Server, making it versatile for various Tableau applications. Additionally, it includes detailed installation instructions and tips for optimizing connections and queries.
@@ -2331,7 +2331,7 @@ items:
       category: Java
       category_confidence: 0.9
       language: JavaScript
-      tags: clickhouse, connector, data-visualization, installation-guide, integration, java, jdbc, performance, sql-queries, tableau
+      tags: ""
     - name: Quiq/influxdb-tools
       link: https://github.com/Quiq/influxdb-tools
       description: This project consists of a collection of Python scripts aimed at facilitating the migration of data from InfluxDB to Clickhouse, as well as managing backups of InfluxDB. The scripts include functionalities for generating table schemas for Clickhouse based on InfluxDB measurements and loading backup data into Clickhouse. Additionally, it features a backup/restore script that utilizes the InfluxDB HTTP API to handle data in line-protocol format. Users can perform incremental backups, restore specific measurements, and manage retention policies, making it a comprehensive tool for data migration and management.
@@ -2342,7 +2342,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Python
-      tags: backup, clickhouse, data-management, data-migration, data-processing, etl, influxdb, migration, python, python-scripts, restore
+      tags: backup, clickhouse, influxdb
     - name: aws-samples/aws-lambda-clickhouse
       link: https://github.com/aws-samples/aws-lambda-clickhouse
       description: This project demonstrates how to run ClickHouse, an open-source online analytics database, within an AWS Lambda function. It allows users to perform ad-hoc querying of data stored in Amazon S3 using ClickHouse SQL through a simple HTTP client. The setup involves deploying the Lambda function using the AWS Cloud Development Kit (CDK) and configuring it to interact with S3 data. This sample serves as a foundation for building serverless solutions around the ClickHouse query engine.
@@ -2353,7 +2353,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: amazon-s3, analytics, aws, aws-cdk, aws-lambda, clickhouse, data-querying, database, http-requests, lambda, s3, serverless, sql, typescript
+      tags: aws, aws-lambda, clickhouse, serverless
     - name: zimv/node-clickhouse-orm
       link: https://github.com/zimv/node-clickhouse-orm
       description: This project is a TypeScript ORM for Node.js that simplifies interactions with Clickhouse databases. It allows developers to easily create and manage database schemas, perform CRUD operations, and synchronize table structures automatically. The library provides a straightforward API for defining models and executing queries over an HTTP interface. With features like automatic table creation and synchronization, it streamlines database management for applications using Clickhouse.
@@ -2364,7 +2364,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: api, clickhouse, database, http, http-interface, library, node.js, nodejs, orm, typescript
+      tags: ""
     - name: dubinc/dub
       link: https://github.com/dubinc/dub
       description: Dub.co is an open-source link management infrastructure designed for modern marketing teams, featuring advanced analytics and branded links. It allows users to create and manage links with personalized options and team collaboration features. The project is built using a modern tech stack including Next.js and TypeScript, making it suitable for developers looking to integrate link management into their applications. Additionally, it offers self-hosting capabilities for users who want more control over their data.
@@ -2375,7 +2375,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: analytics, branded-links, clickhouse, link-management, marketing, marketing-teams, mysql, next-auth, next.js, nextjs, open-source, personalization, planetscale, prisma, qr-codes, self-hosting, tailwindcss, team-collaboration, tinybird, turborepo, typescript, upstash, vercel
+      tags: clickhouse, mysql, next-auth, nextjs, open-source, planetscale, prisma, tailwindcss, tinybird, turborepo, typescript, upstash, vercel
     - name: lodthe/clickhouse-playground
       link: https://github.com/lodthe/clickhouse-playground
       description: ClickHouse Playground is a web-based tool that enables users to execute SQL queries on various ClickHouse versions without needing a local database. It allows users to run any queries in arbitrary ClickHouse versions and share the execution results with others. The architecture involves creating Docker containers for each user request, allowing for isolated execution environments. Users can communicate with the playground using a REST API, making it accessible and easy to use.
@@ -2386,7 +2386,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, docker, playground, query-execution, query-storage, rest-api, sql-playground, sql-queries, web-based-tool
+      tags: clickhouse, playground, sql-playground
     - name: tinybirdco/clickhouse_knowledge_base
       link: https://github.com/tinybirdco/clickhouse_knowledge_base
       description: The ClickHouse Knowledge Base is a curated resource maintained by Tinybird, aimed at sharing knowledge and documentation about ClickHouse. It invites contributions from the community, allowing users with extensive ClickHouse experience to share their insights. Built using Docusaurus 2, it provides a modern static website for easy access to information. The project also includes guidelines for installation and local development, making it accessible for contributors.
@@ -2397,7 +2397,7 @@ items:
       category: Documentation
       category_confidence: 0.9
       language: JavaScript
-      tags: clickhouse, community-contributions, development, development-instructions, documentation, docusaurus, hacktoberfest, installation, knowledge-base, static-website, tinybird
+      tags: clickhouse, documentation, hacktoberfest, knowledge-base, tinybird
     - name: zerodha/dungbeetle
       link: https://github.com/zerodha/dungbeetle
       description: DungBeetle is a distributed job server that efficiently queues and executes heavy SQL read jobs asynchronously across multiple SQL databases. It supports various databases like MySQL, PostgreSQL, and ClickHouse, allowing for efficient report generation without overloading the primary database. The server manages job execution through HTTP APIs, enabling users to track job statuses and manage job queues effectively. By offloading report generation to a dedicated job server, it enhances application performance and user experience.
@@ -2408,7 +2408,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: asynchronous-execution, broker-backend, caching-results, clickhouse, data-movement, database, distributed-job-server, http-api, job-queue, job-queueing, job-scheduler, mysql, postgres, postgresql, report-generation, reporting, sql, sql-query, sql-read-jobs, workers
+      tags: broker-backend, database, job-queue, job-scheduler, mysql, postgres, postgresql, reporting, sql, sql-query, workers
     - name: ClickHouse/adsb.exposed
       link: https://github.com/ClickHouse/adsb.exposed
       description: This project is an interactive visualization tool that allows users to analyze massive amounts of ADS-B air traffic data. It utilizes ClickHouse as the database backend, enabling on-the-fly querying and custom SQL visualizations. Users can drill down from billions of records to individual data points, making it a powerful tool for aviation data analysis. The project showcases various examples of visualizations, including military training flights and airport traffic, demonstrating its versatility and effectiveness in data representation.
@@ -2419,7 +2419,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.95
       language: HTML
-      tags: ads-b, air-traffic-data, analytics, clickhouse, flightradar, geospatial, interactive-tool, sql-queries, visualization
+      tags: ads-b, clickhouse, flightradar, geospatial
     - name: ByConity/ByConity
       link: https://github.com/ByConity/ByConity
       description: ByConity is an open-source cloud data warehouse that enhances data management and querying capabilities. It is built upon the ClickHouse codebase but has diverged significantly in architecture, introducing innovations like compute-storage separation and a state-of-the-art query optimizer. ByConity is designed for cloud environments, offering flexibility for deployment on Kubernetes or physical clusters. Its capabilities include efficient handling of both batch and streaming data, promoting unified data management and high-performance querying.
@@ -2430,7 +2430,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: C++
-      tags: batch-data, bytedance, clickhouse, clickhouse-database, cloud, cloud-data-warehouse, cloud-native, community-collaboration, compute-storage-separation, data-management, data-silos, database-management, kubernetes, kubernets, lakehouse, olap, open-source, performance, physical-clusters, query-optimizer, querying-capabilities, s3, scalability, snowflake, sql, streaming-data, tiktok
+      tags: bytedance, clickhouse, clickhouse-database, cloud, kubernets, lakehouse, olap, s3, snowflake, sql, tiktok
     - name: kobsio/klogs
       link: https://github.com/kobsio/klogs
       description: klogs is a tool designed to write logs collected by Fluent Bit into ClickHouse, offering both direct logging and Kafka integration. It includes a Fluent Bit plugin for direct log writing and a ClickHouse ingester for Kafka-based log processing. Users can configure the tool to suit their logging needs, including SQL schema setup for ClickHouse. The project is part of the kobs ecosystem, providing an interface for log retrieval from ClickHouse.
@@ -2441,7 +2441,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, configuration, data-movement, fluent-bit, ingester, kafka, kobs, kobsio, kubernetes, logging, logging-tool, logs, monitoring, observability, plugin, sql-schema, synchronization
+      tags: clickhouse, fluent-bit, kobs, kobsio, kubernetes, logging
     - name: ClickHouse/click-ui
       link: https://github.com/ClickHouse/click-ui
       description: Click UI is a design system and component library for ClickHouse, built using TypeScript. It is currently in early development and is not recommended for production use. The library has been tested with frameworks like NextJS, Gatsby, and Vite, allowing developers to easily integrate it into their applications. Users can install it via npm or yarn and utilize its components by wrapping their applications in the ClickUIProvider. The project also provides local development instructions for building and running the library.
@@ -2452,7 +2452,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: clickhouse, component-library, design-system, early-development, gatsby, nextjs, typescript, vite
+      tags: ""
     - name: jitsucom/bulker
       link: https://github.com/jitsucom/bulker
       description: Bulker is a Go-based tool that facilitates the bulk-loading of semi-structured data into various data warehouses while managing schemas automatically. It supports both streaming and batching methods for data insertion, ensuring reliability through Kafka integration. The tool can deduplicate records and infer or explicitly set data types, making it versatile for different data structures. Additionally, Bulker is cloud-native and can be easily deployed in various environments, including Docker and Kubernetes.
@@ -2463,7 +2463,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: batching, bulk-loading, cloud-native, data-engineering, data-warehouses, datawarehouse, deduplication, etl, etl-pipeline, go, ingestion, json, json-flattening, kafka, pipeline, schema-management, semi-structured-data, streaming
+      tags: data-engineering, datawarehouse, etl, etl-pipeline, ingestion, pipeline
     - name: xl-xueling/xl-lighthouse
       link: https://github.com/xl-xueling/xl-lighthouse
       description: ""
@@ -2485,7 +2485,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: cli, clickhouse, database-agnostic, detection-engineering, go, golang, kusto-query-language, library, pipelined-query-language, query-compilation, query-language, query-manipulation, siem, sql
+      tags: clickhouse, detection-engineering, go, golang, query-language, siem, sql
     - name: scratchdata/scratchdata
       link: https://github.com/scratchdata/scratchdata
       description: Scratch Data is a Go-based tool that allows users to stream data into and out of analytics databases. It accepts arbitrary JSON as input and enables users to perform analytical queries on the data. The tool automatically sets up a local DuckDB database for reading and writing data. Additionally, it provides features for sharing data as CSV or JSON and copying data between multiple databases.
@@ -2496,7 +2496,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: analytics, analytics-databases, api, big-data, bigquery, clickhouse, data-movement, data-synchronization, data-warehouse, duckdb, go, hacktoberfest, json, motherduck, olap, querying, redshift, snowflake, sql-queries, streaming, tool
+      tags: bigquery, clickhouse, data-warehouse, duckdb, hacktoberfest, motherduck, olap, redshift, snowflake
     - name: getlago/lago
       link: https://github.com/getlago/lago
       description: Lago is an open-source API designed for metering and usage-based billing, specifically tailored for product-led SaaS companies. It provides a flexible solution for managing subscriptions and pricing, allowing businesses to implement various pricing models including pay-as-you-go and hybrid plans. The API is event-based, enabling companies to charge based on tracked usage, and it integrates seamlessly with internal systems and tools. Lago aims to simplify the billing process, making it easier for engineers and product teams to manage their billing needs effectively.
@@ -2507,7 +2507,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Shell
-      tags: analytics, api, billing, billing-system, clickhouse, coupons, docker, event-based, fintech, hybrid-pricing, invoices, invoicing, metering, open-source, payment-orchestration, payments, prepaid-credits, pricing, pricing-data-science, product-led-growth, rails, react, revenue-analytics, ruby, saas, self-hosted, subscription-management, subscriptions, usage-based-billing
+      tags: analytics, billing, clickhouse, fintech, invoices, metering, open-source, payments, pricing, pricing-data-science, react, ruby, self-hosted, subscriptions, usage-based-billing
     - name: scottpersinger/pgwarehouse
       link: https://github.com/scottpersinger/pgwarehouse
       description: pgwarehouse is a Python package designed to facilitate the efficient synchronization of data from Postgres databases to cloud data warehouses such as Snowflake, ClickHouse, and DuckDB. It allows users to perform one-time sync operations or set up periodic incremental syncs to keep their data warehouses updated. The package supports high-performance data transfer using the COPY command, enabling the synchronization of large datasets quickly. Users can configure their Postgres and warehouse credentials easily and choose from various update strategies for managing data synchronization.
@@ -2518,7 +2518,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Python
-      tags: analytics, clickhouse, cloud-data-warehouse, data-movement, data-synchronization, data-warehouse, duckdb, etl, postgres, postgresql, python, python-package, snowflake, sync, synchronization, warehouse
+      tags: analytics, clickhouse, data-warehouse, postgres, postgresql, snowflake, synchronization, warehouse
     - name: clickcat-project/ClickCat
       link: https://github.com/clickcat-project/ClickCat
       description: ClickCat is a user-friendly interface that allows users to search, explore, and visualize their ClickHouse data. It features an online SQL editor, process observation and management, metrics analysis, time-series prediction, and graph analysis capabilities. Users can access the tool directly online without installation, making it convenient for quick data exploration. The project is built using Vue3 and TypeScript, along with a Python component for time series modeling.
@@ -2529,7 +2529,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: Vue
-      tags: clickhouse, clickhouse-metrics, data-visualization, frontend, graph, graph-analysis, sql-editor, sql-editor-online, time-series-analysis, time-series-prediction, user-interface, vue
+      tags: clickhouse, clickhouse-metrics, graph, sql-editor-online, time-series-analysis
     - name: quarylabs/sqruff
       link: https://github.com/quarylabs/sqruff
       description: Sqruff is a fast SQL linter and formatter written in Rust, supporting multiple SQL dialects and designed for integration into development workflows. It offers advanced linting capabilities to ensure query quality and automated formatting for SQL code consistency. The tool is designed for speed and efficiency, making it suitable for various development environments. Users can easily integrate it into their workflows, whether through command line, GitHub Actions, or as a Visual Studio Code extension.
@@ -2540,7 +2540,7 @@ items:
       category: Rust
       category_confidence: 0.9
       language: Rust
-      tags: ansi, automation, bigquery, ci/cd, clickhouse, code-quality, development, development-workflows, dialects, formatter, integration, linter, multiple-dialects, rust, snowflake, sql, sql-dialects, tooling, visual-studio-code-extension
+      tags: ansi, bigquery, clickhouse, linter, rust, snowflake, sql
     - name: metrico/quackpipe
       link: https://github.com/metrico/quackpipe
       description: QuackPipe is a serverless OLAP API that emulates the ClickHouse HTTP API using DuckDB. It allows users to execute SQL queries through a familiar interface, enabling seamless integration with existing workflows. The project supports various modes of operation, including Docker deployment and binary releases, making it accessible for different environments. Additionally, QuackPipe offers features like stateful queries, extensions for data formats, and the ability to interact with ClickHouse instances, enhancing its utility for data analysis and management.
@@ -2551,7 +2551,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.9
       language: Go
-      tags: api, clickhouse, clickhouse-server, cloud-storage, csv, data-analysis, data-queries, database, docker, duckdb, duckdb-api, duckdb-engine, extensions, gigapipe, golang, http-api, lambda, lambda-functions, olap, olap-api, parquet, qryn, quackpipe, rest-api, s3, server, serverless, sql, sql-queries
+      tags: api, clickhouse, clickhouse-server, csv, database, duckdb, duckdb-api, duckdb-engine, gigapipe, golang, lambda, lambda-functions, olap, parquet, qryn, rest-api, s3, server, sql
     - name: l1xnan/duckling
       link: https://github.com/l1xnan/duckling
       description: Duckling is a lightweight desktop application built using Tauri, designed for quickly browsing parquet and CSV file data and various databases. It supports DuckDB and SQLite, with experimental support for PostgreSQL, MySQL, Clickhouse, and Doris/StarRocks. The project aims to facilitate quick data browsing rather than being a fully functional database management tool. It is currently in active development and may be unstable.
@@ -2562,7 +2562,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Rust
-      tags: clickhouse, csv, data-browsing, database-viewer, databases, duckdb, duckling, mysql, parquet, postgresql, rust, sqlite, tauri
+      tags: clickhouse, duckdb, mysql, parquet, postgresql, rust, sqlite, tauri
     - name: Swetrix/swetrix
       link: https://github.com/Swetrix/swetrix
       description: Swetrix is an open-source, privacy-focused web analytics service that serves as a cookie-less alternative to Google Analytics. It allows users to track website traffic, monitor site speed, and analyze user sessions and page flows. The backend is built with Nest.js and utilizes MySQL and Clickhouse databases for data management and statistics. Swetrix is designed for ease of use and offers comprehensive features for understanding website user behavior.
@@ -2573,7 +2573,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: clickhouse, cookie-less, data-visualization, docker, google-analytics, google-analytics-alternative, mysql, nest.js, nestjs, open-source, privacy, privacy-first, redis, remix, self-hosted, self-hosting, selfhosted, tailwind, traffic-monitoring, typescript, user-sessions, user-tracking, web-analytics, webanalytics
+      tags: clickhouse, docker, mysql, nestjs, privacy, redis, self-hosted, selfhosted, webanalytics
     - name: getdozer/dozer
       link: https://github.com/getdozer/dozer
       description: Dozer is a high-performance tool for real-time data movement that leverages Change Data Capture (CDC) to transfer data from various sources to multiple sinks. It is significantly faster than traditional solutions like Debezium and Kafka, and it supports stateless transformations. The tool is primarily used for moving data into data warehouses, with a specific focus on Clickhouse. Users can configure Dozer with a simple YAML file to connect to various databases and define data sinks.
@@ -2584,7 +2584,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Rust
-      tags: api, apis, cdc, clickhouse, data, data-apis, data-integration, data-sinks, data-sources, data-synchronization, data-transformation, data-warehouses, datawarehouse, debe, etl, low-code, postgres, real-time-data-movement, realtime, rust, snowflake, sql, streaming, transformations
+      tags: api, apis, clickhouse, data, datawarehouse, debe, etl, low-code, postgres, realtime, rust, snowflake, sql, streaming
     - name: openmeterio/openmeter
       link: https://github.com/openmeterio/openmeter
       description: OpenMeter is a scalable solution designed for real-time usage metering, catering to AI, billing, and IoT applications. It allows users to meter their usage effectively, whether in a self-hosted environment or in the cloud. The project provides a REST API for integrations and offers client SDKs in multiple programming languages. OpenMeter also includes examples and a community for support, making it accessible for developers looking to implement usage metering in their applications.
@@ -2595,7 +2595,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: ai, api, billing, clickhouse, cloud, community-support, cost, examples, finops, go, golang, infrastructure, iot, kafka, kubernetes, metering, pricing, real-time, real-time-metering, rest-api, scalable-solution, sdk, sdks, stripe, usage, usage-based-billing, usage-based-pricing, usage-metering
+      tags: billing, clickhouse, cost, finops, golang, kafka, metering, pricing, stripe, usage, usage-based-billing, usage-based-pricing
     - name: shixiaofeia/fly
       link: https://github.com/shixiaofeia/fly
       description: ""
@@ -2617,7 +2617,7 @@ items:
       category: PHP
       category_confidence: 0.9
       language: PHP
-      tags: adminer, clickhouse, data-manipulation, database, database-management, databases, dual-licensed, elasticsearch, firebird, mongodb, mssql, mysql, open-source, oracle, php, plugins, postgresql, simpledb, single-file-solution, sqlite
+      tags: clickhouse, database, database-management, databases, elasticsearch, firebird, mongodb, mssql, mysql, oracle, postgresql, simpledb, sqlite
     - name: linq2db/linq2db
       link: https://github.com/linq2db/linq2db
       description: LINQ to DB is the fastest LINQ database access library offering a simple, light, fast, and type-safe layer between your POCOs and your database. It allows developers to work with LINQ expressions instead of magic strings, ensuring type safety and easy refactoring. The library provides a rich querying API, extensibility options, and is lighter than other ORM solutions like Entity Framework. It is suitable for developers looking for a performant and flexible data access solution in .NET applications.
@@ -2628,7 +2628,7 @@ items:
       category: .Net
       category_confidence: 0.95
       language: C#
-      tags: access, bulk-inserts, c#, clickhouse, data-access, database, db2, dotnet, firebird, informix, linq, mariadb, micro-orm, mssql, mysql, oracle, orm, postgresql, sap-hana, sql, sqlce, sqlite, sqlserver, type-safe
+      tags: access, bulk-inserts, clickhouse, database, db2, dotnet, firebird, informix, linq, mariadb, mssql, mysql, oracle, orm, postgresql, sap-hana, sql, sqlce, sqlite, sqlserver
     - name: PeerDB-io/peerdb
       link: https://github.com/PeerDB-io/peerdb
       description: PeerDB is a fast and cost-effective ETL tool designed for streaming data from Postgres to various storage solutions such as data warehouses and queues. It supports multiple streaming modes, including log-based and cursor-based methods, and is optimized for performance, achieving speeds up to 10 times faster than existing tools. The tool is built with a Postgres-first approach, ensuring reliability and feature richness, including support for complex data types and efficient syncing of large columns. PeerDB allows users to utilize familiar SQL commands for ETL operations, integrating seamlessly with the Postgres ecosystem.
@@ -2639,7 +2639,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Go
-      tags: bigquery, cdc, clickhouse, cloud-native, cost-effective, data-processing, data-replication, data-warehouses, data-warehousing, distributed-systems, etl, eventhubs, fault-tolerance, go, kafka, performance-optimization, postgres, postgresql, realtime, rust, s3, snowflake, sql, stream-processing, streaming
+      tags: bigquery, cdc, clickhouse, cloud-native, distributed-systems, etl, eventhubs, kafka, postgres, postgresql, realtime, rust, s3, snowflake, sql, stream-processing
     - name: timeseries/qstudio
       link: https://github.com/timeseries/qstudio
       description: qStudio is a free cross-platform SQL analysis tool that enables users to browse databases, execute SQL scripts, and visualize results using built-in charts. It supports a wide range of databases including MySQL, PostgreSQL, and ClickHouse, making it versatile for various data environments. The tool features a server browser, syntax highlighting, and code completion to enhance user experience. Additionally, it includes AI-powered functionalities like Text2SQL and query explanation tools to assist users in generating and understanding SQL queries.
@@ -2650,7 +2650,7 @@ items:
       category: GUI
       category_confidence: 0.9
       language: Java
-      tags: ai, ai-assistant, analysis, built-in-charts, charts, clickhouse, code-completion, cross-platform, database, database-browsing, duckdb, duckdb-database, export, gui, java, kdb, kdb-q, mysql, postgresql, query, questdb, sql, sql-analysis-tool, syntax-highlighting, text2sql, timescaledb, tool, visualization
+      tags: clickhouse, database, duckdb, duckdb-database, gui, kdb, kdb-q, mysql, postgresql, questdb, sql, timescaledb
     - name: chdb-io/chdb-go
       link: https://github.com/chdb-io/chdb-go
       description: chdb-go is a Go library that provides bindings and a command-line interface for chDB, an in-process SQL OLAP engine powered by ClickHouse. It allows users to execute SQL commands either in a simple or interactive mode. The library also supports stateful and stateless queries, enabling users to create databases and tables, insert data, and retrieve results. Additionally, it includes examples for using the library in Go applications, showcasing its functionality and ease of use.
@@ -2661,7 +2661,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: bindings, chdb, cli, clickhouse, command-line-interface, database, go, golang, interactive-mode, library, olap, sql
+      tags: chdb, cli, clickhouse, golang
     - name: benawad/voidpulse
       link: https://github.com/benawad/voidpulse
       description: Voidpulse is an open-source analytics platform inspired by Mixpanel, enhanced with AI capabilities. It is designed to provide analytics without the high costs associated with commercial solutions. The platform is built using a tech stack that includes React, TypeScript, Node.js, and ClickHouse for efficient data storage and querying. Currently, it is in private beta and is being used in production for the Voidpet app.
@@ -2672,7 +2672,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: TypeScript
-      tags: ai, analytics, clickhouse, javascript, kafka, mixpanel, node.js, open-source, postgresql, react, redis, typescript
+      tags: analytics, clickhouse, javascript, kafka, postgresql, react, redis, typescript
     - name: eabz/evm-indexer
       link: https://github.com/eabz/evm-indexer
       description: The EVM Indexer is a scalable SQL indexer designed for EVM-compatible blockchains. It fetches and stores various blockchain data such as blocks, transactions, and logs for later analysis. The project is built using Rust and can be deployed using Docker. It provides several program flags to customize the syncing process, including options for specifying the blockchain to sync and the range of blocks to fetch.
@@ -2683,7 +2683,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Rust
-      tags: blockchain, clickhouse, data-analysis, docker, ethereum, evm, indexer, rust, scalable, sql
+      tags: blockchain, clickhouse, ethereum, evm, indexer, rust
     - name: springrain/zorm
       link: https://github.com/springrain/zorm
       description: ZORM is a lightweight ORM library for Go that supports multiple databases including MySQL, PostgreSQL, Oracle, and more. It is designed to be zero dependency and provides features such as transaction propagation and support for various database dialects. The library allows for easy customization and modification, making it suitable for developers looking for a flexible ORM solution. With detailed documentation and examples, ZORM aims to facilitate database interactions in Go applications.
@@ -2694,7 +2694,7 @@ items:
       category: Golang
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, code-generator, database, dm, gbase, go, go-orm, golang, golang-orm, kingbase, lightweight, multi-database, multi-database-support, mysql, oracle, orm, postgresql, shentong, sql, sqlx, tdengine, transaction, transaction-propagation, zero-dependency
+      tags: clickhouse, database, dm, gbase, go, go-orm, golang, golang-orm, kingbase, mysql, orm, shentong, sql, sqlx, tdengine
     - name: QuesmaOrg/quesma
       link: https://github.com/QuesmaOrg/quesma
       description: Quesma is a programmable database gateway that allows seamless query translation and migration between modern database platforms. It enables users to connect applications with various databases without needing to refactor queries during migrations. The project supports integration with Kibana and Clickhouse, providing a straightforward setup for users. Quesma is currently in pre-alpha Early Access and aims to maintain backward compatibility while simplifying database migrations.
@@ -2705,7 +2705,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: clickhouse, data-movement, database, database-gateway, elasticsearch, gateway, go, kibana, migration, opensearch, opensearch-dashboards, query-translation, synchronization
+      tags: clickhouse, database, elasticsearch, gateway, kibana, opensearch, opensearch-dashboards
     - name: devlive-community/datacap
       link: https://github.com/devlive-community/datacap
       description: DataCap is an integrated software solution designed for data transformation, integration, and visualization. It supports a wide range of data sources, including relational databases, NoSQL databases, and big data solutions. Users can manage multiple data sources, perform various operations on the data, and create visual representations such as charts. The software is built in Java and provides connectors for popular databases like ClickHouse, MySQL, and PostgreSQL.
@@ -2716,7 +2716,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Java
-      tags: big-data, clickhouse, data-integration, data-management, data-sources, data-transformation, data-visualization, database, databases, db2, dremio, druid, elasticsearch, etl, h2, hive, ignite, java, kylin, kyuubi, monetdb, mongodb, mysql, nosql, phoenix, postgresql, presto, redis, relational-database, sql, sqlserver, trino
+      tags: clickhouse, database, db2, dremio, druid, elasticsearch, h2, hive, ignite, kylin, kyuubi, monetdb, mongodb, mysql, phoenix, postgresql, presto, redis, sqlserver, trino
     - name: openlit/openlit
       link: https://github.com/openlit/openlit
       description: OpenLIT is a Python SDK designed for observability and monitoring of LLM applications. It simplifies the integration of performance insights into GenAI projects with minimal effort, allowing developers to track GPU performance and other metrics. The SDK is OpenTelemetry-native, ensuring compatibility with various LLM providers and vector databases. By automatically collecting metadata and performance data, OpenLIT helps optimize resource usage and improve application reliability.
@@ -2727,7 +2727,7 @@ items:
       category: Metrics and Monitoring
       category_confidence: 0.9
       language: Python
-      tags: ai-observability, anthropic, clickhouse, cost-tracking, distributed-tracing, genai, genai-projects, gpu-metrics, gpu-performance, grafana, integration, langchain, llm, llm-applications, llmops, llms, metrics, monitoring, monitoring-tool, observability, open-source, openai, opentelemetry, otel, otlp, performance-metrics, python, python-sdk, resource-optimization, sdk, traces, tracing, typescipt
+      tags: ai-observability, anthropic, clickhouse, distributed-tracing, genai, grafana, langchain, llmops, llms, metrics, monitoring-tool, observability, open-source, openai, opentelemetry, otel, otlp, python, tracing, typescipt
     - name: meteroid-oss/meteroid
       link: https://github.com/meteroid-oss/meteroid
       description: Meteroid is an open-source pricing and billing infrastructure designed for product-led SaaS, focusing on subscription management and usage-based billing. It integrates with existing systems via a simple API to collect customer usage data, which is then used to generate accurate invoices based on custom pricing models. The platform aims to simplify the complexities of traditional billing systems, making it suitable for startups, SMEs, and enterprises looking to adopt usage-based billing. Built on Rust, Meteroid emphasizes efficiency, reliability, and safety, while promoting transparency and collaboration in the SaaS industry.
@@ -2738,7 +2738,7 @@ items:
       category: Rust
       category_confidence: 0.9
       language: Rust
-      tags: analytics, api, billing, clickhouse, data-synchronization, infrastructure, invoicing, metering, modern-data-stack, open-source, payments, plg, pricing, revenue, revenue-analytics, rust, saas, self-hosted, stripe, subscription-management, subscriptions, typescript, usage-based-billing
+      tags: analytics, api, billing, clickhouse, invoicing, metering, modern-data-stack, payments, plg, pricing, revenue, rust, saas, self-hosted, stripe, subscriptions, typescript, usage-based-billing
     - name: synmetrix/synmetrix
       link: https://github.com/synmetrix/synmetrix
       description: Synmetrix is an open-source platform designed for centralized metrics management, enabling flexible data modeling and integration. It allows users to define metrics and dimensions using SQL and Cube.js data models, facilitating the transformation and aggregation of metrics data. The platform features a semantic layer that consolidates metrics from various sources, ensuring a unified data model. Additionally, it supports scheduled reports, alerts, and role-based access control, enhancing collaboration and data governance.
@@ -2749,7 +2749,7 @@ items:
       category: Data Visualization and Analysis
       category_confidence: 0.9
       language: JavaScript
-      tags: alerts, analytics, bi-tools, big-data, bigquery, business-intelligence, clickhouse, cube, cube.js, cubejs, data-engineering, data-exploration, data-integration, data-modeling, databricks, dremio, druid, firebolt, integration, llm, metrics-management, open-source, prestodb, redshift, reporting, semantic-layer, snowflake, sql, sql-api, vertica
+      tags: big-data, bigquery, business-intelligence, clickhouse, cube, cubejs, data-engineering, databricks, dremio, druid, firebolt, llm, prestodb, redshift, semantic-layer, snowflake, vertica
     - name: ozontech/file.d
       link: https://github.com/ozontech/file.d
       description: '`file.d` is a high-performance tool for building data pipelines that efficiently reads, processes, and outputs events. It is designed to handle high throughput, achieving speeds of over 1GB/s in various scenarios. The tool supports multiple input, action, and output plugins, making it versatile for different data processing needs. It is particularly suited for cloud and Kubernetes environments, and is Prometheus-friendly for metrics collection.'
@@ -2760,7 +2760,7 @@ items:
       category: ETL and Data Processing
       category_confidence: 0.9
       language: Go
-      tags: actions, clickhouse, cloud, data-pipelines, elasticsearch, events, file, gelf, go, high-performance, http, input, input-plugins, json, kafka, kubernetes, logging, logs, metrics-collection, observability, output, output-events, output-plugins, performance, pipeline, plugins, process, processing, prometheus, read, reading, sre, throttle, tracing, yaml-configuration
+      tags: actions, clickhouse, elasticsearch, events, file, gelf, go, http, input, json, kafka, logs, observability, output, pipeline, processing, reading, sre, throttle, tracing
     - name: Canner/vulcan-sql
       link: https://github.com/Canner/vulcan-sql
       description: VulcanSQL is an Analytical Data API Framework that simplifies the creation of RESTful APIs for AI agents and data applications. It allows data professionals to easily deliver APIs from various data sources, including databases and data lakes. The framework addresses common pain points in API development, such as time consumption, integration complexity, and security. By utilizing a template-driven approach, VulcanSQL enhances scalability and maintenance, making data more accessible for AI applications.
@@ -2771,7 +2771,7 @@ items:
       category: JavaScript/Typescript
       category_confidence: 0.9
       language: TypeScript
-      tags: ai, ai-agent, ai-agents, analytics, api-builder, api-framework, bigquery, caching, clickhouse, data-api, data-applications, data-apps, data-lake, data-sharing, data-warehouse, database, deployment, duckdb, framework, integration, ksqldb, openapi, postgresql, reporting, restful-api, restful-apis, scalability, security, snowflake, spreadsheet, sql, typescript, vulcan-sql, vulcansql
+      tags: ai, ai-agent, analytics, api-builder, bigquery, clickhouse, data-lake, data-warehouse, database, duckdb, ksqldb, postgresql, reporting, restful-api, snowflake, spreadsheet, sql, typescript, vulcan-sql, vulcansql
     - name: plmercereau/chat-dbt
       link: https://github.com/plmercereau/chat-dbt
       description: Chat-DBT is a tool that enables users to interact with databases like PostgreSQL and ClickHouse using natural language queries powered by OpenAI's GPT. It features both command line and web interfaces, allowing for flexible usage. Users can pipe input and output, maintain query history, and utilize OpenAI for SQL error correction. The tool supports various output formats and provides options for managing database connections and environment variables.
@@ -2782,7 +2782,7 @@ items:
       category: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
       category_confidence: 0.9
       language: TypeScript
-      tags: chatgpt, cli, clickhouse, command-line, command-line-interface, data-output-formats, database, database-interaction, db, gpt, natural-language, nextjs, nodejs, openai, openai-gpt, output-formats, postgres, postgresql, query-history, sql, sql-error-correction, typescript, web-interface
+      tags: chatgpt, cli, clickhouse, database, db, natural-language, nextjs, nodejs, openai, postgresql, sql
     - name: hw2499/etl-engine
       link: https://github.com/hw2499/etl-engine
       description: ""
@@ -2815,7 +2815,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: FLUX
-      tags: analytics, api, clickhouse, command-line-tool, data, data-movement, data-sources, experimental, flightsql, flux, flux-api, fluxlang, fluxlib, go, grafana, influx, influxdb, influxdb-client, influxdb3, iox, qryn, query-language, querying, rest-api, serverless, serverless-functions, tools, utilities
+      tags: analytics, clickhouse, flightsql, flux, fluxlang, fluxlib, go, influx, influxdb, influxdb-client, influxdb3, iox, qryn, query-language, serverless
     - name: DataflareApp/Dataflare
       link: https://github.com/DataflareApp/Dataflare
       description: Dataflare is a user-friendly database manager that allows users to connect to various databases, manage tables, view data, and execute SQL queries. It supports a wide range of databases including ClickHouse, MySQL, PostgreSQL, and more. The application is designed to be simple and easy to use, catering to users on multiple platforms such as Windows, macOS, and Linux. Users can download the application from the official website and provide feedback through the GitHub repository.
@@ -2826,7 +2826,7 @@ items:
       category: Deployment and Management Tools
       category_confidence: 0.8
       language: ""
-      tags: clickhouse, cloudflare-d1, cockroachdb, data-management, database, database-manager, databend, duckdb, libsql, linux, macos, mariadb, multiple-databases, mysql, postgresql, query, questdb, rqlite, sql, sqlcipher, sqlite, sqlserver, user-friendly, windows
+      tags: clickhouse, cloudflare-d1, cockroachdb, database, database-manager, databend, duckdb, libsql, mariadb, mysql, postgresql, questdb, rqlite, sqlcipher, sqlite, sqlserver
     - name: prismelabs/analytics
       link: https://github.com/prismelabs/analytics
       description: Prisme Analytics is an open-source, privacy-focused analytics service built with Go, designed for easy setup and integration with Grafana. It allows users to gain insights into their websites or web applications with a simple tracking script and customizable dashboards. The service emphasizes privacy compliance and lightweight performance, making it a suitable alternative to traditional analytics tools. Additionally, it supports modern web frameworks and provides features like campaign tracking and bot filtering.
@@ -2837,7 +2837,7 @@ items:
       category: Data Transfer and Synchronization
       category_confidence: 0.9
       language: Go
-      tags: analytics, bot-filtering, campaign-tracking, chart, clickhouse, customizable-dashboards, dashboard, data-collection, gdpr-compliance, go, golang, google-analytics, grafana, insights, lightweight, marketing, metrics, open-source, prisme-analytics, privacy, privacy-focused, progressive, self-hosted, selfhosted, statistics, tracking, web-analytics, website-analytics, website-stats
+      tags: analytics, chart, clickhouse, go, google-analytics, grafana, marketing, metrics, prisme-analytics, privacy, progressive, self-hosted, selfhosted, statistics, web-analytics, website-analytics, website-stats
     - name: cirosantilli/china-dictatorhsip-7
       link: https://github.com/cirosantilli/china-dictatorhsip-7
       description: ""
@@ -2923,7 +2923,7 @@ items:
       category: C++
       category_confidence: 0.95
       language: C++
-      tags: bindings, c++, cpp, cross-platform, library, neon, node.js, normalization, parser, performance, simd, sse2, unicode, url, url-parser, whatwg, whatwg-url
+      tags: cpp, neon, parser, performance, simd, sse2, url, whatwg-url
     - name: Canner/WrenAI
       link: https://github.com/Canner/WrenAI
       description: Wren AI is an open-source SQL AI Agent designed to help users generate SQL queries and gain insights from various data sources without needing to write code. It utilizes a semantic engine to provide context and allows users to ask business questions directly. The platform aims to democratize data access by making it easier for data teams to interact with their databases. Wren AI is open-source and can be deployed on various environments, ensuring security and ease of use.
@@ -2934,4 +2934,15 @@ items:
       category: CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
       category_confidence: 0.9
       language: TypeScript
-      tags: agent, ai, ai-agent, bigquery, clickhouse, data-analysis, data-democratization, data-insights, database-queries, duckdb, fastapi, gpt, hacktoberfest, insights-generation, llm, mysql, natural-language-processing, nextjs, nlp, open-source, openai, postgres, postgresql, python, rag, semantic-engine, sql, sql-ai-agent, sqlai, text-to-sql, text2sql, typescript, user-interface
+      tags: agent, ai, bigquery, duckdb, fastapi, gpt, hacktoberfest, llm, nextjs, nlp, openai, postgresql, python, rag, sql, sqlai, text-to-sql, text2sql, typescript
+    - name: ClickHouse/clickpy
+      link: https://github.com/ClickHouse/clickpy
+      description: ClickPy is a Python package analytics service powered by ClickHouse that provides real-time insights into package downloads from PyPI. It allows users to analyze download statistics, emerging packages, and trends over time, making it a valuable tool for developers and data analysts. The service is designed to handle billions of rows efficiently, offering low-latency queries and high concurrency for user-facing analytics. By leveraging ClickHouse's capabilities, ClickPy aims to deliver fast and cost-effective analytics for the Python package ecosystem.
+      summary: ClickPy is a real-time analytics service for PyPI package downloads powered by ClickHouse.
+      ignore: false
+      ignore_reason: ""
+      category_rationale: The project ClickPy provides real-time analytics on PyPI package downloads using ClickHouse, which aligns with tools and utilities for data movement and synchronization, particularly in the context of analytics and data processing.
+      category: Data Transfer and Synchronization
+      category_confidence: 0.9
+      language: JavaScript
+      tags: analytics, clickhouse, data-processing, downloads, pypi, pypi-packages, python, python-packages, real-time, real-time-analytics
