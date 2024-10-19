@@ -2,26 +2,20 @@ title: Awesome ClickHouse
 query: clickhouse stars:>50 archived:false
 root:
   categories:
-    - title: Documentation
-      prompt: Documentation and guides
     - title: Language bindings
       categories:
-        - title: C++
-          prompt: C++ binding, library or sdk
+        - title: C/C++
+          prompt: C and C++ binding, library, or SDK (not to be confused with C# and .NET)
         - title: Elixir
           prompt: Elixir binding, library or sdk
         - title: JavaScript/Typescript
-          prompt: JavaScript or Typescript binding, library or sdk
+          prompt: JavaScript and Typescript binding, library or sdk
         - title: Golang
           prompt: Golang binding, library or sdk
         - title: Java
-          prompt: Java or JDBC binding, library or sdk
-        - title: Kotlin
-          prompt: Kotlin binding, library or sdk
+          prompt: Java and JDBC binding, library or sdk
         - title: .Net
-          prompt: .Net or C# binding, library or sdk
-        - title: Node.js
-          prompt: Node.js binding, library or sdk
+          prompt: .Net and C# binding, library or sdk
         - title: ODBC
           prompt: ODBC binding, library or sdk
         - title: PHP
@@ -59,8 +53,8 @@ root:
         - title: ETL and Data Processing
           prompt: ETL tools and data processing applications
     - title: Ops
-      prompt: Solutions for database operators to manage and maintain ClickHouse infrastructures
+      prompt: Solutions for database administrators to manage and maintain ClickHouse infrastructures in day-to-day operations
+    - title: Documentation
+      prompt: Documentation and guides
     - title: Examples
       prompt: Sample projects and demonstrations for ClickHouse usage and integration
-    - title: Community and support
-      prompt: Resources and platforms for ClickHouse community interaction and support
