@@ -156,6 +156,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [caioricciuti/ch-ui](https://github.com/caioricciuti/ch-ui) - CH-UI is a user-friendly interface for managing data from ClickHouse databases.
 - [metrico/clickhouse-mate](https://github.com/metrico/clickhouse-mate) - ClickHouse-Mate is an advanced user interface for ClickHouse that enhances SQL query management through autocompletion and efficient navigation.
 - [timeseries/qstudio](https://github.com/timeseries/qstudio) - qStudio is a free SQL analysis tool that offers a graphical interface for browsing databases, executing SQL queries, and visualizing the results.
+- [duyet/clickhouse-monitoring](https://github.com/duyet/clickhouse-monitoring) - Clickhouse Monitoring is simple UI that relies on `system.*` tables to help monitor and provide overview of your ClickHouse cluster.
 
 ### CLI
 
