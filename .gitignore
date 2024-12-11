@@ -1,3 +1,6 @@
 .idea
 .DS_Store
 .env
+.data.yaml
+config.yaml
+.readme.tmpl
