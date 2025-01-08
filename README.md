@@ -27,10 +27,10 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (31)
     - [Metrics and Monitoring](#metrics-and-monitoring) (8)
     - [Deployment and Management Tools](#deployment-and-management-tools) (29)
-    - [Data Visualization and Analysis](#data-visualization-and-analysis) (21)
+    - [Data Visualization and Analysis](#data-visualization-and-analysis) (22)
     - [ETL and Data Processing](#etl-and-data-processing) (29)
 - [Ops](#ops) (2)
-- [Documentation](#documentation) (7)
+- [Documentation](#documentation) (8)
 - [Examples](#examples) (2)
 
 
@@ -266,6 +266,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [bytedance/Jeddak-DPSQL](https://github.com/bytedance/Jeddak-DPSQL) - DPSQL is a microservice that provides privacy protection for SQL queries, enabling secure data analysis between databases and applications.
 - [clickcat-project/ClickCat](https://github.com/clickcat-project/ClickCat) - ClickCat is a user-friendly interface that allows you to search, explore, and visualize your ClickHouse data.
 - [clickvisual/clickvisual](https://github.com/clickvisual/clickvisual) - ClickVisual is a browser-based platform for log analytics and data visualization built on ClickHouse.
+- [clidey/whodb](https://github.com/clidey/whodb) - WhoDB is a lightweight database management tool with natural language query capabilities for multiple database types.
 - [cyber-drop/ethereum_analytical_db](https://github.com/cyber-drop/ethereum_analytical_db) - This project is an Ethereum Analytical Database that provides a solution for accessing and analyzing Ethereum data using ClickHouse.
 - [datainsider-co/rocket-bi](https://github.com/datainsider-co/rocket-bi) - Rocket BI is a web-based self-service business intelligence tool designed for analytical databases including ClickHouse.
 - [duyet/clickhouse-monitoring](https://github.com/duyet/clickhouse-monitoring) - A simple UI for monitoring ClickHouse using a dashboard built with Next.js.
@@ -313,6 +314,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 ## Documentation
 
 - [Altinity/clickhouse-rpm-install](https://github.com/Altinity/clickhouse-rpm-install) - A guide for installing ClickHouse RPM packages from Altinity's repositories.
+- [ClickHouse/clickhouse-academy](https://github.com/ClickHouse/clickhouse-academy) - The ClickHouse Academy project provides training and certification materials for mastering ClickHouse databases.
 - [ClickHouse/clickhouse-docs](https://github.com/ClickHouse/clickhouse-docs) - This repository contains the official documentation for ClickHouse.
 - [ClickHouse/clickhouse-presentations](https://github.com/ClickHouse/clickhouse-presentations) - This project provides presentations, meetups, and talks about ClickHouse, an open-source database management system.
 - [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - Onelinerhub is a collection of thousands of code solutions with clear explanations aimed at educating developers.
