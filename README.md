@@ -6,7 +6,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 - [Language bindings](#language-bindings) 
     - [C/C++](#cc++) (5)
-    - [Elixir](#elixir) (4)
+    - [Elixir](#elixir) (5)
     - [JavaScript/Typescript](#javascripttypescript) (8)
     - [Golang](#golang) (10)
     - [Java](#java) (8)
@@ -21,14 +21,14 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [Other sdk/libraries](#other-sdklibraries) (1)
 - [UIs](#uis) 
     - [GUI](#gui) (5)
-    - [CLI](#cli) (2)
+    - [CLI](#cli) (3)
     - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (2)
 - [Integrations](#integrations) 
-    - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (31)
+    - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (32)
     - [Metrics and Monitoring](#metrics-and-monitoring) (8)
     - [Deployment and Management Tools](#deployment-and-management-tools) (29)
-    - [Data Visualization and Analysis](#data-visualization-and-analysis) (22)
-    - [ETL and Data Processing](#etl-and-data-processing) (29)
+    - [Data Visualization and Analysis](#data-visualization-and-analysis) (23)
+    - [ETL and Data Processing](#etl-and-data-processing) (30)
 - [Ops](#ops) (2)
 - [Documentation](#documentation) (8)
 - [Examples](#examples) (2)
@@ -51,6 +51,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [balance-platform/pillar](https://github.com/balance-platform/pillar) - Pillar is an Elixir library client for effectively working with ClickHouse, an OLAP database.
 - [clickhouse-elixir/clickhouse_ecto](https://github.com/clickhouse-elixir/clickhouse_ecto) - ClickhouseEcto is an Ecto adapter for ClickHouse database implemented in Elixir.
 - [clickhouse-elixir/clickhousex](https://github.com/clickhouse-elixir/clickhousex) - Clickhousex is an Elixir library that enables connections to ClickHouse databases via HTTP.
+- [plausible/ch](https://github.com/plausible/ch) - An HTTP ClickHouse client designed for the Elixir programming language.
 - [plausible/ecto_ch](https://github.com/plausible/ecto_ch) - Ecto ClickHouse adapter is a library that enables Elixir applications to interact with ClickHouse databases using the Ecto framework.
 
 ### JavaScript/Typescript
@@ -161,6 +162,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 ### CLI
 
+- [VVVi/clickhouse-migrations](https://github.com/VVVi/clickhouse-migrations) - VVVi/clickhouse-migrations is a NodeJS CLI tool for managing ClickHouse database migrations.
 - [hatarist/clickhouse-cli](https://github.com/hatarist/clickhouse-cli) - A command-line client for the ClickHouse database management system.
 - [quarylabs/sqruff](https://github.com/quarylabs/sqruff) - Sqruff is a fast SQL linter and formatter written in Rust.
 
@@ -186,6 +188,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [cloudflare/flow-pipeline](https://github.com/cloudflare/flow-pipeline) - A set of tools and examples to run a flow-pipeline for collecting and processing sFlow and NetFlow data.
 - [copybird/copybird](https://github.com/copybird/copybird) - Copybird is a cloud-native universal backup tool for databases and files.
 - [devlive-community/datacap](https://github.com/devlive-community/datacap) - DataCap is an integrated software for data transformation, integration, and visualization.
+- [doublecloud/transfer](https://github.com/doublecloud/transfer) - Transfer is a cloud-native ingestion engine designed to simplify data transfer across various systems.
 - [go-graphite/carbon-clickhouse](https://github.com/go-graphite/carbon-clickhouse) - Carbon-clickhouse is a Graphite metrics receiver that stores metrics in ClickHouse.
 - [growthbook/growthbook](https://github.com/growthbook/growthbook) - GrowthBook is an open-source platform for feature flagging and A/B testing.
 - [ildus/clickhouse_fdw](https://github.com/ildus/clickhouse_fdw) - `clickhouse_fdw` is a Foreign Data Wrapper allowing PostgreSQL users to access and query data stored in ClickHouse.
@@ -253,6 +256,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 - [Altinity/clickhouse-grafana](https://github.com/Altinity/clickhouse-grafana) - Altinity Grafana datasource plugin enables effective integration of ClickHouse with Grafana for data visualization.
 - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) - ClickHouse® is a real-time analytics DBMS that allows generating analytical data reports instantly.
+- [ClickHouse/JSONBench](https://github.com/ClickHouse/JSONBench) - JSONBench is a benchmarking tool for data analytics on JSON across various databases.
 - [ClickHouse/adsb.exposed](https://github.com/ClickHouse/adsb.exposed) - The ADS-B Massive Visualizer enables interactive visualization and analytics of air traffic data using ClickHouse.
 - [ClickHouse/github-explorer](https://github.com/ClickHouse/github-explorer) - GitHub Explorer is a project that offers a detailed dataset for analyzing GitHub events since 2011 to facilitate research and provide insights.
 - [ClickHouse/graphouse](https://github.com/ClickHouse/graphouse) - Graphouse allows users to utilize ClickHouse as storage for Graphite metrics.
@@ -284,6 +288,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [VaBezruchko/spark-clickhouse-connector](https://github.com/VaBezruchko/spark-clickhouse-connector) - The Spark Clickhouse Connector integrates Apache Spark with Yandex Clickhouse for efficient data processing and management.
 - [amacneil/dbmate](https://github.com/amacneil/dbmate) - Dbmate is a lightweight and framework-agnostic tool designed for database migration.
 - [apecloud/ape-dts](https://github.com/apecloud/ape-dts) - Ape Data Transfer Suite is a Rust-based tool enabling ultra-fast data replication between various databases ideal for migration and disaster recovery.
+- [behnamyazdan/ecommerce_realtime_data_pipeline](https://github.com/behnamyazdan/ecommerce_realtime_data_pipeline) - A project showcasing a real-time data pipeline for ecommerce data analysis using modern data engineering tools and techniques.
 - [bryzgaloff/airflow-clickhouse-plugin](https://github.com/bryzgaloff/airflow-clickhouse-plugin) - A popular ClickHouse plugin for Apache Airflow that facilitates seamless execution of queries with rich functionality.
 - [delium/clickhouse-migrator](https://github.com/delium/clickhouse-migrator) - Clickhouse Migrator is an easy-to-use data migration tool designed for the ClickHouse database.
 - [droher/boxball](https://github.com/droher/boxball) - Boxball provides prebuilt Docker images with comprehensive baseball history data for analytical frameworks.
