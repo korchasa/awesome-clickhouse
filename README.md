@@ -8,7 +8,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [C/C++](#cc++) (5)
     - [Elixir](#elixir) (5)
     - [JavaScript/Typescript](#javascripttypescript) (8)
-    - [Golang](#golang) (10)
+    - [Golang](#golang) (11)
     - [Java](#java) (8)
     - [.Net](#.net) (4)
     - [ODBC](#odbc) (1)
@@ -16,17 +16,17 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [Python](#python) (13)
     - [R](#r) (1)
     - [Ruby](#ruby) (3)
-    - [Rust](#rust) (3)
+    - [Rust](#rust) (4)
     - [Scala](#scala) (1)
     - [Other sdk/libraries](#other-sdklibraries) (1)
 - [UIs](#uis) 
     - [GUI](#gui) (5)
-    - [CLI](#cli) (3)
+    - [CLI](#cli) (4)
     - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (2)
 - [Integrations](#integrations) 
     - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (32)
-    - [Metrics and Monitoring](#metrics-and-monitoring) (8)
-    - [Deployment and Management Tools](#deployment-and-management-tools) (29)
+    - [Metrics and Monitoring](#metrics-and-monitoring) (9)
+    - [Deployment and Management Tools](#deployment-and-management-tools) (30)
     - [Data Visualization and Analysis](#data-visualization-and-analysis) (23)
     - [ETL and Data Processing](#etl-and-data-processing) (30)
 - [Ops](#ops) (2)
@@ -71,6 +71,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [ClickHouse/ch-go](https://github.com/ClickHouse/ch-go) - A low-level TCP client for the ClickHouse database implemented in Go.
 - [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go) - This project is a Golang driver for ClickHouse, providing a way to interact with ClickHouse databases.
 - [chdb-io/chdb-go](https://github.com/chdb-io/chdb-go) - chdb-go is a Go bindings library and command-line interface for chDB, an OLAP SQL engine powered by ClickHouse.
+- [flexprice/flexprice](https://github.com/flexprice/flexprice) - Flexprice offers open-source pricing and billing infrastructure for flexible, developer-friendly implementations in AI-driven businesses.
 - [mailru/go-clickhouse](https://github.com/mailru/go-clickhouse) - The go-clickhouse is a Golang SQL database driver for efficiently interfacing with Yandex ClickHouse.
 - [roistat/go-clickhouse](https://github.com/roistat/go-clickhouse) - go-clickhouse is a Golang connector designed to interface with the Yandex ClickHouse database.
 - [runreveal/pql](https://github.com/runreveal/pql) - PQL is a Go library that compiles a pipelined-based query language into SQL, primarily tested with Clickhouse.
@@ -139,6 +140,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 - [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) - Official pure Rust typed client for ClickHouse DB.
 - [Protryon/klickhouse](https://github.com/Protryon/klickhouse) - Klickhouse is a Rust crate that enables access to Clickhouse with an async protocol for high performance.
+- [langdb/ai-gateway](https://github.com/langdb/ai-gateway) - LangDB AI Gateway is an open-source project built in Rust to manage and optimize AI traffic across various LLMs using a unified OpenAI API interface.
 - [suharev7/clickhouse-rs](https://github.com/suharev7/clickhouse-rs) - Asynchronous ClickHouse client library for Rust programming language.
 
 ### Scala
@@ -164,6 +166,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 
 - [VVVi/clickhouse-migrations](https://github.com/VVVi/clickhouse-migrations) - VVVi/clickhouse-migrations is a NodeJS CLI tool for managing ClickHouse database migrations.
 - [hatarist/clickhouse-cli](https://github.com/hatarist/clickhouse-cli) - A command-line client for the ClickHouse database management system.
+- [juneHQ/houseplant](https://github.com/juneHQ/houseplant) - Houseplant is a CLI tool for managing database migrations in ClickHouse.
 - [quarylabs/sqruff](https://github.com/quarylabs/sqruff) - Sqruff is a fast SQL linter and formatter written in Rust.
 
 ### CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
@@ -212,6 +215,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 ### Metrics and Monitoring
 
 - [ClickHouse/clickhouse_exporter](https://github.com/ClickHouse/clickhouse_exporter) - ClickHouse Exporter is a server that scrapes ClickHouse stats and exports them for Prometheus.
+- [ClickHouse/kubenetmon](https://github.com/ClickHouse/kubenetmon) - Kubenetmon is an open-source Kubernetes network metering solution developed by ClickHouse for monitoring network traffic in cloud environments.
 - [burningalchemist/sql_exporter](https://github.com/burningalchemist/sql_exporter) - The SQL Exporter is a configuration driven tool for exposing metrics from various DBMSs for Prometheus.
 - [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) - HyperDX is an open-source observability platform that aggregates logs, metrics, traces, exceptions, and session replays to quickly resolve production issues.
 - [justwatchcom/sql_exporter](https://github.com/justwatchcom/sql_exporter) - Flexible SQL Exporter for Prometheus that runs user-defined SQL queries and exports metrics for monitoring.
@@ -238,6 +242,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [bytebase/bytebase](https://github.com/bytebase/bytebase) - Bytebase is an advanced DevSecOps solution designed for enhancing database management across various teams.
 - [chdb-io/chdb](https://github.com/chdb-io/chdb) - chDB is an in-process SQL OLAP Engine powered by ClickHouse that allows efficient querying of data.
 - [devlive-community/dbm](https://github.com/devlive-community/dbm) - DBM is an open-source database management system that supports various SQL-speaking databases.
+- [extrasmallex/terraform-provider-clickhouse](https://github.com/extrasmallex/terraform-provider-clickhouse) - A Terraform provider for managing ClickHouse Cloud resources.
 - [flant/loghouse](https://github.com/flant/loghouse) - Loghouse is a ready-to-use log management solution for Kubernetes that leverages ClickHouse for log storage and provides a web UI for monitoring.
 - [frectonz/sql-studio](https://github.com/frectonz/sql-studio) - SQL Studio is a single command SQL database explorer that supports multiple databases including SQLite, PostgreSQL, and ClickHouse.
 - [getlago/lago](https://github.com/getlago/lago) - Lago is an open-source API for metering and usage-based billing.
