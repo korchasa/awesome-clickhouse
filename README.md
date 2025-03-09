@@ -13,24 +13,24 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
     - [.Net](#.net) (4)
     - [ODBC](#odbc) (1)
     - [PHP](#php) (6)
-    - [Python](#python) (13)
+    - [Python](#python) (14)
     - [R](#r) (1)
     - [Ruby](#ruby) (3)
     - [Rust](#rust) (4)
     - [Scala](#scala) (1)
     - [Other sdk/libraries](#other-sdklibraries) (1)
 - [UIs](#uis) 
-    - [GUI](#gui) (5)
+    - [GUI](#gui) (6)
     - [CLI](#cli) (4)
     - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (2)
 - [Integrations](#integrations) 
     - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (32)
     - [Metrics and Monitoring](#metrics-and-monitoring) (9)
-    - [Deployment and Management Tools](#deployment-and-management-tools) (30)
+    - [Deployment and Management Tools](#deployment-and-management-tools) (31)
     - [Data Visualization and Analysis](#data-visualization-and-analysis) (23)
     - [ETL and Data Processing](#etl-and-data-processing) (30)
 - [Ops](#ops) (2)
-- [Documentation](#documentation) (8)
+- [Documentation](#documentation) (9)
 - [Examples](#examples) (2)
 
 
@@ -117,6 +117,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [carrotquest/django-clickhouse](https://github.com/carrotquest/django-clickhouse) - This project aims to seamlessly integrate the Yandex ClickHouse database into Django applications.
 - [cloudflare/sqlalchemy-clickhouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - This project provides a ClickHouse dialect for SQLAlchemy, allowing for seamless integration of ClickHouse and Python applications.
 - [ibis-project/ibis](https://github.com/ibis-project/ibis) - Ibis is a portable Python dataframe library designed for efficient data manipulation and exploration.
+- [iobruno/data-engineering-examples](https://github.com/iobruno/data-engineering-examples) - This repository provides diverse examples and resources to learn data engineering using Airflow, dbt, PySpark, and Kafka, covering ingestion, orchestration, batch, and stream processing.
 - [jayvynl/django-clickhouse-backend](https://github.com/jayvynl/django-clickhouse-backend) - A Django backend for the ClickHouse database that allows for seamless interaction using Django ORM.
 - [kszucs/pandahouse](https://github.com/kszucs/pandahouse) - Pandahouse is a Pandas interface for the Clickhouse database that simplifies database interactions through Python.
 - [long2ice/asynch](https://github.com/long2ice/asynch) - An asyncio ClickHouse Python Driver with native (TCP) interface support.
@@ -159,6 +160,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [ClickHouse/click-ui](https://github.com/ClickHouse/click-ui) - Click UI is a design system and component library for ClickHouse, aimed at providing UI components for application development.
 - [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) - Chat2DB is an AI-driven database tool and SQL client that supports various database engines.
 - [caioricciuti/ch-ui](https://github.com/caioricciuti/ch-ui) - CH-UI is a user-friendly interface for managing data from ClickHouse databases.
+- [iamtelescope/telescope](https://github.com/iamtelescope/telescope) - Telescope is a web-based log viewer designed to facilitate efficient exploration and analysis of log data stored in ClickHouse databases.
 - [metrico/clickhouse-mate](https://github.com/metrico/clickhouse-mate) - ClickHouse-Mate is an advanced user interface for ClickHouse that enhances SQL query management through autocompletion and efficient navigation.
 - [timeseries/qstudio](https://github.com/timeseries/qstudio) - qStudio is a free SQL analysis tool that offers a graphical interface for browsing databases, executing SQL queries, and visualizing the results.
 
@@ -232,6 +234,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [ByConity/ByConity](https://github.com/ByConity/ByConity) - ByConity is an open-source cloud data warehouse that builds upon ClickHouse, offering advanced features for data management and querying.
 - [Canner/vulcan-sql](https://github.com/Canner/vulcan-sql) - VulcanSQL is an Analytical Data API Framework for rapidly creating APIs from diverse data sources.
 - [ClickHouse/clickhouse-kafka-connect](https://github.com/ClickHouse/clickhouse-kafka-connect) - The clickhouse-kafka-connect is the official Kafka Connect sink connector for ClickHouse that facilitates data delivery from Kafka topics to ClickHouse tables.
+- [ClickHouse/mcp-clickhouse](https://github.com/ClickHouse/mcp-clickhouse) - ClickHouse MCP Server is a multi-channel processing server for executing SQL queries and managing ClickHouse database clusters.
 - [ClickHouse/spark-clickhouse-connector](https://github.com/ClickHouse/spark-clickhouse-connector) - This project provides a Spark ClickHouse Connector built on the DataSourceV2 API.
 - [ContentSquare/chproxy](https://github.com/ContentSquare/chproxy) - Chproxy is an open-source HTTP proxy and load balancer for the ClickHouse database.
 - [DataflareApp/Dataflare](https://github.com/DataflareApp/Dataflare) - Dataflare is a simple and intuitive database manager designed for managing and querying various databases.
@@ -328,6 +331,7 @@ A curated list of awesome [ClickHouse](https://github.com/ClickHouse/ClickHouse)
 - [ClickHouse/clickhouse-docs](https://github.com/ClickHouse/clickhouse-docs) - This repository contains the official documentation for ClickHouse.
 - [ClickHouse/clickhouse-presentations](https://github.com/ClickHouse/clickhouse-presentations) - This project provides presentations, meetups, and talks about ClickHouse, an open-source database management system.
 - [Onelinerhub/onelinerhub](https://github.com/Onelinerhub/onelinerhub) - Onelinerhub is a collection of thousands of code solutions with clear explanations aimed at educating developers.
+- [centralmind/gateway](https://github.com/centralmind/gateway) - CentralMind Gateway is an AI-first solution that automatically generates secure APIs for structured data, optimizing access for LLM applications while ensuring compliance and security.
 - [dubinc/dub](https://github.com/dubinc/dub) - Dub.co is an open-source link management infrastructure designed for modern marketing teams.
 - [smi2/clickhouse-frontend](https://github.com/smi2/clickhouse-frontend) - This project serves as a redirection to the previously known TABIX, focusing on its documentation and resources.
 - [tinybirdco/clickhouse_knowledge_base](https://github.com/tinybirdco/clickhouse_knowledge_base) - The Tinybird ClickHouse Knowledge Base is a curated resource aimed at sharing knowledge and fostering community engagement around ClickHouse.
