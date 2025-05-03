@@ -69,7 +69,7 @@ Table of Contents:
 - [ClickHouse/clickhouse-cpp](https://github.com/ClickHouse/clickhouse-cpp) (★324 C) - clickhouse-cpp is a C++ client library for ClickHouse that supports a wide range of data types and features including asynchronous inserts and retry logic.
 - [RoaringBitmap/CRoaring](https://github.com/RoaringBitmap/CRoaring) (★1634 C) - CRoaring is a high-performance C/C++ library for Roaring bitmaps with SIMD optimizations, widely used in big data systems including ClickHouse for efficient compressed bitmap operations.
 - [ada-url/ada](https://github.com/ada-url/ada) (★1524 C++) - Ada is a fast, WHATWG-compliant URL parser written in modern C++ and used by major systems including Clickhouse, Node.js, and Cloudflare Workers.
-- [simdjson/simdjson](https://github.com/simdjson/simdjson) (★20189 C++) - simdjson is a high-performance JSON parsing library that uses SIMD instructions to parse gigabytes of JSON data per second, widely used in projects including ClickHouse.
+- [simdjson/simdjson](https://github.com/simdjson/simdjson) (★20190 C++) - simdjson is a high-performance JSON parsing library that uses SIMD instructions to parse gigabytes of JSON data per second, widely used in projects including ClickHouse.
 
 
 ### JavaScript/Typescript
@@ -182,7 +182,7 @@ Table of Contents:
 
 ### GUI
 
-- [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) (★22703 Java) - Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.
+- [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) (★22705 Java) - Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.
 - [DataflareApp/Dataflare](https://github.com/DataflareApp/Dataflare) (★173 ) - Dataflare is a simple, easy-to-use database manager supporting multiple databases including ClickHouse, designed for efficient database connection, management, and querying.
 - [HouseOps/HouseOps](https://github.com/HouseOps/HouseOps) (★336 JavaScript) - HouseOps is an enterprise ClickHouse client that provides a graphical interface for querying, monitoring, and managing ClickHouse database clusters.
 - [agnosticeng/agx](https://github.com/agnosticeng/agx) (★119 Svelte) - agx is an AI-powered integrated analytics desktop application that enables interactive data exploration and querying using ClickHouse's embedded database or a remote ClickHouse server.
@@ -207,9 +207,9 @@ Table of Contents:
 
 ### CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)
 
-- [centralmind/gateway](https://github.com/centralmind/gateway) (★297 Go) - CentralMind Gateway is a universal MCP-Server that automatically generates secure, LLM-optimized APIs for multiple structured databases including ClickHouse, enabling AI agents to access data efficiently and compliantly.
+- [centralmind/gateway](https://github.com/centralmind/gateway) (★299 Go) - CentralMind Gateway is a universal MCP-Server that automatically generates secure, LLM-optimized APIs for multiple structured databases including ClickHouse, enabling AI agents to access data efficiently and compliantly.
 - [clidey/whodb](https://github.com/clidey/whodb) (★3278 TypeScript) - WhoDB is a lightweight, high-performance database management tool supporting multiple databases including Clickhouse, featuring a natural language chat interface for intuitive data interaction.
-- [sqlchat/sqlchat](https://github.com/sqlchat/sqlchat) (★5146 TypeScript) - SQL Chat is a chat-based SQL client that uses natural language to interact with databases, supporting multiple database types and offering both hosted and self-hosted options for intuitive database management.
+- [sqlchat/sqlchat](https://github.com/sqlchat/sqlchat) (★5147 TypeScript) - SQL Chat is a chat-based SQL client that uses natural language to interact with databases, supporting multiple database types and offering both hosted and self-hosted options for intuitive database management.
 
 
 
@@ -247,7 +247,7 @@ Table of Contents:
 - [justwatchcom/sql_exporter](https://github.com/justwatchcom/sql_exporter) (★441 Go) - A flexible SQL Exporter for Prometheus that runs user-defined SQL queries on multiple databases including ClickHouse and exports the results as metrics for monitoring.
 - [metrico/gigapipe](https://github.com/metrico/gigapipe) (★1401 Go) - Gigapipe is a lightweight, polyglot observability stack that supports logs, metrics, traces, and profiling with compatibility for Loki, Prometheus, Tempo, Pyroscope, and OpenTelemetry, powered by ClickHouse and Bun for efficient data ingestion and querying.
 - [mindis/prom2click](https://github.com/mindis/prom2click) (★160 Go) - Prom2click is an experimental Prometheus remote storage adapter that enables scalable and high-performance metric storage and querying using Clickhouse's column-oriented database optimized for time series data.
-- [openlit/openlit](https://github.com/openlit/openlit) (★1485 Python) - OpenLIT is an open-source AI engineering platform providing OpenTelemetry-native observability, monitoring, and management tools for large language models, GPUs, and vector databases, with data stored in ClickHouse for efficient telemetry analysis.
+- [openlit/openlit](https://github.com/openlit/openlit) (★1486 Python) - OpenLIT is an open-source AI engineering platform providing OpenTelemetry-native observability, monitoring, and management tools for large language models, GPUs, and vector databases, with data stored in ClickHouse for efficient telemetry analysis.
 - [openmeterio/openmeter](https://github.com/openmeterio/openmeter) (★1358 Go) - OpenMeter is a flexible metering and billing platform for AI, API, and DevOps companies that collects and aggregates usage events in real-time to enable usage-based billing and real-time insights.
 - [uptrace/uptrace](https://github.com/uptrace/uptrace) (★3638 Go) - Uptrace is an open source APM platform that uses OpenTelemetry for data collection and ClickHouse for storage, providing unified monitoring of traces, metrics, and logs with powerful querying, dashboards, and alerting capabilities.
 
@@ -315,7 +315,7 @@ Table of Contents:
 ## Examples
 
 - [AlexeyKupershtokh/clickhouse-maxmind-geoip](https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip) (★121 Dockerfile) - A demonstration project showcasing the integration of ClickHouse with MaxMind GeoIP2 databases for geolocation, including dictionary definitions, table schemas, query examples, and Docker setup for easy experimentation.
-- [ClickHouse/examples](https://github.com/ClickHouse/examples) (★166 Jupyter Notebook) - ClickHouse/examples is a repository providing a collection of data, SQL queries, and Docker Compose recipes to help users quickly deploy, experiment with, and integrate ClickHouse in various environments.
+- [ClickHouse/examples](https://github.com/ClickHouse/examples) (★167 Jupyter Notebook) - ClickHouse/examples is a repository providing a collection of data, SQL queries, and Docker Compose recipes to help users quickly deploy, experiment with, and integrate ClickHouse in various environments.
 
 
 
