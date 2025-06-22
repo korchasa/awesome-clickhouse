@@ -182,7 +182,7 @@ Table of Contents:
 
 ### GUI
 
-- [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) (★23331 Java) - Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.
+- [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB) (★23332 Java) - Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.
 - [DataflareApp/Dataflare](https://github.com/DataflareApp/Dataflare) (★176 ) - Dataflare is a simple, easy-to-use database manager supporting multiple databases including ClickHouse, designed for efficient database connection, management, and querying.
 - [HouseOps/HouseOps](https://github.com/HouseOps/HouseOps) (★338 JavaScript) - HouseOps is an enterprise ClickHouse client that provides a graphical interface for querying, monitoring, and managing ClickHouse database clusters.
 - [agnosticeng/agx](https://github.com/agnosticeng/agx) (★137 Svelte) - agx is an AI-powered integrated analytics desktop application that enables interactive data exploration and querying using ClickHouse's embedded database or a remote ClickHouse server.
@@ -285,7 +285,7 @@ Table of Contents:
 - [devlive-community/datacap](https://github.com/devlive-community/datacap) (★953 Java) - DataCap is an integrated software platform for data transformation, integration, and visualization, supporting a wide range of data sources including ClickHouse and other major databases.
 - [droher/boxball](https://github.com/droher/boxball) (★126 Python) - Boxball provides prebuilt Docker images with Retrosheet's complete baseball history data for multiple analytical database frameworks including Clickhouse, enabling easy access and analysis of comprehensive baseball datasets.
 - [easysql/easy_sql](https://github.com/easysql/easy_sql) (★134 Python) - Easy SQL is a versatile library that simplifies ETL development by enabling imperative SQL workflows across multiple backend SQL engines including Clickhouse.
-- [glassflow/clickhouse-etl](https://github.com/glassflow/clickhouse-etl) (★258 TypeScript) - GlassFlow is an open-source ETL tool for real-time data processing from Kafka to ClickHouse with features like deduplication and temporal joins.
+- [glassflow/clickhouse-etl](https://github.com/glassflow/clickhouse-etl) (★259 TypeScript) - GlassFlow is an open-source ETL tool for real-time data processing from Kafka to ClickHouse with features like deduplication and temporal joins.
 - [jitsucom/bulker](https://github.com/jitsucom/bulker) (★179 Go) - Bulker is a scalable and reliable service for bulk-loading semi-structured JSON data into multiple databases including ClickHouse, with automatic schema management and support for streaming and batching modes.
 - [myscale/MyScaleDB](https://github.com/myscale/MyScaleDB) (★974 C++) - MyScaleDB is a high-performance SQL vector database built on ClickHouse, enabling scalable AI applications with advanced vector and full-text search capabilities using familiar SQL.
 - [ozontech/file.d](https://github.com/ozontech/file.d) (★401 Go) - file.d is a high-performance, versatile tool for building data pipelines that read, process, and output events with support for ClickHouse and other output plugins, optimized for speed and reliability in modern infrastructure environments.
