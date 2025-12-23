@@ -39,7 +39,7 @@ Table of Contents:
 
     - [CLI](#cli) (6)
 
-    - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (5)
+    - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (6)
 
 
 - [Integrations](#integrations) 
@@ -224,6 +224,7 @@ Table of Contents:
 - [centralmind/gateway](https://github.com/centralmind/gateway) (★503 Go) - CentralMind Gateway is a universal MCP-Server that automatically generates secure, LLM-optimized APIs for multiple structured databases including ClickHouse, enabling AI agents to access data efficiently and compliantly.
 - [clidey/whodb](https://github.com/clidey/whodb) (★4375 TypeScript) - WhoDB is a lightweight, high-performance database management tool supporting multiple databases including Clickhouse, featuring a natural language chat interface for intuitive data interaction.
 - [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) (★11779 Go) - MCP Toolbox for Databases is an open-source MCP server that simplifies and secures the development of AI-powered database tools by handling backend complexities and enabling natural language interaction with databases.
+- [iunera/data-philter](https://github.com/iunera/data-philter) (★1 PowerShell) - Sovereign AI conversational gateway for high-performance OLAP analytics and cluster administration. A local-first, privacy-focused "chat with your DB" interface for ClickHouse and Apache Druid built on MCP, featuring natural language support for queries, ingestion specs, and troubleshooting with zero-friction deployment.
 - [sqlchat/sqlchat](https://github.com/sqlchat/sqlchat) (★5554 TypeScript) - SQL Chat is a chat-based SQL client that uses natural language to interact with databases, supporting multiple database types and offering both hosted and self-hosted options for intuitive database management.
 - [wannabespace/conar](https://github.com/wannabespace/conar) (★1125 TypeScript) - Conar is an AI-powered open-source tool that simplifies and secures interactions with multiple databases including PostgreSQL, MySQL, MSSQL, and Clickhouse by providing intelligent SQL query assistance and optimization.
 
