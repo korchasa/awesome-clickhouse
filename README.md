@@ -13,7 +13,7 @@ Table of Contents:
 
     - [JavaScript/Typescript](#javascript/typescript) (5)
 
-    - [Golang](#golang) (13)
+    - [Golang](#golang) (14)
 
     - [Java](#java) (7)
 
@@ -97,6 +97,7 @@ Table of Contents:
 - [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go) (★3241 Go) - clickhouse-go is a Golang SQL database client providing a native and database/sql interface for efficient and feature-rich interaction with ClickHouse.
 - [ContentSquare/chproxy](https://github.com/ContentSquare/chproxy) (★1429 Go) - Chproxy is an open-source HTTP proxy and load balancer designed to optimize and manage HTTP traffic for the ClickHouse database, enhancing scalability and fault tolerance.
 - [chdb-io/chdb-go](https://github.com/chdb-io/chdb-go) (★131 Go) - chdb-go provides Go bindings and a CLI for chDB, an in-process SQL OLAP engine powered by ClickHouse, enabling SQL query execution and database management within Go applications.
+- [franchb/embedded-clickhouse](https://github.com/franchb/embedded-clickhouse) (★2 Go) - embedded-clickhouse runs a real ClickHouse database locally on Linux or macOS for Go integration tests by downloading and caching the official binary, with no Docker, testcontainers, or pre-installed ClickHouse required.
 - [korchasa/awesome-clickhouse](https://github.com/korchasa/awesome-clickhouse) (★176 HTML) - A curated repository compiling an extensive list of software, tools, and resources related to ClickHouse to support developers and data engineers in working with the ClickHouse database.
 - [mailru/go-clickhouse](https://github.com/mailru/go-clickhouse) (★436 Go) - A Golang SQL database driver for Yandex ClickHouse using the official HTTP interface, supporting extensive ClickHouse features and integration with tracing tools.
 - [roistat/go-clickhouse](https://github.com/roistat/go-clickhouse) (★190 Go) - A Golang connector for Yandex ClickHouse enabling efficient querying, data insertion, and cluster management for large-scale data processing.
