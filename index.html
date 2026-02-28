@@ -202,6 +202,18 @@
         .back-to-toc a:hover {
             text-decoration: underline;
         }
+        /* Visually hidden (for accessibility) */
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
 
     <!-- Schema.org markup for Google -->
@@ -220,21 +232,43 @@
         "about": {
             "@type": "ItemList",
             "itemListElement": [
+                
                 {
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "Sharing contextual information with language models"
+                    "name": "Language bindings"
                 },
+                
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "Exposing tools and capabilities to AI systems"
+                    "name": "UIs"
                 },
+                
                 {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "Building composable integrations and workflows"
+                    "name": "Integrations"
+                },
+                
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Ops"
+                },
+                
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "Documentation"
+                },
+                
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "name": "Examples"
                 }
+                
             ]
         }
     }
@@ -243,7 +277,7 @@
 <body>
     <div class="container">
         <header role="banner">
-            <h1 id="awesome-ai-agents">Awesome ClickHouse</h1>
+            <h1>Awesome ClickHouse</h1>
             <nav class="main-menu">
                 <ul>
                     <li><a href="https://github.com/korchasa/awesome-clickhouse">GitHub</a></li>
@@ -256,126 +290,120 @@
                 A curated list of awesome ClickHouse and ClickHouse-related software.
 
             </div>
+
+            <!-- Site-wide search bar -->
+            <form id="search-form" role="search" aria-label="Search across projects" style="margin-top:1.5rem;">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="search" id="search-input" placeholder="Search projects…" style="width:100%;padding:0.6rem 1rem;font-size:1rem;border:1px solid #d1d5da;border-radius:4px;" autocomplete="off">
+            </form>
+            <div id="search-results" aria-live="polite" style="margin-top:1.5rem;"></div>
         </header>
 
         <nav role="navigation" aria-labelledby="toc-heading">
             <h2 id="toc-heading">Table of Contents</h2><ul>
                 <li style="margin-left: 0px;">
-                    <a href="#language-bindings" aria-label="Go to Language bindings section">Language bindings</a> 
+                    <a href="#language-bindings" aria-label="Go to Language bindings section">Language bindings</a>
                     <ul>
                 <li style="margin-left: 15px;">
                     <a href="#c/c++" aria-label="Go to C/C++ section">C/C++</a> <span aria-label="6 items">(6)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#elixir" aria-label="Go to Elixir section">Elixir</a> <span aria-label="1 items">(1)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#javascript/typescript" aria-label="Go to JavaScript/Typescript section">JavaScript/Typescript</a> <span aria-label="5 items">(5)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#golang" aria-label="Go to Golang section">Golang</a> <span aria-label="13 items">(13)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#java" aria-label="Go to Java section">Java</a> <span aria-label="7 items">(7)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#.net" aria-label="Go to .Net section">.Net</a> <span aria-label="3 items">(3)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#odbc" aria-label="Go to ODBC section">ODBC</a> <span aria-label="1 items">(1)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#php" aria-label="Go to PHP section">PHP</a> <span aria-label="4 items">(4)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#python" aria-label="Go to Python section">Python</a> <span aria-label="15 items">(15)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#ruby" aria-label="Go to Ruby section">Ruby</a> <span aria-label="2 items">(2)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#rust" aria-label="Go to Rust section">Rust</a> <span aria-label="6 items">(6)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#scala" aria-label="Go to Scala section">Scala</a> <span aria-label="3 items">(3)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#other-sdk/libraries" aria-label="Go to Other sdk/libraries section">Other sdk/libraries</a> <span aria-label="2 items">(2)</span>
-                    </li>
-            </ul></li>
-            
+                </li>
+            </ul>
+                </li>
                 <li style="margin-left: 0px;">
-                    <a href="#uis" aria-label="Go to UIs section">UIs</a> 
+                    <a href="#uis" aria-label="Go to UIs section">UIs</a>
                     <ul>
                 <li style="margin-left: 15px;">
                     <a href="#gui" aria-label="Go to GUI section">GUI</a> <span aria-label="16 items">(16)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#cli" aria-label="Go to CLI section">CLI</a> <span aria-label="6 items">(6)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)" aria-label="Go to CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:) section">CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)</a> <span aria-label="6 items">(6)</span>
-                    </li>
-            </ul></li>
-            
+                </li>
+            </ul>
+                </li>
                 <li style="margin-left: 0px;">
-                    <a href="#integrations" aria-label="Go to Integrations section">Integrations</a> 
+                    <a href="#integrations" aria-label="Go to Integrations section">Integrations</a>
                     <ul>
                 <li style="margin-left: 15px;">
                     <a href="#data-transfer-and-synchronization" aria-label="Go to Data Transfer and Synchronization section">Data Transfer and Synchronization</a> <span aria-label="12 items">(12)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#metrics-and-monitoring" aria-label="Go to Metrics and Monitoring section">Metrics and Monitoring</a> <span aria-label="17 items">(17)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#deployment-and-management-tools" aria-label="Go to Deployment and Management Tools section">Deployment and Management Tools</a> <span aria-label="4 items">(4)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#data-visualization-and-analysis" aria-label="Go to Data Visualization and Analysis section">Data Visualization and Analysis</a> <span aria-label="14 items">(14)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 15px;">
                     <a href="#etl-and-data-processing" aria-label="Go to ETL and Data Processing section">ETL and Data Processing</a> <span aria-label="19 items">(19)</span>
-                    </li>
-            </ul></li>
-            
+                </li>
+            </ul>
+                </li>
                 <li style="margin-left: 0px;">
                     <a href="#ops" aria-label="Go to Ops section">Ops</a> <span aria-label="4 items">(4)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 0px;">
                     <a href="#documentation" aria-label="Go to Documentation section">Documentation</a> <span aria-label="5 items">(5)</span>
-                    </li>
-            
+                </li>
                 <li style="margin-left: 0px;">
                     <a href="#examples" aria-label="Go to Examples section">Examples</a> <span aria-label="2 items">(2)</span>
-                    </li>
+                </li>
             </ul>
         </nav>
 
         <main role="main">
-            <section aria-labelledby="language-bindings"><h2 id="language-bindings">Language bindings</h2>
+            <section aria-labelledby="language-bindings">
+                <h2 id="language-bindings">Language bindings</h2>
                 
-                
-            <section aria-labelledby="c/c++"><h3 id="c/c++">C/C++</h3>
+            <section aria-labelledby="c/c++">
+                <h3 id="c/c++">C/C++</h3>
                 <ul aria-label="List of C/C++ items">
+                    <li>
+                        <a href="https://github.com/ada-url/ada" aria-label="ada-url/ada - 1675 stars, C++" target="_blank" rel="noopener">ada-url/ada</a>
+                        <span class="stars" aria-hidden="true">⭐ 1675</span>
+                        <span class="language" aria-hidden="true">C++</span> -
+                        <span>Ada is a fast, WHATWG-compliant URL parser written in modern C++ and used by major systems including Clickhouse, Node.js, and Cloudflare Workers.</span>
+                    </li>
                     <li>
                         <a href="https://github.com/ClickHouse/ai-sdk-cpp" aria-label="ClickHouse/ai-sdk-cpp - 134 stars, C++" target="_blank" rel="noopener">ClickHouse/ai-sdk-cpp</a>
                         <span class="stars" aria-hidden="true">⭐ 134</span>
@@ -395,16 +423,10 @@
                         <span>pg_clickhouse is a PostgreSQL extension that enables running analytics queries on ClickHouse databases directly from PostgreSQL without rewriting SQL, improving query performance through pushdown optimization.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/RoaringBitmap/CRoaring" aria-label="RoaringBitmap/CRoaring - 1765 stars, C" target="_blank" rel="noopener">RoaringBitmap/CRoaring</a>
-                        <span class="stars" aria-hidden="true">⭐ 1765</span>
+                        <a href="https://github.com/RoaringBitmap/CRoaring" aria-label="RoaringBitmap/CRoaring - 1785 stars, C" target="_blank" rel="noopener">RoaringBitmap/CRoaring</a>
+                        <span class="stars" aria-hidden="true">⭐ 1785</span>
                         <span class="language" aria-hidden="true">C</span> -
                         <span>CRoaring is a high-performance C/C++ library for Roaring bitmaps with SIMD optimizations, widely used in big data systems including ClickHouse for efficient compressed bitmap operations.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/ada-url/ada" aria-label="ada-url/ada - 1675 stars, C++" target="_blank" rel="noopener">ada-url/ada</a>
-                        <span class="stars" aria-hidden="true">⭐ 1675</span>
-                        <span class="language" aria-hidden="true">C++</span> -
-                        <span>Ada is a fast, WHATWG-compliant URL parser written in modern C++ and used by major systems including Clickhouse, Node.js, and Cloudflare Workers.</span>
                     </li>
                     <li>
                         <a href="https://github.com/simdjson/simdjson" aria-label="simdjson/simdjson - 23169 stars, C++" target="_blank" rel="noopener">simdjson/simdjson</a>
@@ -414,9 +436,9 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="elixir"><h3 id="elixir">Elixir</h3>
+            </section>
+            <section aria-labelledby="elixir">
+                <h3 id="elixir">Elixir</h3>
                 <ul aria-label="List of Elixir items">
                     <li>
                         <a href="https://github.com/plausible/ecto_ch" aria-label="plausible/ecto_ch - 113 stars, Elixir" target="_blank" rel="noopener">plausible/ecto_ch</a>
@@ -426,15 +448,21 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="javascript/typescript"><h3 id="javascript/typescript">JavaScript/Typescript</h3>
+            </section>
+            <section aria-labelledby="javascript/typescript">
+                <h3 id="javascript/typescript">JavaScript/Typescript</h3>
                 <ul aria-label="List of JavaScript/Typescript items">
                     <li>
                         <a href="https://github.com/514-labs/moose" aria-label="514-labs/moose - 280 stars, Rust" target="_blank" rel="noopener">514-labs/moose</a>
                         <span class="stars" aria-hidden="true">⭐ 280</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>Moose is an open-source developer framework for building scalable analytical backends on Clickhouse, Redpanda, and other high-performance data infrastructures using TypeScript or Python.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/apla/node-clickhouse" aria-label="apla/node-clickhouse - 217 stars, JavaScript" target="_blank" rel="noopener">apla/node-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 217</span>
+                        <span class="language" aria-hidden="true">JavaScript</span> -
+                        <span>A Node.js driver providing a simple and powerful interface to interact with the ClickHouse database, supporting efficient query execution and bulk data loading.</span>
                     </li>
                     <li>
                         <a href="https://github.com/Canner/vulcan-sql" aria-label="Canner/vulcan-sql - 784 stars, TypeScript" target="_blank" rel="noopener">Canner/vulcan-sql</a>
@@ -454,33 +482,33 @@
                         <span class="language" aria-hidden="true">JavaScript</span> -
                         <span>A NodeJS client for ClickHouse enabling query execution, streaming, session management, and data insertion over HTTP interface.</span>
                     </li>
-                    <li>
-                        <a href="https://github.com/apla/node-clickhouse" aria-label="apla/node-clickhouse - 217 stars, JavaScript" target="_blank" rel="noopener">apla/node-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 217</span>
-                        <span class="language" aria-hidden="true">JavaScript</span> -
-                        <span>A Node.js driver providing a simple and powerful interface to interact with the ClickHouse database, supporting efficient query execution and bulk data loading.</span>
-                    </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="golang"><h3 id="golang">Golang</h3>
+            </section>
+            <section aria-labelledby="golang">
+                <h3 id="golang">Golang</h3>
                 <ul aria-label="List of Golang items">
                     <li>
-                        <a href="https://github.com/AfterShip/clickhouse-sql-parser" aria-label="AfterShip/clickhouse-sql-parser - 222 stars, Go" target="_blank" rel="noopener">AfterShip/clickhouse-sql-parser</a>
-                        <span class="stars" aria-hidden="true">⭐ 222</span>
+                        <a href="https://github.com/AfterShip/clickhouse-sql-parser" aria-label="AfterShip/clickhouse-sql-parser - 225 stars, Go" target="_blank" rel="noopener">AfterShip/clickhouse-sql-parser</a>
+                        <span class="stars" aria-hidden="true">⭐ 225</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>AfterShip/clickhouse-sql-parser is a Go-based SQL parser designed to parse and beautify ClickHouse SQL queries by converting them into an Abstract Syntax Tree (AST) and back, available as both a library and CLI tool.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/ch-go" aria-label="ClickHouse/ch-go - 410 stars, Go" target="_blank" rel="noopener">ClickHouse/ch-go</a>
-                        <span class="stars" aria-hidden="true">⭐ 410</span>
+                        <a href="https://github.com/chdb-io/chdb-go" aria-label="chdb-io/chdb-go - 133 stars, Go" target="_blank" rel="noopener">chdb-io/chdb-go</a>
+                        <span class="stars" aria-hidden="true">⭐ 133</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>chdb-go provides Go bindings and a CLI for chDB, an in-process SQL OLAP engine powered by ClickHouse, enabling SQL query execution and database management within Go applications.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/ch-go" aria-label="ClickHouse/ch-go - 413 stars, Go" target="_blank" rel="noopener">ClickHouse/ch-go</a>
+                        <span class="stars" aria-hidden="true">⭐ 413</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>ch-go is a low-level Go client for ClickHouse designed for high-performance data block streaming with minimal overhead and direct protocol implementation.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-go" aria-label="ClickHouse/clickhouse-go - 3241 stars, Go" target="_blank" rel="noopener">ClickHouse/clickhouse-go</a>
-                        <span class="stars" aria-hidden="true">⭐ 3241</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-go" aria-label="ClickHouse/clickhouse-go - 3252 stars, Go" target="_blank" rel="noopener">ClickHouse/clickhouse-go</a>
+                        <span class="stars" aria-hidden="true">⭐ 3252</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>clickhouse-go is a Golang SQL database client providing a native and database/sql interface for efficient and feature-rich interaction with ClickHouse.</span>
                     </li>
@@ -491,20 +519,14 @@
                         <span>Chproxy is an open-source HTTP proxy and load balancer designed to optimize and manage HTTP traffic for the ClickHouse database, enhancing scalability and fault tolerance.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/chdb-io/chdb-go" aria-label="chdb-io/chdb-go - 131 stars, Go" target="_blank" rel="noopener">chdb-io/chdb-go</a>
-                        <span class="stars" aria-hidden="true">⭐ 131</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>chdb-go provides Go bindings and a CLI for chDB, an in-process SQL OLAP engine powered by ClickHouse, enabling SQL query execution and database management within Go applications.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/korchasa/awesome-clickhouse" aria-label="korchasa/awesome-clickhouse - 176 stars, HTML" target="_blank" rel="noopener">korchasa/awesome-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 176</span>
+                        <a href="https://github.com/korchasa/awesome-clickhouse" aria-label="korchasa/awesome-clickhouse - 179 stars, HTML" target="_blank" rel="noopener">korchasa/awesome-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 179</span>
                         <span class="language" aria-hidden="true">HTML</span> -
                         <span>A curated repository compiling an extensive list of software, tools, and resources related to ClickHouse to support developers and data engineers in working with the ClickHouse database.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/mailru/go-clickhouse" aria-label="mailru/go-clickhouse - 436 stars, Go" target="_blank" rel="noopener">mailru/go-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 436</span>
+                        <a href="https://github.com/mailru/go-clickhouse" aria-label="mailru/go-clickhouse - 435 stars, Go" target="_blank" rel="noopener">mailru/go-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 435</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>A Golang SQL database driver for Yandex ClickHouse using the official HTTP interface, supporting extensive ClickHouse features and integration with tracing tools.</span>
                     </li>
@@ -539,16 +561,16 @@
                         <span>chconn is a high-performance, low-level Go driver for ClickHouse that supports all ClickHouse data types, batch operations, TLS, and compression protocols, optimized for speed and efficiency.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/zerodha/dungbeetle" aria-label="zerodha/dungbeetle - 1113 stars, Go" target="_blank" rel="noopener">zerodha/dungbeetle</a>
-                        <span class="stars" aria-hidden="true">⭐ 1113</span>
+                        <a href="https://github.com/zerodha/dungbeetle" aria-label="zerodha/dungbeetle - 1184 stars, Go" target="_blank" rel="noopener">zerodha/dungbeetle</a>
+                        <span class="stars" aria-hidden="true">⭐ 1184</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>DungBeetle is a distributed job server for asynchronously queuing and executing heavy SQL read jobs on MySQL, PostgreSQL, and ClickHouse databases, designed to offload report generation and improve application performance.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="java"><h3 id="java">Java</h3>
+            </section>
+            <section aria-labelledby="java">
+                <h3 id="java">Java</h3>
                 <ul aria-label="List of Java items">
                     <li>
                         <a href="https://github.com/Blynk-Technologies/clickhouse4j" aria-label="Blynk-Technologies/clickhouse4j - 216 stars, Java" target="_blank" rel="noopener">Blynk-Technologies/clickhouse4j</a>
@@ -557,14 +579,14 @@
                         <span>clickhouse4j is a lightweight and faster alternative to the official ClickHouse JDBC driver, offering reduced dependencies, smaller size, and enhanced performance for Java applications.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-java" aria-label="ClickHouse/clickhouse-java - 1589 stars, Java" target="_blank" rel="noopener">ClickHouse/clickhouse-java</a>
-                        <span class="stars" aria-hidden="true">⭐ 1589</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-java" aria-label="ClickHouse/clickhouse-java - 1593 stars, Java" target="_blank" rel="noopener">ClickHouse/clickhouse-java</a>
+                        <span class="stars" aria-hidden="true">⭐ 1593</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>ClickHouse/clickhouse-java is a repository providing Java clients and a JDBC driver for efficient interaction with the ClickHouse database, supporting modern features and compatibility with active ClickHouse versions.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-jdbc-bridge" aria-label="ClickHouse/clickhouse-jdbc-bridge - 173 stars, Java" target="_blank" rel="noopener">ClickHouse/clickhouse-jdbc-bridge</a>
-                        <span class="stars" aria-hidden="true">⭐ 173</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-jdbc-bridge" aria-label="ClickHouse/clickhouse-jdbc-bridge - 174 stars, Java" target="_blank" rel="noopener">ClickHouse/clickhouse-jdbc-bridge</a>
+                        <span class="stars" aria-hidden="true">⭐ 174</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>ClickHouse JDBC Bridge is an experimental JDBC proxy that enables real-time distributed querying from ClickHouse to external databases, simplifying data integration and pipeline construction.</span>
                     </li>
@@ -581,8 +603,8 @@
                         <span>ClickHouse Native JDBC is a high-performance native protocol JDBC driver for accessing ClickHouse databases in Java and integrating with Apache Spark.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/itinycheng/flink-connector-clickhouse" aria-label="itinycheng/flink-connector-clickhouse - 412 stars, Java" target="_blank" rel="noopener">itinycheng/flink-connector-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 412</span>
+                        <a href="https://github.com/itinycheng/flink-connector-clickhouse" aria-label="itinycheng/flink-connector-clickhouse - 414 stars, Java" target="_blank" rel="noopener">itinycheng/flink-connector-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 414</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>A Flink SQL connector enabling efficient integration with ClickHouse for reading and writing data, supporting advanced features like partitioning, sharding, and caching.</span>
                     </li>
@@ -594,9 +616,9 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby=".net"><h3 id=".net">.Net</h3>
+            </section>
+            <section aria-labelledby=".net">
+                <h3 id=".net">.Net</h3>
                 <ul aria-label="List of .Net items">
                     <li>
                         <a href="https://github.com/DarkWanderer/ClickHouse.Client" aria-label="DarkWanderer/ClickHouse.Client - 363 stars, C#" target="_blank" rel="noopener">DarkWanderer/ClickHouse.Client</a>
@@ -605,41 +627,35 @@
                         <span>.NET client library for ClickHouse providing high-throughput, broad type support, and ADO.NET compliance for efficient big data processing.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/DotNetNext/SqlSugar" aria-label="DotNetNext/SqlSugar - 5764 stars, C#" target="_blank" rel="noopener">DotNetNext/SqlSugar</a>
-                        <span class="stars" aria-hidden="true">⭐ 5764</span>
+                        <a href="https://github.com/DotNetNext/SqlSugar" aria-label="DotNetNext/SqlSugar - 5769 stars, C#" target="_blank" rel="noopener">DotNetNext/SqlSugar</a>
+                        <span class="stars" aria-hidden="true">⭐ 5769</span>
                         <span class="language" aria-hidden="true">C#</span> -
                         <span>SqlSugar is a high-performance, easy-to-use .NET ORM framework supporting multiple databases including ClickHouse, designed for big data and SaaS applications.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/Octonica/ClickHouseClient" aria-label="Octonica/ClickHouseClient - 162 stars, C#" target="_blank" rel="noopener">Octonica/ClickHouseClient</a>
-                        <span class="stars" aria-hidden="true">⭐ 162</span>
+                        <a href="https://github.com/Octonica/ClickHouseClient" aria-label="Octonica/ClickHouseClient - 164 stars, C#" target="_blank" rel="noopener">Octonica/ClickHouseClient</a>
+                        <span class="stars" aria-hidden="true">⭐ 164</span>
                         <span class="language" aria-hidden="true">C#</span> -
                         <span>Octonica/ClickHouseClient is a .NET Core ADO.NET driver providing efficient and comprehensive support for interacting with ClickHouse databases, including async operations and bulk data manipulation.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="odbc"><h3 id="odbc">ODBC</h3>
+            </section>
+            <section aria-labelledby="odbc">
+                <h3 id="odbc">ODBC</h3>
                 <ul aria-label="List of ODBC items">
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-odbc" aria-label="ClickHouse/clickhouse-odbc - 280 stars, C" target="_blank" rel="noopener">ClickHouse/clickhouse-odbc</a>
-                        <span class="stars" aria-hidden="true">⭐ 280</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-odbc" aria-label="ClickHouse/clickhouse-odbc - 282 stars, C" target="_blank" rel="noopener">ClickHouse/clickhouse-odbc</a>
+                        <span class="stars" aria-hidden="true">⭐ 282</span>
                         <span class="language" aria-hidden="true">C</span> -
                         <span>Official ODBC driver for ClickHouse enabling cross-platform database connectivity through standard ODBC interfaces.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="php"><h3 id="php">PHP</h3>
+            </section>
+            <section aria-labelledby="php">
+                <h3 id="php">PHP</h3>
                 <ul aria-label="List of PHP items">
-                    <li>
-                        <a href="https://github.com/FriendsOfDoctrine/dbal-clickhouse" aria-label="FriendsOfDoctrine/dbal-clickhouse - 112 stars, PHP" target="_blank" rel="noopener">FriendsOfDoctrine/dbal-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 112</span>
-                        <span class="language" aria-hidden="true">PHP</span> -
-                        <span>Doctrine DBAL driver for ClickHouse database enabling seamless integration with Symfony and other frameworks using Doctrine, supporting advanced database operations and custom types.</span>
-                    </li>
                     <li>
                         <a href="https://github.com/cybercog/laravel-clickhouse" aria-label="cybercog/laravel-clickhouse - 144 stars, PHP" target="_blank" rel="noopener">cybercog/laravel-clickhouse</a>
                         <span class="stars" aria-hidden="true">⭐ 144</span>
@@ -647,22 +663,28 @@
                         <span>Laravel ClickHouse is a package that integrates ClickHouse database client and migration support into Laravel applications, enabling efficient management of ClickHouse databases within the Laravel framework.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/smi2/phpClickHouse" aria-label="smi2/phpClickHouse - 823 stars, PHP" target="_blank" rel="noopener">smi2/phpClickHouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 823</span>
+                        <a href="https://github.com/FriendsOfDoctrine/dbal-clickhouse" aria-label="FriendsOfDoctrine/dbal-clickhouse - 112 stars, PHP" target="_blank" rel="noopener">FriendsOfDoctrine/dbal-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 112</span>
+                        <span class="language" aria-hidden="true">PHP</span> -
+                        <span>Doctrine DBAL driver for ClickHouse database enabling seamless integration with Symfony and other frameworks using Doctrine, supporting advanced database operations and custom types.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/smi2/phpClickHouse" aria-label="smi2/phpClickHouse - 828 stars, PHP" target="_blank" rel="noopener">smi2/phpClickHouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 828</span>
                         <span class="language" aria-hidden="true">PHP</span> -
                         <span>A PHP wrapper for ClickHouse providing asynchronous queries, bulk inserts, cluster management, and performance optimizations for efficient database interaction.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/the-tinderbox/ClickhouseBuilder" aria-label="the-tinderbox/ClickhouseBuilder - 197 stars, PHP" target="_blank" rel="noopener">the-tinderbox/ClickhouseBuilder</a>
-                        <span class="stars" aria-hidden="true">⭐ 197</span>
+                        <a href="https://github.com/the-tinderbox/ClickhouseBuilder" aria-label="the-tinderbox/ClickhouseBuilder - 200 stars, PHP" target="_blank" rel="noopener">the-tinderbox/ClickhouseBuilder</a>
+                        <span class="stars" aria-hidden="true">⭐ 200</span>
                         <span class="language" aria-hidden="true">PHP</span> -
                         <span>ClickhouseBuilder is a PHP fluent query builder designed to simplify the construction and execution of complex SQL queries for Clickhouse databases, with integration support for Laravel and Lumen frameworks.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="python"><h3 id="python">Python</h3>
+            </section>
+            <section aria-labelledby="python">
+                <h3 id="python">Python</h3>
                 <ul aria-label="List of Python items">
                     <li>
                         <a href="https://github.com/514-labs/moosestack" aria-label="514-labs/moosestack - 522 stars, Rust" target="_blank" rel="noopener">514-labs/moosestack</a>
@@ -671,26 +693,8 @@
                         <span>MooseStack is a developer framework for building real-time analytical backends using ClickHouse, Redpanda, Temporal, and Redis with a code-first, modular approach in TypeScript and Python.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-connect" aria-label="ClickHouse/clickhouse-connect - 461 stars, Python" target="_blank" rel="noopener">ClickHouse/clickhouse-connect</a>
-                        <span class="stars" aria-hidden="true">⭐ 461</span>
-                        <span class="language" aria-hidden="true">Python</span> -
-                        <span>ClickHouse Connect is a high-performance Python driver that enables seamless integration of ClickHouse with Python data tools like Pandas, SQLAlchemy, and Apache Superset for efficient data access and visualization.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/ClickHouse/dbt-clickhouse" aria-label="ClickHouse/dbt-clickhouse - 329 stars, Python" target="_blank" rel="noopener">ClickHouse/dbt-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 329</span>
-                        <span class="language" aria-hidden="true">Python</span> -
-                        <span>dbt-clickhouse is a plugin that integrates dbt functionality with ClickHouse, enabling advanced data transformation, modeling, and testing capabilities on ClickHouse databases.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Infinidat/infi.clickhouse_orm" aria-label="Infinidat/infi.clickhouse_orm - 425 stars, Python" target="_blank" rel="noopener">Infinidat/infi.clickhouse_orm</a>
-                        <span class="stars" aria-hidden="true">⭐ 425</span>
-                        <span class="language" aria-hidden="true">Python</span> -
-                        <span>infi.clickhouse_orm is a Python ORM library that simplifies working with the ClickHouse database by enabling easy model definition, data insertion, and querying.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/bryzgaloff/airflow-clickhouse-plugin" aria-label="bryzgaloff/airflow-clickhouse-plugin - 174 stars, Python" target="_blank" rel="noopener">bryzgaloff/airflow-clickhouse-plugin</a>
-                        <span class="stars" aria-hidden="true">⭐ 174</span>
+                        <a href="https://github.com/bryzgaloff/airflow-clickhouse-plugin" aria-label="bryzgaloff/airflow-clickhouse-plugin - 177 stars, Python" target="_blank" rel="noopener">bryzgaloff/airflow-clickhouse-plugin</a>
+                        <span class="stars" aria-hidden="true">⭐ 177</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Airflow ClickHouse Plugin is a top-ranked Apache Airflow plugin that integrates ClickHouse database functionality into Airflow workflows, providing versatile operators for efficient SQL execution and pipeline management.</span>
                     </li>
@@ -701,10 +705,22 @@
                         <span>django-clickhouse integrates the Yandex ClickHouse database into Django projects, enabling high-performance analytical queries and real-time data processing within Django applications.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/chdb-io/chdb" aria-label="chdb-io/chdb - 2604 stars, C++" target="_blank" rel="noopener">chdb-io/chdb</a>
-                        <span class="stars" aria-hidden="true">⭐ 2604</span>
+                        <a href="https://github.com/chdb-io/chdb" aria-label="chdb-io/chdb - 2618 stars, C++" target="_blank" rel="noopener">chdb-io/chdb</a>
+                        <span class="stars" aria-hidden="true">⭐ 2618</span>
                         <span class="language" aria-hidden="true">C++</span> -
                         <span>chDB is an in-process OLAP SQL engine powered by ClickHouse that enables efficient analytical queries on various data formats directly within Python environments.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/clickhouse-connect" aria-label="ClickHouse/clickhouse-connect - 469 stars, Python" target="_blank" rel="noopener">ClickHouse/clickhouse-connect</a>
+                        <span class="stars" aria-hidden="true">⭐ 469</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>ClickHouse Connect is a high-performance Python driver that enables seamless integration of ClickHouse with Python data tools like Pandas, SQLAlchemy, and Apache Superset for efficient data access and visualization.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/dbt-clickhouse" aria-label="ClickHouse/dbt-clickhouse - 334 stars, Python" target="_blank" rel="noopener">ClickHouse/dbt-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 334</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>dbt-clickhouse is a plugin that integrates dbt functionality with ClickHouse, enabling advanced data transformation, modeling, and testing capabilities on ClickHouse databases.</span>
                     </li>
                     <li>
                         <a href="https://github.com/cloudflare/sqlalchemy-clickhouse" aria-label="cloudflare/sqlalchemy-clickhouse - 325 stars, Python" target="_blank" rel="noopener">cloudflare/sqlalchemy-clickhouse</a>
@@ -713,8 +729,14 @@
                         <span>sqlalchemy-clickhouse is a SQLAlchemy dialect that enables seamless integration with the ClickHouse database for efficient data querying and manipulation.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/jayvynl/django-clickhouse-backend" aria-label="jayvynl/django-clickhouse-backend - 188 stars, Python" target="_blank" rel="noopener">jayvynl/django-clickhouse-backend</a>
-                        <span class="stars" aria-hidden="true">⭐ 188</span>
+                        <a href="https://github.com/Infinidat/infi.clickhouse_orm" aria-label="Infinidat/infi.clickhouse_orm - 424 stars, Python" target="_blank" rel="noopener">Infinidat/infi.clickhouse_orm</a>
+                        <span class="stars" aria-hidden="true">⭐ 424</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>infi.clickhouse_orm is a Python ORM library that simplifies working with the ClickHouse database by enabling easy model definition, data insertion, and querying.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jayvynl/django-clickhouse-backend" aria-label="jayvynl/django-clickhouse-backend - 190 stars, Python" target="_blank" rel="noopener">jayvynl/django-clickhouse-backend</a>
+                        <span class="stars" aria-hidden="true">⭐ 190</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Django-clickhouse-backend is a Django database backend that enables seamless interaction with ClickHouse using Django ORM, supporting ClickHouse-specific features and efficient connection pooling.</span>
                     </li>
@@ -725,8 +747,8 @@
                         <span>Pandahouse is a Python library providing a Pandas interface to interact with ClickHouse databases via HTTP API for efficient data reading and writing.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/long2ice/asynch" aria-label="long2ice/asynch - 232 stars, Python" target="_blank" rel="noopener">long2ice/asynch</a>
-                        <span class="stars" aria-hidden="true">⭐ 232</span>
+                        <a href="https://github.com/long2ice/asynch" aria-label="long2ice/asynch - 236 stars, Python" target="_blank" rel="noopener">long2ice/asynch</a>
+                        <span class="stars" aria-hidden="true">⭐ 236</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>An asynchronous Python driver for ClickHouse with native TCP interface support, enabling efficient database interactions using asyncio.</span>
                     </li>
@@ -743,8 +765,8 @@
                         <span>aioch is an asynchronous Python library that provides native interface access to ClickHouse databases using asyncio, enabling efficient and non-blocking query execution with progress tracking.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/mymarilyn/clickhouse-driver" aria-label="mymarilyn/clickhouse-driver - 1295 stars, Python" target="_blank" rel="noopener">mymarilyn/clickhouse-driver</a>
-                        <span class="stars" aria-hidden="true">⭐ 1295</span>
+                        <a href="https://github.com/mymarilyn/clickhouse-driver" aria-label="mymarilyn/clickhouse-driver - 1294 stars, Python" target="_blank" rel="noopener">mymarilyn/clickhouse-driver</a>
+                        <span class="stars" aria-hidden="true">⭐ 1294</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>A Python driver providing native TCP interface support for efficient and secure interaction with ClickHouse databases, featuring extensive data type support and compliance with Python DB API 2.0.</span>
                     </li>
@@ -756,9 +778,9 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="ruby"><h3 id="ruby">Ruby</h3>
+            </section>
+            <section aria-labelledby="ruby">
+                <h3 id="ruby">Ruby</h3>
                 <ul aria-label="List of Ruby items">
                     <li>
                         <a href="https://github.com/PNixx/clickhouse-activerecord" aria-label="PNixx/clickhouse-activerecord - 248 stars, Ruby" target="_blank" rel="noopener">PNixx/clickhouse-activerecord</a>
@@ -774,27 +796,27 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="rust"><h3 id="rust">Rust</h3>
+            </section>
+            <section aria-labelledby="rust">
+                <h3 id="rust">Rust</h3>
                 <ul aria-label="List of Rust items">
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-rs" aria-label="ClickHouse/clickhouse-rs - 490 stars, Rust" target="_blank" rel="noopener">ClickHouse/clickhouse-rs</a>
-                        <span class="stars" aria-hidden="true">⭐ 490</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-rs" aria-label="ClickHouse/clickhouse-rs - 503 stars, Rust" target="_blank" rel="noopener">ClickHouse/clickhouse-rs</a>
+                        <span class="stars" aria-hidden="true">⭐ 503</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>clickhouse-rs is the official pure Rust typed client for ClickHouse DB, providing efficient, secure, and feature-rich database interaction capabilities.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/langdb/ai-gateway" aria-label="langdb/ai-gateway - 780 stars, Rust" target="_blank" rel="noopener">langdb/ai-gateway</a>
+                        <span class="stars" aria-hidden="true">⭐ 780</span>
+                        <span class="language" aria-hidden="true">Rust</span> -
+                        <span>LangDB AI Gateway is an open-source enterprise AI gateway built in Rust that provides a unified interface to multiple LLMs using the OpenAI API format, focusing on performance, reliability, and enterprise-grade features including cost control, routing, and data security.</span>
                     </li>
                     <li>
                         <a href="https://github.com/Protryon/klickhouse" aria-label="Protryon/klickhouse - 121 stars, Rust" target="_blank" rel="noopener">Protryon/klickhouse</a>
                         <span class="stars" aria-hidden="true">⭐ 121</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>Klickhouse is a high-performance Rust SDK for accessing Clickhouse databases asynchronously with minimal boilerplate and extensive feature support.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/langdb/ai-gateway" aria-label="langdb/ai-gateway - 692 stars, Rust" target="_blank" rel="noopener">langdb/ai-gateway</a>
-                        <span class="stars" aria-hidden="true">⭐ 692</span>
-                        <span class="language" aria-hidden="true">Rust</span> -
-                        <span>LangDB AI Gateway is an open-source enterprise AI gateway built in Rust that provides a unified interface to multiple LLMs using the OpenAI API format, focusing on performance, reliability, and enterprise-grade features including cost control, routing, and data security.</span>
                     </li>
                     <li>
                         <a href="https://github.com/quarylabs/sqruff" aria-label="quarylabs/sqruff - 1189 stars, Rust" target="_blank" rel="noopener">quarylabs/sqruff</a>
@@ -809,28 +831,28 @@
                         <span>subZero is a Rust-based library with JS/TS bindings that enables customizable, PostgREST-compatible REST APIs on multiple databases including ClickHouse, supporting advanced queries and authentication out of the box.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/suharev7/clickhouse-rs" aria-label="suharev7/clickhouse-rs - 341 stars, Rust" target="_blank" rel="noopener">suharev7/clickhouse-rs</a>
-                        <span class="stars" aria-hidden="true">⭐ 341</span>
+                        <a href="https://github.com/suharev7/clickhouse-rs" aria-label="suharev7/clickhouse-rs - 342 stars, Rust" target="_blank" rel="noopener">suharev7/clickhouse-rs</a>
+                        <span class="stars" aria-hidden="true">⭐ 342</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>An asynchronous Rust client library for efficient and feature-rich interaction with Yandex ClickHouse databases.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="scala"><h3 id="scala">Scala</h3>
+            </section>
+            <section aria-labelledby="scala">
+                <h3 id="scala">Scala</h3>
                 <ul aria-label="List of Scala items">
-                    <li>
-                        <a href="https://github.com/ClickHouse/spark-clickhouse-connector" aria-label="ClickHouse/spark-clickhouse-connector - 210 stars, Scala" target="_blank" rel="noopener">ClickHouse/spark-clickhouse-connector</a>
-                        <span class="stars" aria-hidden="true">⭐ 210</span>
-                        <span class="language" aria-hidden="true">Scala</span> -
-                        <span>Spark ClickHouse Connector is a project that integrates Apache Spark with ClickHouse using the DataSourceV2 API to enable efficient data processing and analytics.</span>
-                    </li>
                     <li>
                         <a href="https://github.com/apache/incubator-gluten" aria-label="apache/incubator-gluten - 1501 stars, Scala" target="_blank" rel="noopener">apache/incubator-gluten</a>
                         <span class="stars" aria-hidden="true">⭐ 1501</span>
                         <span class="language" aria-hidden="true">Scala</span> -
                         <span>Apache Gluten is an incubating project that accelerates JVM-based SQL engines like Spark SQL by offloading compute-intensive tasks to native engines such as ClickHouse and Velox, enhancing performance while maintaining Spark's scalability and API compatibility.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/spark-clickhouse-connector" aria-label="ClickHouse/spark-clickhouse-connector - 210 stars, Scala" target="_blank" rel="noopener">ClickHouse/spark-clickhouse-connector</a>
+                        <span class="stars" aria-hidden="true">⭐ 210</span>
+                        <span class="language" aria-hidden="true">Scala</span> -
+                        <span>Spark ClickHouse Connector is a project that integrates Apache Spark with ClickHouse using the DataSourceV2 API to enable efficient data processing and analytics.</span>
                     </li>
                     <li>
                         <a href="https://github.com/crobox/clickhouse-scala-client" aria-label="crobox/clickhouse-scala-client - 119 stars, Scala" target="_blank" rel="noopener">crobox/clickhouse-scala-client</a>
@@ -840,65 +862,35 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="other-sdk/libraries"><h3 id="other-sdk/libraries">Other sdk/libraries</h3>
+            </section>
+            <section aria-labelledby="other-sdk/libraries">
+                <h3 id="other-sdk/libraries">Other sdk/libraries</h3>
                 <ul aria-label="List of Other sdk/libraries items">
-                    <li>
-                        <a href="https://github.com/Percona-Lab/clickhousedb_fdw" aria-label="Percona-Lab/clickhousedb_fdw - 208 stars, C" target="_blank" rel="noopener">Percona-Lab/clickhousedb_fdw</a>
-                        <span class="stars" aria-hidden="true">⭐ 208</span>
-                        <span class="language" aria-hidden="true">C</span> -
-                        <span>clickhousedb_fdw is an open-source Foreign Data Wrapper that enables seamless querying and data manipulation between PostgreSQL and the high-performance ClickHouse column-store database.</span>
-                    </li>
                     <li>
                         <a href="https://github.com/ildus/clickhouse_fdw" aria-label="ildus/clickhouse_fdw - 274 stars, C++" target="_blank" rel="noopener">ildus/clickhouse_fdw</a>
                         <span class="stars" aria-hidden="true">⭐ 274</span>
                         <span class="language" aria-hidden="true">C++</span> -
                         <span>clickhouse_fdw is an open-source Foreign Data Wrapper that enables seamless integration and querying of ClickHouse column-oriented database data within PostgreSQL.</span>
                     </li>
+                    <li>
+                        <a href="https://github.com/Percona-Lab/clickhousedb_fdw" aria-label="Percona-Lab/clickhousedb_fdw - 208 stars, C" target="_blank" rel="noopener">Percona-Lab/clickhousedb_fdw</a>
+                        <span class="stars" aria-hidden="true">⭐ 208</span>
+                        <span class="language" aria-hidden="true">C</span> -
+                        <span>clickhousedb_fdw is an open-source Foreign Data Wrapper that enables seamless querying and data manipulation between PostgreSQL and the high-performance ClickHouse column-store database.</span>
+                    </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
             </section>
-            
-            <section aria-labelledby="uis"><h2 id="uis">UIs</h2>
+            </section>
+            <section aria-labelledby="uis">
+                <h2 id="uis">UIs</h2>
                 
-                
-            <section aria-labelledby="gui"><h3 id="gui">GUI</h3>
+            <section aria-labelledby="gui">
+                <h3 id="gui">GUI</h3>
                 <ul aria-label="List of GUI items">
                     <li>
-                        <a href="https://github.com/ClickHouse/click-ui" aria-label="ClickHouse/click-ui - 110 stars, TypeScript" target="_blank" rel="noopener">ClickHouse/click-ui</a>
-                        <span class="stars" aria-hidden="true">⭐ 110</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>Click UI is the early-stage design system and component library for building ClickHouse-themed user interfaces with support for popular frameworks and theming.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/CodePhiliaX/Chat2DB" aria-label="CodePhiliaX/Chat2DB - 25037 stars, Java" target="_blank" rel="noopener">CodePhiliaX/Chat2DB</a>
-                        <span class="stars" aria-hidden="true">⭐ 25037</span>
-                        <span class="language" aria-hidden="true">Java</span> -
-                        <span>Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/DataPupOrg/DataPup" aria-label="DataPupOrg/DataPup - 288 stars, TypeScript" target="_blank" rel="noopener">DataPupOrg/DataPup</a>
-                        <span class="stars" aria-hidden="true">⭐ 288</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>DataPup is a modern, AI-assisted, cross-platform database client with full support for ClickHouse and plans to support other major databases, designed to make database management intuitive and enjoyable.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/DataflareApp/Dataflare" aria-label="DataflareApp/Dataflare - 377 stars, " target="_blank" rel="noopener">DataflareApp/Dataflare</a>
-                        <span class="stars" aria-hidden="true">⭐ 377</span>
-                        <span class="language" aria-hidden="true"></span> -
-                        <span>Dataflare is a simple, easy-to-use database manager supporting multiple databases including ClickHouse, designed for efficient database connection, management, and querying.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/HouseOps/HouseOps" aria-label="HouseOps/HouseOps - 341 stars, JavaScript" target="_blank" rel="noopener">HouseOps/HouseOps</a>
-                        <span class="stars" aria-hidden="true">⭐ 341</span>
-                        <span class="language" aria-hidden="true">JavaScript</span> -
-                        <span>HouseOps is an enterprise ClickHouse client that provides a graphical interface for querying, monitoring, and managing ClickHouse database clusters.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/agnosticeng/agx" aria-label="agnosticeng/agx - 243 stars, Svelte" target="_blank" rel="noopener">agnosticeng/agx</a>
-                        <span class="stars" aria-hidden="true">⭐ 243</span>
+                        <a href="https://github.com/agnosticeng/agx" aria-label="agnosticeng/agx - 246 stars, Svelte" target="_blank" rel="noopener">agnosticeng/agx</a>
+                        <span class="stars" aria-hidden="true">⭐ 246</span>
                         <span class="language" aria-hidden="true">Svelte</span> -
                         <span>agx is an AI-powered integrated analytics desktop application that enables interactive data exploration and querying using ClickHouse's embedded database or a remote ClickHouse server.</span>
                     </li>
@@ -907,6 +899,30 @@
                         <span class="stars" aria-hidden="true">⭐ 583</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>CH-UI is a modern, feature-rich web interface designed for seamless management, querying, and visualization of ClickHouse databases with advanced SQL editing and performance monitoring capabilities.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/click-ui" aria-label="ClickHouse/click-ui - 110 stars, TypeScript" target="_blank" rel="noopener">ClickHouse/click-ui</a>
+                        <span class="stars" aria-hidden="true">⭐ 110</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Click UI is the early-stage design system and component library for building ClickHouse-themed user interfaces with support for popular frameworks and theming.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CodePhiliaX/Chat2DB" aria-label="CodePhiliaX/Chat2DB - 25186 stars, Java" target="_blank" rel="noopener">CodePhiliaX/Chat2DB</a>
+                        <span class="stars" aria-hidden="true">⭐ 25186</span>
+                        <span class="language" aria-hidden="true">Java</span> -
+                        <span>Chat2DB is an AI-driven, intelligent, and versatile SQL client and database management tool supporting multiple databases including ClickHouse, designed to enhance SQL development and data reporting with integrated AI capabilities.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DataflareApp/Dataflare" aria-label="DataflareApp/Dataflare - 380 stars, " target="_blank" rel="noopener">DataflareApp/Dataflare</a>
+                        <span class="stars" aria-hidden="true">⭐ 380</span>
+                        <span class="language" aria-hidden="true"></span> -
+                        <span>Dataflare is a simple, easy-to-use database manager supporting multiple databases including ClickHouse, designed for efficient database connection, management, and querying.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DataPupOrg/DataPup" aria-label="DataPupOrg/DataPup - 288 stars, TypeScript" target="_blank" rel="noopener">DataPupOrg/DataPup</a>
+                        <span class="stars" aria-hidden="true">⭐ 288</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>DataPup is a modern, AI-assisted, cross-platform database client with full support for ClickHouse and plans to support other major databases, designed to make database management intuitive and enjoyable.</span>
                     </li>
                     <li>
                         <a href="https://github.com/dbgate/dbgate" aria-label="dbgate/dbgate - 6723 stars, Svelte" target="_blank" rel="noopener">dbgate/dbgate</a>
@@ -927,14 +943,20 @@
                         <span>Loghouse is an open-source log management solution for Kubernetes that uses ClickHouse for efficient log storage and provides a web UI for querying and monitoring logs.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/frectonz/sql-studio" aria-label="frectonz/sql-studio - 3446 stars, Rust" target="_blank" rel="noopener">frectonz/sql-studio</a>
-                        <span class="stars" aria-hidden="true">⭐ 3446</span>
+                        <a href="https://github.com/frectonz/sql-studio" aria-label="frectonz/sql-studio - 3487 stars, Rust" target="_blank" rel="noopener">frectonz/sql-studio</a>
+                        <span class="stars" aria-hidden="true">⭐ 3487</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>SQL Studio is a single binary SQL database explorer supporting multiple databases including SQLite, PostgreSQL, MySQL, ClickHouse, and Microsoft SQL Server, offering rich features like metadata overview, query execution with IntelliSense, and infinite scrolling.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/l1xnan/duckling" aria-label="l1xnan/duckling - 533 stars, TypeScript" target="_blank" rel="noopener">l1xnan/duckling</a>
-                        <span class="stars" aria-hidden="true">⭐ 533</span>
+                        <a href="https://github.com/HouseOps/HouseOps" aria-label="HouseOps/HouseOps - 341 stars, JavaScript" target="_blank" rel="noopener">HouseOps/HouseOps</a>
+                        <span class="stars" aria-hidden="true">⭐ 341</span>
+                        <span class="language" aria-hidden="true">JavaScript</span> -
+                        <span>HouseOps is an enterprise ClickHouse client that provides a graphical interface for querying, monitoring, and managing ClickHouse database clusters.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/l1xnan/duckling" aria-label="l1xnan/duckling - 550 stars, TypeScript" target="_blank" rel="noopener">l1xnan/duckling</a>
+                        <span class="stars" aria-hidden="true">⭐ 550</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>Duckling is a lightweight desktop application built with Tauri for fast browsing of CSV/Parquet files and various databases including Clickhouse.</span>
                     </li>
@@ -957,46 +979,46 @@
                         <span>Tabix.io UI is an open-source business intelligence and SQL editor tool designed for efficient interaction with ClickHouse databases.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/timestored/qstudio" aria-label="timestored/qstudio - 1040 stars, Java" target="_blank" rel="noopener">timestored/qstudio</a>
-                        <span class="stars" aria-hidden="true">⭐ 1040</span>
+                        <a href="https://github.com/timestored/qstudio" aria-label="timestored/qstudio - 1054 stars, Java" target="_blank" rel="noopener">timestored/qstudio</a>
+                        <span class="stars" aria-hidden="true">⭐ 1054</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>qStudio is a free, cross-platform SQL client and notebook that supports numerous databases including ClickHouse, offering features like query execution, data visualization, and AI-powered SQL assistance.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="cli"><h3 id="cli">CLI</h3>
+            </section>
+            <section aria-labelledby="cli">
+                <h3 id="cli">CLI</h3>
                 <ul aria-label="List of CLI items">
                     <li>
-                        <a href="https://github.com/ClickHouse/JSONBench" aria-label="ClickHouse/JSONBench - 168 stars, Shell" target="_blank" rel="noopener">ClickHouse/JSONBench</a>
-                        <span class="stars" aria-hidden="true">⭐ 168</span>
+                        <a href="https://github.com/amacneil/dbmate" aria-label="amacneil/dbmate - 6744 stars, Go" target="_blank" rel="noopener">amacneil/dbmate</a>
+                        <span class="stars" aria-hidden="true">⭐ 6744</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Dbmate is a lightweight, framework-agnostic database migration tool that supports multiple databases including ClickHouse, enabling consistent schema management across diverse development environments.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/azat/chdig" aria-label="azat/chdig - 275 stars, Rust" target="_blank" rel="noopener">azat/chdig</a>
+                        <span class="stars" aria-hidden="true">⭐ 275</span>
+                        <span class="language" aria-hidden="true">Rust</span> -
+                        <span>Chdig is a terminal user interface tool designed to provide interactive introspection, monitoring, and debugging capabilities for ClickHouse database systems.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/JSONBench" aria-label="ClickHouse/JSONBench - 170 stars, Shell" target="_blank" rel="noopener">ClickHouse/JSONBench</a>
+                        <span class="stars" aria-hidden="true">⭐ 170</span>
                         <span class="language" aria-hidden="true">Shell</span> -
                         <span>JSONBench is a benchmarking project that evaluates and compares the native JSON support of popular analytical databases including ClickHouse using a large real-world dataset of Bluesky events.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hatarist/clickhouse-cli" aria-label="hatarist/clickhouse-cli - 264 stars, Python" target="_blank" rel="noopener">hatarist/clickhouse-cli</a>
+                        <span class="stars" aria-hidden="true">⭐ 264</span>
+                        <span class="language" aria-hidden="true">Python</span> -
+                        <span>An unofficial command-line client for the ClickHouse DBMS server offering enhanced features like autocompletion, syntax highlighting, multiquery support, and user-defined functions over HTTP.</span>
                     </li>
                     <li>
                         <a href="https://github.com/Slach/clickhouse-flamegraph" aria-label="Slach/clickhouse-flamegraph - 216 stars, Go" target="_blank" rel="noopener">Slach/clickhouse-flamegraph</a>
                         <span class="stars" aria-hidden="true">⭐ 216</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>clickhouse-flamegraph is a command-line utility for visualizing ClickHouse system.trace_log data as flamegraphs to analyze query performance and resource usage.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/amacneil/dbmate" aria-label="amacneil/dbmate - 6672 stars, Go" target="_blank" rel="noopener">amacneil/dbmate</a>
-                        <span class="stars" aria-hidden="true">⭐ 6672</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>Dbmate is a lightweight, framework-agnostic database migration tool that supports multiple databases including ClickHouse, enabling consistent schema management across diverse development environments.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/azat/chdig" aria-label="azat/chdig - 266 stars, Rust" target="_blank" rel="noopener">azat/chdig</a>
-                        <span class="stars" aria-hidden="true">⭐ 266</span>
-                        <span class="language" aria-hidden="true">Rust</span> -
-                        <span>Chdig is a terminal user interface tool designed to provide interactive introspection, monitoring, and debugging capabilities for ClickHouse database systems.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/hatarist/clickhouse-cli" aria-label="hatarist/clickhouse-cli - 263 stars, Python" target="_blank" rel="noopener">hatarist/clickhouse-cli</a>
-                        <span class="stars" aria-hidden="true">⭐ 263</span>
-                        <span class="language" aria-hidden="true">Python</span> -
-                        <span>An unofficial command-line client for the ClickHouse DBMS server offering enhanced features like autocompletion, syntax highlighting, multiquery support, and user-defined functions over HTTP.</span>
                     </li>
                     <li>
                         <a href="https://github.com/sqitchers/sqitch" aria-label="sqitchers/sqitch - 3092 stars, Perl" target="_blank" rel="noopener">sqitchers/sqitch</a>
@@ -1006,16 +1028,10 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="chui(chat-based-user-interface)-or-chubaca(chat-based-client:)"><h3 id="chui(chat-based-user-interface)-or-chubaca(chat-based-client:)">CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)</h3>
+            </section>
+            <section aria-labelledby="chui(chat-based-user-interface)-or-chubaca(chat-based-client:)">
+                <h3 id="chui(chat-based-user-interface)-or-chubaca(chat-based-client:)">CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)</h3>
                 <ul aria-label="List of CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:) items">
-                    <li>
-                        <a href="https://github.com/Guepard-Corp/qwery-core" aria-label="Guepard-Corp/qwery-core - 135 stars, TypeScript" target="_blank" rel="noopener">Guepard-Corp/qwery-core</a>
-                        <span class="stars" aria-hidden="true">⭐ 135</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>Qwery is a versatile data querying and visualization platform that enables natural language queries across multiple databases including ClickHouse, supported by AI agents and available as both desktop and cloud applications.</span>
-                    </li>
                     <li>
                         <a href="https://github.com/centralmind/gateway" aria-label="centralmind/gateway - 515 stars, Go" target="_blank" rel="noopener">centralmind/gateway</a>
                         <span class="stars" aria-hidden="true">⭐ 515</span>
@@ -1035,6 +1051,12 @@
                         <span>MCP Toolbox for Databases is an open-source MCP server that simplifies and secures the development of AI-powered database tools by handling backend complexities and enabling natural language interaction with databases.</span>
                     </li>
                     <li>
+                        <a href="https://github.com/Guepard-Corp/qwery-core" aria-label="Guepard-Corp/qwery-core - 135 stars, TypeScript" target="_blank" rel="noopener">Guepard-Corp/qwery-core</a>
+                        <span class="stars" aria-hidden="true">⭐ 135</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Qwery is a versatile data querying and visualization platform that enables natural language queries across multiple databases including ClickHouse, supported by AI agents and available as both desktop and cloud applications.</span>
+                    </li>
+                    <li>
                         <a href="https://github.com/sqlchat/sqlchat" aria-label="sqlchat/sqlchat - 5702 stars, TypeScript" target="_blank" rel="noopener">sqlchat/sqlchat</a>
                         <span class="stars" aria-hidden="true">⭐ 5702</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
@@ -1048,19 +1070,25 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
             </section>
-            
-            <section aria-labelledby="integrations"><h2 id="integrations">Integrations</h2>
+            </section>
+            <section aria-labelledby="integrations">
+                <h2 id="integrations">Integrations</h2>
                 
-                
-            <section aria-labelledby="data-transfer-and-synchronization"><h3 id="data-transfer-and-synchronization">Data Transfer and Synchronization</h3>
+            <section aria-labelledby="data-transfer-and-synchronization">
+                <h3 id="data-transfer-and-synchronization">Data Transfer and Synchronization</h3>
                 <ul aria-label="List of Data Transfer and Synchronization items">
                     <li>
-                        <a href="https://github.com/Altinity/clickhouse-sink-connector" aria-label="Altinity/clickhouse-sink-connector - 309 stars, Python" target="_blank" rel="noopener">Altinity/clickhouse-sink-connector</a>
-                        <span class="stars" aria-hidden="true">⭐ 309</span>
+                        <a href="https://github.com/Altinity/clickhouse-sink-connector" aria-label="Altinity/clickhouse-sink-connector - 316 stars, Python" target="_blank" rel="noopener">Altinity/clickhouse-sink-connector</a>
+                        <span class="stars" aria-hidden="true">⭐ 316</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Altinity Sink Connector is a scalable tool for replicating data from MySQL, PostgreSQL, and MongoDB to ClickHouse for efficient analytical processing.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/apecloud/ape-dts" aria-label="apecloud/ape-dts - 553 stars, Rust" target="_blank" rel="noopener">apecloud/ape-dts</a>
+                        <span class="stars" aria-hidden="true">⭐ 553</span>
+                        <span class="language" aria-hidden="true">Rust</span> -
+                        <span>Ape Data Transfer Suite (ape-dts) is a high-performance, lightweight data migration and replication tool supporting ultra-fast transfers between MySQL, PostgreSQL, Redis, MongoDB, Kafka, and ClickHouse, ideal for disaster recovery and migration scenarios.</span>
                     </li>
                     <li>
                         <a href="https://github.com/ClickHouse/clickhouse-kafka-connect" aria-label="ClickHouse/clickhouse-kafka-connect - 194 stars, Java" target="_blank" rel="noopener">ClickHouse/clickhouse-kafka-connect</a>
@@ -1069,26 +1097,14 @@
                         <span>ClickHouse Kafka Connect Sink is the official Kafka Connect sink connector that enables efficient and reliable data transfer from Kafka topics to ClickHouse tables with exactly-once delivery semantics.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/QuesmaOrg/quesma" aria-label="QuesmaOrg/quesma - 173 stars, Go" target="_blank" rel="noopener">QuesmaOrg/quesma</a>
-                        <span class="stars" aria-hidden="true">⭐ 173</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>Quesma is a programmable database gateway that enables seamless query translation and migration between modern database platforms, currently supporting integration of Kibana/OpenSearch Dashboards with Clickhouse.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/apecloud/ape-dts" aria-label="apecloud/ape-dts - 549 stars, Rust" target="_blank" rel="noopener">apecloud/ape-dts</a>
-                        <span class="stars" aria-hidden="true">⭐ 549</span>
-                        <span class="language" aria-hidden="true">Rust</span> -
-                        <span>Ape Data Transfer Suite (ape-dts) is a high-performance, lightweight data migration and replication tool supporting ultra-fast transfers between MySQL, PostgreSQL, Redis, MongoDB, Kafka, and ClickHouse, ideal for disaster recovery and migration scenarios.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/getdozer/dozer" aria-label="getdozer/dozer - 1574 stars, Rust" target="_blank" rel="noopener">getdozer/dozer</a>
-                        <span class="stars" aria-hidden="true">⭐ 1574</span>
+                        <a href="https://github.com/getdozer/dozer" aria-label="getdozer/dozer - 1576 stars, Rust" target="_blank" rel="noopener">getdozer/dozer</a>
+                        <span class="stars" aria-hidden="true">⭐ 1576</span>
                         <span class="language" aria-hidden="true">Rust</span> -
                         <span>Dozer is a high-performance real-time data movement tool leveraging CDC to transfer and transform data efficiently into multiple sinks including Clickhouse.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/housepower/clickhouse_sinker" aria-label="housepower/clickhouse_sinker - 536 stars, Go" target="_blank" rel="noopener">housepower/clickhouse_sinker</a>
-                        <span class="stars" aria-hidden="true">⭐ 536</span>
+                        <a href="https://github.com/housepower/clickhouse_sinker" aria-label="housepower/clickhouse_sinker - 535 stars, Go" target="_blank" rel="noopener">housepower/clickhouse_sinker</a>
+                        <span class="stars" aria-hidden="true">⭐ 535</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>clickhouse_sinker is a sinker program that efficiently transfers Kafka messages into ClickHouse for real-time data analytics and storage.</span>
                     </li>
@@ -1099,8 +1115,8 @@
                         <span>Jitsu is an open-source, self-hosted data ingestion platform that enables real-time event data collection and streaming to data warehouses, including ClickHouse, as an alternative to Segment.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/long2ice/synch" aria-label="long2ice/synch - 354 stars, Python" target="_blank" rel="noopener">long2ice/synch</a>
-                        <span class="stars" aria-hidden="true">⭐ 354</span>
+                        <a href="https://github.com/long2ice/synch" aria-label="long2ice/synch - 355 stars, Python" target="_blank" rel="noopener">long2ice/synch</a>
+                        <span class="stars" aria-hidden="true">⭐ 355</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Synch is a data synchronization tool that enables full and incremental ETL from PostgreSQL and MySQL databases to ClickHouse, supporting real-time data integration and multiple broker options.</span>
                     </li>
@@ -1117,6 +1133,12 @@
                         <span>ClickHouse-Bulk is a tool that collects many small insert requests and sends them as larger bulk inserts to Yandex ClickHouse servers to improve data ingestion efficiency.</span>
                     </li>
                     <li>
+                        <a href="https://github.com/QuesmaOrg/quesma" aria-label="QuesmaOrg/quesma - 173 stars, Go" target="_blank" rel="noopener">QuesmaOrg/quesma</a>
+                        <span class="stars" aria-hidden="true">⭐ 173</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Quesma is a programmable database gateway that enables seamless query translation and migration between modern database platforms, currently supporting integration of Kibana/OpenSearch Dashboards with Clickhouse.</span>
+                    </li>
+                    <li>
                         <a href="https://github.com/uber/storagetapper" aria-label="uber/storagetapper - 364 stars, Go" target="_blank" rel="noopener">uber/storagetapper</a>
                         <span class="stars" aria-hidden="true">⭐ 364</span>
                         <span class="language" aria-hidden="true">Go</span> -
@@ -1130,13 +1152,19 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="metrics-and-monitoring"><h3 id="metrics-and-monitoring">Metrics and Monitoring</h3>
+            </section>
+            <section aria-labelledby="metrics-and-monitoring">
+                <h3 id="metrics-and-monitoring">Metrics and Monitoring</h3>
                 <ul aria-label="List of Metrics and Monitoring items">
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse_exporter" aria-label="ClickHouse/clickhouse_exporter - 399 stars, Go" target="_blank" rel="noopener">ClickHouse/clickhouse_exporter</a>
-                        <span class="stars" aria-hidden="true">⭐ 399</span>
+                        <a href="https://github.com/burningalchemist/sql_exporter" aria-label="burningalchemist/sql_exporter - 525 stars, Go" target="_blank" rel="noopener">burningalchemist/sql_exporter</a>
+                        <span class="stars" aria-hidden="true">⭐ 525</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>SQL Exporter for Prometheus is a configuration-driven tool that collects and exposes metrics from various databases, including Clickhouse, for monitoring with Prometheus.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ClickHouse/clickhouse_exporter" aria-label="ClickHouse/clickhouse_exporter - 401 stars, Go" target="_blank" rel="noopener">ClickHouse/clickhouse_exporter</a>
+                        <span class="stars" aria-hidden="true">⭐ 401</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>ClickHouse Exporter for Prometheus is a server that scrapes metrics from older ClickHouse versions and exports them via HTTP for Prometheus monitoring.</span>
                     </li>
@@ -1147,32 +1175,14 @@
                         <span>Graphouse enables the use of ClickHouse as a high-performance storage backend for Graphite metrics, providing TCP and HTTP APIs for metric ingestion, search, and management.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/kubenetmon" aria-label="ClickHouse/kubenetmon - 164 stars, Go" target="_blank" rel="noopener">ClickHouse/kubenetmon</a>
-                        <span class="stars" aria-hidden="true">⭐ 164</span>
+                        <a href="https://github.com/ClickHouse/kubenetmon" aria-label="ClickHouse/kubenetmon - 166 stars, Go" target="_blank" rel="noopener">ClickHouse/kubenetmon</a>
+                        <span class="stars" aria-hidden="true">⭐ 166</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>kubenetmon is an open source Kubernetes network metering solution by ClickHouse that collects and analyzes network traffic data across major cloud providers using ClickHouse as the backend analytics engine.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/Percona-Lab/PromHouse" aria-label="Percona-Lab/PromHouse - 263 stars, Go" target="_blank" rel="noopener">Percona-Lab/PromHouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 263</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>PromHouse is a long-term remote storage solution for Prometheus 2.x metrics built on ClickHouse, featuring clustering and downsampling capabilities for efficient time series data management.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Swetrix/swetrix" aria-label="Swetrix/swetrix - 847 stars, TypeScript" target="_blank" rel="noopener">Swetrix/swetrix</a>
-                        <span class="stars" aria-hidden="true">⭐ 847</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>Swetrix is an open source, privacy-focused, cookie-less web analytics platform that uses Clickhouse for efficient statistical data management and offers self-hosting or cloud deployment options.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/burningalchemist/sql_exporter" aria-label="burningalchemist/sql_exporter - 513 stars, Go" target="_blank" rel="noopener">burningalchemist/sql_exporter</a>
-                        <span class="stars" aria-hidden="true">⭐ 513</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>SQL Exporter for Prometheus is a configuration-driven tool that collects and exposes metrics from various databases, including Clickhouse, for monitoring with Prometheus.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/go-graphite/carbon-clickhouse" aria-label="go-graphite/carbon-clickhouse - 195 stars, Go" target="_blank" rel="noopener">go-graphite/carbon-clickhouse</a>
-                        <span class="stars" aria-hidden="true">⭐ 195</span>
+                        <a href="https://github.com/go-graphite/carbon-clickhouse" aria-label="go-graphite/carbon-clickhouse - 196 stars, Go" target="_blank" rel="noopener">go-graphite/carbon-clickhouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 196</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>carbon-clickhouse is a Graphite metrics receiver that uses ClickHouse as a high-performance storage backend, supporting multiple ingestion protocols and flexible configuration for efficient metrics management.</span>
                     </li>
@@ -1183,8 +1193,8 @@
                         <span>Graphite-clickhouse is a backend solution that integrates Graphite clusters with ClickHouse to enhance time-series data storage and query performance.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/hyperdxio/hyperdx" aria-label="hyperdxio/hyperdx - 9284 stars, TypeScript" target="_blank" rel="noopener">hyperdxio/hyperdx</a>
-                        <span class="stars" aria-hidden="true">⭐ 9284</span>
+                        <a href="https://github.com/hyperdxio/hyperdx" aria-label="hyperdxio/hyperdx - 9346 stars, TypeScript" target="_blank" rel="noopener">hyperdxio/hyperdx</a>
+                        <span class="stars" aria-hidden="true">⭐ 9346</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>HyperDX is an open source observability platform powered by Clickhouse and OpenTelemetry that centralizes and correlates logs, metrics, traces, errors, and session replays to help engineers quickly resolve production issues.</span>
                     </li>
@@ -1195,8 +1205,8 @@
                         <span>Jaeger ClickHouse is an experimental gRPC storage plugin that integrates Jaeger distributed tracing with ClickHouse for efficient trace data storage and querying.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/justwatchcom/sql_exporter" aria-label="justwatchcom/sql_exporter - 491 stars, Go" target="_blank" rel="noopener">justwatchcom/sql_exporter</a>
-                        <span class="stars" aria-hidden="true">⭐ 491</span>
+                        <a href="https://github.com/justwatchcom/sql_exporter" aria-label="justwatchcom/sql_exporter - 495 stars, Go" target="_blank" rel="noopener">justwatchcom/sql_exporter</a>
+                        <span class="stars" aria-hidden="true">⭐ 495</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>A flexible SQL Exporter for Prometheus that runs user-defined SQL queries on multiple databases including ClickHouse and exports the results as metrics for monitoring.</span>
                     </li>
@@ -1213,20 +1223,32 @@
                         <span>Prom2click is an experimental Prometheus remote storage adapter that enables scalable and high-performance metric storage and querying using Clickhouse's column-oriented database optimized for time series data.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/openlit/openlit" aria-label="openlit/openlit - 2178 stars, Python" target="_blank" rel="noopener">openlit/openlit</a>
-                        <span class="stars" aria-hidden="true">⭐ 2178</span>
+                        <a href="https://github.com/openlit/openlit" aria-label="openlit/openlit - 2251 stars, Python" target="_blank" rel="noopener">openlit/openlit</a>
+                        <span class="stars" aria-hidden="true">⭐ 2251</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>OpenLIT is an open-source AI engineering platform providing OpenTelemetry-native observability, monitoring, and management tools for large language models, GPUs, and vector databases, with data stored in ClickHouse for efficient telemetry analysis.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/openmeterio/openmeter" aria-label="openmeterio/openmeter - 1801 stars, Go" target="_blank" rel="noopener">openmeterio/openmeter</a>
-                        <span class="stars" aria-hidden="true">⭐ 1801</span>
+                        <a href="https://github.com/openmeterio/openmeter" aria-label="openmeterio/openmeter - 1834 stars, Go" target="_blank" rel="noopener">openmeterio/openmeter</a>
+                        <span class="stars" aria-hidden="true">⭐ 1834</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>OpenMeter is a flexible metering and billing platform for AI, API, and DevOps companies that collects and aggregates usage events in real-time to enable usage-based billing and real-time insights.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/uptrace/uptrace" aria-label="uptrace/uptrace - 4058 stars, Go" target="_blank" rel="noopener">uptrace/uptrace</a>
-                        <span class="stars" aria-hidden="true">⭐ 4058</span>
+                        <a href="https://github.com/Percona-Lab/PromHouse" aria-label="Percona-Lab/PromHouse - 262 stars, Go" target="_blank" rel="noopener">Percona-Lab/PromHouse</a>
+                        <span class="stars" aria-hidden="true">⭐ 262</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>PromHouse is a long-term remote storage solution for Prometheus 2.x metrics built on ClickHouse, featuring clustering and downsampling capabilities for efficient time series data management.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Swetrix/swetrix" aria-label="Swetrix/swetrix - 891 stars, TypeScript" target="_blank" rel="noopener">Swetrix/swetrix</a>
+                        <span class="stars" aria-hidden="true">⭐ 891</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Swetrix is an open source, privacy-focused, cookie-less web analytics platform that uses Clickhouse for efficient statistical data management and offers self-hosting or cloud deployment options.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/uptrace/uptrace" aria-label="uptrace/uptrace - 4108 stars, Go" target="_blank" rel="noopener">uptrace/uptrace</a>
+                        <span class="stars" aria-hidden="true">⭐ 4108</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>Uptrace is an open source APM platform that uses OpenTelemetry for data collection and ClickHouse for storage, providing unified monitoring of traces, metrics, and logs with powerful querying, dashboards, and alerting capabilities.</span>
                     </li>
@@ -1238,9 +1260,9 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="deployment-and-management-tools"><h3 id="deployment-and-management-tools">Deployment and Management Tools</h3>
+            </section>
+            <section aria-labelledby="deployment-and-management-tools">
+                <h3 id="deployment-and-management-tools">Deployment and Management Tools</h3>
                 <ul aria-label="List of Deployment and Management Tools items">
                     <li>
                         <a href="https://github.com/Altinity/clickhouse-operator" aria-label="Altinity/clickhouse-operator - 2410 stars, Go" target="_blank" rel="noopener">Altinity/clickhouse-operator</a>
@@ -1261,22 +1283,34 @@
                         <span>ckman is a web-based tool for managing and monitoring ClickHouse database clusters, offering deployment, upgrade, node management, and monitoring features.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/tetafro/clickhouse-cluster" aria-label="tetafro/clickhouse-cluster - 225 stars, Makefile" target="_blank" rel="noopener">tetafro/clickhouse-cluster</a>
-                        <span class="stars" aria-hidden="true">⭐ 225</span>
+                        <a href="https://github.com/tetafro/clickhouse-cluster" aria-label="tetafro/clickhouse-cluster - 226 stars, Makefile" target="_blank" rel="noopener">tetafro/clickhouse-cluster</a>
+                        <span class="stars" aria-hidden="true">⭐ 226</span>
                         <span class="language" aria-hidden="true">Makefile</span> -
                         <span>A simple ClickHouse cluster setup with 2 shards and 2 replicas using docker-compose for local development and testing.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="data-visualization-and-analysis"><h3 id="data-visualization-and-analysis">Data Visualization and Analysis</h3>
+            </section>
+            <section aria-labelledby="data-visualization-and-analysis">
+                <h3 id="data-visualization-and-analysis">Data Visualization and Analysis</h3>
                 <ul aria-label="List of Data Visualization and Analysis items">
+                    <li>
+                        <a href="https://github.com/akvorado/akvorado" aria-label="akvorado/akvorado - 2105 stars, Go" target="_blank" rel="noopener">akvorado/akvorado</a>
+                        <span class="stars" aria-hidden="true">⭐ 2105</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>Akvorado is a flow collector, enricher, and visualizer that processes network flow data, enriches it with interface and geolocation information, and stores it in ClickHouse for real-time analysis and visualization.</span>
+                    </li>
                     <li>
                         <a href="https://github.com/Altinity/clickhouse-grafana" aria-label="Altinity/clickhouse-grafana - 769 stars, Python" target="_blank" rel="noopener">Altinity/clickhouse-grafana</a>
                         <span class="stars" aria-hidden="true">⭐ 769</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Altinity/clickhouse-grafana is a Grafana datasource plugin that enables seamless integration and visualization of ClickHouse data within Grafana dashboards.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/benawad/voidpulse" aria-label="benawad/voidpulse - 102 stars, TypeScript" target="_blank" rel="noopener">benawad/voidpulse</a>
+                        <span class="stars" aria-hidden="true">⭐ 102</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Voidpulse is an open-source AI-powered analytics platform serving as a cost-effective alternative to Mixpanel, utilizing Clickhouse for event data storage and querying.</span>
                     </li>
                     <li>
                         <a href="https://github.com/ClickHouse/adsb.exposed" aria-label="ClickHouse/adsb.exposed - 431 stars, HTML" target="_blank" rel="noopener">ClickHouse/adsb.exposed</a>
@@ -1297,24 +1331,6 @@
                         <span>ClickHouse/github-explorer is a comprehensive dataset and analysis platform using ClickHouse to explore and understand GitHub repository events and trends since 2011.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/TongchengOpenSource/ckibana" aria-label="TongchengOpenSource/ckibana - 310 stars, Java" target="_blank" rel="noopener">TongchengOpenSource/ckibana</a>
-                        <span class="stars" aria-hidden="true">⭐ 310</span>
-                        <span class="language" aria-hidden="true">Java</span> -
-                        <span>CKibana is a ClickHouse adapter and proxy for Kibana that enables seamless visualization and analysis of ClickHouse data using native Kibana interfaces.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/akvorado/akvorado" aria-label="akvorado/akvorado - 2069 stars, Go" target="_blank" rel="noopener">akvorado/akvorado</a>
-                        <span class="stars" aria-hidden="true">⭐ 2069</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>Akvorado is a flow collector, enricher, and visualizer that processes network flow data, enriches it with interface and geolocation information, and stores it in ClickHouse for real-time analysis and visualization.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/benawad/voidpulse" aria-label="benawad/voidpulse - 102 stars, TypeScript" target="_blank" rel="noopener">benawad/voidpulse</a>
-                        <span class="stars" aria-hidden="true">⭐ 102</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>Voidpulse is an open-source AI-powered analytics platform serving as a cost-effective alternative to Mixpanel, utilizing Clickhouse for event data storage and querying.</span>
-                    </li>
-                    <li>
                         <a href="https://github.com/clickvisual/clickvisual" aria-label="clickvisual/clickvisual - 1639 stars, Go" target="_blank" rel="noopener">clickvisual/clickvisual</a>
                         <span class="stars" aria-hidden="true">⭐ 1639</span>
                         <span class="language" aria-hidden="true">Go</span> -
@@ -1327,20 +1343,20 @@
                         <span>Rocket BI is a free, open-source, web-based self-service business intelligence tool tailored for analytical databases including ClickHouse, enabling users to analyze, visualize, and collaborate on data through interactive dashboards and drag-and-drop interfaces.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/grafana/clickhouse-datasource" aria-label="grafana/clickhouse-datasource - 199 stars, TypeScript" target="_blank" rel="noopener">grafana/clickhouse-datasource</a>
-                        <span class="stars" aria-hidden="true">⭐ 199</span>
+                        <a href="https://github.com/grafana/clickhouse-datasource" aria-label="grafana/clickhouse-datasource - 204 stars, TypeScript" target="_blank" rel="noopener">grafana/clickhouse-datasource</a>
+                        <span class="stars" aria-hidden="true">⭐ 204</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>Official Grafana plugin enabling querying and visualization of ClickHouse data within Grafana dashboards.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/iamtelescope/telescope" aria-label="iamtelescope/telescope - 630 stars, Vue" target="_blank" rel="noopener">iamtelescope/telescope</a>
-                        <span class="stars" aria-hidden="true">⭐ 630</span>
+                        <a href="https://github.com/iamtelescope/telescope" aria-label="iamtelescope/telescope - 643 stars, Vue" target="_blank" rel="noopener">iamtelescope/telescope</a>
+                        <span class="stars" aria-hidden="true">⭐ 643</span>
                         <span class="language" aria-hidden="true">Vue</span> -
                         <span>Telescope is a web-based log viewer UI that enables intuitive exploration and analysis of log data stored primarily in ClickHouse, with support for Docker logs and advanced querying features.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/mprove-io/mprove" aria-label="mprove-io/mprove - 328 stars, TypeScript" target="_blank" rel="noopener">mprove-io/mprove</a>
-                        <span class="stars" aria-hidden="true">⭐ 328</span>
+                        <a href="https://github.com/mprove-io/mprove" aria-label="mprove-io/mprove - 329 stars, TypeScript" target="_blank" rel="noopener">mprove-io/mprove</a>
+                        <span class="stars" aria-hidden="true">⭐ 329</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>Mprove is an open-source self-service Business Intelligence platform with version control, leveraging ClickHouse for high-performance data analytics and flexible deployment options.</span>
                     </li>
@@ -1356,15 +1372,21 @@
                         <span class="language" aria-hidden="true">C++</span> -
                         <span>SereneDB is a distributed real-time search analytics database that unifies Elasticsearch-like search and ClickHouse-like analytics in a single, Postgres-compatible platform for high performance and ease of use.</span>
                     </li>
+                    <li>
+                        <a href="https://github.com/TongchengOpenSource/ckibana" aria-label="TongchengOpenSource/ckibana - 311 stars, Java" target="_blank" rel="noopener">TongchengOpenSource/ckibana</a>
+                        <span class="stars" aria-hidden="true">⭐ 311</span>
+                        <span class="language" aria-hidden="true">Java</span> -
+                        <span>CKibana is a ClickHouse adapter and proxy for Kibana that enables seamless visualization and analysis of ClickHouse data using native Kibana interfaces.</span>
+                    </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="etl-and-data-processing"><h3 id="etl-and-data-processing">ETL and Data Processing</h3>
+            </section>
+            <section aria-labelledby="etl-and-data-processing">
+                <h3 id="etl-and-data-processing">ETL and Data Processing</h3>
                 <ul aria-label="List of ETL and Data Processing items">
                     <li>
-                        <a href="https://github.com/ByConity/ByConity" aria-label="ByConity/ByConity - 2227 stars, C++" target="_blank" rel="noopener">ByConity/ByConity</a>
-                        <span class="stars" aria-hidden="true">⭐ 2227</span>
+                        <a href="https://github.com/ByConity/ByConity" aria-label="ByConity/ByConity - 2225 stars, C++" target="_blank" rel="noopener">ByConity/ByConity</a>
+                        <span class="stars" aria-hidden="true">⭐ 2225</span>
                         <span class="language" aria-hidden="true">C++</span> -
                         <span>ByConity is an open-source cloud data warehouse derived from ClickHouse, designed with a cloud-native architecture to provide high-performance querying and unified management of batch and streaming data at large scale.</span>
                     </li>
@@ -1375,38 +1397,20 @@
                         <span>ClickBench is a comprehensive and reproducible benchmark designed to evaluate the performance of analytical databases, including ClickHouse, using realistic workloads derived from real-world web analytics data.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/FrigadeHQ/trench" aria-label="FrigadeHQ/trench - 1614 stars, TypeScript" target="_blank" rel="noopener">FrigadeHQ/trench</a>
-                        <span class="stars" aria-hidden="true">⭐ 1614</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>Trench is an open-source, production-ready analytics infrastructure built on ClickHouse and Kafka for scalable, real-time event tracking and analytics with GDPR compliance.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/LimeJourney/limeJourney" aria-label="LimeJourney/limeJourney - 126 stars, TypeScript" target="_blank" rel="noopener">LimeJourney/limeJourney</a>
-                        <span class="stars" aria-hidden="true">⭐ 126</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>LimeJourney is an open-source customer engagement platform that leverages ClickHouse for real-time segmentation and high-volume event data management to create personalized, data-driven user journeys at scale.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/PeerDB-io/peerdb" aria-label="PeerDB-io/peerdb - 2940 stars, Go" target="_blank" rel="noopener">PeerDB-io/peerdb</a>
-                        <span class="stars" aria-hidden="true">⭐ 2940</span>
-                        <span class="language" aria-hidden="true">Go</span> -
-                        <span>PeerDB is a high-performance, PostgreSQL-optimized ETL tool that enables fast, reliable, and cost-effective streaming of data from Postgres to data warehouses, queues, and storage engines, with native integration in ClickHouse Cloud.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/cloudflare/flow-pipeline" aria-label="cloudflare/flow-pipeline - 187 stars, Go" target="_blank" rel="noopener">cloudflare/flow-pipeline</a>
-                        <span class="stars" aria-hidden="true">⭐ 187</span>
+                        <a href="https://github.com/cloudflare/flow-pipeline" aria-label="cloudflare/flow-pipeline - 189 stars, Go" target="_blank" rel="noopener">cloudflare/flow-pipeline</a>
+                        <span class="stars" aria-hidden="true">⭐ 189</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>Flow-pipeline is a Cloudflare project providing tools and examples to build scalable network flow data collection and processing pipelines using GoFlow, Kafka, and databases like Postgres and Clickhouse.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/devlive-community/datacap" aria-label="devlive-community/datacap - 1002 stars, Java" target="_blank" rel="noopener">devlive-community/datacap</a>
-                        <span class="stars" aria-hidden="true">⭐ 1002</span>
+                        <a href="https://github.com/devlive-community/datacap" aria-label="devlive-community/datacap - 1018 stars, Java" target="_blank" rel="noopener">devlive-community/datacap</a>
+                        <span class="stars" aria-hidden="true">⭐ 1018</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>DataCap is an integrated software platform for data transformation, integration, and visualization, supporting a wide range of data sources including ClickHouse and other major databases.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/droher/boxball" aria-label="droher/boxball - 128 stars, Python" target="_blank" rel="noopener">droher/boxball</a>
-                        <span class="stars" aria-hidden="true">⭐ 128</span>
+                        <a href="https://github.com/droher/boxball" aria-label="droher/boxball - 127 stars, Python" target="_blank" rel="noopener">droher/boxball</a>
+                        <span class="stars" aria-hidden="true">⭐ 127</span>
                         <span class="language" aria-hidden="true">Python</span> -
                         <span>Boxball provides prebuilt Docker images with Retrosheet's complete baseball history data for multiple analytical database frameworks including Clickhouse, enabling easy access and analysis of comprehensive baseball datasets.</span>
                     </li>
@@ -1423,28 +1427,46 @@
                         <span>Data Forge is a modern data stack playground that integrates tools like Spark, Trino, Kafka, ClickHouse, and Airflow to enable data engineers to practice end-to-end workflows locally using Docker Compose.</span>
                     </li>
                     <li>
+                        <a href="https://github.com/FrigadeHQ/trench" aria-label="FrigadeHQ/trench - 1618 stars, TypeScript" target="_blank" rel="noopener">FrigadeHQ/trench</a>
+                        <span class="stars" aria-hidden="true">⭐ 1618</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>Trench is an open-source, production-ready analytics infrastructure built on ClickHouse and Kafka for scalable, real-time event tracking and analytics with GDPR compliance.</span>
+                    </li>
+                    <li>
                         <a href="https://github.com/glassflow/clickhouse-etl" aria-label="glassflow/clickhouse-etl - 406 stars, TypeScript" target="_blank" rel="noopener">glassflow/clickhouse-etl</a>
                         <span class="stars" aria-hidden="true">⭐ 406</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>GlassFlow is an open-source ETL tool for real-time data processing from Kafka to ClickHouse with features like deduplication and temporal joins.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/jitsucom/bulker" aria-label="jitsucom/bulker - 218 stars, Go" target="_blank" rel="noopener">jitsucom/bulker</a>
-                        <span class="stars" aria-hidden="true">⭐ 218</span>
+                        <a href="https://github.com/jitsucom/bulker" aria-label="jitsucom/bulker - 223 stars, Go" target="_blank" rel="noopener">jitsucom/bulker</a>
+                        <span class="stars" aria-hidden="true">⭐ 223</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>Bulker is a scalable and reliable service for bulk-loading semi-structured JSON data into multiple databases including ClickHouse, with automatic schema management and support for streaming and batching modes.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/myscale/MyScaleDB" aria-label="myscale/MyScaleDB - 1021 stars, C++" target="_blank" rel="noopener">myscale/MyScaleDB</a>
-                        <span class="stars" aria-hidden="true">⭐ 1021</span>
+                        <a href="https://github.com/LimeJourney/limeJourney" aria-label="LimeJourney/limeJourney - 126 stars, TypeScript" target="_blank" rel="noopener">LimeJourney/limeJourney</a>
+                        <span class="stars" aria-hidden="true">⭐ 126</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>LimeJourney is an open-source customer engagement platform that leverages ClickHouse for real-time segmentation and high-volume event data management to create personalized, data-driven user journeys at scale.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/myscale/MyScaleDB" aria-label="myscale/MyScaleDB - 1025 stars, C++" target="_blank" rel="noopener">myscale/MyScaleDB</a>
+                        <span class="stars" aria-hidden="true">⭐ 1025</span>
                         <span class="language" aria-hidden="true">C++</span> -
                         <span>MyScaleDB is a high-performance SQL vector database built on ClickHouse, enabling scalable AI applications with advanced vector and full-text search capabilities using familiar SQL.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ozontech/file.d" aria-label="ozontech/file.d - 485 stars, Go" target="_blank" rel="noopener">ozontech/file.d</a>
-                        <span class="stars" aria-hidden="true">⭐ 485</span>
+                        <a href="https://github.com/ozontech/file.d" aria-label="ozontech/file.d - 484 stars, Go" target="_blank" rel="noopener">ozontech/file.d</a>
+                        <span class="stars" aria-hidden="true">⭐ 484</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>file.d is a high-performance, versatile tool for building data pipelines that read, process, and output events with support for ClickHouse and other output plugins, optimized for speed and reliability in modern infrastructure environments.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/PeerDB-io/peerdb" aria-label="PeerDB-io/peerdb - 2998 stars, Go" target="_blank" rel="noopener">PeerDB-io/peerdb</a>
+                        <span class="stars" aria-hidden="true">⭐ 2998</span>
+                        <span class="language" aria-hidden="true">Go</span> -
+                        <span>PeerDB is a high-performance, PostgreSQL-optimized ETL tool that enables fast, reliable, and cost-effective streaming of data from Postgres to data warehouses, queues, and storage engines, with native integration in ClickHouse Cloud.</span>
                     </li>
                     <li>
                         <a href="https://github.com/timeplus-io/proton" aria-label="timeplus-io/proton - 2130 stars, C++" target="_blank" rel="noopener">timeplus-io/proton</a>
@@ -1453,20 +1475,20 @@
                         <span>Timeplus Proton is a high-performance, lightweight streaming SQL engine powered by ClickHouse, designed for real-time analytics and ETL on streaming data from Kafka, Pulsar, Iceberg, and ClickHouse with advanced features like CDC, UPSERT, and multi-stream JOINs.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/toddwschneider/nyc-taxi-data" aria-label="toddwschneider/nyc-taxi-data - 2059 stars, R" target="_blank" rel="noopener">toddwschneider/nyc-taxi-data</a>
-                        <span class="stars" aria-hidden="true">⭐ 2059</span>
+                        <a href="https://github.com/toddwschneider/nyc-taxi-data" aria-label="toddwschneider/nyc-taxi-data - 2062 stars, R" target="_blank" rel="noopener">toddwschneider/nyc-taxi-data</a>
+                        <span class="stars" aria-hidden="true">⭐ 2062</span>
                         <span class="language" aria-hidden="true">R</span> -
                         <span>A comprehensive project for importing, processing, and analyzing over 3 billion NYC taxi and for-hire vehicle trip records using PostgreSQL or ClickHouse databases.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/transferia/transferia" aria-label="transferia/transferia - 178 stars, Go" target="_blank" rel="noopener">transferia/transferia</a>
-                        <span class="stars" aria-hidden="true">⭐ 178</span>
+                        <a href="https://github.com/transferia/transferia" aria-label="transferia/transferia - 180 stars, Go" target="_blank" rel="noopener">transferia/transferia</a>
+                        <span class="stars" aria-hidden="true">⭐ 180</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>Transferia is an open-source cloud-native ingestion engine that enables scalable, high-performance data transfer and transformation across diverse sources and destinations, with strong support for ClickHouse as a key target database.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/wgzhao/Addax" aria-label="wgzhao/Addax - 1400 stars, Java" target="_blank" rel="noopener">wgzhao/Addax</a>
-                        <span class="stars" aria-hidden="true">⭐ 1400</span>
+                        <a href="https://github.com/wgzhao/Addax" aria-label="wgzhao/Addax - 1404 stars, Java" target="_blank" rel="noopener">wgzhao/Addax</a>
+                        <span class="stars" aria-hidden="true">⭐ 1404</span>
                         <span class="language" aria-hidden="true">Java</span> -
                         <span>Addax is a versatile and extensible open-source ETL tool that supports seamless data transfer between over 20 SQL and NoSQL data sources, including ClickHouse, with easy configuration and deployment options.</span>
                     </li>
@@ -1478,14 +1500,14 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
             </section>
-            
-            <section aria-labelledby="ops"><h2 id="ops">Ops</h2>
+            </section>
+            <section aria-labelledby="ops">
+                <h2 id="ops">Ops</h2>
                 <ul aria-label="List of Ops items">
                     <li>
-                        <a href="https://github.com/Altinity/clickhouse-backup" aria-label="Altinity/clickhouse-backup - 1545 stars, Go" target="_blank" rel="noopener">Altinity/clickhouse-backup</a>
-                        <span class="stars" aria-hidden="true">⭐ 1545</span>
+                        <a href="https://github.com/Altinity/clickhouse-backup" aria-label="Altinity/clickhouse-backup - 1558 stars, Go" target="_blank" rel="noopener">Altinity/clickhouse-backup</a>
+                        <span class="stars" aria-hidden="true">⭐ 1558</span>
                         <span class="language" aria-hidden="true">Go</span> -
                         <span>Altinity/clickhouse-backup is a tool for easy backup and restore of ClickHouse databases using various cloud and local object storage systems.</span>
                     </li>
@@ -1496,22 +1518,22 @@
                         <span>ClickHouse MCP Server is a secure MCP server enabling read-only SQL query execution and database management operations on ClickHouse clusters.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/PostHog/HouseWatch" aria-label="PostHog/HouseWatch - 609 stars, TypeScript" target="_blank" rel="noopener">PostHog/HouseWatch</a>
-                        <span class="stars" aria-hidden="true">⭐ 609</span>
-                        <span class="language" aria-hidden="true">TypeScript</span> -
-                        <span>HouseWatch is an open-source tool by PostHog for monitoring and managing ClickHouse clusters, providing detailed insights into query performance, cluster load, logs, and disk usage with operational controls.</span>
-                    </li>
-                    <li>
-                        <a href="https://github.com/duyet/clickhouse-monitoring" aria-label="duyet/clickhouse-monitoring - 199 stars, TypeScript" target="_blank" rel="noopener">duyet/clickhouse-monitoring</a>
-                        <span class="stars" aria-hidden="true">⭐ 199</span>
+                        <a href="https://github.com/duyet/clickhouse-monitoring" aria-label="duyet/clickhouse-monitoring - 206 stars, TypeScript" target="_blank" rel="noopener">duyet/clickhouse-monitoring</a>
+                        <span class="stars" aria-hidden="true">⭐ 206</span>
                         <span class="language" aria-hidden="true">TypeScript</span> -
                         <span>ClickHouse Monitoring Dashboard is a Next.js-based UI tool that leverages system tables to provide comprehensive monitoring and visualization of ClickHouse clusters, including query, cluster, and table metrics.</span>
                     </li>
+                    <li>
+                        <a href="https://github.com/PostHog/HouseWatch" aria-label="PostHog/HouseWatch - 611 stars, TypeScript" target="_blank" rel="noopener">PostHog/HouseWatch</a>
+                        <span class="stars" aria-hidden="true">⭐ 611</span>
+                        <span class="language" aria-hidden="true">TypeScript</span> -
+                        <span>HouseWatch is an open-source tool by PostHog for monitoring and managing ClickHouse clusters, providing detailed insights into query performance, cluster load, logs, and disk usage with operational controls.</span>
+                    </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="documentation"><h2 id="documentation">Documentation</h2>
+            </section>
+            <section aria-labelledby="documentation">
+                <h2 id="documentation">Documentation</h2>
                 <ul aria-label="List of Documentation items">
                     <li>
                         <a href="https://github.com/ClickHouse/ClickHouse" aria-label="ClickHouse/ClickHouse - 45559 stars, C++" target="_blank" rel="noopener">ClickHouse/ClickHouse</a>
@@ -1526,14 +1548,14 @@
                         <span>ClickHouse Academy offers free, on-demand training and certification for database professionals to effectively learn and use the ClickHouse analytical database system.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-docs" aria-label="ClickHouse/clickhouse-docs - 186 stars, MDX" target="_blank" rel="noopener">ClickHouse/clickhouse-docs</a>
-                        <span class="stars" aria-hidden="true">⭐ 186</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-docs" aria-label="ClickHouse/clickhouse-docs - 189 stars, MDX" target="_blank" rel="noopener">ClickHouse/clickhouse-docs</a>
+                        <span class="stars" aria-hidden="true">⭐ 189</span>
                         <span class="language" aria-hidden="true">MDX</span> -
                         <span>Official documentation repository for ClickHouse, providing comprehensive guides and resources for using the ClickHouse column-oriented database management system.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/clickhouse-presentations" aria-label="ClickHouse/clickhouse-presentations - 1068 stars, HTML" target="_blank" rel="noopener">ClickHouse/clickhouse-presentations</a>
-                        <span class="stars" aria-hidden="true">⭐ 1068</span>
+                        <a href="https://github.com/ClickHouse/clickhouse-presentations" aria-label="ClickHouse/clickhouse-presentations - 1069 stars, HTML" target="_blank" rel="noopener">ClickHouse/clickhouse-presentations</a>
+                        <span class="stars" aria-hidden="true">⭐ 1069</span>
                         <span class="language" aria-hidden="true">HTML</span> -
                         <span>A repository hosting presentations, meetups, and talks about ClickHouse, an open-source column-oriented database for real-time analytical data reporting.</span>
                     </li>
@@ -1545,9 +1567,9 @@
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
-            <section aria-labelledby="examples"><h2 id="examples">Examples</h2>
+            </section>
+            <section aria-labelledby="examples">
+                <h2 id="examples">Examples</h2>
                 <ul aria-label="List of Examples items">
                     <li>
                         <a href="https://github.com/AlexeyKupershtokh/clickhouse-maxmind-geoip" aria-label="AlexeyKupershtokh/clickhouse-maxmind-geoip - 122 stars, Dockerfile" target="_blank" rel="noopener">AlexeyKupershtokh/clickhouse-maxmind-geoip</a>
@@ -1556,15 +1578,14 @@
                         <span>A demonstration project showcasing the integration of ClickHouse with MaxMind GeoIP2 databases for geolocation, including dictionary definitions, table schemas, query examples, and Docker setup for easy experimentation.</span>
                     </li>
                     <li>
-                        <a href="https://github.com/ClickHouse/examples" aria-label="ClickHouse/examples - 208 stars, Jupyter Notebook" target="_blank" rel="noopener">ClickHouse/examples</a>
-                        <span class="stars" aria-hidden="true">⭐ 208</span>
+                        <a href="https://github.com/ClickHouse/examples" aria-label="ClickHouse/examples - 210 stars, Jupyter Notebook" target="_blank" rel="noopener">ClickHouse/examples</a>
+                        <span class="stars" aria-hidden="true">⭐ 210</span>
                         <span class="language" aria-hidden="true">Jupyter Notebook</span> -
                         <span>ClickHouse/examples is a repository providing a collection of data, SQL queries, and Docker Compose recipes to help users quickly deploy, experiment with, and integrate ClickHouse in various environments.</span>
                     </li>
                 </ul>
                 <p class="back-to-toc"><a href="#toc-heading">↑ Back to TOC</a></p>
-                </section>
-            
+            </section>
         </main>
 
         <footer role="contentinfo">
@@ -1576,5 +1597,63 @@
             </div>
         </footer>
     </div>
+
+    <!-- Fuse.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+
+    <!-- Client-side search powered by Fuse.js -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const input = document.getElementById('search-input');
+        if (!input || typeof Fuse === 'undefined') return;
+
+        // Build searchable index from catalog items
+        const items = Array.from(document.querySelectorAll('main li')).map(li => {
+            const anchor = li.querySelector('a');
+            const name = (anchor?.textContent || '').trim();
+
+            const description = (li.querySelector('span:last-of-type')?.textContent || '').trim();
+            const tags = (li.querySelector('.language')?.textContent || '').trim();
+            const category = (li.closest('section')?.querySelector('h2,h3,h4,h5,h6')?.textContent || '').trim();
+
+            return { li, name, category, tags, description };
+        });
+
+        const fuse = new Fuse(items, {
+            includeScore: true,
+            threshold: 0.4,
+            ignoreLocation: true,
+            keys: [
+                { name: 'name', weight: 0.4 },
+                { name: 'category', weight: 0.3 },
+                { name: 'tags', weight: 0.2 },
+                { name: 'description', weight: 0.1 }
+            ]
+        });
+
+        const resultsContainer = document.getElementById('search-results');
+
+        function renderResults(list) {
+            if (!resultsContainer) return;
+            if (!list.length) {
+                resultsContainer.innerHTML = '<p>No results found.</p>';
+                return;
+            }
+            const html = list.map(item => `<li>${item.li.innerHTML}</li>`).join('\n');
+            resultsContainer.innerHTML = `<h2 style=\"margin-top:0;\">Search Results</h2><ul>${html}</ul>`;
+        }
+
+        input.addEventListener('input', () => {
+            const query = input.value.trim();
+            if (!query) {
+                resultsContainer.innerHTML = '';
+                return;
+            }
+
+            const results = fuse.search(query).map(r => r.item);
+            renderResults(results);
+        });
+    });
+    </script>
 </body>
 </html>
