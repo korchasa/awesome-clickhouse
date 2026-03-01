@@ -230,7 +230,7 @@ Table of Contents:
 
 ### Data Visualization and Analysis
 
-- [akvorado/akvorado](https://github.com/akvorado/akvorado) (2105 Go) - Akvorado is a flow collector, enricher, and visualizer that processes network flow data, enriches it with interface and geolocation information, and stores it in ClickHouse for real-time analysis and visualization.
+- [akvorado/akvorado](https://github.com/akvorado/akvorado) (2106 Go) - Akvorado is a flow collector, enricher, and visualizer that processes network flow data, enriches it with interface and geolocation information, and stores it in ClickHouse for real-time analysis and visualization.
 - [Altinity/clickhouse-grafana](https://github.com/Altinity/clickhouse-grafana) (769 Python) - Altinity/clickhouse-grafana is a Grafana datasource plugin that enables seamless integration and visualization of ClickHouse data within Grafana dashboards.
 - [benawad/voidpulse](https://github.com/benawad/voidpulse) (102 TypeScript) - Voidpulse is an open-source AI-powered analytics platform serving as a cost-effective alternative to Mixpanel, utilizing Clickhouse for event data storage and querying.
 - [ClickHouse/adsb.exposed](https://github.com/ClickHouse/adsb.exposed) (431 HTML) - An interactive platform for visualizing and analyzing massive ADS-B air traffic data using ClickHouse with real-time querying and detailed visualizations.
