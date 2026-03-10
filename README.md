@@ -22,7 +22,7 @@ Table of Contents:
     - [Other sdk/libraries](#other-sdk/libraries) (2)
 - [UIs](#uis)
     - [GUI](#gui) (16)
-    - [CLI](#cli) (6)
+    - [CLI](#cli) (7)
     - [CHUI(Chat-based User Interface) or CHUBACA(Chat-Based Client:)](#chui(chat-based-user-interface)-or-chubaca(chat-based-client:)) (6)
 - [Integrations](#integrations)
     - [Data Transfer and Synchronization](#data-transfer-and-synchronization) (12)
@@ -170,6 +170,7 @@ Table of Contents:
 
 - [amacneil/dbmate](https://github.com/amacneil/dbmate) (6763 Go) - Dbmate is a lightweight, framework-agnostic database migration tool that supports multiple databases including ClickHouse, enabling consistent schema management across diverse development environments.
 - [azat/chdig](https://github.com/azat/chdig) (276 Rust) - Chdig is a terminal user interface tool designed to provide interactive introspection, monitoring, and debugging capabilities for ClickHouse database systems.
+- [antonio-mello-ai/chops](https://github.com/antonio-mello-ai/chops) (Python) - Chops is a CLI for ClickHouse operations providing health checks, data quality validation, migrations, and observability in a single tool, installable via uvx or pip.
 - [ClickHouse/JSONBench](https://github.com/ClickHouse/JSONBench) (170 Shell) - JSONBench is a benchmarking project that evaluates and compares the native JSON support of popular analytical databases including ClickHouse using a large real-world dataset of Bluesky events.
 - [hatarist/clickhouse-cli](https://github.com/hatarist/clickhouse-cli) (264 Python) - An unofficial command-line client for the ClickHouse DBMS server offering enhanced features like autocompletion, syntax highlighting, multiquery support, and user-defined functions over HTTP.
 - [Slach/clickhouse-flamegraph](https://github.com/Slach/clickhouse-flamegraph) (216 Go) - clickhouse-flamegraph is a command-line utility for visualizing ClickHouse system.trace_log data as flamegraphs to analyze query performance and resource usage.
