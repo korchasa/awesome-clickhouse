@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://awesome-clickhouse.korchasa.dev/sitemap.xml
