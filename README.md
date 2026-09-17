@@ -5,6 +5,10 @@
 A curated list of awesome ClickHouse and ClickHouse-related software.
 
 
+Read it as a website at [awesome-clickhouse.korchasa.dev](https://awesome-clickhouse.korchasa.dev/):
+every project has a page of its own, the weekly issues are archived, and
+[search](https://awesome-clickhouse.korchasa.dev/search/) looks through the whole list at once.
+
 Table of Contents:
 - [ClickHouse and derivatives](#clickhouse-and-derivatives) (5)
 - [Language bindings](#language-bindings)
